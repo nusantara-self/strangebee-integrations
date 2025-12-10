@@ -1,0 +1,11 @@
+id: CrowdstrikeFalcon
+name: "CrowdStrike Falcon"
+description: "CrowdStrike Falcon is a cloud-native endpoint protection platform that provides real-time threat detection, prevention, and response capabilities"
+category: EDR
+homepage: "https://www.crowdstrike.com"
+logo: "assets/crowdstrike.png"
+
+use-cases:
+  - name: "Alert Ingestion"
+    description: "Ingest CrowdStrike Falcon alerts into TheHive"
+    documentation: "./crwd-status-sync.md"
