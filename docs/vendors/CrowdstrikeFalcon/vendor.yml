@@ -2,8 +2,18 @@ id: CrowdstrikeFalcon
 name: "CrowdStrike Falcon"
 description: "CrowdStrike Falcon is a cloud-native endpoint protection platform that provides real-time threat detection, prevention, and response capabilities"
 category: EDR
+tags:
+  - endpoint-protection
+  - threat-detection
+  - incident-response
+  - cloud-native
+  - edr
 homepage: "https://www.crowdstrike.com"
-logo: "assets/crowdstrike.png"
+
+# Logo - supports both simple string and light/dark modes
+logo:
+  light: "assets/crowdstrike.png"
+  # dark: "assets/crowdstrike-dark.png"  # Optional
 
 use-cases:
   - name: "Alert Ingestion"

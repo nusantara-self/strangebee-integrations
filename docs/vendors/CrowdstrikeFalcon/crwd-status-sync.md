@@ -1,7 +1,13 @@
 ---
 title: Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents
 description: Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync responder.
-tags: [status, sync, crowdstrike, thehive]
+tags: 
+  - status
+  - sync
+  - crowdstrike
+  - thehive
+  - automation
+difficulty: intermediate
 ---
 # Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents
 
