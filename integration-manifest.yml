@@ -15,13 +15,12 @@ CrowdstrikeFalcon:
     file: docs/vendors/CrowdstrikeFalcon/assets/crowdstrike.png
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/assets/crowdstrike.png
   useCases:
-  - name: Alert Ingestion
+  - name: Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents
     description: Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync
       responder.
     documentation:
-      file: docs/vendors/CrowdstrikeFalcon/./crwd-status-sync.md
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/./crwd-status-sync.md
-    title: Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents
+      file: docs/vendors/CrowdstrikeFalcon/crwd-status-sync.md
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/crwd-status-sync.md
     tags:
     - status
     - sync
@@ -192,6 +191,73 @@ CrowdstrikeFalcon:
     totalResponders: 9
     totalFunctions: 1
     total: 21
+Proofpoint:
+  id: Proofpoint
+  name: Proofpoint
+  description: Proofpoint is an enterprise email security and threat protection platform that provides advanced threat detection,
+    URL defense, and forensic analysis capabilities
+  category: Email Security
+  tags:
+  - email-security
+  homepage: https://www.proofpoint.com
+  logo:
+    file: docs/vendors/Proofpoint/assets/proofpoint.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Proofpoint/assets/proofpoint.png
+  useCases:
+  - name: Alert ingestion for Proofpoint TAP alerts – Clicks Permitted
+    description: Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and respond to users who clicked
+      on malicious links that were not blocked by Proofpoint and may require investigation.
+    documentation:
+      file: docs/vendors/Proofpoint/alert-ingestion-clicksPermitted.md
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Proofpoint/alert-ingestion-clicksPermitted.md
+    tags:
+    - proofpoint
+    - tap
+    - clicksPermitted
+    - alert-ingestion
+  - name: Alert ingestion for Proofpoint TAP alerts – Message Delivered
+    description: Ingest Proofpoint TAP messagesDelivered events as TheHive alerts to track and respond to threats that have
+      reached user mailboxes and may require investigation.
+    documentation:
+      file: docs/vendors/Proofpoint/alert-ingestion-messageDelivered.md
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Proofpoint/alert-ingestion-messageDelivered.md
+    tags:
+    - proofpoint
+    - tap
+    - messagesDelivered
+    - alert-ingestion
+  integrations:
+    analyzers:
+    - name: Proofpoint_Lookup
+      version: '1.0'
+      description: Check URL, file, SHA256 against Proofpoint forensics
+      dataTypes:
+      - url
+      - file
+      - hash
+      file: cortex/analyzers/Proofpoint/ProofPoint_Lookup.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json
+    responders: []
+    functions:
+    - name: alertFeeder_ProofPoint_messageDelivered
+      version: 1.0.0
+      description: Ingests ProofPoint messageDelivered alerts in TheHive
+      kind: function
+      mode: Enabled
+      file: thehive/functions/Proofpoint/function_Feeder_alertFromProofpoint_messageDelivered
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/thehive/functions/Proofpoint/function_Feeder_alertFromProofpoint_messageDelivered
+    - name: alertFeeder_ProofPoint_clicksPermitted
+      version: 1.0.0
+      description: Ingests ProofPoint clicksPermitted alerts in TheHive
+      kind: function
+      mode: Enabled
+      file: thehive/functions/Proofpoint/function_Feeder_alertFromProofpoint_clicksPermitted
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/thehive/functions/Proofpoint/function_Feeder_alertFromProofpoint_clicksPermitted
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 2
+    total: 3
 Slack:
   id: Slack
   name: Slack
@@ -203,8 +269,6 @@ Slack:
   - collaboration
   - notifications
   - chat
-  - automation
-  - webhooks
   homepage: https://slack.com
   logo:
     light:
@@ -214,48 +278,25 @@ Slack:
       file: docs/vendors/Slack/assets/slack-dark.svg
       url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/assets/slack-dark.svg
   useCases:
-  - name: Alert Notifications
-    description: Automatically notify your security team in Slack when new alerts are created in TheHive, with rich formatting
-      and quick action buttons.
+  - name: Slack Case Assignee Change Notifier
+    description: For each assignee change for a case in TheHive, create a Slack block message and link to the case. @here
+      will inform only active users.
     documentation:
-      file: docs/vendors/Slack/./alert-notifications.md
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/./alert-notifications.md
-    title: Send TheHive alerts to Slack channels
+      file: docs/vendors/Slack/slack-case-assignee-change.md
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/slack-case-assignee-change.md
     tags:
-    - alerts
-    - notifications
     - slack
-    - automation
-    - thehive
-    difficulty: beginner
-  - name: Interactive Incident Response
-    description: Manage TheHive cases and tasks directly from Slack using slash commands and interactive modals for faster
-      incident response.
+    - communication
+    - notification
+  - name: Slack Alert Creation Notifier
+    description: For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.
     documentation:
-      file: docs/vendors/Slack/./interactive-response.md
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/./interactive-response.md
-    title: Interactive incident response with Slack slash commands
+      file: docs/vendors/Slack/slack-notifier-alert-creation.md
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/slack-notifier-alert-creation.md
     tags:
-    - incident-response
     - slack
-    - slash-commands
-    - interactive
-    - thehive
-    difficulty: advanced
-  - name: Investigation Collaboration
-    description: Automatically create dedicated Slack channels for each TheHive case, with team members added and updates
-      synced in real-time.
-    documentation:
-      file: docs/vendors/Slack/./investigation-collaboration.md
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/./investigation-collaboration.md
-    title: Automated investigation channels for case collaboration
-    tags:
-    - collaboration
-    - investigation
-    - slack
-    - automation
-    - case-management
-    difficulty: intermediate
+    - communication
+    - notification
   registration_required: true
   subscription_required: false
   free_subscription: true
