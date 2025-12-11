@@ -10,12 +10,6 @@ tags:
   - edr
 homepage: "https://www.crowdstrike.com"
 
-# Logo - supports both simple string and light/dark modes
 logo:
   light: "assets/crowdstrike.png"
   # dark: "assets/crowdstrike-dark.png"  # Optional
-
-use-cases:
-  - name: "Alert Ingestion"
-    description: "Ingest CrowdStrike Falcon alerts into TheHive"
-    documentation: "./crwd-status-sync.md"

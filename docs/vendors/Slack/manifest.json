@@ -7,9 +7,7 @@
     "communication",
     "collaboration",
     "notifications",
-    "chat",
-    "automation",
-    "webhooks"
+    "chat"
   ],
   "homepage": "https://slack.com",
   "logo": {
@@ -24,55 +22,30 @@
   },
   "useCases": [
     {
-      "name": "Alert Notifications",
-      "description": "Automatically notify your security team in Slack when new alerts are created in TheHive, with rich formatting and quick action buttons.",
+      "name": "Slack Case Assignee Change Notifier",
+      "description": "For each assignee change for a case in TheHive, create a Slack block message and link to the case. @here will inform only active users.",
       "documentation": {
-        "file": "docs/vendors/Slack/./alert-notifications.md",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/./alert-notifications.md"
+        "file": "docs/vendors/Slack/slack-case-assignee-change.md",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/slack-case-assignee-change.md"
       },
-      "title": "Send TheHive alerts to Slack channels",
       "tags": [
-        "alerts",
-        "notifications",
         "slack",
-        "automation",
-        "thehive"
-      ],
-      "difficulty": "beginner"
+        "communication",
+        "notification"
+      ]
     },
     {
-      "name": "Interactive Incident Response",
-      "description": "Manage TheHive cases and tasks directly from Slack using slash commands and interactive modals for faster incident response.",
+      "name": "Slack Alert Creation Notifier",
+      "description": "For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.",
       "documentation": {
-        "file": "docs/vendors/Slack/./interactive-response.md",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/./interactive-response.md"
+        "file": "docs/vendors/Slack/slack-notifier-alert-creation.md",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/slack-notifier-alert-creation.md"
       },
-      "title": "Interactive incident response with Slack slash commands",
       "tags": [
-        "incident-response",
         "slack",
-        "slash-commands",
-        "interactive",
-        "thehive"
-      ],
-      "difficulty": "advanced"
-    },
-    {
-      "name": "Investigation Collaboration",
-      "description": "Automatically create dedicated Slack channels for each TheHive case, with team members added and updates synced in real-time.",
-      "documentation": {
-        "file": "docs/vendors/Slack/./investigation-collaboration.md",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/./investigation-collaboration.md"
-      },
-      "title": "Automated investigation channels for case collaboration",
-      "tags": [
-        "collaboration",
-        "investigation",
-        "slack",
-        "automation",
-        "case-management"
-      ],
-      "difficulty": "intermediate"
+        "communication",
+        "notification"
+      ]
     }
   ],
   "registration_required": true,
