@@ -53,10 +53,36 @@ jobs:
 
       - name: Sync Cortex analyzer and responder configs
         run: |
-          # Define tracked vendors (easy to expand later)
-          VENDORS=("CrowdstrikeFalcon" "Proofpoint" "Slack")
+          # Discover all vendors from upstream repository
+          VENDORS=()
+
+          # Collect vendors from analyzers directory
+          if [ -d "upstream-cortex-analyzers/analyzers" ]; then
+            for vendor_dir in upstream-cortex-analyzers/analyzers/*/; do
+              if [ -d "$vendor_dir" ]; then
+                vendor=$(basename "$vendor_dir")
+                if [[ ! " ${VENDORS[@]} " =~ " ${vendor} " ]]; then
+                  VENDORS+=("$vendor")
+                fi
+              fi
+            done
+          fi
+
+          # Collect vendors from responders directory
+          if [ -d "upstream-cortex-analyzers/responders" ]; then
+            for vendor_dir in upstream-cortex-analyzers/responders/*/; do
+              if [ -d "$vendor_dir" ]; then
+                vendor=$(basename "$vendor_dir")
+                if [[ ! " ${VENDORS[@]} " =~ " ${vendor} " ]]; then
+                  VENDORS+=("$vendor")
+                fi
+              fi
+            done
+          fi
 
           echo "### Syncing from Cortex-Analyzers" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Discovered ${#VENDORS[@]} vendors to sync**" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
           # Initialize counters
@@ -65,18 +91,12 @@ jobs:
           total_deleted=0
           total_invalid=0
 
-          # Clean up local vendor directories not in tracked list or deleted from upstream
+          # Clean up local vendor directories deleted from upstream
           for type in analyzers responders; do
             if [ -d "cortex/$type" ]; then
               for local_vendor_dir in cortex/$type/*/; do
                 if [ -d "$local_vendor_dir" ]; then
                   vendor=$(basename "$local_vendor_dir")
-                  # Check if vendor is in tracked list
-                  if [[ ! " ${VENDORS[@]} " =~ " ${vendor} " ]]; then
-                    rm -rf "$local_vendor_dir"
-                    echo "🗑️ Removed untracked vendor directory: $type/$vendor" >> $GITHUB_STEP_SUMMARY
-                    continue
-                  fi
                   # Check if vendor still exists upstream
                   if [ ! -d "upstream-cortex-analyzers/$type/$vendor" ]; then
                     rm -rf "$local_vendor_dir"
