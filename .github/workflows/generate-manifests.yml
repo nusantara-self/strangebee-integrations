@@ -1,0 +1,124 @@
+name: Sync and Generate Manifests
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - develop
+    paths:
+      - 'catalogs/**'
+      - 'cortex/**'
+      - 'thehive/**'
+      - 'docs/vendors/**'
+      - 'generate-manifest.py'
+      - '.github/workflows/generate-manifests.yml'
+  schedule:
+    - cron: '0 2 * * *'      # Daily at 2 AM UTC
+    - cron: '0 2 * * 0'      # Weekly on Sunday at 2 AM UTC
+  workflow_dispatch:          # Allow manual trigger
+
+# Prevent concurrent runs to avoid conflicts
+concurrency:
+  group: sync-and-generate
+  cancel-in-progress: false
+
+jobs:
+  sync-and-generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+
+      - name: Checkout Cortex-Analyzers upstream
+        uses: actions/checkout@v4
+        with:
+          repository: TheHive-Project/Cortex-Analyzers
+          path: upstream-cortex-analyzers
+          fetch-depth: 1
+
+      - name: Sync Cortex analyzer and responder configs
+        run: |
+          # Define tracked vendors (easy to expand later)
+          VENDORS=("CrowdstrikeFalcon" "Proofpoint" "Slack")
+
+          echo "### Syncing from Cortex-Analyzers" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          for vendor in "${VENDORS[@]}"; do
+            echo "Processing vendor: $vendor"
+
+            # Sync analyzers
+            if [ -d "upstream-cortex-analyzers/analyzers/$vendor" ]; then
+              mkdir -p "cortex/analyzers/$vendor"
+              cp upstream-cortex-analyzers/analyzers/$vendor/*.json cortex/analyzers/$vendor/ 2>/dev/null || true
+              echo "✅ Synced analyzers for $vendor" >> $GITHUB_STEP_SUMMARY
+            fi
+
+            # Sync responders
+            if [ -d "upstream-cortex-analyzers/responders/$vendor" ]; then
+              mkdir -p "cortex/responders/$vendor"
+              cp upstream-cortex-analyzers/responders/$vendor/*.json cortex/responders/$vendor/ 2>/dev/null || true
+              echo "✅ Synced responders for $vendor" >> $GITHUB_STEP_SUMMARY
+            fi
+          done
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+      - name: Generate manifests
+        run: python generate-manifest.py
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "### Changes detected" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+            git status --short >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "### No changes detected" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cortex/ catalogs/
+          git commit -m "Auto-sync Cortex configs and regenerate manifests [skip ci]
+
+          - Synced analyzer/responder configs from Cortex-Analyzers
+          - Regenerated integration manifests"
+          git push
+
+      - name: Upload artifacts
+        if: steps.git-check.outputs.changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: integration-manifests-${{ github.run_number }}
+          path: |
+            catalogs/*/manifest.json
+            catalogs/*/manifest.yml
+            catalogs/integration-manifest.json
+            catalogs/integration-manifest.yml
+          retention-days: 30
