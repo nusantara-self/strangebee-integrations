@@ -1,6 +1,6 @@
 id: Slack
 name: "Slack"
-description: "Slack is a cloud-based collaboration platform that enables teams to communicate, share files, and integrate with various tools through channels, direct messages, and automated workflows."
+description: "Slack is a is a team collaboration platform that provides channels, direct messaging, file sharing, and an app ecosystem for workflows and incident response."
 category: Collaboration
 tags:
   - communication
@@ -10,5 +10,4 @@ tags:
 homepage: "https://slack.com"
 
 logo:
-  light: "assets/slack.svg"
-  dark: "assets/slack-dark.svg"
+  light: "assets/slack-logo.png"
