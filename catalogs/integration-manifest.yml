@@ -900,8 +900,8 @@ CrowdstrikeFalcon:
   - edr
   homepage: https://www.crowdstrike.com
   logo:
-    file: docs/vendors/CrowdstrikeFalcon/assets/crowdstrike.png
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/assets/crowdstrike.png
+    file: docs/vendors/CrowdstrikeFalcon/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/assets/logo.png
   useCases:
   - name: Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents
     description: Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync
@@ -4897,8 +4897,8 @@ Proofpoint:
   - email-security
   homepage: https://www.proofpoint.com
   logo:
-    file: docs/vendors/Proofpoint/assets/proofpoint.png
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Proofpoint/assets/proofpoint.png
+    file: docs/vendors/Proofpoint/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Proofpoint/assets/logo.png
   useCases:
   - name: Ingest Proofpoint ClicksPermitted Events into TheHive Using an Alert Feeder
     description: Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and respond to users who clicked
@@ -5601,8 +5601,8 @@ Slack:
   - chat
   homepage: https://slack.com
   logo:
-    file: docs/vendors/Slack/assets/slack-logo.png
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/assets/slack-logo.png
+    file: docs/vendors/Slack/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/assets/logo.png
   useCases:
   - name: Notify Slack When an Alert Is Created in TheHive
     description: For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.

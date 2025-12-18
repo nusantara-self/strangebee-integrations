@@ -12,8 +12,8 @@
   ],
   "homepage": "https://www.crowdstrike.com",
   "logo": {
-    "file": "docs/vendors/CrowdstrikeFalcon/assets/crowdstrike.png",
-    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/assets/crowdstrike.png"
+    "file": "docs/vendors/CrowdstrikeFalcon/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/assets/logo.png"
   },
   "useCases": [
     {

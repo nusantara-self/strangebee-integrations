@@ -8,8 +8,8 @@
   ],
   "homepage": "https://www.proofpoint.com",
   "logo": {
-    "file": "docs/vendors/Proofpoint/assets/proofpoint.png",
-    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Proofpoint/assets/proofpoint.png"
+    "file": "docs/vendors/Proofpoint/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Proofpoint/assets/logo.png"
   },
   "useCases": [
     {
