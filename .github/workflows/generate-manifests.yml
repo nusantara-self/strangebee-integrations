@@ -128,8 +128,8 @@ jobs:
                     if [ ! -f "upstream-cortex-analyzers/analyzers/$vendor/$filename" ]; then
                       rm "$local_file"
                       echo "  🗑️ Deleted: $filename" >> $GITHUB_STEP_SUMMARY
-                      ((deleted++))
-                      ((total_deleted++))
+                      deleted=$((deleted + 1))
+                      total_deleted=$((total_deleted + 1))
                     fi
                   fi
                 done
@@ -144,13 +144,13 @@ jobs:
                   if [ -f "$local_file" ]; then
                     # File exists, check if it changed
                     if ! cmp -s "$upstream_file" "$local_file"; then
-                      ((updated++))
-                      ((total_updated++))
+                      updated=$((updated + 1))
+                      total_updated=$((total_updated + 1))
                     fi
                   else
                     # New file
-                    ((added++))
-                    ((total_added++))
+                    added=$((added + 1))
+                    total_added=$((total_added + 1))
                   fi
 
                   cp "$upstream_file" "$local_file"
@@ -158,7 +158,7 @@ jobs:
                   # Validate JSON
                   if ! python -c "import json; json.load(open('$local_file'))" 2>/dev/null; then
                     echo "  ⚠️ Invalid JSON: $filename" >> $GITHUB_STEP_SUMMARY
-                    ((total_invalid++))
+                    total_invalid=$((total_invalid + 1))
                   fi
                 fi
               done
@@ -187,8 +187,8 @@ jobs:
                     if [ ! -f "upstream-cortex-analyzers/responders/$vendor/$filename" ]; then
                       rm "$local_file"
                       echo "  🗑️ Deleted: $filename" >> $GITHUB_STEP_SUMMARY
-                      ((deleted++))
-                      ((total_deleted++))
+                      deleted=$((deleted + 1))
+                      total_deleted=$((total_deleted + 1))
                     fi
                   fi
                 done
@@ -203,13 +203,13 @@ jobs:
                   if [ -f "$local_file" ]; then
                     # File exists, check if it changed
                     if ! cmp -s "$upstream_file" "$local_file"; then
-                      ((updated++))
-                      ((total_updated++))
+                      updated=$((updated + 1))
+                      total_updated=$((total_updated + 1))
                     fi
                   else
                     # New file
-                    ((added++))
-                    ((total_added++))
+                    added=$((added + 1))
+                    total_added=$((total_added + 1))
                   fi
 
                   cp "$upstream_file" "$local_file"
@@ -217,7 +217,7 @@ jobs:
                   # Validate JSON
                   if ! python -c "import json; json.load(open('$local_file'))" 2>/dev/null; then
                     echo "  ⚠️ Invalid JSON: $filename" >> $GITHUB_STEP_SUMMARY
-                    ((total_invalid++))
+                    total_invalid=$((total_invalid + 1))
                   fi
                 fi
               done
