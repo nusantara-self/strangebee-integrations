@@ -16,6 +16,15 @@ on:
   schedule:
     - cron: '0 2 * * *'      # Daily at 2 AM UTC
   workflow_dispatch:          # Allow manual trigger
+    inputs:
+      vendors:
+        description: 'Comma-separated vendor list to sync (leave empty to sync all vendors)'
+        required: false
+        type: string
+      exclude_vendors:
+        description: 'Comma-separated vendor list to exclude from sync'
+        required: false
+        type: string
 
 # Prevent concurrent runs to avoid conflicts
 concurrency:
@@ -53,6 +62,179 @@ jobs:
 
       - name: Sync Cortex analyzer and responder configs
         run: |
+          set -o pipefail
+          shopt -s nullglob
+
+          # Global tracking variables
+          total_added=0
+          total_updated=0
+          total_deleted=0
+          total_invalid=0
+          total_conflicts=0
+          has_failures=false
+          vendors_with_changes=()
+
+          # ============================================================================
+          # FUNCTIONS
+          # ============================================================================
+
+          # Check if vendor should be synced based on inputs
+          should_sync_vendor() {
+            local vendor="$1"
+            local include_list="$2"
+            local exclude_list="$3"
+
+            # Check exclude list first
+            if [ -n "$exclude_list" ]; then
+              IFS=',' read -ra EXCLUDED <<< "$exclude_list"
+              for excluded in "${EXCLUDED[@]}"; do
+                excluded=$(echo "$excluded" | xargs)  # Trim whitespace
+                if [ "$vendor" = "$excluded" ]; then
+                  return 1
+                fi
+              done
+            fi
+
+            # Check include list if specified
+            if [ -n "$include_list" ]; then
+              IFS=',' read -ra INCLUDED <<< "$include_list"
+              for included in "${INCLUDED[@]}"; do
+                included=$(echo "$included" | xargs)  # Trim whitespace
+                if [ "$vendor" = "$included" ]; then
+                  return 0
+                fi
+              done
+              return 1
+            fi
+
+            return 0
+          }
+
+          # Sync files for a specific type (analyzers or responders)
+          sync_vendor_type() {
+            local vendor="$1"
+            local type="$2"  # "analyzers" or "responders"
+            local upstream_dir="upstream-cortex-analyzers/$type/$vendor"
+            local local_dir="cortex/$type/$vendor"
+
+            local added=0
+            local updated=0
+            local deleted=0
+            local conflicts=0
+            local invalid=0
+            local changes_detail=""
+
+            # Skip if upstream directory doesn't exist
+            if [ ! -d "$upstream_dir" ]; then
+              return 0
+            fi
+
+            mkdir -p "$local_dir" || {
+              echo "❌ **Error:** Failed to create directory $local_dir" >> $GITHUB_STEP_SUMMARY
+              has_failures=true
+              return 1
+            }
+
+            # Delete local JSON files that don't exist upstream
+            for local_file in "$local_dir"/*.json; do
+              if [ -f "$local_file" ]; then
+                filename=$(basename "$local_file")
+                if [ ! -f "$upstream_dir/$filename" ]; then
+                  if rm "$local_file"; then
+                    changes_detail+="  - 🗑️ **Deleted:** \`$filename\`"$'\n'
+                    deleted=$((deleted + 1))
+                    total_deleted=$((total_deleted + 1))
+                  else
+                    echo "❌ **Error:** Failed to delete $type/$vendor/$filename" >> $GITHUB_STEP_SUMMARY
+                    has_failures=true
+                  fi
+                fi
+              fi
+            done
+
+            # Copy upstream files and track changes
+            for upstream_file in "$upstream_dir"/*.json; do
+              if [ -f "$upstream_file" ]; then
+                filename=$(basename "$upstream_file")
+                local_file="$local_dir/$filename"
+
+                local change_type=""
+                local had_conflict=false
+
+                if [ -f "$local_file" ]; then
+                  # Check for conflicts (file modified locally but also changed upstream)
+                  if git ls-files --error-unmatch "$local_file" >/dev/null 2>&1; then
+                    if [ -n "$(git diff HEAD "$local_file" 2>/dev/null)" ]; then
+                      # File has local modifications
+                      if ! cmp -s "$upstream_file" "$local_file"; then
+                        # Upstream also changed - this is a conflict
+                        changes_detail+="  - ⚠️ **Conflict (overwritten):** \`$filename\`"$'\n'
+                        conflicts=$((conflicts + 1))
+                        total_conflicts=$((total_conflicts + 1))
+                        had_conflict=true
+                      fi
+                    fi
+                  fi
+
+                  # File exists, check if it changed
+                  if ! $had_conflict && ! cmp -s "$upstream_file" "$local_file"; then
+                    changes_detail+="  - 🔄 **Updated:** \`$filename\`"$'\n'
+                    updated=$((updated + 1))
+                    total_updated=$((total_updated + 1))
+                  fi
+                else
+                  # New file
+                  changes_detail+="  - ✅ **Added:** \`$filename\`"$'\n'
+                  added=$((added + 1))
+                  total_added=$((total_added + 1))
+                fi
+
+                # Copy the file
+                if ! cp "$upstream_file" "$local_file"; then
+                  echo "❌ **Error:** Failed to copy $type/$vendor/$filename" >> $GITHUB_STEP_SUMMARY
+                  has_failures=true
+                  continue
+                fi
+
+                # Validate JSON
+                if ! python -c "import json; json.load(open('$local_file'))" 2>/dev/null; then
+                  changes_detail+="  - ❌ **Invalid JSON:** \`$filename\`"$'\n'
+                  invalid=$((invalid + 1))
+                  total_invalid=$((total_invalid + 1))
+                  has_failures=true
+                fi
+              fi
+            done
+
+            # Output summary for this type if there were changes
+            if [ $added -gt 0 ] || [ $updated -gt 0 ] || [ $deleted -gt 0 ] || [ $conflicts -gt 0 ]; then
+              local type_label
+              if [ "$type" = "analyzers" ]; then
+                type_label="Analyzers"
+              else
+                type_label="Responders"
+              fi
+
+              echo "**$type_label - $vendor:** +$added ~$updated -$deleted $([ $conflicts -gt 0 ] && echo "⚠️$conflicts")" >> $GITHUB_STEP_SUMMARY
+              echo "$changes_detail" >> $GITHUB_STEP_SUMMARY
+
+              # Track that this vendor had changes
+              if [[ ! " ${vendors_with_changes[@]} " =~ " ${vendor} " ]]; then
+                vendors_with_changes+=("$vendor")
+              fi
+            fi
+
+            return 0
+          }
+
+          # ============================================================================
+          # MAIN SCRIPT
+          # ============================================================================
+
+          # Get workflow inputs
+          INCLUDE_VENDORS="${{ inputs.vendors }}"
+          EXCLUDE_VENDORS="${{ inputs.exclude_vendors }}"
+
           # Discover all vendors from upstream repository
           VENDORS=()
 
@@ -80,16 +262,26 @@ jobs:
             done
           fi
 
+          # Filter vendors based on inputs
+          FILTERED_VENDORS=()
+          for vendor in "${VENDORS[@]}"; do
+            if should_sync_vendor "$vendor" "$INCLUDE_VENDORS" "$EXCLUDE_VENDORS"; then
+              FILTERED_VENDORS+=("$vendor")
+            fi
+          done
+
+          # Report sync configuration
           echo "### Syncing from Cortex-Analyzers" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**Discovered ${#VENDORS[@]} vendors to sync**" >> $GITHUB_STEP_SUMMARY
+          echo "**Discovered:** ${#VENDORS[@]} vendors" >> $GITHUB_STEP_SUMMARY
+          echo "**Syncing:** ${#FILTERED_VENDORS[@]} vendors" >> $GITHUB_STEP_SUMMARY
+          if [ -n "$INCLUDE_VENDORS" ]; then
+            echo "**Filter:** Only \`$INCLUDE_VENDORS\`" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ -n "$EXCLUDE_VENDORS" ]; then
+            echo "**Excluding:** \`$EXCLUDE_VENDORS\`" >> $GITHUB_STEP_SUMMARY
+          fi
           echo "" >> $GITHUB_STEP_SUMMARY
-
-          # Initialize counters
-          total_added=0
-          total_updated=0
-          total_deleted=0
-          total_invalid=0
 
           # Clean up local vendor directories deleted from upstream
           for type in analyzers responders; do
@@ -99,8 +291,12 @@ jobs:
                   vendor=$(basename "$local_vendor_dir")
                   # Check if vendor still exists upstream
                   if [ ! -d "upstream-cortex-analyzers/$type/$vendor" ]; then
-                    rm -rf "$local_vendor_dir"
-                    echo "🗑️ Removed vendor directory: $type/$vendor (deleted from upstream)" >> $GITHUB_STEP_SUMMARY
+                    if rm -rf "$local_vendor_dir"; then
+                      echo "🗑️ **Removed vendor directory:** $type/$vendor (deleted from upstream)" >> $GITHUB_STEP_SUMMARY
+                    else
+                      echo "❌ **Error:** Failed to remove $type/$vendor" >> $GITHUB_STEP_SUMMARY
+                      has_failures=true
+                    fi
                   fi
                 fi
               done
@@ -109,134 +305,42 @@ jobs:
 
           echo "" >> $GITHUB_STEP_SUMMARY
 
-          for vendor in "${VENDORS[@]}"; do
+          # Process each vendor
+          for vendor in "${FILTERED_VENDORS[@]}"; do
             echo "Processing vendor: $vendor"
 
-            # Sync analyzers
-            if [ -d "upstream-cortex-analyzers/analyzers/$vendor" ]; then
-              mkdir -p "cortex/analyzers/$vendor"
-
-              added=0
-              updated=0
-              deleted=0
-
-              # Delete local JSON files that don't exist upstream
-              if [ -d "cortex/analyzers/$vendor" ]; then
-                for local_file in cortex/analyzers/$vendor/*.json; do
-                  if [ -f "$local_file" ]; then
-                    filename=$(basename "$local_file")
-                    if [ ! -f "upstream-cortex-analyzers/analyzers/$vendor/$filename" ]; then
-                      rm "$local_file"
-                      echo "  🗑️ Deleted: $filename" >> $GITHUB_STEP_SUMMARY
-                      deleted=$((deleted + 1))
-                      total_deleted=$((total_deleted + 1))
-                    fi
-                  fi
-                done
-              fi
-
-              # Copy upstream files and track changes
-              for upstream_file in upstream-cortex-analyzers/analyzers/$vendor/*.json; do
-                if [ -f "$upstream_file" ]; then
-                  filename=$(basename "$upstream_file")
-                  local_file="cortex/analyzers/$vendor/$filename"
-
-                  if [ -f "$local_file" ]; then
-                    # File exists, check if it changed
-                    if ! cmp -s "$upstream_file" "$local_file"; then
-                      updated=$((updated + 1))
-                      total_updated=$((total_updated + 1))
-                    fi
-                  else
-                    # New file
-                    added=$((added + 1))
-                    total_added=$((total_added + 1))
-                  fi
-
-                  cp "$upstream_file" "$local_file"
-
-                  # Validate JSON
-                  if ! python -c "import json; json.load(open('$local_file'))" 2>/dev/null; then
-                    echo "  ⚠️ Invalid JSON: $filename" >> $GITHUB_STEP_SUMMARY
-                    total_invalid=$((total_invalid + 1))
-                  fi
-                fi
-              done
-
-              # Summary for this vendor's analyzers
-              if [ $added -gt 0 ] || [ $updated -gt 0 ] || [ $deleted -gt 0 ]; then
-                echo "**Analyzers - $vendor:** +$added ~$updated -$deleted" >> $GITHUB_STEP_SUMMARY
-              else
-                echo "**Analyzers - $vendor:** No changes" >> $GITHUB_STEP_SUMMARY
-              fi
-            fi
-
-            # Sync responders
-            if [ -d "upstream-cortex-analyzers/responders/$vendor" ]; then
-              mkdir -p "cortex/responders/$vendor"
-
-              added=0
-              updated=0
-              deleted=0
-
-              # Delete local JSON files that don't exist upstream
-              if [ -d "cortex/responders/$vendor" ]; then
-                for local_file in cortex/responders/$vendor/*.json; do
-                  if [ -f "$local_file" ]; then
-                    filename=$(basename "$local_file")
-                    if [ ! -f "upstream-cortex-analyzers/responders/$vendor/$filename" ]; then
-                      rm "$local_file"
-                      echo "  🗑️ Deleted: $filename" >> $GITHUB_STEP_SUMMARY
-                      deleted=$((deleted + 1))
-                      total_deleted=$((total_deleted + 1))
-                    fi
-                  fi
-                done
-              fi
-
-              # Copy upstream files and track changes
-              for upstream_file in upstream-cortex-analyzers/responders/$vendor/*.json; do
-                if [ -f "$upstream_file" ]; then
-                  filename=$(basename "$upstream_file")
-                  local_file="cortex/responders/$vendor/$filename"
-
-                  if [ -f "$local_file" ]; then
-                    # File exists, check if it changed
-                    if ! cmp -s "$upstream_file" "$local_file"; then
-                      updated=$((updated + 1))
-                      total_updated=$((total_updated + 1))
-                    fi
-                  else
-                    # New file
-                    added=$((added + 1))
-                    total_added=$((total_added + 1))
-                  fi
-
-                  cp "$upstream_file" "$local_file"
-
-                  # Validate JSON
-                  if ! python -c "import json; json.load(open('$local_file'))" 2>/dev/null; then
-                    echo "  ⚠️ Invalid JSON: $filename" >> $GITHUB_STEP_SUMMARY
-                    total_invalid=$((total_invalid + 1))
-                  fi
-                fi
-              done
-
-              # Summary for this vendor's responders
-              if [ $added -gt 0 ] || [ $updated -gt 0 ] || [ $deleted -gt 0 ]; then
-                echo "**Responders - $vendor:** +$added ~$updated -$deleted" >> $GITHUB_STEP_SUMMARY
-              else
-                echo "**Responders - $vendor:** No changes" >> $GITHUB_STEP_SUMMARY
-              fi
-            fi
+            # Sync both analyzers and responders
+            sync_vendor_type "$vendor" "analyzers"
+            sync_vendor_type "$vendor" "responders"
           done
 
+          # Final summary
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**Total:** $total_added added, $total_updated updated, $total_deleted deleted" >> $GITHUB_STEP_SUMMARY
-          if [ $total_invalid -gt 0 ]; then
-            echo "⚠️ **$total_invalid invalid JSON files detected**" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Vendors with changes:** ${#vendors_with_changes[@]}" >> $GITHUB_STEP_SUMMARY
+          echo "**Total changes:** $total_added added, $total_updated updated, $total_deleted deleted" >> $GITHUB_STEP_SUMMARY
+
+          if [ $total_conflicts -gt 0 ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "⚠️ **$total_conflicts conflicts detected** (local modifications overwritten by upstream)" >> $GITHUB_STEP_SUMMARY
           fi
+
+          if [ $total_invalid -gt 0 ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "❌ **$total_invalid invalid JSON files detected**" >> $GITHUB_STEP_SUMMARY
+            has_failures=true
+          fi
+
           echo "" >> $GITHUB_STEP_SUMMARY
+
+          # Exit with error if there were validation failures
+          if [ "$has_failures" = true ]; then
+            echo "::error::Sync completed with failures. Check the summary for details."
+            exit 1
+          fi
 
       - name: Generate manifests
         run: python generate-manifest.py
