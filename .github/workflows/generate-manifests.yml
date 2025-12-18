@@ -224,12 +224,12 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
+          if [ -n "$(git status --porcelain cortex/ catalogs/)" ]; then
             echo "changed=true" >> $GITHUB_OUTPUT
             echo "### Changes detected" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-            git status --short >> $GITHUB_STEP_SUMMARY
+            git status --short cortex/ catalogs/ >> $GITHUB_STEP_SUMMARY
             echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
           else
             echo "changed=false" >> $GITHUB_OUTPUT
