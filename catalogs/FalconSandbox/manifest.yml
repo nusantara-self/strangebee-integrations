@@ -20,8 +20,8 @@ integrations:
     description: Submit observables to the Crowdstrike FalconX Sandbox
     dataTypes:
     - file
-    file: cortex/analyzers/FalconSandbox/FalconSandbox.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/FalconSandbox/FalconSandbox.json
+    file: .upstream/cortex/analyzers/FalconSandbox/FalconSandbox.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/FalconSandbox/FalconSandbox.json
   responders: []
   functions: []
 stats:

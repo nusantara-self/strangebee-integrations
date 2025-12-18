@@ -16,8 +16,8 @@
         "dataTypes": [
           "ip"
         ],
-        "file": "cortex/analyzers/StamusNetworks/StamusNetworks_IPInfo.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/StamusNetworks/StamusNetworks_IPInfo.json"
+        "file": ".upstream/cortex/analyzers/StamusNetworks/StamusNetworks_IPInfo.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/StamusNetworks/StamusNetworks_IPInfo.json"
       }
     ],
     "responders": [],

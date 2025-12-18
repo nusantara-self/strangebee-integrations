@@ -19,8 +19,8 @@
         "dataTypes": [
           "other"
         ],
-        "file": "cortex/analyzers/Splunk/Splunk_Search_other.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_other.json"
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_other.json"
       },
       {
         "name": "Splunk_Search_Registry",
@@ -29,8 +29,8 @@
         "dataTypes": [
           "registry"
         ],
-        "file": "cortex/analyzers/Splunk/Splunk_Search_registry.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_registry.json"
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json"
       },
       {
         "name": "Splunk_Search_Mail_Subject",
@@ -40,8 +40,8 @@
           "mail_subject",
           "mail-subject"
         ],
-        "file": "cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json"
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json"
       },
       {
         "name": "Splunk_Search_File_Filename",
@@ -51,8 +51,8 @@
           "file",
           "filename"
         ],
-        "file": "cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_file_filename.json"
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json"
       },
       {
         "name": "Splunk_Search_User_Agent",
@@ -61,8 +61,8 @@
         "dataTypes": [
           "user-agent"
         ],
-        "file": "cortex/analyzers/Splunk/Splunk_Search_user_agent.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_user_agent.json"
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json"
       },
       {
         "name": "Splunk_Search_Mail_Email",
@@ -72,8 +72,8 @@
           "mail",
           "email"
         ],
-        "file": "cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_mail_email.json"
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json"
       },
       {
         "name": "Splunk_Search_IP",
@@ -82,8 +82,8 @@
         "dataTypes": [
           "ip"
         ],
-        "file": "cortex/analyzers/Splunk/Splunk_Search_ip.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_ip.json"
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json"
       },
       {
         "name": "Splunk_Search_Hash",
@@ -92,8 +92,8 @@
         "dataTypes": [
           "hash"
         ],
-        "file": "cortex/analyzers/Splunk/Splunk_Search_hash.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_hash.json"
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json"
       },
       {
         "name": "Splunk_Search_Domain_FQDN",
@@ -103,8 +103,8 @@
           "domain",
           "fqdn"
         ],
-        "file": "cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json"
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json"
       },
       {
         "name": "Splunk_Search_User",
@@ -113,8 +113,8 @@
         "dataTypes": [
           "other"
         ],
-        "file": "cortex/analyzers/Splunk/Splunk_Search_user.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_user.json"
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_user.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_user.json"
       },
       {
         "name": "Splunk_Search_URL_URI_Path",
@@ -124,8 +124,8 @@
           "url",
           "uri_path"
         ],
-        "file": "cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json"
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json"
       }
     ],
     "responders": [],

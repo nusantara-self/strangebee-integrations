@@ -17,15 +17,15 @@ integrations:
     description: IPinfo details lookup.
     dataTypes:
     - ip
-    file: cortex/analyzers/IPinfo/IPinfo_Details.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/IPinfo/IPinfo_Details.json
+    file: .upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
   - name: IPinfo_Hosted_Domains
     version: '1.0'
     description: IPinfo hosted domains lookup.
     dataTypes:
     - ip
-    file: cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
+    file: .upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
   responders: []
   functions: []
 stats:

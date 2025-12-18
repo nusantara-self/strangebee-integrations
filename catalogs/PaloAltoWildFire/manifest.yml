@@ -22,8 +22,8 @@ integrations:
     - file
     - url
     - hash
-    file: cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
+    file: .upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
   responders: []
   functions: []
 stats:

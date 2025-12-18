@@ -18,16 +18,16 @@ integrations:
     dataTypes:
     - ip
     - domain
-    file: cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json
+    file: .upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json
   - name: Mnemonic_pDNS_Public
     version: '3.0'
     description: Query IP addresses and domains against Mnemonic pDNS public service.
     dataTypes:
     - ip
     - domain
-    file: cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json
+    file: .upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json
   responders: []
   functions: []
 stats:

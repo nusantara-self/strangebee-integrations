@@ -22,8 +22,8 @@ integrations:
     - thehive:case_artifact
     - thehive:case_task
     - thehive:case_task_log
-    file: cortex/responders/Test/test.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Test/test.json
+    file: .upstream/cortex/responders/Test/test.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Test/test.json
   - name: DevTools_Echo_Responder
     version: '1.0'
     description: Development utility that simply echoes the input received by the responder.
@@ -33,8 +33,8 @@ integrations:
     - thehive:case_artifact
     - thehive:case_task
     - thehive:case_task_log
-    file: cortex/responders/Test/DevTools_Echo.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Test/DevTools_Echo.json
+    file: .upstream/cortex/responders/Test/DevTools_Echo.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Test/DevTools_Echo.json
   functions: []
 stats:
   totalAnalyzers: 0

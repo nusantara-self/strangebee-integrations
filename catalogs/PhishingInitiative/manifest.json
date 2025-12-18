@@ -22,8 +22,8 @@
         "dataTypes": [
           "url"
         ],
-        "file": "cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json"
+        "file": ".upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json"
       },
       {
         "name": "PhishingInitiative_Lookup",
@@ -32,8 +32,8 @@
         "dataTypes": [
           "url"
         ],
-        "file": "cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json"
+        "file": ".upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json"
       }
     ],
     "responders": [],

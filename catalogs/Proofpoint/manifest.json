@@ -52,8 +52,8 @@
           "file",
           "hash"
         ],
-        "file": "cortex/analyzers/Proofpoint/ProofPoint_Lookup.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json"
+        "file": ".upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json"
       }
     ],
     "responders": [],

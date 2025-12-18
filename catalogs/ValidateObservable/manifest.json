@@ -27,8 +27,8 @@
           "uri_path",
           "user-agent"
         ],
-        "file": "cortex/analyzers/ValidateObservable/ValidateObservable.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/ValidateObservable/ValidateObservable.json"
+        "file": ".upstream/cortex/analyzers/ValidateObservable/ValidateObservable.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/ValidateObservable/ValidateObservable.json"
       }
     ],
     "responders": [],

@@ -21,8 +21,8 @@ integrations:
     description: Download a file from Virustotal by its hash
     dataTypes:
     - thehive:case_artifact
-    file: cortex/responders/VirustotalDownloader/VirustotalDownloader.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/VirustotalDownloader/VirustotalDownloader.json
+    file: .upstream/cortex/responders/VirustotalDownloader/VirustotalDownloader.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/VirustotalDownloader/VirustotalDownloader.json
   functions: []
 stats:
   totalAnalyzers: 0

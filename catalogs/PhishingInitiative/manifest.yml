@@ -22,15 +22,15 @@ integrations:
     description: Use Phishing Initiative to scan a URL.
     dataTypes:
     - url
-    file: cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json
+    file: .upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json
   - name: PhishingInitiative_Lookup
     version: '2.0'
     description: Use Phishing Initiative to check if a URL is a verified phishing site.
     dataTypes:
     - url
-    file: cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json
+    file: .upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json
   responders: []
   functions: []
 stats:

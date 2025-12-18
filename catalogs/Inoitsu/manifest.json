@@ -19,8 +19,8 @@
         "dataTypes": [
           "mail"
         ],
-        "file": "cortex/analyzers/Inoitsu/Inoitsu.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Inoitsu/Inoitsu.json"
+        "file": ".upstream/cortex/analyzers/Inoitsu/Inoitsu.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Inoitsu/Inoitsu.json"
       }
     ],
     "responders": [],

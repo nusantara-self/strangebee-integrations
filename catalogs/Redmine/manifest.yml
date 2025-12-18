@@ -19,8 +19,8 @@ integrations:
     dataTypes:
     - thehive:case
     - thehive:case_task
-    file: cortex/responders/Redmine/Redmine_Issue.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Redmine/Redmine_Issue.json
+    file: .upstream/cortex/responders/Redmine/Redmine_Issue.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Redmine/Redmine_Issue.json
   functions: []
 stats:
   totalAnalyzers: 0

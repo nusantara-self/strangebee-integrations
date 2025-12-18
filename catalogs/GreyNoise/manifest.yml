@@ -20,8 +20,8 @@ integrations:
     description: Determine whether an IP has known scanning activity using GreyNoise.
     dataTypes:
     - ip
-    file: cortex/analyzers/GreyNoise/GreyNoise.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/GreyNoise/GreyNoise.json
+    file: .upstream/cortex/analyzers/GreyNoise/GreyNoise.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/GreyNoise/GreyNoise.json
   responders: []
   functions: []
 stats:

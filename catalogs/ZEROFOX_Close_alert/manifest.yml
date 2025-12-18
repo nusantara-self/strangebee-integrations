@@ -18,8 +18,8 @@ integrations:
     description: Close alert in Zerofox
     dataTypes:
     - thehive:case
-    file: cortex/responders/ZEROFOX_Close_alert/ZEROFOX_Close_alert.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/ZEROFOX_Close_alert/ZEROFOX_Close_alert.json
+    file: .upstream/cortex/responders/ZEROFOX_Close_alert/ZEROFOX_Close_alert.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/ZEROFOX_Close_alert/ZEROFOX_Close_alert.json
   functions: []
 stats:
   totalAnalyzers: 0

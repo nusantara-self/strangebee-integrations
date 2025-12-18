@@ -17,8 +17,8 @@ integrations:
     description: Use MaxMind to geolocate an IP address.
     dataTypes:
     - ip
-    file: cortex/analyzers/MaxMind/MaxMind_GeoIP.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/MaxMind/MaxMind_GeoIP.json
+    file: .upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json
   responders: []
   functions: []
 stats:

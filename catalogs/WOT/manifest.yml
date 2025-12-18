@@ -18,8 +18,8 @@ integrations:
     dataTypes:
     - domain
     - fqdn
-    file: cortex/analyzers/WOT/WOT_lookup.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/WOT/WOT_lookup.json
+    file: .upstream/cortex/analyzers/WOT/WOT_lookup.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/WOT/WOT_lookup.json
   responders: []
   functions: []
 stats:

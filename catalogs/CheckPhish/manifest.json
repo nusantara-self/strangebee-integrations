@@ -16,8 +16,8 @@
         "dataTypes": [
           "string"
         ],
-        "file": "cortex/analyzers/CheckPhish/CheckPhish.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CheckPhish/CheckPhish.json"
+        "file": ".upstream/cortex/analyzers/CheckPhish/CheckPhish.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/CheckPhish/CheckPhish.json"
       },
       {
         "name": "CheckPhish_Submit",
@@ -26,8 +26,8 @@
         "dataTypes": [
           "url"
         ],
-        "file": "cortex/analyzers/CheckPhish/CheckPhish_Submit.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CheckPhish/CheckPhish_Submit.json"
+        "file": ".upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json"
       }
     ],
     "responders": [],

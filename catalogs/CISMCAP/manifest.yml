@@ -26,8 +26,8 @@ integrations:
     - domain
     - fqdn
     - file
-    file: cortex/analyzers/CISMCAP/CISMCAP.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CISMCAP/CISMCAP.json
+    file: .upstream/cortex/analyzers/CISMCAP/CISMCAP.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/CISMCAP/CISMCAP.json
   responders: []
   functions: []
 stats:

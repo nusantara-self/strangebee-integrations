@@ -19,8 +19,8 @@
           "thehive:alert",
           "thehive:case_task"
         ],
-        "file": "cortex/responders/Mailer/Mailer.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Mailer/Mailer.json"
+        "file": ".upstream/cortex/responders/Mailer/Mailer.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Mailer/Mailer.json"
       }
     ],
     "functions": []

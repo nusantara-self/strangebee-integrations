@@ -18,8 +18,8 @@ integrations:
     dataTypes:
     - file
     - url
-    file: cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json
+    file: .upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json
   responders: []
   functions: []
 stats:

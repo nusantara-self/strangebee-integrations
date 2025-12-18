@@ -19,8 +19,8 @@
         "dataTypes": [
           "hash"
         ],
-        "file": "cortex/analyzers/Cylance/Cylance.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Cylance/Cylance.json"
+        "file": ".upstream/cortex/analyzers/Cylance/Cylance.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Cylance/Cylance.json"
       }
     ],
     "responders": [],

@@ -20,8 +20,8 @@
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": "cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json"
+        "file": ".upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json"
       },
       {
         "name": "MSDefenderOffice365_block",
@@ -30,8 +30,8 @@
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": "cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json"
+        "file": ".upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json"
       }
     ],
     "functions": []

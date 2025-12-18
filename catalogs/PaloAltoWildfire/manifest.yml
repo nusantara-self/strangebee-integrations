@@ -23,8 +23,8 @@ integrations:
     - url
     - domain
     - fqdn
-    file: cortex/responders/PaloAltoWildfire/PaloAltoWildfire_URL_submission.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoWildfire/PaloAltoWildfire_URL_submission.json
+    file: .upstream/cortex/responders/PaloAltoWildfire/PaloAltoWildfire_URL_submission.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoWildfire/PaloAltoWildfire_URL_submission.json
   functions: []
 stats:
   totalAnalyzers: 0

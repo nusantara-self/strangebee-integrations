@@ -18,23 +18,23 @@ integrations:
     description: Unlock User Account in Duo Security via AdminAPI (The user must complete secondary authentication)
     dataTypes:
     - thehive:case_artifact
-    file: cortex/responders/Duo_Security/DuoUnlockUserAccount.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
+    file: .upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
   - name: DuoBypassUserAccount
     version: '1.0'
     description: Put User Account into Bypass mode in Duo Security via AdminAPI (The user will not be prompted when logging
       in.)
     dataTypes:
     - thehive:case_artifact
-    file: cortex/responders/Duo_Security/DuoBypassUserAccount.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Duo_Security/DuoBypassUserAccount.json
+    file: .upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json
   - name: DuoLockUserAccount
     version: '1.0'
     description: Lock User Account in Duo Security via AdminAPI (The user will not be able to log in)
     dataTypes:
     - thehive:case_artifact
-    file: cortex/responders/Duo_Security/DuoLockUserAccount.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Duo_Security/DuoLockUserAccount.json
+    file: .upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json
   functions: []
 stats:
   totalAnalyzers: 0

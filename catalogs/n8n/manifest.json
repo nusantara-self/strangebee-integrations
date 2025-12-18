@@ -21,8 +21,8 @@
           "thehive:case_task",
           "thehive:case_task_log"
         ],
-        "file": "cortex/responders/n8n/n8n.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/n8n/n8n.json"
+        "file": ".upstream/cortex/responders/n8n/n8n.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/n8n/n8n.json"
       }
     ],
     "functions": []

@@ -18,8 +18,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/RiskIQ/RiskIQ_Certificates.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json"
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json"
       },
       {
         "name": "RiskIQ_Trackers",
@@ -30,8 +30,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/RiskIQ/RiskIQ_Trackers.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json"
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json"
       },
       {
         "name": "RiskIQ_Services",
@@ -40,8 +40,8 @@
         "dataTypes": [
           "ip"
         ],
-        "file": "cortex/analyzers/RiskIQ/RiskIQ_Services.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/RiskIQ/RiskIQ_Services.json"
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json"
       },
       {
         "name": "RiskIQ_HostpairParents",
@@ -52,8 +52,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json"
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json"
       },
       {
         "name": "RiskIQ_Articles",
@@ -64,8 +64,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/RiskIQ/RiskIQ_Articles.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/RiskIQ/RiskIQ_Articles.json"
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Articles.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/RiskIQ/RiskIQ_Articles.json"
       },
       {
         "name": "RiskIQ_Summary",
@@ -76,8 +76,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/RiskIQ/RiskIQ_Summary.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/RiskIQ/RiskIQ_Summary.json"
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json"
       },
       {
         "name": "RiskIQ_Components",
@@ -88,8 +88,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/RiskIQ/RiskIQ_Components.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/RiskIQ/RiskIQ_Components.json"
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json"
       },
       {
         "name": "RiskIQ_Subdomains",
@@ -99,8 +99,8 @@
           "fqdn",
           "domain"
         ],
-        "file": "cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json"
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json"
       },
       {
         "name": "RiskIQ_Whois",
@@ -111,8 +111,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/RiskIQ/RiskIQ_Whois.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/RiskIQ/RiskIQ_Whois.json"
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json"
       },
       {
         "name": "RiskIQ_Projects",
@@ -123,8 +123,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/RiskIQ/RiskIQ_Projects.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/RiskIQ/RiskIQ_Projects.json"
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json"
       },
       {
         "name": "RiskIQ_Malware",
@@ -135,8 +135,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/RiskIQ/RiskIQ_Malware.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/RiskIQ/RiskIQ_Malware.json"
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json"
       },
       {
         "name": "RiskIQ_Artifacts",
@@ -147,8 +147,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/RiskIQ/RiskIQ_Artifacts.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/RiskIQ/RiskIQ_Artifacts.json"
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Artifacts.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/RiskIQ/RiskIQ_Artifacts.json"
       },
       {
         "name": "RiskIQ_Reputation",
@@ -159,8 +159,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/RiskIQ/RiskIQ_Reputation.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/RiskIQ/RiskIQ_Reputation.json"
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Reputation.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/RiskIQ/RiskIQ_Reputation.json"
       },
       {
         "name": "RiskIQ_Cookies",
@@ -171,8 +171,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/RiskIQ/RiskIQ_Cookies.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json"
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json"
       },
       {
         "name": "RiskIQ_Resolutions",
@@ -183,8 +183,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json"
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json"
       },
       {
         "name": "RiskIQ_HostpairChildren",
@@ -195,8 +195,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/RiskIQ/RiskIQ_HostpairChildren.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/RiskIQ/RiskIQ_HostpairChildren.json"
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairChildren.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairChildren.json"
       }
     ],
     "responders": [
@@ -207,8 +207,8 @@
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": "cortex/responders/RiskIQ/RiskIQ_PushArtifactToProject.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/RiskIQ/RiskIQ_PushArtifactToProject.json"
+        "file": ".upstream/cortex/responders/RiskIQ/RiskIQ_PushArtifactToProject.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/RiskIQ/RiskIQ_PushArtifactToProject.json"
       }
     ],
     "functions": []

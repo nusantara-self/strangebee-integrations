@@ -19,8 +19,8 @@
         "dataTypes": [
           "hash"
         ],
-        "file": "cortex/analyzers/Hashdd/Hashdd_Detail.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Hashdd/Hashdd_Detail.json"
+        "file": ".upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json"
       },
       {
         "name": "Hashdd_Status",
@@ -29,8 +29,8 @@
         "dataTypes": [
           "hash"
         ],
-        "file": "cortex/analyzers/Hashdd/Hashdd_Status.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Hashdd/Hashdd_Status.json"
+        "file": ".upstream/cortex/analyzers/Hashdd/Hashdd_Status.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Hashdd/Hashdd_Status.json"
       }
     ],
     "responders": [],

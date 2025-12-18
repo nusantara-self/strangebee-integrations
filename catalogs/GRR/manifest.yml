@@ -18,8 +18,8 @@ integrations:
     dataTypes:
     - ip
     - fqdn
-    file: cortex/analyzers/GRR/GRR.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/GRR/GRR.json
+    file: .upstream/cortex/analyzers/GRR/GRR.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/GRR/GRR.json
   responders: []
   functions: []
 stats:

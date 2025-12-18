@@ -20,8 +20,8 @@
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": "cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json"
+        "file": ".upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json"
       },
       {
         "name": "PaloAltoCortexXDR_scan",
@@ -30,8 +30,8 @@
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": "cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json"
+        "file": ".upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json"
       },
       {
         "name": "PaloAltoCortexXDR_isolate",
@@ -40,8 +40,8 @@
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": "cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json"
+        "file": ".upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json"
       }
     ],
     "functions": []

@@ -16,8 +16,8 @@
         "dataTypes": [
           "ip"
         ],
-        "file": "cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json"
+        "file": ".upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json"
       },
       {
         "name": "Robtex_Forward_PDNS_Query",
@@ -27,8 +27,8 @@
           "domain",
           "fqdn"
         ],
-        "file": "cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json"
+        "file": ".upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json"
       },
       {
         "name": "Robtex_IP_Query",
@@ -37,8 +37,8 @@
         "dataTypes": [
           "ip"
         ],
-        "file": "cortex/analyzers/Robtex/Robtex_IP_Query.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Robtex/Robtex_IP_Query.json"
+        "file": ".upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json"
       }
     ],
     "responders": [],

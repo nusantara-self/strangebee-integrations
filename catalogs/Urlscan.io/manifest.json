@@ -20,8 +20,8 @@
           "fqdn",
           "url"
         ],
-        "file": "cortex/analyzers/Urlscan.io/Urlscan_Search.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Urlscan.io/Urlscan_Search.json"
+        "file": ".upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json"
       },
       {
         "name": "Urlscan.io_Scan",
@@ -32,8 +32,8 @@
           "domain",
           "fqdn"
         ],
-        "file": "cortex/analyzers/Urlscan.io/Urlscan_Scan.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Urlscan.io/Urlscan_Scan.json"
+        "file": ".upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json"
       }
     ],
     "responders": [],

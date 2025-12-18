@@ -20,8 +20,8 @@ integrations:
     description: Gets matching YARA rules for a given sample SHA256 hash
     dataTypes:
     - hash
-    file: cortex/analyzers/Valhalla/Valhalla_GetMatches.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Valhalla/Valhalla_GetMatches.json
+    file: .upstream/cortex/analyzers/Valhalla/Valhalla_GetMatches.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Valhalla/Valhalla_GetMatches.json
   responders: []
   functions: []
 stats:

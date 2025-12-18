@@ -24,8 +24,8 @@ integrations:
     - url
     - hash
     - ip
-    file: cortex/analyzers/URLhaus/URLhaus.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/URLhaus/URLhaus.json
+    file: .upstream/cortex/analyzers/URLhaus/URLhaus.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/URLhaus/URLhaus.json
   responders: []
   functions: []
 stats:

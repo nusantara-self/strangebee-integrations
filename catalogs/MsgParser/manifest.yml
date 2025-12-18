@@ -17,8 +17,8 @@ integrations:
     description: Parse Outlook MSG files and extract the main artifacts.
     dataTypes:
     - file
-    file: cortex/analyzers/MsgParser/Msg_Parser.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/MsgParser/Msg_Parser.json
+    file: .upstream/cortex/analyzers/MsgParser/Msg_Parser.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/MsgParser/Msg_Parser.json
   responders: []
   functions: []
 stats:

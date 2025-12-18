@@ -20,15 +20,15 @@ integrations:
     description: Cuckoo Sandbox URL analysis.
     dataTypes:
     - url
-    file: cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json
+    file: .upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json
   - name: CuckooSandbox_File_Analysis_Inet
     version: '1.2'
     description: Cuckoo Sandbox file analysis with Internet access.
     dataTypes:
     - file
-    file: cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json
+    file: .upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json
   responders: []
   functions: []
 stats:

@@ -20,8 +20,8 @@ integrations:
     - domain
     - fqdn
     - mail
-    file: cortex/analyzers/SinkDB/SinkDB.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/SinkDB/SinkDB.json
+    file: .upstream/cortex/analyzers/SinkDB/SinkDB.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/SinkDB/SinkDB.json
   responders: []
   functions: []
 stats:

@@ -21,8 +21,8 @@ integrations:
     description: Start a job on AWX
     dataTypes:
     - thehive:case_artifact
-    file: cortex/responders/AWX/awx.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/AWX/awx.json
+    file: .upstream/cortex/responders/AWX/awx.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/AWX/awx.json
   functions: []
 stats:
   totalAnalyzers: 0

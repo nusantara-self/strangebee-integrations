@@ -17,8 +17,8 @@ integrations:
     description: Check if a  domain is sinkholed via DNS Sinkhole server
     dataTypes:
     - domain
-    file: cortex/analyzers/DNSSinkhole/DNSSinkhole.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DNSSinkhole/DNSSinkhole.json
+    file: .upstream/cortex/analyzers/DNSSinkhole/DNSSinkhole.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DNSSinkhole/DNSSinkhole.json
   responders: []
   functions: []
 stats:

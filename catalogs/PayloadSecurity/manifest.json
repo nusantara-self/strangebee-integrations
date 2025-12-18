@@ -16,8 +16,8 @@
         "dataTypes": [
           "file"
         ],
-        "file": "cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json"
+        "file": ".upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json"
       },
       {
         "name": "PayloadSecurity_Url_Analysis",
@@ -26,8 +26,8 @@
         "dataTypes": [
           "url"
         ],
-        "file": "cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json"
+        "file": ".upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json"
       }
     ],
     "responders": [],

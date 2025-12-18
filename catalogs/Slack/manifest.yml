@@ -48,16 +48,16 @@ integrations:
       for traceability.
     dataTypes:
     - thehive:case
-    file: cortex/responders/Slack/Slack_SyncChannel.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Slack/Slack_SyncChannel.json
+    file: .upstream/cortex/responders/Slack/Slack_SyncChannel.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Slack/Slack_SyncChannel.json
   - name: Slack_CreateChannel
     version: '1.0'
     description: Creates a Slack channel for a TheHive case, invites participants, and optionally posts a case summary and
       description.
     dataTypes:
     - thehive:case
-    file: cortex/responders/Slack/Slack_CreateChannel.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Slack/Slack_CreateChannel.json
+    file: .upstream/cortex/responders/Slack/Slack_CreateChannel.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Slack/Slack_CreateChannel.json
   functions: []
 stats:
   totalAnalyzers: 0

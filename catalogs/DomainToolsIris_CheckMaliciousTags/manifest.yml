@@ -18,8 +18,8 @@ integrations:
     description: Add Tag saying that the observable and case have a malicious tag in their Iris Tags.
     dataTypes:
     - thehive:case_artifact
-    file: cortex/responders/DomainToolsIris_CheckMaliciousTags/DomainToolsIris_CheckMaliciousTags.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/DomainToolsIris_CheckMaliciousTags/DomainToolsIris_CheckMaliciousTags.json
+    file: .upstream/cortex/responders/DomainToolsIris_CheckMaliciousTags/DomainToolsIris_CheckMaliciousTags.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/DomainToolsIris_CheckMaliciousTags/DomainToolsIris_CheckMaliciousTags.json
   functions: []
 stats:
   totalAnalyzers: 0

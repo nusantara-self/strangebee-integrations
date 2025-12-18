@@ -17,8 +17,8 @@
           "domain",
           "fqdn"
         ],
-        "file": "cortex/analyzers/DomainTools/DomainTools_Risk.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DomainTools/DomainTools_Risk.json"
+        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json"
       },
       {
         "name": "DomainTools_WhoisLookup",
@@ -28,8 +28,8 @@
           "domain",
           "ip"
         ],
-        "file": "cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json"
+        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json"
       },
       {
         "name": "DomainTools_Reputation",
@@ -39,8 +39,8 @@
           "domain",
           "fqdn"
         ],
-        "file": "cortex/analyzers/DomainTools/DomainTools_Reputation.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DomainTools/DomainTools_Reputation.json"
+        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json"
       },
       {
         "name": "DomainTools_WhoisLookupUnparsed",
@@ -50,8 +50,8 @@
           "ip",
           "domain"
         ],
-        "file": "cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json"
+        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json"
       },
       {
         "name": "DomainTools_HostingHistory",
@@ -60,8 +60,8 @@
         "dataTypes": [
           "domain"
         ],
-        "file": "cortex/analyzers/DomainTools/DomainTools_HostingHistory.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json"
+        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json"
       },
       {
         "name": "DomainTools_ReverseNameServer",
@@ -70,8 +70,8 @@
         "dataTypes": [
           "domain"
         ],
-        "file": "cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json"
+        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json"
       },
       {
         "name": "DomainTools_WhoisHistory",
@@ -80,8 +80,8 @@
         "dataTypes": [
           "domain"
         ],
-        "file": "cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json"
+        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json"
       },
       {
         "name": "DomainTools_ReverseIP",
@@ -92,8 +92,8 @@
           "domain",
           "fqdn"
         ],
-        "file": "cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json"
+        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json"
       },
       {
         "name": "DomainTools_ReverseIPWhois",
@@ -105,8 +105,8 @@
           "domain",
           "other"
         ],
-        "file": "cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json"
+        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json"
       },
       {
         "name": "DomainTools_ReverseWhois",
@@ -118,8 +118,8 @@
           "domain",
           "other"
         ],
-        "file": "cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json"
+        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json"
       }
     ],
     "responders": [],

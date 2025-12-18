@@ -21,8 +21,8 @@
           "ip",
           "mail"
         ],
-        "file": "cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json"
+        "file": ".upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json"
       },
       {
         "name": "DomainToolsIris_Investigate",
@@ -31,8 +31,8 @@
         "dataTypes": [
           "domain"
         ],
-        "file": "cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json"
+        "file": ".upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json"
       }
     ],
     "responders": [],

@@ -20,15 +20,15 @@ integrations:
     description: Determine whether a hash is good or bad; if good then list what it is.
     dataTypes:
     - hash
-    file: cortex/analyzers/Hashdd/Hashdd_Detail.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Hashdd/Hashdd_Detail.json
+    file: .upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json
   - name: Hashdd_Status
     version: '2.0'
     description: Determine whether a hash is good or bad.
     dataTypes:
     - hash
-    file: cortex/analyzers/Hashdd/Hashdd_Status.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Hashdd/Hashdd_Status.json
+    file: .upstream/cortex/analyzers/Hashdd/Hashdd_Status.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Hashdd/Hashdd_Status.json
   responders: []
   functions: []
 stats:

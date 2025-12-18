@@ -17,8 +17,8 @@
           "domain",
           "fqdn"
         ],
-        "file": "cortex/analyzers/DNSDB/DNSDB_DomainName.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DNSDB/DNSDB_DomainName.json"
+        "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json"
       },
       {
         "name": "DNSDB_IPHistory",
@@ -27,8 +27,8 @@
         "dataTypes": [
           "ip"
         ],
-        "file": "cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DNSDB/DNSDB_IPHistory.json"
+        "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json"
       },
       {
         "name": "DNSDB_NameHistory",
@@ -38,8 +38,8 @@
           "domain",
           "fqdn"
         ],
-        "file": "cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DNSDB/DNSDB_NameHistory.json"
+        "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json"
       }
     ],
     "responders": [],

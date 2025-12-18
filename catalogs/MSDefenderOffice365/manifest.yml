@@ -21,15 +21,15 @@ integrations:
     description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
     dataTypes:
     - thehive:case_artifact
-    file: cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
+    file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
   - name: MSDefenderOffice365_block
     version: '1.0'
     description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
     dataTypes:
     - thehive:case_artifact
-    file: cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
+    file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
   functions: []
 stats:
   totalAnalyzers: 0

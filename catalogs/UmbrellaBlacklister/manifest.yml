@@ -18,8 +18,8 @@ integrations:
     description: Add domain to Umbrella blacklist via Enforcement API.
     dataTypes:
     - thehive:case_artifact
-    file: cortex/responders/UmbrellaBlacklister/UmbrellaBlacklister.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/UmbrellaBlacklister/UmbrellaBlacklister.json
+    file: .upstream/cortex/responders/UmbrellaBlacklister/UmbrellaBlacklister.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/UmbrellaBlacklister/UmbrellaBlacklister.json
   functions: []
 stats:
   totalAnalyzers: 0

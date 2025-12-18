@@ -18,8 +18,8 @@ integrations:
     description: Add 'Clicked Event' to User via User Events API.
     dataTypes:
     - thehive:case_artifact
-    file: cortex/responders/KnowBe4/KnowBe4.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/KnowBe4/KnowBe4.json
+    file: .upstream/cortex/responders/KnowBe4/KnowBe4.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/KnowBe4/KnowBe4.json
   functions: []
 stats:
   totalAnalyzers: 0

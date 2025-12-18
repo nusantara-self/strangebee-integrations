@@ -20,8 +20,8 @@ integrations:
     description: Use PhishTank to check if a URL is a verified phishing site.
     dataTypes:
     - url
-    file: cortex/analyzers/PhishTank/PhishTank_CheckURL.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PhishTank/PhishTank_CheckURL.json
+    file: .upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json
   responders: []
   functions: []
 stats:

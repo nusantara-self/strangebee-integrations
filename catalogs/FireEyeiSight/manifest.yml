@@ -23,8 +23,8 @@ integrations:
     - ip
     - hash
     - url
-    file: cortex/analyzers/FireEyeiSight/FireEyeiSight.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/FireEyeiSight/FireEyeiSight.json
+    file: .upstream/cortex/analyzers/FireEyeiSight/FireEyeiSight.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/FireEyeiSight/FireEyeiSight.json
   responders: []
   functions: []
 stats:

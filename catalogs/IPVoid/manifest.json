@@ -16,8 +16,8 @@
         "dataTypes": [
           "ip"
         ],
-        "file": "cortex/analyzers/IPVoid/IPVoid.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/IPVoid/IPVoid.json"
+        "file": ".upstream/cortex/analyzers/IPVoid/IPVoid.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/IPVoid/IPVoid.json"
       }
     ],
     "responders": [],

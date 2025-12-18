@@ -23,8 +23,8 @@ integrations:
     - domain
     - fqdn
     - hash
-    file: cortex/analyzers/Onyphe/ONYPHE_ASM.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Onyphe/ONYPHE_ASM.json
+    file: .upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
   - name: ONYPHE_Search
     version: '1.1'
     description: Retrieve results from ONYPHE Search API for a given ip, domain, fqdn or hash (sha256 TLS fingerprint) from
@@ -34,8 +34,8 @@ integrations:
     - domain
     - fqdn
     - hash
-    file: cortex/analyzers/Onyphe/ONYPHE_Search.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Onyphe/ONYPHE_Search.json
+    file: .upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json
   - name: ONYPHE_Summary_API
     version: '1.2'
     description: Retrieve summary information Onyphe has for given ip, domain, or fqdn.
@@ -43,8 +43,8 @@ integrations:
     - ip
     - domain
     - fqdn
-    file: cortex/analyzers/Onyphe/ONYPHE_Summary_API.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json
+    file: .upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json
   - name: ONYPHE_Vulnscan
     version: '1.1'
     description: Retrieve vulnerability data from ONYPHE vulnscan category for a given ip, domain, fqdn or hash (sha256 TLS
@@ -54,8 +54,8 @@ integrations:
     - domain
     - fqdn
     - hash
-    file: cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json
+    file: .upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json
   - name: ONYPHE_Ctiscan
     version: '1.0'
     description: Query ONYPHE Ctiscan threat hunting data for open services (takes ip, domain, fqdn, autonomous-system or
@@ -67,8 +67,8 @@ integrations:
     - hash
     - autonomous-system
     - other
-    file: cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
+    file: .upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
   responders: []
   functions: []
 stats:

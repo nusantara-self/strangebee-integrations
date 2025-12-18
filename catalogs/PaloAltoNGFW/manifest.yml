@@ -20,8 +20,8 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json
   - name: PaloAltoNGFW_unblock_port_for_external_communication
     version: 1.0.0
     description: Unblock external port communication
@@ -29,8 +29,8 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json
   - name: PaloAltoNGFW_unblock_internal_user
     version: 1.0.0
     description: Unblock internal user
@@ -38,8 +38,8 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json
   - name: PaloAltoNGFW_block_external_IP_address
     version: 2.0.0
     description: Block external IP address
@@ -47,8 +47,8 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json
   - name: PaloAltoNGFW_unblock_external_user
     version: 1.0.0
     description: Unblock external user
@@ -56,8 +56,8 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json
   - name: PaloAltoNGFW_block_port_for_external_communication
     version: 2.0.0
     description: Block external port communication
@@ -65,8 +65,8 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json
   - name: PaloAltoNGFW_unblock_external_IP_address
     version: 1.0.0
     description: Unblock external ip
@@ -74,8 +74,8 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json
   - name: PaloAltoNGFW_block_internal_user
     version: 1.0.0
     description: Block internal user
@@ -83,8 +83,8 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json
   - name: PaloAltoNGFW_unblock_port_for_internal_communication
     version: 1.0.0
     description: Unblock internal port communication
@@ -92,8 +92,8 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json
   - name: PaloAltoNGFW_unblock_internal_domain
     version: 1.0.0
     description: Unblock internal domain
@@ -101,8 +101,8 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json
   - name: PaloAltoNGFW_block_internal_domain
     version: 2.0.0
     description: Block internal domain
@@ -110,8 +110,8 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json
   - name: PaloAltoNGFW_block_internal_IP_address
     version: 2.0.0
     description: Block internal IP address
@@ -119,8 +119,8 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json
   - name: PaloAltoNGFW_block_external_user
     version: 1.0.0
     description: Block external user
@@ -128,8 +128,8 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json
   - name: PaloAltoNGFW_block_external_domain
     version: 2.0.0
     description: Block external domain
@@ -137,8 +137,8 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json
   - name: PaloAltoNGFW_block_port_for_internal_communication
     version: 2.0.0
     description: Block internal port communication
@@ -146,8 +146,8 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json
   - name: PaloAltoNGFW_unblock_internal_IP_address
     version: 1.0.0
     description: Unblock internal ip
@@ -155,8 +155,8 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json
   functions: []
 stats:
   totalAnalyzers: 0

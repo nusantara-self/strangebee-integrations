@@ -18,8 +18,8 @@
           "thehive:case",
           "thehive:case_artifact"
         ],
-        "file": "cortex/responders/Wazuh/wazuh.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Wazuh/wazuh.json"
+        "file": ".upstream/cortex/responders/Wazuh/wazuh.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Wazuh/wazuh.json"
       }
     ],
     "functions": []

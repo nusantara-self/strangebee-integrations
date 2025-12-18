@@ -20,8 +20,8 @@ integrations:
     description: Get spam score from local SpamAssassin instance
     dataTypes:
     - file
-    file: cortex/analyzers/SpamAssassin/SpamAssassin.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/SpamAssassin/SpamAssassin.json
+    file: .upstream/cortex/analyzers/SpamAssassin/SpamAssassin.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/SpamAssassin/SpamAssassin.json
   responders: []
   functions: []
 stats:

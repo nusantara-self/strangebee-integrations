@@ -22,8 +22,8 @@ integrations:
     - thehive:alert
     - thehive:case_task
     - thehive:case_task_log
-    file: cortex/responders/Jupyter_Responder/Jupyter_Run_Notebook_Responder.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Jupyter_Responder/Jupyter_Run_Notebook_Responder.json
+    file: .upstream/cortex/responders/Jupyter_Responder/Jupyter_Run_Notebook_Responder.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Jupyter_Responder/Jupyter_Run_Notebook_Responder.json
   functions: []
 stats:
   totalAnalyzers: 0

@@ -21,8 +21,8 @@ integrations:
     dataTypes:
     - user-agent
     - ja4-fingerprint
-    file: cortex/analyzers/FoxIO/JA4_FoxIO.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/FoxIO/JA4_FoxIO.json
+    file: .upstream/cortex/analyzers/FoxIO/JA4_FoxIO.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/FoxIO/JA4_FoxIO.json
   responders: []
   functions: []
 stats:

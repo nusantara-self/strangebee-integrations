@@ -20,8 +20,8 @@ integrations:
     description: Submits sample to an on-premise THOR Thunderstorm web service and processes the scan result
     dataTypes:
     - file
-    file: cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json
+    file: .upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json
   responders: []
   functions: []
 stats:

@@ -17,8 +17,8 @@
         "dataTypes": [
           "thehive:case"
         ],
-        "file": "cortex/responders/ZEROFOX_Takedown_request/ZEROFOX_Takedown_request.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/ZEROFOX_Takedown_request/ZEROFOX_Takedown_request.json"
+        "file": ".upstream/cortex/responders/ZEROFOX_Takedown_request/ZEROFOX_Takedown_request.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/ZEROFOX_Takedown_request/ZEROFOX_Takedown_request.json"
       }
     ],
     "functions": []

@@ -18,8 +18,8 @@
         "dataTypes": [
           "ip"
         ],
-        "file": "cortex/analyzers/LupovisProwl/LupovisProwl_GetIPReputation.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/LupovisProwl/LupovisProwl_GetIPReputation.json"
+        "file": ".upstream/cortex/analyzers/LupovisProwl/LupovisProwl_GetIPReputation.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/LupovisProwl/LupovisProwl_GetIPReputation.json"
       }
     ],
     "responders": [],

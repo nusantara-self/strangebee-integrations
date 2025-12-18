@@ -18,8 +18,8 @@
           "ip",
           "fqdn"
         ],
-        "file": "cortex/analyzers/GoogleDNS/GoogleDNS_resolve.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/GoogleDNS/GoogleDNS_resolve.json"
+        "file": ".upstream/cortex/analyzers/GoogleDNS/GoogleDNS_resolve.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/GoogleDNS/GoogleDNS_resolve.json"
       }
     ],
     "responders": [],

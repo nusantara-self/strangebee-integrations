@@ -21,8 +21,8 @@ integrations:
     dataTypes:
     - domain
     - fqdn
-    file: cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json
+    file: .upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json
   responders: []
   functions: []
 stats:

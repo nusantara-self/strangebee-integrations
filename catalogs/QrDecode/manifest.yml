@@ -17,8 +17,8 @@ integrations:
     description: Extracts data from one or more QR codes.
     dataTypes:
     - file
-    file: cortex/analyzers/QrDecode/QrDecode.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/QrDecode/QrDecode.json
+    file: .upstream/cortex/analyzers/QrDecode/QrDecode.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/QrDecode/QrDecode.json
   responders: []
   functions: []
 stats:

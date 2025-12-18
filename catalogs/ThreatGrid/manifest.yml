@@ -19,8 +19,8 @@ integrations:
     - file
     - url
     - hash
-    file: cortex/analyzers/ThreatGrid/ThreatGrid.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/ThreatGrid/ThreatGrid.json
+    file: .upstream/cortex/analyzers/ThreatGrid/ThreatGrid.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/ThreatGrid/ThreatGrid.json
   responders: []
   functions: []
 stats:

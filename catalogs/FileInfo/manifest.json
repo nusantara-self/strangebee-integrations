@@ -16,8 +16,8 @@
         "dataTypes": [
           "file"
         ],
-        "file": "cortex/analyzers/FileInfo/FileInfo.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/FileInfo/FileInfo.json"
+        "file": ".upstream/cortex/analyzers/FileInfo/FileInfo.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/FileInfo/FileInfo.json"
       }
     ],
     "responders": [],

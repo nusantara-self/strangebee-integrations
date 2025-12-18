@@ -21,8 +21,8 @@
         "dataTypes": [
           "url"
         ],
-        "file": "cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json"
+        "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json"
       },
       {
         "name": "GTI_ScanPrivateFile",
@@ -31,8 +31,8 @@
         "dataTypes": [
           "file"
         ],
-        "file": "cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json"
+        "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json"
       },
       {
         "name": "GTI_ScanFile",
@@ -41,8 +41,8 @@
         "dataTypes": [
           "file"
         ],
-        "file": "cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json"
+        "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json"
       },
       {
         "name": "GTI_GetIOCReport",
@@ -56,8 +56,8 @@
           "ip",
           "url"
         ],
-        "file": "cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json"
+        "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json"
       },
       {
         "name": "GTI_ScanPrivateURL",
@@ -66,8 +66,8 @@
         "dataTypes": [
           "url"
         ],
-        "file": "cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json"
+        "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json"
       }
     ],
     "responders": [],

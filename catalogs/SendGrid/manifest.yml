@@ -19,8 +19,8 @@ integrations:
     dataTypes:
     - thehive:case
     - thehive:alert
-    file: cortex/responders/SendGrid/SendGrid.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/SendGrid/SendGrid.json
+    file: .upstream/cortex/responders/SendGrid/SendGrid.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/SendGrid/SendGrid.json
   functions: []
 stats:
   totalAnalyzers: 0

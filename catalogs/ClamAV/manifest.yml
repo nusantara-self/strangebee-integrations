@@ -17,8 +17,8 @@ integrations:
     description: Use Clamscan with custom rules
     dataTypes:
     - file
-    file: cortex/analyzers/ClamAV/ClamAV_FileInfo.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/ClamAV/ClamAV_FileInfo.json
+    file: .upstream/cortex/analyzers/ClamAV/ClamAV_FileInfo.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/ClamAV/ClamAV_FileInfo.json
   responders: []
   functions: []
 stats:

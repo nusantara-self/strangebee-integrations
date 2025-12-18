@@ -21,8 +21,8 @@ integrations:
     dataTypes:
     - hash
     - file
-    file: cortex/analyzers/Virusshare/Virusshare.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Virusshare/Virusshare.json
+    file: .upstream/cortex/analyzers/Virusshare/Virusshare.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Virusshare/Virusshare.json
   responders: []
   functions: []
 stats:

@@ -20,8 +20,8 @@ integrations:
     description: ClusterHawk prediction analyzer for IP address threat intelligence using pre-trained models
     dataTypes:
     - ip
-    file: cortex/analyzers/ClusterHawk/ClusterHawk.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/ClusterHawk/ClusterHawk.json
+    file: .upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json
   responders: []
   functions: []
 stats:

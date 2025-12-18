@@ -22,15 +22,15 @@ integrations:
     - url
     - domain
     - ip
-    file: cortex/analyzers/Vulners/Vulners_IOC.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Vulners/Vulners_IOC.json
+    file: .upstream/cortex/analyzers/Vulners/Vulners_IOC.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Vulners/Vulners_IOC.json
   - name: Vulners_CVE
     version: '1.0'
     description: Get information about CVE from powerful Vulners database.
     dataTypes:
     - cve
-    file: cortex/analyzers/Vulners/Vulners_CVE.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Vulners/Vulners_CVE.json
+    file: .upstream/cortex/analyzers/Vulners/Vulners_CVE.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Vulners/Vulners_CVE.json
   responders: []
   functions: []
 stats:

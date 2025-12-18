@@ -20,8 +20,8 @@
         "dataTypes": [
           "thehive:case"
         ],
-        "file": "cortex/responders/Telegram/Telegram.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Telegram/Telegram.json"
+        "file": ".upstream/cortex/responders/Telegram/Telegram.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Telegram/Telegram.json"
       }
     ],
     "functions": []

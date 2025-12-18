@@ -23,8 +23,8 @@
           "hash",
           "ip"
         ],
-        "file": "cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json"
+        "file": ".upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json"
       },
       {
         "name": "SEKOIAIntelligenceCenter_Observables",
@@ -37,8 +37,8 @@
           "hash",
           "ip"
         ],
-        "file": "cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json"
+        "file": ".upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json"
       },
       {
         "name": "SEKOIAIntelligenceCenter_Context",
@@ -51,8 +51,8 @@
           "hash",
           "ip"
         ],
-        "file": "cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json"
+        "file": ".upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json"
       }
     ],
     "responders": [],

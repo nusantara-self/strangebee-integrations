@@ -21,15 +21,15 @@ integrations:
     description: Start an acquisition with Binalyze AIR.
     dataTypes:
     - thehive:case_artifact
-    file: cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json
+    file: .upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json
   - name: Binalyze_AIR_Isolation
     version: '1.0'
     description: Isolate your endpoints with Binalyze AIR.
     dataTypes:
     - thehive:case_artifact
-    file: cortex/responders/BinalyzeAIR/binalyze_air_isolation.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json
+    file: .upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json
   functions: []
 stats:
   totalAnalyzers: 0

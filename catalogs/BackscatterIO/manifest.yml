@@ -20,8 +20,8 @@ integrations:
     - network
     - autonomous-system
     - port
-    file: cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
+    file: .upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
   - name: BackscatterIO_GetObservations
     version: '1.0'
     description: Determine whether a value has known scanning activity using Backscatter.io data.
@@ -29,8 +29,8 @@ integrations:
     - ip
     - network
     - autonomous-system
-    file: cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
+    file: .upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
   responders: []
   functions: []
 stats:

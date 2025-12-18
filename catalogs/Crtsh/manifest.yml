@@ -20,8 +20,8 @@ integrations:
     description: Query domains against the certificate transparency lists available at crt.sh.
     dataTypes:
     - domain
-    file: cortex/analyzers/Crtsh/Crtsh.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Crtsh/Crtsh.json
+    file: .upstream/cortex/analyzers/Crtsh/Crtsh.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Crtsh/Crtsh.json
   responders: []
   functions: []
 stats:

@@ -17,8 +17,8 @@
           "domain",
           "fqdn"
         ],
-        "file": "cortex/analyzers/Investigate/Investigate_Categorization.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Investigate/Investigate_Categorization.json"
+        "file": ".upstream/cortex/analyzers/Investigate/Investigate_Categorization.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Investigate/Investigate_Categorization.json"
       },
       {
         "name": "Investigate_Sample",
@@ -27,8 +27,8 @@
         "dataTypes": [
           "hash"
         ],
-        "file": "cortex/analyzers/Investigate/Investigate_Sample.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Investigate/Investigate_Sample.json"
+        "file": ".upstream/cortex/analyzers/Investigate/Investigate_Sample.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Investigate/Investigate_Sample.json"
       }
     ],
     "responders": [],

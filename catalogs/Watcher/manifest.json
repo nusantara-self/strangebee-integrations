@@ -16,8 +16,8 @@
         "dataTypes": [
           "domain"
         ],
-        "file": "cortex/analyzers/Watcher/Watcher_CheckDomain.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Watcher/Watcher_CheckDomain.json"
+        "file": ".upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json"
       }
     ],
     "responders": [
@@ -28,8 +28,8 @@
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": "cortex/responders/Watcher/Watcher_AddDomain.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Watcher/Watcher_AddDomain.json"
+        "file": ".upstream/cortex/responders/Watcher/Watcher_AddDomain.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Watcher/Watcher_AddDomain.json"
       },
       {
         "name": "Watcher_RemoveDomain",
@@ -38,8 +38,8 @@
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": "cortex/responders/Watcher/Watcher_RemoveDomain.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Watcher/Watcher_RemoveDomain.json"
+        "file": ".upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json"
       }
     ],
     "functions": []

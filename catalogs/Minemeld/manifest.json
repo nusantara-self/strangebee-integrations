@@ -20,8 +20,8 @@
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": "cortex/responders/Minemeld/minemeld.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Minemeld/minemeld.json"
+        "file": ".upstream/cortex/responders/Minemeld/minemeld.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Minemeld/minemeld.json"
       }
     ],
     "functions": []

@@ -17,8 +17,8 @@
           "domain",
           "fqdn"
         ],
-        "file": "cortex/analyzers/Umbrella/Umbrella_Report.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Umbrella/Umbrella_Report.json"
+        "file": ".upstream/cortex/analyzers/Umbrella/Umbrella_Report.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Umbrella/Umbrella_Report.json"
       }
     ],
     "responders": [],

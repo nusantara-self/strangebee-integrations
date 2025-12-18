@@ -20,8 +20,8 @@ integrations:
     dataTypes:
     - crypto_address
     - btc_address
-    file: cortex/analyzers/ChainAbuse/ChainAbuse.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/ChainAbuse/ChainAbuse.json
+    file: .upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json
   responders: []
   functions: []
 stats:

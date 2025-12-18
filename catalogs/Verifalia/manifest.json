@@ -16,8 +16,8 @@
         "dataTypes": [
           "mail"
         ],
-        "file": "cortex/analyzers/Verifalia/Verifalia.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Verifalia/Verifalia.json"
+        "file": ".upstream/cortex/analyzers/Verifalia/Verifalia.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Verifalia/Verifalia.json"
       }
     ],
     "responders": [],

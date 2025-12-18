@@ -20,8 +20,8 @@ integrations:
     description: Query the SANS ISC DShield API to check for an IP address reputation.
     dataTypes:
     - ip
-    file: cortex/analyzers/DShield/DShield_lookup.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/DShield/DShield_lookup.json
+    file: .upstream/cortex/analyzers/DShield/DShield_lookup.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/DShield/DShield_lookup.json
   responders: []
   functions: []
 stats:

@@ -23,8 +23,8 @@ integrations:
     - ip
     - domain
     - fqdn
-    file: cortex/analyzers/ForcepointWebsensePing/ForcepointWebsensePing.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/ForcepointWebsensePing/ForcepointWebsensePing.json
+    file: .upstream/cortex/analyzers/ForcepointWebsensePing/ForcepointWebsensePing.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/ForcepointWebsensePing/ForcepointWebsensePing.json
   responders: []
   functions: []
 stats:

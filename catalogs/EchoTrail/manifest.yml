@@ -22,8 +22,8 @@ integrations:
     dataTypes:
     - hash
     - filename
-    file: cortex/analyzers/EchoTrail/EchoTrail.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/EchoTrail/EchoTrail.json
+    file: .upstream/cortex/analyzers/EchoTrail/EchoTrail.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/EchoTrail/EchoTrail.json
   responders: []
   functions: []
 stats:

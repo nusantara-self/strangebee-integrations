@@ -24,8 +24,8 @@
           "mail",
           "url"
         ],
-        "file": "cortex/analyzers/Cluster25/C25CortexAnalyzer_investigate.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Cluster25/C25CortexAnalyzer_investigate.json"
+        "file": ".upstream/cortex/analyzers/Cluster25/C25CortexAnalyzer_investigate.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Cluster25/C25CortexAnalyzer_investigate.json"
       }
     ],
     "responders": [],

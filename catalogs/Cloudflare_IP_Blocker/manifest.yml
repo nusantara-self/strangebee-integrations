@@ -21,8 +21,8 @@ integrations:
     description: Block IP Address on Account level in Cloudflare
     dataTypes:
     - thehive:case_artifact
-    file: cortex/responders/Cloudflare_IP_Blocker/CloudflareIPBlocker.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Cloudflare_IP_Blocker/CloudflareIPBlocker.json
+    file: .upstream/cortex/responders/Cloudflare_IP_Blocker/CloudflareIPBlocker.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Cloudflare_IP_Blocker/CloudflareIPBlocker.json
   functions: []
 stats:
   totalAnalyzers: 0

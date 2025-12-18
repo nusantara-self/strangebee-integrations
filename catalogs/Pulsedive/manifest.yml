@@ -20,8 +20,8 @@ integrations:
     - domain
     - ip
     - hash
-    file: cortex/analyzers/Pulsedive/Pulsedive_GetIndicator.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Pulsedive/Pulsedive_GetIndicator.json
+    file: .upstream/cortex/analyzers/Pulsedive/Pulsedive_GetIndicator.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Pulsedive/Pulsedive_GetIndicator.json
   responders: []
   functions: []
 stats:

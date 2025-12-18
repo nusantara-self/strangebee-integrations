@@ -20,8 +20,8 @@
           "url",
           "domain"
         ],
-        "file": "cortex/analyzers/HybridAnalysis/HybridAnalysis_GetReport.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/HybridAnalysis/HybridAnalysis_GetReport.json"
+        "file": ".upstream/cortex/analyzers/HybridAnalysis/HybridAnalysis_GetReport.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/HybridAnalysis/HybridAnalysis_GetReport.json"
       }
     ],
     "responders": [],

@@ -21,8 +21,8 @@ integrations:
       collect information about the status of the tasks of the incidents.
     dataTypes:
     - thehive:case
-    file: cortex/responders/MailIncidentStatus/MailIncidentStatus.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/MailIncidentStatus/MailIncidentStatus.json
+    file: .upstream/cortex/responders/MailIncidentStatus/MailIncidentStatus.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/MailIncidentStatus/MailIncidentStatus.json
   functions: []
 stats:
   totalAnalyzers: 0

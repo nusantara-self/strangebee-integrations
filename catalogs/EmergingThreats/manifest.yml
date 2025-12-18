@@ -21,23 +21,23 @@ integrations:
     dataTypes:
     - domain
     - fqdn
-    file: cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json
+    file: .upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json
   - name: EmergingThreats_MalwareInfo
     version: '1.0'
     description: Retrieve ET details and info related to a malware hash.
     dataTypes:
     - file
     - hash
-    file: cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json
+    file: .upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json
   - name: EmergingThreats_IPInfo
     version: '1.0'
     description: Retrieve ET reputation, related malware, and IDS requests for a given IP address.
     dataTypes:
     - ip
-    file: cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json
+    file: .upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json
   responders: []
   functions: []
 stats:

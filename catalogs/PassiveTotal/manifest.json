@@ -18,8 +18,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/PassiveTotal/PassiveTotal_Osint.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PassiveTotal/PassiveTotal_Osint.json"
+        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Osint.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Osint.json"
       },
       {
         "name": "PassiveTotal_Components",
@@ -30,8 +30,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/PassiveTotal/PassiveTotal_Components.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json"
+        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json"
       },
       {
         "name": "PassiveTotal_Enrichment",
@@ -42,8 +42,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/PassiveTotal/PassiveTotal_Enrichment.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PassiveTotal/PassiveTotal_Enrichment.json"
+        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Enrichment.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Enrichment.json"
       },
       {
         "name": "PassiveTotal_Ssl_Certificate_History",
@@ -53,8 +53,8 @@
           "hash",
           "ip"
         ],
-        "file": "cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_History.json"
+        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_History.json"
       },
       {
         "name": "PassiveTotal_Host_Pairs",
@@ -65,8 +65,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json"
+        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json"
       },
       {
         "name": "PassiveTotal_Passive_Dns",
@@ -77,8 +77,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json"
+        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json"
       },
       {
         "name": "PassiveTotal_Whois_Details",
@@ -89,8 +89,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json"
+        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json"
       },
       {
         "name": "PassiveTotal_Trackers",
@@ -101,8 +101,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/PassiveTotal/PassiveTotal_Trackers.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PassiveTotal/PassiveTotal_Trackers.json"
+        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Trackers.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Trackers.json"
       },
       {
         "name": "PassiveTotal_Ssl_Certificate_Details",
@@ -112,8 +112,8 @@
           "hash",
           "ip"
         ],
-        "file": "cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json"
+        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json"
       },
       {
         "name": "PassiveTotal_Unique_Resolutions",
@@ -124,8 +124,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/PassiveTotal/PassiveTotal_Unique_Resolutions.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PassiveTotal/PassiveTotal_Unique_Resolutions.json"
+        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Unique_Resolutions.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Unique_Resolutions.json"
       },
       {
         "name": "PassiveTotal_Malware",
@@ -136,8 +136,8 @@
           "fqdn",
           "ip"
         ],
-        "file": "cortex/analyzers/PassiveTotal/PassiveTotal_Malware.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/PassiveTotal/PassiveTotal_Malware.json"
+        "file": ".upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Malware.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Malware.json"
       }
     ],
     "responders": [],

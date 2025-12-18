@@ -17,23 +17,23 @@ integrations:
     description: Checks if a domain is monitored in Watcher.
     dataTypes:
     - domain
-    file: cortex/analyzers/Watcher/Watcher_CheckDomain.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Watcher/Watcher_CheckDomain.json
+    file: .upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json
   responders:
   - name: Watcher_AddDomain
     version: '1.2'
     description: Add a domain to monitoring in the Website Monitoring module on Watcher.
     dataTypes:
     - thehive:case_artifact
-    file: cortex/responders/Watcher/Watcher_AddDomain.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Watcher/Watcher_AddDomain.json
+    file: .upstream/cortex/responders/Watcher/Watcher_AddDomain.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Watcher/Watcher_AddDomain.json
   - name: Watcher_RemoveDomain
     version: '1.2'
     description: Removes a domain from monitoring in the Website Monitoring module on Watcher.
     dataTypes:
     - thehive:case_artifact
-    file: cortex/responders/Watcher/Watcher_RemoveDomain.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/responders/Watcher/Watcher_RemoveDomain.json
+    file: .upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json
   functions: []
 stats:
   totalAnalyzers: 1

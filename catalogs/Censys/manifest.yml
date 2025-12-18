@@ -22,8 +22,8 @@ integrations:
     - ip
     - hash
     - domain
-    file: cortex/analyzers/Censys/Censys.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Censys/Censys.json
+    file: .upstream/cortex/analyzers/Censys/Censys.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Censys/Censys.json
   responders: []
   functions: []
 stats:

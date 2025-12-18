@@ -23,8 +23,8 @@ integrations:
     - ip
     - url
     - file
-    file: cortex/analyzers/Triage/Triage.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Triage/Triage.json
+    file: .upstream/cortex/analyzers/Triage/Triage.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Triage/Triage.json
   responders: []
   functions: []
 stats:

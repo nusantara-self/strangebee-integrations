@@ -20,83 +20,83 @@ integrations:
     description: Execute a savedsearch on a Splunk instance with an unidentified data as argument
     dataTypes:
     - other
-    file: cortex/analyzers/Splunk/Splunk_Search_other.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_other.json
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
   - name: Splunk_Search_Registry
     version: '3.0'
     description: Execute a savedsearch on a Splunk instance with a registry data as argument
     dataTypes:
     - registry
-    file: cortex/analyzers/Splunk/Splunk_Search_registry.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_registry.json
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
   - name: Splunk_Search_Mail_Subject
     version: '3.0'
     description: Execute a savedsearch on a Splunk instance with a mail subject as argument
     dataTypes:
     - mail_subject
     - mail-subject
-    file: cortex/analyzers/Splunk/Splunk_Search_mail_subject.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json
   - name: Splunk_Search_File_Filename
     version: '3.0'
     description: Execute a savedsearch on a Splunk instance with a file/filename as argument
     dataTypes:
     - file
     - filename
-    file: cortex/analyzers/Splunk/Splunk_Search_file_filename.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
   - name: Splunk_Search_User_Agent
     version: '3.0'
     description: Execute a savedsearch on a Splunk instance with a user agent as argument
     dataTypes:
     - user-agent
-    file: cortex/analyzers/Splunk/Splunk_Search_user_agent.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
   - name: Splunk_Search_Mail_Email
     version: '3.0'
     description: Execute a savedsearch on a Splunk instance with a mail/email as argument
     dataTypes:
     - mail
     - email
-    file: cortex/analyzers/Splunk/Splunk_Search_mail_email.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
   - name: Splunk_Search_IP
     version: '3.0'
     description: Execute a savedsearch on a Splunk instance with an IP as argument
     dataTypes:
     - ip
-    file: cortex/analyzers/Splunk/Splunk_Search_ip.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_ip.json
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
   - name: Splunk_Search_Hash
     version: '3.0'
     description: Execute a savedsearch on a Splunk instance with a hash as argument
     dataTypes:
     - hash
-    file: cortex/analyzers/Splunk/Splunk_Search_hash.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_hash.json
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json
   - name: Splunk_Search_Domain_FQDN
     version: '3.0'
     description: Execute a savedsearch on a Splunk instance with a domain or a FQDN as argument
     dataTypes:
     - domain
     - fqdn
-    file: cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
   - name: Splunk_Search_User
     version: '3.0'
     description: Execute a savedsearch on a Splunk instance with a user ID as argument
     dataTypes:
     - other
-    file: cortex/analyzers/Splunk/Splunk_Search_user.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_user.json
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
   - name: Splunk_Search_URL_URI_Path
     version: '3.0'
     description: Execute a savedsearch on a Splunk instance with an URL or a URI path as argument
     dataTypes:
     - url
     - uri_path
-    file: cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json
   responders: []
   functions: []
 stats:
