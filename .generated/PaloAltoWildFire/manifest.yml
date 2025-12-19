@@ -24,10 +24,19 @@ integrations:
     - hash
     file: .upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
     url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
-  responders: []
+  responders:
+  - name: PaloAltoWildFire_URL_submission
+    version: '1.0'
+    description: Submit URL to PaloAlto WildFire service.
+    dataTypes:
+    - url
+    - domain
+    - fqdn
+    file: .upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json
   functions: []
 stats:
   totalAnalyzers: 1
-  totalResponders: 0
+  totalResponders: 1
   totalFunctions: 0
-  total: 1
+  total: 2

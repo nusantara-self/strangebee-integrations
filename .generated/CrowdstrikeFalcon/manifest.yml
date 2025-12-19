@@ -15,21 +15,9 @@ tags:
 - edr
 homepage: https://www.crowdstrike.com
 logo:
-  file: docs/vendors/CrowdstrikeFalcon/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/assets/logo.png
-useCases:
-- name: Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents
-  description: Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync
-    responder.
-  documentation:
-    file: docs/vendors/CrowdstrikeFalcon/synchronize-status-thehive-crowdstrike-falcon.md
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/synchronize-status-thehive-crowdstrike-falcon.md
-  tags:
-  - status
-  - sync
-  - crowdstrike
-  - thehive
-  - automation
+  file: integrations/vendors/CrowdstrikeFalcon/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/assets/logo.png
+useCases: []
 registration_required: true
 subscription_required: true
 free_subscription: false
@@ -178,8 +166,8 @@ integrations:
     description: Ingests CrowdstrikeFalcon Alerts, also processes observables & TTPs.
     kind: function
     mode: Enabled
-    file: thehive/functions/CrowdstrikeFalcon/crwd-alert-ingestion.js
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/thehive/functions/CrowdstrikeFalcon/crwd-alert-ingestion.js
+    file: integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js
 stats:
   totalAnalyzers: 10
   totalResponders: 9

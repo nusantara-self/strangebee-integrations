@@ -900,21 +900,9 @@ CrowdstrikeFalcon:
   - edr
   homepage: https://www.crowdstrike.com
   logo:
-    file: docs/vendors/CrowdstrikeFalcon/assets/logo.png
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/assets/logo.png
-  useCases:
-  - name: Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents
-    description: Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync
-      responder.
-    documentation:
-      file: docs/vendors/CrowdstrikeFalcon/synchronize-status-thehive-crowdstrike-falcon.md
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/CrowdstrikeFalcon/synchronize-status-thehive-crowdstrike-falcon.md
-    tags:
-    - status
-    - sync
-    - crowdstrike
-    - thehive
-    - automation
+    file: integrations/vendors/CrowdstrikeFalcon/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/assets/logo.png
+  useCases: []
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -1063,8 +1051,8 @@ CrowdstrikeFalcon:
       description: Ingests CrowdstrikeFalcon Alerts, also processes observables & TTPs.
       kind: function
       mode: Enabled
-      file: thehive/functions/CrowdstrikeFalcon/crwd-alert-ingestion.js
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/thehive/functions/CrowdstrikeFalcon/crwd-alert-ingestion.js
+      file: integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js
   stats:
     totalAnalyzers: 10
     totalResponders: 9
@@ -4608,43 +4596,22 @@ PaloAltoWildFire:
       - hash
       file: .upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
       url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    total: 1
-PaloAltoWildfire:
-  id: PaloAltoWildfire
-  name: PaloAltoWildfire
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  registration_required: true
-  subscription_required: true
-  free_subscription: false
-  integrations:
-    analyzers: []
     responders:
-    - name: PaloAltoWildfire_URL_submission
+    - name: PaloAltoWildFire_URL_submission
       version: '1.0'
-      description: Submit URL to PaloAlto Wildfire service.
+      description: Submit URL to PaloAlto WildFire service.
       dataTypes:
       - url
       - domain
       - fqdn
-      file: .upstream/cortex/responders/PaloAltoWildfire/PaloAltoWildfire_URL_submission.json
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoWildfire/PaloAltoWildfire_URL_submission.json
+      file: .upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json
     functions: []
   stats:
-    totalAnalyzers: 0
+    totalAnalyzers: 1
     totalResponders: 1
     totalFunctions: 0
-    total: 1
+    total: 2
 PassiveTotal:
   id: PassiveTotal
   name: PassiveTotal
@@ -4897,31 +4864,9 @@ Proofpoint:
   - email-security
   homepage: https://www.proofpoint.com
   logo:
-    file: docs/vendors/Proofpoint/assets/logo.png
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Proofpoint/assets/logo.png
-  useCases:
-  - name: Ingest Proofpoint ClicksPermitted Events into TheHive Using an Alert Feeder
-    description: Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and respond to users who clicked
-      on malicious links that were not blocked by Proofpoint and may require investigation.
-    documentation:
-      file: docs/vendors/Proofpoint/alert-ingestion-clicksPermitted.md
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Proofpoint/alert-ingestion-clicksPermitted.md
-    tags:
-    - proofpoint
-    - tap
-    - clicksPermitted
-    - alert-ingestion
-  - name: Ingest Proofpoint MessagesDelivered Events into TheHive Using an Alert Feeder
-    description: Ingest Proofpoint TAP messagesDelivered events as TheHive alerts to track and respond to threats that have
-      reached user mailboxes and may require investigation.
-    documentation:
-      file: docs/vendors/Proofpoint/alert-ingestion-messageDelivered.md
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Proofpoint/alert-ingestion-messageDelivered.md
-    tags:
-    - proofpoint
-    - tap
-    - messagesDelivered
-    - alert-ingestion
+    file: integrations/vendors/Proofpoint/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/assets/logo.png
+  useCases: []
   integrations:
     analyzers:
     - name: Proofpoint_Lookup
@@ -4940,15 +4885,15 @@ Proofpoint:
       description: Ingests ProofPoint messageDelivered alerts in TheHive
       kind: function
       mode: Enabled
-      file: thehive/functions/Proofpoint/function_Feeder_alertFromProofpoint_messageDelivered
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/thehive/functions/Proofpoint/function_Feeder_alertFromProofpoint_messageDelivered
+      file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered
     - name: alertFeeder_ProofPoint_clicksPermitted
       version: 1.0.0
       description: Ingests ProofPoint clicksPermitted alerts in TheHive
       kind: function
       mode: Enabled
-      file: thehive/functions/Proofpoint/function_Feeder_alertFromProofpoint_clicksPermitted
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/thehive/functions/Proofpoint/function_Feeder_alertFromProofpoint_clicksPermitted
+      file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted
   stats:
     totalAnalyzers: 1
     totalResponders: 0
@@ -5601,28 +5546,9 @@ Slack:
   - chat
   homepage: https://slack.com
   logo:
-    file: docs/vendors/Slack/assets/logo.png
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/assets/logo.png
-  useCases:
-  - name: Notify Slack When an Alert Is Created in TheHive
-    description: For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.
-    documentation:
-      file: docs/vendors/Slack/slack-notifier-alert-creation.md
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/slack-notifier-alert-creation.md
-    tags:
-    - slack
-    - communication
-    - notification
-  - name: Notify Slack When a Case Assignee Changes in TheHive
-    description: For each assignee change for a case in TheHive, create a Slack block message and link to the case. @here
-      will inform only active users.
-    documentation:
-      file: docs/vendors/Slack/slack-case-assignee-change.md
-      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/docs/vendors/Slack/slack-case-assignee-change.md
-    tags:
-    - slack
-    - communication
-    - notification
+    file: integrations/vendors/Slack/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Slack/assets/logo.png
+  useCases: []
   registration_required: true
   subscription_required: false
   free_subscription: true
