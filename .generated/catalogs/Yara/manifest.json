@@ -1,0 +1,32 @@
+{
+  "id": "Yara",
+  "name": "Yara",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "Yara",
+        "version": "3.0",
+        "description": "Check files against YARA rules, either from local filesystem or from one or multiple GitHub repositories. NOTE: Performance & execution time may be much longer according to the number of rules checked.",
+        "dataTypes": [
+          "file"
+        ],
+        "file": ".upstream/cortex/analyzers/Yara/Yara.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Yara/Yara.json"
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

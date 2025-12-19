@@ -1,0 +1,32 @@
+{
+  "id": "QrDecode",
+  "name": "QrDecode",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "QrDecode",
+        "version": "1.0",
+        "description": "Extracts data from one or more QR codes.",
+        "dataTypes": [
+          "file"
+        ],
+        "file": ".upstream/cortex/analyzers/QrDecode/QrDecode.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/QrDecode/QrDecode.json"
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

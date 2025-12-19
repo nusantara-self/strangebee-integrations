@@ -1,0 +1,337 @@
+{
+  "id": "HarfangLab",
+  "name": "HarfangLab",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "subscription_required": true,
+  "free_subscription": false,
+  "integrations": {
+    "analyzers": [],
+    "responders": [
+      {
+        "name": "HarfangLab-GetArtifactUSN",
+        "version": "1.0",
+        "description": "Get USN logs artifact",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactUSN.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactUSN.json"
+      },
+      {
+        "name": "HarfangLab-IsolateHost",
+        "version": "1.0",
+        "description": "Isolate machine with HarfangLab EDR",
+        "dataTypes": [
+          "thehive:case",
+          "thehive:alert"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_Isolate.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_Isolate.json"
+      },
+      {
+        "name": "HarfangLab-KillProcess",
+        "version": "1.0",
+        "description": "Kill a process",
+        "dataTypes": [
+          "thehive:case",
+          "thehive:alert"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_KillProcess.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_KillProcess.json"
+      },
+      {
+        "name": "HarfangLab-GetScheduledTasks",
+        "version": "1.0",
+        "description": "Get scheduled tasks on a host",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetScheduledTasks.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetScheduledTasks.json"
+      },
+      {
+        "name": "HarfangLab-GetArtifactMFT",
+        "version": "1.0",
+        "description": "Get MFT artifact",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactMFT.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactMFT.json"
+      },
+      {
+        "name": "HarfangLab-GetArtifactEvtx",
+        "version": "1.0",
+        "description": "Get Windows event logs artifact",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactEvtx.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactEvtx.json"
+      },
+      {
+        "name": "HarfangLab-DumpProcess",
+        "version": "1.0",
+        "description": "Dump process memory",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_DumpProcess.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_DumpProcess.json"
+      },
+      {
+        "name": "HarfangLab-GetSessions",
+        "version": "1.0",
+        "description": "Get sessions on a host",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetSessions.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetSessions.json"
+      },
+      {
+        "name": "HarfangLab-GetDrivers",
+        "version": "1.0",
+        "description": "Get drivers loaded on a host",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetDrivers.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetDrivers.json"
+      },
+      {
+        "name": "HarfangLab-GetRunKeys",
+        "version": "1.0",
+        "description": "Get RUN keys on a host",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetRunKeys.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetRunKeys.json"
+      },
+      {
+        "name": "HarfangLab-GetNetworkShares",
+        "version": "1.0",
+        "description": "Get network shares on a host",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetNetworkShares.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetNetworkShares.json"
+      },
+      {
+        "name": "HarfangLab-GetArtifactLogs",
+        "version": "1.0",
+        "description": "Get Linux logs artifact",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactLogs.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactLogs.json"
+      },
+      {
+        "name": "HarfangLab-SearchDestinationIP",
+        "version": "1.0",
+        "description": "Search an IP in HarfangLab EDR's telemetry",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_SearchDestinationIP.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_SearchDestinationIP.json"
+      },
+      {
+        "name": "HarfangLab_SearchDriverByHash",
+        "version": "1.0",
+        "description": "Search a driver load in HarfangLab EDR's telemetry per hash",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByHash.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByHash.json"
+      },
+      {
+        "name": "HarfangLab-GetPipes",
+        "version": "1.0",
+        "description": "Get pipes on a host",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetPipes.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetPipes.json"
+      },
+      {
+        "name": "HarfangLab_SearchDriverByFileName",
+        "version": "1.0",
+        "description": "Search a driver load in HarfangLab EDR's telemetry per filename",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json"
+      },
+      {
+        "name": "HarfangLab-SearchSourceIP",
+        "version": "1.0",
+        "description": "Search an IP in HarfangLab EDR's telemetry",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_SearchSourceIP.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_SearchSourceIP.json"
+      },
+      {
+        "name": "HarfangLab-GetBinary",
+        "version": "1.0",
+        "description": "Get binary information and download link",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetBinary.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetBinary.json"
+      },
+      {
+        "name": "HarfangLab-GetProcesses",
+        "version": "1.0",
+        "description": "Get processes running on a host",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetProcesses.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetProcesses.json"
+      },
+      {
+        "name": "HarfangLab-GetWMI",
+        "version": "1.0",
+        "description": "Get WMI items on a host",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetWMI.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetWMI.json"
+      },
+      {
+        "name": "HarfangLab-GetPrefetches",
+        "version": "1.0",
+        "description": "Get prefetches on a host",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetPrefetches.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetPrefetches.json"
+      },
+      {
+        "name": "HarfangLab-GetPersistence",
+        "version": "1.0",
+        "description": "Get persistence items on a Linux host",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetPersistence.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetPersistence.json"
+      },
+      {
+        "name": "HarfangLab-GetArtifactRamdump",
+        "version": "1.0",
+        "description": "Get RAM dump artifact",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactRamdump.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactRamdump.json"
+      },
+      {
+        "name": "HarfangLab-GetArtifactAll",
+        "version": "1.0",
+        "description": "Get all artifacts",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactAll.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactAll.json"
+      },
+      {
+        "name": "HarfangLab-UnisolateHost",
+        "version": "1.0",
+        "description": "Isolate machine with HarfangLab EDR",
+        "dataTypes": [
+          "thehive:case",
+          "thehive:alert"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_Unisolate.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_Unisolate.json"
+      },
+      {
+        "name": "HarfangLab-GetArtifactPrefetch",
+        "version": "1.0",
+        "description": "Get prefetches artifact",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactPrefetch.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactPrefetch.json"
+      },
+      {
+        "name": "HarfangLab-GetArtifactFilesystem",
+        "version": "1.0",
+        "description": "Get Linux filesystem artifact",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactFilesystem.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactFilesystem.json"
+      },
+      {
+        "name": "HarfangLab-GetArtifactHives",
+        "version": "1.0",
+        "description": "Get Hives artifact",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactHives.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactHives.json"
+      },
+      {
+        "name": "HarfangLab-GetStartupFiles",
+        "version": "1.0",
+        "description": "Get startup files on a host",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetStartupFiles.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetStartupFiles.json"
+      },
+      {
+        "name": "HarfangLab-GetServices",
+        "version": "1.0",
+        "description": "Get services on a host",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetServices.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetServices.json"
+      },
+      {
+        "name": "HarfangLab-SearchHash",
+        "version": "1.0",
+        "description": "Search a hash in HarfangLab EDR's telemetry",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_SearchHash.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_SearchHash.json"
+      }
+    ],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 31,
+    "totalFunctions": 0,
+    "total": 31
+  }
+}

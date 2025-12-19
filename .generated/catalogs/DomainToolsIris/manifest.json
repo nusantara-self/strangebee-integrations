@@ -1,0 +1,47 @@
+{
+  "id": "DomainToolsIris",
+  "name": "DomainToolsIris",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "registration_required": true,
+  "subscription_required": true,
+  "free_subscription": false,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "DomainToolsIris_Pivot",
+        "version": "1.0",
+        "description": "Use DomainTools Iris API to pivot on ssl_hash, ip, or email.",
+        "dataTypes": [
+          "hash",
+          "ip",
+          "mail"
+        ],
+        "file": ".upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json"
+      },
+      {
+        "name": "DomainToolsIris_Investigate",
+        "version": "1.0",
+        "description": "Use DomainTools Iris API to investigate a domain.",
+        "dataTypes": [
+          "domain"
+        ],
+        "file": ".upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json"
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 2,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "total": 2
+  }
+}

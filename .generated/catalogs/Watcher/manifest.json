@@ -1,0 +1,53 @@
+{
+  "id": "Watcher",
+  "name": "Watcher",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "Watcher_CheckDomain",
+        "version": "1.3",
+        "description": "Checks if a domain is monitored in Watcher.",
+        "dataTypes": [
+          "domain"
+        ],
+        "file": ".upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json"
+      }
+    ],
+    "responders": [
+      {
+        "name": "Watcher_AddDomain",
+        "version": "1.2",
+        "description": "Add a domain to monitoring in the Website Monitoring module on Watcher.",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/Watcher/Watcher_AddDomain.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/Watcher/Watcher_AddDomain.json"
+      },
+      {
+        "name": "Watcher_RemoveDomain",
+        "version": "1.2",
+        "description": "Removes a domain from monitoring in the Website Monitoring module on Watcher.",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json"
+      }
+    ],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 2,
+    "totalFunctions": 0,
+    "total": 3
+  }
+}

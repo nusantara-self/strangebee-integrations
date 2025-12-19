@@ -1,0 +1,33 @@
+{
+  "id": "GoogleSafebrowsing",
+  "name": "GoogleSafebrowsing",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "GoogleSafebrowsing",
+        "version": "2.0",
+        "description": "Use Google Safebrowing to check URLs and domain names.",
+        "dataTypes": [
+          "url",
+          "domain"
+        ],
+        "file": ".upstream/cortex/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json"
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

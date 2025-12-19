@@ -1,0 +1,50 @@
+{
+  "id": "PaloAltoWildFire",
+  "name": "PaloAltoWildFire",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "registration_required": true,
+  "subscription_required": true,
+  "free_subscription": false,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "PaloAltoWildFire",
+        "version": "1.0",
+        "description": "Run Palo Alto WildFire analysis on a file, hash, or URL",
+        "dataTypes": [
+          "file",
+          "url",
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json"
+      }
+    ],
+    "responders": [
+      {
+        "name": "PaloAltoWildFire_URL_submission",
+        "version": "1.0",
+        "description": "Submit URL to PaloAlto WildFire service.",
+        "dataTypes": [
+          "url",
+          "domain",
+          "fqdn"
+        ],
+        "file": ".upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json"
+      }
+    ],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 1,
+    "totalFunctions": 0,
+    "total": 2
+  }
+}

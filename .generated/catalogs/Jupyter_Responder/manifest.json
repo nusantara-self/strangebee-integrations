@@ -1,0 +1,36 @@
+{
+  "id": "Jupyter_Responder",
+  "name": "Jupyter_Responder",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "integrations": {
+    "analyzers": [],
+    "responders": [
+      {
+        "name": "Jupyter_Run_Notebook_Responder",
+        "version": "1.0",
+        "description": "Execute a parameterized notebook in Jupyter",
+        "dataTypes": [
+          "thehive:case",
+          "thehive:case_artifact",
+          "thehive:alert",
+          "thehive:case_task",
+          "thehive:case_task_log"
+        ],
+        "file": ".upstream/cortex/responders/Jupyter_Responder/Jupyter_Run_Notebook_Responder.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/Jupyter_Responder/Jupyter_Run_Notebook_Responder.json"
+      }
+    ],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 1,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

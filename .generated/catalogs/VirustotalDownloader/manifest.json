@@ -1,0 +1,35 @@
+{
+  "id": "VirustotalDownloader",
+  "name": "VirustotalDownloader",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "registration_required": true,
+  "subscription_required": true,
+  "free_subscription": false,
+  "integrations": {
+    "analyzers": [],
+    "responders": [
+      {
+        "name": "Virustotal_Downloader",
+        "version": "0.1",
+        "description": "Download a file from Virustotal by its hash",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/VirustotalDownloader/VirustotalDownloader.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/VirustotalDownloader/VirustotalDownloader.json"
+      }
+    ],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 1,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

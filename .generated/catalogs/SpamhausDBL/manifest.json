@@ -1,0 +1,33 @@
+{
+  "id": "SpamhausDBL",
+  "name": "SpamhausDBL",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "SpamhausDBL",
+        "version": "1.0",
+        "description": "Perform domain lookup to Spamhaus DBL",
+        "dataTypes": [
+          "domain",
+          "fqdn"
+        ],
+        "file": ".upstream/cortex/analyzers/SpamhausDBL/SpamhausDBL.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/SpamhausDBL/SpamhausDBL.json"
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

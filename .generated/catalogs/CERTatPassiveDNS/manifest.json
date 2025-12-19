@@ -1,0 +1,34 @@
+{
+  "id": "CERTatPassiveDNS",
+  "name": "CERTatPassiveDNS",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "CERTatPassiveDNS",
+        "version": "2.0",
+        "description": "Checks CERT.at Passive DNS for a given domain.",
+        "dataTypes": [
+          "domain",
+          "fqdn",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/CERTatPassiveDNS/CERTatPassiveDNS.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/CERTatPassiveDNS/CERTatPassiveDNS.json"
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

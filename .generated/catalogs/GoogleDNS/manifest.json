@@ -1,0 +1,34 @@
+{
+  "id": "GoogleDNS",
+  "name": "GoogleDNS",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "GoogleDNS_resolve",
+        "version": "1.0.0",
+        "description": "Request Google DNS over HTTPS service",
+        "dataTypes": [
+          "domain",
+          "ip",
+          "fqdn"
+        ],
+        "file": ".upstream/cortex/analyzers/GoogleDNS/GoogleDNS_resolve.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/GoogleDNS/GoogleDNS_resolve.json"
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

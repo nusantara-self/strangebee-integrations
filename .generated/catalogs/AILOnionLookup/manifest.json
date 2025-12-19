@@ -1,0 +1,37 @@
+{
+  "id": "AILOnionLookup",
+  "name": "AILOnionLookup",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "AIL_OnionLookup",
+        "version": "1.0",
+        "description": "Checks the existence of Tor hidden services and retrieving their associated metadata. Onion-lookup relies on an AIL instance to obtain the metadata.",
+        "dataTypes": [
+          "domain",
+          "url",
+          "fqdn"
+        ],
+        "file": ".upstream/cortex/analyzers/AILOnionLookup/AIL_OnionLookup.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/AILOnionLookup/AIL_OnionLookup.json"
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

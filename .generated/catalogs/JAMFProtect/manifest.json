@@ -1,0 +1,45 @@
+{
+  "id": "JAMFProtect",
+  "name": "JAMFProtect",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "registration_required": true,
+  "subscription_required": true,
+  "free_subscription": false,
+  "integrations": {
+    "analyzers": [],
+    "responders": [
+      {
+        "name": "JAMFProtect_removeHashfromPreventList",
+        "version": "1.0",
+        "description": "Remove IOC on JAMF Protect - removes associated custom prevent list(s) containing the hash",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json"
+      },
+      {
+        "name": "JAMFProtect_addHashtoPreventList",
+        "version": "1.0",
+        "description": "Add IOC to JAMF Protect - creates a custom prevent list for a hash",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json"
+      }
+    ],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 2,
+    "totalFunctions": 0,
+    "total": 2
+  }
+}

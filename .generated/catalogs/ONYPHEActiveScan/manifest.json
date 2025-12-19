@@ -1,0 +1,37 @@
+{
+  "id": "ONYPHEActiveScan",
+  "name": "ONYPHEActiveScan",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "registration_required": true,
+  "subscription_required": true,
+  "free_subscription": false,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "ONYPHE_OnDemandScan",
+        "version": "1.0",
+        "description": "Perform active scan of an asset using a Scanyphe Entreprise On-Demand scanner",
+        "dataTypes": [
+          "ip",
+          "domain",
+          "fqdn"
+        ],
+        "file": ".upstream/cortex/analyzers/ONYPHEActiveScan/ONYPHE_OnDemandScan.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/ONYPHEActiveScan/ONYPHE_OnDemandScan.json"
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "SpamAssassin",
+  "name": "SpamAssassin",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "SpamAssassin",
+        "version": "1.0",
+        "description": "Get spam score from local SpamAssassin instance",
+        "dataTypes": [
+          "file"
+        ],
+        "file": ".upstream/cortex/analyzers/SpamAssassin/SpamAssassin.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/SpamAssassin/SpamAssassin.json"
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

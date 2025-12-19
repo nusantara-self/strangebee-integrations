@@ -1,0 +1,39 @@
+{
+  "id": "Abuse_Finder",
+  "name": "Abuse_Finder",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "Abuse_Finder",
+        "version": "3.0",
+        "description": "Find abuse contacts associated with domain names, URLs, IPs and email addresses.",
+        "dataTypes": [
+          "ip",
+          "domain",
+          "fqdn",
+          "url",
+          "mail"
+        ],
+        "file": ".upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json"
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

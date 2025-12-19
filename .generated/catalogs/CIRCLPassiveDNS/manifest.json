@@ -1,0 +1,37 @@
+{
+  "id": "CIRCLPassiveDNS",
+  "name": "CIRCLPassiveDNS",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "registration_required": true,
+  "subscription_required": true,
+  "free_subscription": true,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "CIRCLPassiveDNS",
+        "version": "2.0",
+        "description": "Check CIRCL's Passive DNS for a given domain or URL.",
+        "dataTypes": [
+          "domain",
+          "url",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/CIRCLPassiveDNS/CIRCLPassiveDNS.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/CIRCLPassiveDNS/CIRCLPassiveDNS.json"
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

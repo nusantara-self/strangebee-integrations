@@ -1,0 +1,53 @@
+{
+  "id": "Slack",
+  "name": "Slack",
+  "description": "Slack is a is a team collaboration platform that provides channels, direct messaging, file sharing, and an app ecosystem for workflows and incident response.",
+  "category": "Collaboration",
+  "tags": [
+    "communication",
+    "collaboration",
+    "notifications",
+    "chat"
+  ],
+  "homepage": "https://slack.com",
+  "logo": {
+    "file": "integrations/vendors/Slack/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Slack/assets/logo.png"
+  },
+  "useCases": [],
+  "registration_required": true,
+  "subscription_required": false,
+  "free_subscription": true,
+  "integrations": {
+    "analyzers": [],
+    "responders": [
+      {
+        "name": "Slack_SyncChannel",
+        "version": "1.0",
+        "description": "Syncs Slack channel conversations to TheHive task logs. Imports messages chronologically with file attachments for traceability.",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/Slack/Slack_SyncChannel.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/Slack/Slack_SyncChannel.json"
+      },
+      {
+        "name": "Slack_CreateChannel",
+        "version": "1.0",
+        "description": "Creates a Slack channel for a TheHive case, invites participants, and optionally posts a case summary and description.",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/Slack/Slack_CreateChannel.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/Slack/Slack_CreateChannel.json"
+      }
+    ],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 2,
+    "totalFunctions": 0,
+    "total": 2
+  }
+}

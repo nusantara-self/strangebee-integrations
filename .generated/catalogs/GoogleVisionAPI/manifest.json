@@ -1,0 +1,33 @@
+{
+  "id": "GoogleVisionAPI",
+  "name": "GoogleVisionAPI",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "GoogleVisionAPI_WebDetection",
+        "version": "1.0.0",
+        "description": "Find look alike image via Google Cloud Vision API using the Web_Detection service ",
+        "dataTypes": [
+          "file",
+          "url"
+        ],
+        "file": ".upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json"
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

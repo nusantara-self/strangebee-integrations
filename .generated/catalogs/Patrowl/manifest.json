@@ -1,0 +1,37 @@
+{
+  "id": "Patrowl",
+  "name": "Patrowl",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "Patrowl_GetReport",
+        "version": "1.0",
+        "description": "Get the current Patrowl report for a fdqn, a domain or an IP address.",
+        "dataTypes": [
+          "fqdn",
+          "domain",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/Patrowl/Patrowl_GetReport.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Patrowl/Patrowl_GetReport.json"
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

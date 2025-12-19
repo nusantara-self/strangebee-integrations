@@ -1,0 +1,47 @@
+{
+  "id": "Vulners",
+  "name": "Vulners",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "registration_required": true,
+  "subscription_required": true,
+  "free_subscription": true,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "Vulners_IOC",
+        "version": "1.0",
+        "description": "Get information from the RST Threat Feed, which integrated with Vulners, for a domain, url or an IP address.",
+        "dataTypes": [
+          "url",
+          "domain",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/Vulners/Vulners_IOC.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Vulners/Vulners_IOC.json"
+      },
+      {
+        "name": "Vulners_CVE",
+        "version": "1.0",
+        "description": "Get information about CVE from powerful Vulners database.",
+        "dataTypes": [
+          "cve"
+        ],
+        "file": ".upstream/cortex/analyzers/Vulners/Vulners_CVE.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Vulners/Vulners_CVE.json"
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 2,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "total": 2
+  }
+}

@@ -1,0 +1,29 @@
+# CISMCAP
+
+
+## Subscription Information
+
+- **Registration Required:** Yes
+- **Subscription Required:** No
+- **Free Subscription Available:** No
+
+## Analyzers (1)
+
+### CISMCAP `v1.0`
+Malicious Code Analysis Platform (MCAP) by the Center for Internet Security (CIS). Submit files for analysis or check feeds for known indicators of compromise for other data types.
+
+- **Data Types:** `ip`, `hash`, `url`, `domain`, `fqdn`, `file`
+- **Configuration:** [.upstream/cortex/analyzers/CISMCAP/CISMCAP.json](.upstream/cortex/analyzers/CISMCAP/CISMCAP.json)
+
+---
+
+## Statistics
+
+- **Total Analyzers:** 1
+- **Total Responders:** 0
+- **Total Functions:** 0
+- **Total Integrations:** 1
+
+---
+
+*This file is auto-generated from the integration manifest. Do not edit manually.*

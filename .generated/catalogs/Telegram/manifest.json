@@ -1,0 +1,35 @@
+{
+  "id": "Telegram",
+  "name": "Telegram",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "registration_required": true,
+  "subscription_required": false,
+  "free_subscription": true,
+  "integrations": {
+    "analyzers": [],
+    "responders": [
+      {
+        "name": "Telegram",
+        "version": "1.0",
+        "description": "Send a message to Telegram with information from TheHive case",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/Telegram/Telegram.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/Telegram/Telegram.json"
+      }
+    ],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 1,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

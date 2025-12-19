@@ -1,0 +1,58 @@
+{
+  "id": "Proofpoint",
+  "name": "Proofpoint",
+  "description": "Proofpoint is an enterprise email security and threat protection platform that provides advanced threat detection, URL defense, and forensic analysis capabilities",
+  "category": "Email Security",
+  "tags": [
+    "email-security"
+  ],
+  "homepage": "https://www.proofpoint.com",
+  "logo": {
+    "file": "integrations/vendors/Proofpoint/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/assets/logo.png"
+  },
+  "useCases": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "Proofpoint_Lookup",
+        "version": "1.0",
+        "description": "Check URL, file, SHA256 against Proofpoint forensics",
+        "dataTypes": [
+          "url",
+          "file",
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json"
+      }
+    ],
+    "responders": [],
+    "functions": [
+      {
+        "name": "alertFeeder_ProofPoint_messageDelivered",
+        "version": "1.0.0",
+        "description": "Ingests ProofPoint messageDelivered alerts in TheHive",
+        "kind": "function",
+        "mode": "Enabled",
+        "file": "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered"
+      },
+      {
+        "name": "alertFeeder_ProofPoint_clicksPermitted",
+        "version": "1.0.0",
+        "description": "Ingests ProofPoint clicksPermitted alerts in TheHive",
+        "kind": "function",
+        "mode": "Enabled",
+        "file": "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted"
+      }
+    ]
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 2,
+    "total": 3
+  }
+}

@@ -1,0 +1,23 @@
+# GoogleVisionAPI
+
+
+## Analyzers (1)
+
+### GoogleVisionAPI_WebDetection `v1.0.0`
+Find look alike image via Google Cloud Vision API using the Web_Detection service 
+
+- **Data Types:** `file`, `url`
+- **Configuration:** [.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json](.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json)
+
+---
+
+## Statistics
+
+- **Total Analyzers:** 1
+- **Total Responders:** 0
+- **Total Functions:** 0
+- **Total Integrations:** 1
+
+---
+
+*This file is auto-generated from the integration manifest. Do not edit manually.*

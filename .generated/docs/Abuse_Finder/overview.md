@@ -1,0 +1,29 @@
+# Abuse_Finder
+
+
+## Subscription Information
+
+- **Registration Required:** No
+- **Subscription Required:** No
+- **Free Subscription Available:** No
+
+## Analyzers (1)
+
+### Abuse_Finder `v3.0`
+Find abuse contacts associated with domain names, URLs, IPs and email addresses.
+
+- **Data Types:** `ip`, `domain`, `fqdn`, `url`, `mail`
+- **Configuration:** [.upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json](.upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json)
+
+---
+
+## Statistics
+
+- **Total Analyzers:** 1
+- **Total Responders:** 0
+- **Total Functions:** 0
+- **Total Integrations:** 1
+
+---
+
+*This file is auto-generated from the integration manifest. Do not edit manually.*

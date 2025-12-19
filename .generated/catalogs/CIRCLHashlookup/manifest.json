@@ -1,0 +1,35 @@
+{
+  "id": "CIRCLHashlookup",
+  "name": "CIRCLHashlookup",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": true,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "CIRCLHashlookup",
+        "version": "1.1",
+        "description": "CIRCL hashlookup uses a public API to lookup hash values against databases of known good files",
+        "dataTypes": [
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json"
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

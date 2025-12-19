@@ -1,0 +1,23 @@
+# DNSSinkhole
+
+
+## Analyzers (1)
+
+### DNSSinkhole `v1.0`
+Check if a  domain is sinkholed via DNS Sinkhole server
+
+- **Data Types:** `domain`
+- **Configuration:** [.upstream/cortex/analyzers/DNSSinkhole/DNSSinkhole.json](.upstream/cortex/analyzers/DNSSinkhole/DNSSinkhole.json)
+
+---
+
+## Statistics
+
+- **Total Analyzers:** 1
+- **Total Responders:** 0
+- **Total Functions:** 0
+- **Total Integrations:** 1
+
+---
+
+*This file is auto-generated from the integration manifest. Do not edit manually.*

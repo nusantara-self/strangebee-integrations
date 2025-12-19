@@ -1,0 +1,36 @@
+{
+  "id": "FoxIO",
+  "name": "FoxIO",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": true,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "JA4_FoxIO",
+        "version": "1.0",
+        "description": "JA4 Fingerprint analysis with FoxIO Database",
+        "dataTypes": [
+          "user-agent",
+          "ja4-fingerprint"
+        ],
+        "file": ".upstream/cortex/analyzers/FoxIO/JA4_FoxIO.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/FoxIO/JA4_FoxIO.json"
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}

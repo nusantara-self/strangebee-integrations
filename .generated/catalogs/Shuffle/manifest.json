@@ -1,0 +1,36 @@
+{
+  "id": "Shuffle",
+  "name": "Shuffle",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "integrations": {
+    "analyzers": [],
+    "responders": [
+      {
+        "name": "Shuffle",
+        "version": "1.0",
+        "description": "Execute a workflow in Shuffle",
+        "dataTypes": [
+          "thehive:case",
+          "thehive:alert",
+          "thehive:case_artifact",
+          "thehive:case_task",
+          "thehive:case_task_log"
+        ],
+        "file": ".upstream/cortex/responders/Shuffle/shuffle.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/Shuffle/shuffle.json"
+      }
+    ],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 1,
+    "totalFunctions": 0,
+    "total": 1
+  }
+}
