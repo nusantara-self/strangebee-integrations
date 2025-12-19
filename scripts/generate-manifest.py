@@ -570,6 +570,198 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
 
     return '\n'.join(lines)
 
+def generate_catalog_index(all_manifests: Dict) -> str:
+    """Generate main catalog index with all vendors organized by category."""
+    lines = []
+
+    # Header
+    lines.append("# Integration Catalog")
+    lines.append("")
+    lines.append("Auto-generated catalog of TheHive and Cortex integrations.")
+    lines.append("")
+
+    # Calculate statistics
+    total_vendors = len(all_manifests)
+    total_analyzers = sum(m['stats']['totalAnalyzers'] for m in all_manifests.values())
+    total_responders = sum(m['stats']['totalResponders'] for m in all_manifests.values())
+    total_functions = sum(m['stats']['totalFunctions'] for m in all_manifests.values())
+    total_integrations = sum(m['stats']['total'] for m in all_manifests.values())
+
+    # Summary statistics
+    lines.append("## 📊 Summary Statistics")
+    lines.append("")
+    lines.append(f"- **Total Vendors:** {total_vendors}")
+    lines.append(f"- **Total Analyzers:** {total_analyzers}")
+    lines.append(f"- **Total Responders:** {total_responders}")
+    lines.append(f"- **Total Functions:** {total_functions}")
+    lines.append(f"- **Total Integrations:** {total_integrations}")
+    lines.append("")
+
+    # Group vendors by category
+    by_category = {}
+    uncategorized = []
+
+    for vendor_id, manifest in all_manifests.items():
+        category = manifest.get('category')
+        if category:
+            if category not in by_category:
+                by_category[category] = []
+            by_category[category].append((vendor_id, manifest))
+        else:
+            uncategorized.append((vendor_id, manifest))
+
+    # Vendors by category
+    if by_category:
+        lines.append("## 📂 Vendors by Category")
+        lines.append("")
+
+        for category in sorted(by_category.keys()):
+            lines.append(f"### {category}")
+            lines.append("")
+
+            vendors = sorted(by_category[category], key=lambda x: x[1]['name'])
+            for vendor_id, manifest in vendors:
+                name = manifest['name']
+                total = manifest['stats']['total']
+                desc = manifest.get('description', '')
+
+                # Truncate long descriptions
+                if desc and len(desc) > 100:
+                    desc = desc[:97] + "..."
+
+                lines.append(f"**[{name}](docs/{vendor_id}/overview.md)** ({total} integrations)")
+                if desc:
+                    lines.append(f"  {desc}")
+                lines.append("")
+
+            lines.append("")
+
+    # All vendors alphabetically
+    lines.append("## 🔤 All Vendors (A-Z)")
+    lines.append("")
+
+    all_vendors = sorted(all_manifests.items(), key=lambda x: x[1]['name'])
+
+    for vendor_id, manifest in all_vendors:
+        name = manifest['name']
+        stats = manifest['stats']
+        category = manifest.get('category') or 'Uncategorized'
+
+        integration_breakdown = []
+        if stats['totalAnalyzers'] > 0:
+            integration_breakdown.append(f"{stats['totalAnalyzers']} analyzers")
+        if stats['totalResponders'] > 0:
+            integration_breakdown.append(f"{stats['totalResponders']} responders")
+        if stats['totalFunctions'] > 0:
+            integration_breakdown.append(f"{stats['totalFunctions']} functions")
+
+        breakdown_str = ", ".join(integration_breakdown) if integration_breakdown else "No integrations"
+
+        lines.append(f"- **[{name}](docs/{vendor_id}/overview.md)** - *{category}* - {breakdown_str}")
+
+    lines.append("")
+
+    # Footer
+    lines.append("---")
+    lines.append("")
+    lines.append("📖 **[View individual vendor documentation](docs/)** for detailed integration information.")
+    lines.append("")
+    lines.append("*This catalog is auto-generated. Do not edit manually.*")
+    lines.append("")
+
+    return '\n'.join(lines)
+
+def generate_github_summary(all_manifests: Dict, previous_manifests: Dict = None) -> Dict:
+    """Generate GitHub Actions summary of changes."""
+    summary = {
+        'total_vendors': len(all_manifests),
+        'total_analyzers': sum(m['stats']['totalAnalyzers'] for m in all_manifests.values()),
+        'total_responders': sum(m['stats']['totalResponders'] for m in all_manifests.values()),
+        'total_functions': sum(m['stats']['totalFunctions'] for m in all_manifests.values()),
+        'total_integrations': sum(m['stats']['total'] for m in all_manifests.values()),
+        'added': [],
+        'updated': [],
+        'removed': []
+    }
+
+    if previous_manifests:
+        current_vendors = set(all_manifests.keys())
+        previous_vendors = set(previous_manifests.keys())
+
+        # Find added vendors
+        summary['added'] = sorted(current_vendors - previous_vendors)
+
+        # Find removed vendors
+        summary['removed'] = sorted(previous_vendors - current_vendors)
+
+        # Find updated vendors (compare stats)
+        for vendor in current_vendors & previous_vendors:
+            current_stats = all_manifests[vendor]['stats']
+            previous_stats = previous_manifests[vendor]['stats']
+
+            if current_stats != previous_stats:
+                summary['updated'].append({
+                    'vendor': vendor,
+                    'name': all_manifests[vendor]['name'],
+                    'previous': previous_stats['total'],
+                    'current': current_stats['total'],
+                    'change': current_stats['total'] - previous_stats['total']
+                })
+
+    return summary
+
+def write_github_summary(summary: Dict, output_path: Path):
+    """Write GitHub Actions summary in markdown format."""
+    lines = []
+
+    lines.append("# 📊 Manifest Generation Summary")
+    lines.append("")
+    lines.append("## Statistics")
+    lines.append("")
+    lines.append(f"- **Total Vendors:** {summary['total_vendors']}")
+    lines.append(f"- **Total Analyzers:** {summary['total_analyzers']}")
+    lines.append(f"- **Total Responders:** {summary['total_responders']}")
+    lines.append(f"- **Total Functions:** {summary['total_functions']}")
+    lines.append(f"- **Total Integrations:** {summary['total_integrations']}")
+    lines.append("")
+
+    # Changes
+    has_changes = summary['added'] or summary['removed'] or summary['updated']
+
+    if has_changes:
+        lines.append("## Changes")
+        lines.append("")
+
+        if summary['added']:
+            lines.append(f"### ✅ Added Vendors ({len(summary['added'])})")
+            lines.append("")
+            for vendor in summary['added']:
+                lines.append(f"- `{vendor}`")
+            lines.append("")
+
+        if summary['removed']:
+            lines.append(f"### ❌ Removed Vendors ({len(summary['removed'])})")
+            lines.append("")
+            for vendor in summary['removed']:
+                lines.append(f"- `{vendor}`")
+            lines.append("")
+
+        if summary['updated']:
+            lines.append(f"### 🔄 Updated Vendors ({len(summary['updated'])})")
+            lines.append("")
+            for item in summary['updated']:
+                change_indicator = "+" if item['change'] > 0 else ""
+                lines.append(f"- **{item['name']}**: {item['previous']} → {item['current']} ({change_indicator}{item['change']})")
+            lines.append("")
+    else:
+        lines.append("## Changes")
+        lines.append("")
+        lines.append("No changes detected.")
+        lines.append("")
+
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines))
+
 def main():
     """Main execution."""
     vendors = find_vendors()
@@ -645,7 +837,38 @@ def main():
     with open(yaml_output_path, 'w', encoding='utf-8') as f:
         yaml.dump(all_manifests, f, default_flow_style=False, allow_unicode=True, sort_keys=False, width=120)
     print(f"Combined YAML manifest generated: {yaml_output_path}")
-    
+
+    # Generate catalog index
+    catalog_index = generate_catalog_index(all_manifests)
+    index_path = generated_path / 'README.md'
+    with open(index_path, 'w', encoding='utf-8') as f:
+        f.write(catalog_index)
+    print(f"Catalog index generated: {index_path}")
+
+    # Load previous manifests for change detection (if exists)
+    previous_manifests = None
+    previous_manifest_path = generated_path / 'integration-manifest.json'
+    if previous_manifest_path.exists():
+        try:
+            # Read from git if available, otherwise use current file
+            import subprocess
+            result = subprocess.run(
+                ['git', 'show', f'HEAD:{previous_manifest_path}'],
+                capture_output=True,
+                text=True,
+                cwd=Path.cwd()
+            )
+            if result.returncode == 0:
+                previous_manifests = json.loads(result.stdout)
+        except Exception:
+            pass  # If git fails or file doesn't exist in git, skip change detection
+
+    # Generate GitHub Actions summary
+    summary = generate_github_summary(all_manifests, previous_manifests)
+    github_summary_path = generated_path / 'GITHUB_SUMMARY.md'
+    write_github_summary(summary, github_summary_path)
+    print(f"GitHub Actions summary: {github_summary_path}")
+
     # Print summary
     print('\n=== Summary ===')
     for vendor, data in all_manifests.items():
