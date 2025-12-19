@@ -4,6 +4,7 @@ import os
 import json
 import yaml
 import re
+import shutil
 from pathlib import Path
 from typing import Dict, List, Optional, Union
 
@@ -411,6 +412,13 @@ def main():
     # Create .generated directory
     catalogs_path = Path('.generated')
     catalogs_path.mkdir(exist_ok=True)
+
+    # Clean up obsolete vendor manifests
+    if catalogs_path.exists():
+        for vendor_dir in catalogs_path.iterdir():
+            if vendor_dir.is_dir() and vendor_dir.name not in vendors:
+                print(f"Cleaning up obsolete manifest: {vendor_dir.name}")
+                shutil.rmtree(vendor_dir)
 
     for vendor in vendors:
         print(f"Generating manifest for {vendor}...")
