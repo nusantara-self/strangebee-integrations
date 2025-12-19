@@ -167,18 +167,18 @@ def consolidate_subscription_fields(analyzer_fields: Dict, responder_fields: Dic
 
 def scan_functions(vendor: str) -> List[Dict]:
     """Scan functions for a vendor."""
-    functions_path = Path('thehive') / 'functions' / vendor
+    functions_path = Path('integrations') / 'vendors' / vendor / 'thehive' / 'functions'
     if not functions_path.exists():
         return []
-    
+
     functions = []
     for file_path in functions_path.glob('*.js'):
         metadata = parse_function_metadata(str(file_path))
         if not metadata:
             continue
-        
+
         file_name = metadata.get('definition', file_path.name)
-        relative_path = f"thehive/functions/{vendor}/{file_name}"
+        relative_path = f"integrations/vendors/{vendor}/thehive/functions/{file_name}"
         
         functions.append({
             'name': metadata.get('name'),
@@ -194,7 +194,7 @@ def scan_functions(vendor: str) -> List[Dict]:
 
 def discover_use_cases_from_markdown(vendor: str) -> List[Dict]:
     """Auto-discover use cases from markdown files in vendor docs directory."""
-    vendor_docs_path = Path('docs') / 'vendors' / vendor
+    vendor_docs_path = Path('integrations') / 'vendors' / vendor / 'docs'
     if not vendor_docs_path.exists():
         return []
 
@@ -219,7 +219,7 @@ def discover_use_cases_from_markdown(vendor: str) -> List[Dict]:
             continue
 
         # Build relative path and URL
-        relative_doc_path = f"docs/vendors/{vendor}/{md_file.name}"
+        relative_doc_path = f"integrations/vendors/{vendor}/docs/{md_file.name}"
 
         use_case = {
             'name': title,
@@ -248,12 +248,12 @@ def process_logo(vendor: str, logo_data: Union[str, Dict]) -> Dict:
     # If it's a string, treat as simple logo path
     if isinstance(logo_data, str):
         logo_path = logo_data
-        # Check if it starts with cortex/ or thehive/ or docs/
-        if logo_path.startswith(('cortex/', 'thehive/', 'docs/')):
+        # Check if it starts with integrations/ or .upstream/
+        if logo_path.startswith(('integrations/', '.upstream/')):
             relative_logo = logo_path
         else:
-            # Assume it's relative to vendor docs directory
-            relative_logo = f"docs/vendors/{vendor}/{logo_path}"
+            # Assume it's relative to vendor directory
+            relative_logo = f"integrations/vendors/{vendor}/{logo_path}"
         
         return {
             'file': relative_logo,
@@ -267,10 +267,10 @@ def process_logo(vendor: str, logo_data: Union[str, Dict]) -> Dict:
         # Handle light mode
         if 'light' in logo_data:
             light_path = logo_data['light']
-            if light_path.startswith(('cortex/', 'thehive/', 'docs/')):
+            if light_path.startswith(('integrations/', '.upstream/')):
                 relative_light = light_path
             else:
-                relative_light = f"docs/vendors/{vendor}/{light_path}"
+                relative_light = f"integrations/vendors/{vendor}/{light_path}"
             
             result['light'] = {
                 'file': relative_light,
@@ -280,10 +280,10 @@ def process_logo(vendor: str, logo_data: Union[str, Dict]) -> Dict:
         # Handle dark mode
         if 'dark' in logo_data:
             dark_path = logo_data['dark']
-            if dark_path.startswith(('cortex/', 'thehive/', 'docs/')):
+            if dark_path.startswith(('integrations/', '.upstream/')):
                 relative_dark = dark_path
             else:
-                relative_dark = f"docs/vendors/{vendor}/{dark_path}"
+                relative_dark = f"integrations/vendors/{vendor}/{dark_path}"
             
             result['dark'] = {
                 'file': relative_dark,
@@ -300,7 +300,7 @@ def process_logo(vendor: str, logo_data: Union[str, Dict]) -> Dict:
 
 def read_vendor_metadata(vendor: str) -> Dict:
     """Read vendor metadata from vendor.yml."""
-    vendor_yml_path = Path('docs') / 'vendors' / vendor / 'vendor.yml'
+    vendor_yml_path = Path('integrations') / 'vendors' / vendor / 'vendor.yml'
 
     default_metadata = {
         'id': vendor,
@@ -363,10 +363,10 @@ def find_vendors() -> List[str]:
     if responders_path.exists():
         vendors.update([d.name for d in responders_path.iterdir() if d.is_dir()])
     
-    # Check thehive functions
-    functions_path = Path('thehive') / 'functions'
-    if functions_path.exists():
-        vendors.update([d.name for d in functions_path.iterdir() if d.is_dir()])
+    # Check integrations/vendors directory
+    vendors_path = Path('integrations') / 'vendors'
+    if vendors_path.exists():
+        vendors.update([d.name for d in vendors_path.iterdir() if d.is_dir() and not d.name.startswith('.')])
     
     return sorted(list(vendors))
 

@@ -9,8 +9,7 @@ on:
     paths:
       - '.generated/**'
       - '.upstream/cortex/**'
-      - 'thehive/**'
-      - 'docs/vendors/**'
+      - 'integrations/**'
       - 'scripts/**'
       - '.github/workflows/generate-manifests.yml'
   schedule:
@@ -134,10 +133,10 @@ jobs:
             return 0
           }
 
-          # Sync vendor logo from upstream to docs/vendors/[vendor]/
+          # Sync vendor logo from upstream to integrations/vendors/[vendor]/
           sync_vendor_logo() {
             local vendor="$1"
-            local local_docs_dir="docs/vendors/$vendor"
+            local local_docs_dir="integrations/vendors/$vendor"
             local formats=("svg" "png" "jpg" "jpeg")
 
             # Create vendor docs directory if it doesn't exist
@@ -470,12 +469,12 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          if [ -n "$(git status --porcelain .upstream/cortex/ .generated/ docs/)" ]; then
+          if [ -n "$(git status --porcelain .upstream/cortex/ .generated/ integrations/)" ]; then
             echo "changed=true" >> $GITHUB_OUTPUT
             echo "### Changes detected" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-            git status --short .upstream/cortex/ .generated/ docs/ >> $GITHUB_STEP_SUMMARY
+            git status --short .upstream/cortex/ .generated/ integrations/ >> $GITHUB_STEP_SUMMARY
             echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
           else
             echo "changed=false" >> $GITHUB_OUTPUT
@@ -487,7 +486,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .upstream/cortex/ .generated/ docs/
+          git add .upstream/cortex/ .generated/ integrations/
           git commit -m "Auto-sync Cortex configs and regenerate manifests [skip ci]
 
           - Synced analyzer/responder configs from Cortex-Analyzers

@@ -72,7 +72,7 @@ def validate_vendor_file(vendor_name: str, schema: Dict, taxonomy: Dict) -> Tupl
     Returns:
         (status, warnings) where status is 'valid', 'missing', or 'invalid'
     """
-    vendor_yml_path = Path('docs') / 'vendors' / vendor_name / 'vendor.yml'
+    vendor_yml_path = Path('integrations') / 'vendors' / vendor_name / 'vendor.yml'
 
     if not vendor_yml_path.exists():
         return 'missing', [
@@ -146,7 +146,7 @@ def validate_vendor_file(vendor_name: str, schema: Dict, taxonomy: Dict) -> Tupl
 def find_all_vendors() -> List[str]:
     """Find all vendor directories."""
     vendors = []
-    vendors_path = Path('docs') / 'vendors'
+    vendors_path = Path('integrations') / 'vendors'
 
     if not vendors_path.exists():
         return []
