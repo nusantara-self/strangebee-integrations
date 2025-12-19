@@ -35,9 +35,9 @@ class Colors:
 
 def load_schema() -> Dict:
     """Load the vendor schema."""
-    schema_path = Path('schemas') / 'vendor-schema.yml'
+    schema_path = Path('scripts') / 'schemas' / 'vendor-schema.yml'
     if not schema_path.exists():
-        print(f"{Colors.RED}Error: schemas/vendor-schema.yml not found{Colors.NC}")
+        print(f"{Colors.RED}Error: scripts/schemas/vendor-schema.yml not found{Colors.NC}")
         sys.exit(1)
 
     with open(schema_path, 'r', encoding='utf-8') as f:
@@ -46,9 +46,9 @@ def load_schema() -> Dict:
 
 def load_taxonomy() -> Dict:
     """Load the taxonomy."""
-    taxonomy_path = Path('schemas') / 'taxonomy.yml'
+    taxonomy_path = Path('scripts') / 'schemas' / 'taxonomy.yml'
     if not taxonomy_path.exists():
-        print(f"{Colors.YELLOW}Warning: schemas/taxonomy.yml not found, skipping taxonomy validation{Colors.NC}")
+        print(f"{Colors.YELLOW}Warning: scripts/schemas/taxonomy.yml not found, skipping taxonomy validation{Colors.NC}")
         return {'categories': [], 'tags': []}
 
     with open(taxonomy_path, 'r', encoding='utf-8') as f:

@@ -11,7 +11,6 @@ on:
       - '.upstream/cortex/**'
       - 'thehive/**'
       - 'docs/vendors/**'
-      - 'schemas/**'
       - 'scripts/**'
       - '.github/workflows/generate-manifests.yml'
   schedule:
