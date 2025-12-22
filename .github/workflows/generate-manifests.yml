@@ -523,8 +523,8 @@ jobs:
         with:
           name: integration-manifests-${{ github.run_number }}
           path: |
-            .generated/*/manifest.json
-            .generated/*/manifest.yml
+            .generated/catalogs/*/manifest.json
+            .generated/catalogs/*/manifest.yml
             .generated/integration-manifest.json
             .generated/integration-manifest.yml
           retention-days: 30
