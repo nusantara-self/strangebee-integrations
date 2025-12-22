@@ -25,15 +25,25 @@ def get_current_branch() -> str:
 # Configuration - dynamically use current branch
 CURRENT_BRANCH = get_current_branch()
 BASE_URL = f"https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/{CURRENT_BRANCH}"
+GITHUB_BASE_URL = f"https://github.com/nusantara-self/strangebee-integrations/blob/{CURRENT_BRANCH}"
 
 def build_url(relative_path: str) -> str:
-    """Build full URL from relative path."""
+    """Build full raw URL from relative path."""
     # Remove leading ./ if present (but keep other dots like .upstream)
     if relative_path.startswith('./'):
         path = relative_path[2:]
     else:
         path = relative_path
     return f"{BASE_URL}/{path}"
+
+def build_github_url(relative_path: str) -> str:
+    """Build GitHub web UI URL from relative path."""
+    # Remove leading ./ if present (but keep other dots like .upstream)
+    if relative_path.startswith('./'):
+        path = relative_path[2:]
+    else:
+        path = relative_path
+    return f"{GITHUB_BASE_URL}/{path}"
 
 def parse_markdown_frontmatter(file_path: str) -> Optional[Dict]:
     """Parse YAML front matter from markdown files."""
@@ -89,14 +99,15 @@ def scan_analyzers(vendor: str) -> tuple[List[Dict], Dict]:
                 content = json.load(f)
 
             relative_path = f".upstream/cortex/analyzers/{vendor}/{file_path.name}"
-            
+
             analyzers.append({
                 'name': content.get('name'),
                 'version': content.get('version'),
                 'description': content.get('description'),
                 'dataTypes': content.get('dataTypeList', []),
                 'file': relative_path,
-                'url': build_url(relative_path)
+                'url': build_url(relative_path),
+                'github_url': build_github_url(relative_path)
             })
             
             # Collect subscription fields
@@ -131,14 +142,15 @@ def scan_responders(vendor: str) -> tuple[List[Dict], Dict]:
                 content = json.load(f)
 
             relative_path = f".upstream/cortex/responders/{vendor}/{file_path.name}"
-            
+
             responders.append({
                 'name': content.get('name'),
                 'version': content.get('version'),
                 'description': content.get('description'),
                 'dataTypes': content.get('dataTypeList', []),
                 'file': relative_path,
-                'url': build_url(relative_path)
+                'url': build_url(relative_path),
+                'github_url': build_github_url(relative_path)
             })
             
             # Collect subscription fields
@@ -198,7 +210,7 @@ def scan_functions(vendor: str) -> List[Dict]:
 
         file_name = metadata.get('definition', file_path.name)
         relative_path = f"integrations/vendors/{vendor}/thehive/functions/{file_name}"
-        
+
         functions.append({
             'name': metadata.get('name'),
             'version': metadata.get('version'),
@@ -206,7 +218,8 @@ def scan_functions(vendor: str) -> List[Dict]:
             'kind': metadata.get('kind'),
             'mode': metadata.get('mode'),
             'file': relative_path,
-            'url': build_url(relative_path)
+            'url': build_url(relative_path),
+            'github_url': build_github_url(relative_path)
         })
     
     return functions
@@ -245,7 +258,8 @@ def discover_use_cases_from_markdown(vendor: str) -> List[Dict]:
             'description': description,
             'documentation': {
                 'file': relative_doc_path,
-                'url': build_url(relative_doc_path)
+                'url': build_url(relative_doc_path),
+                'github_url': build_github_url(relative_doc_path)
             }
         }
 
@@ -273,10 +287,11 @@ def process_logo(vendor: str, logo_data: Union[str, Dict]) -> Dict:
         else:
             # Assume it's relative to vendor directory
             relative_logo = f"integrations/vendors/{vendor}/{logo_path}"
-        
+
         return {
             'file': relative_logo,
-            'url': build_url(relative_logo)
+            'url': build_url(relative_logo),
+            'github_url': build_github_url(relative_logo)
         }
     
     # If it's a dict, handle light/dark modes
@@ -290,12 +305,13 @@ def process_logo(vendor: str, logo_data: Union[str, Dict]) -> Dict:
                 relative_light = light_path
             else:
                 relative_light = f"integrations/vendors/{vendor}/{light_path}"
-            
+
             result['light'] = {
                 'file': relative_light,
-                'url': build_url(relative_light)
+                'url': build_url(relative_light),
+                'github_url': build_github_url(relative_light)
             }
-        
+
         # Handle dark mode
         if 'dark' in logo_data:
             dark_path = logo_data['dark']
@@ -303,10 +319,11 @@ def process_logo(vendor: str, logo_data: Union[str, Dict]) -> Dict:
                 relative_dark = dark_path
             else:
                 relative_dark = f"integrations/vendors/{vendor}/{dark_path}"
-            
+
             result['dark'] = {
                 'file': relative_dark,
-                'url': build_url(relative_dark)
+                'url': build_url(relative_dark),
+                'github_url': build_github_url(relative_dark)
             }
         
         # If only one mode provided, return simple format
@@ -508,7 +525,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
                 lines.append(f"- **Data Types:** {data_types}")
 
             if analyzer.get('file'):
-                lines.append(f"- **Configuration:** [{analyzer['file']}]({analyzer['url']})")
+                lines.append(f"- **Configuration:** [{analyzer['file']}]({analyzer['github_url']}) ([raw]({analyzer['url']}))")
 
             lines.append("")
 
@@ -535,7 +552,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
                 lines.append(f"- **Data Types:** {data_types}")
 
             if responder.get('file'):
-                lines.append(f"- **Configuration:** [{responder['file']}]({responder['url']})")
+                lines.append(f"- **Configuration:** [{responder['file']}]({responder['github_url']}) ([raw]({responder['url']}))")
 
             lines.append("")
 
@@ -562,7 +579,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
             if func.get('mode'):
                 lines.append(f"- **Mode:** {func['mode']}")
             if func.get('file'):
-                lines.append(f"- **File:** [{func['file']}]({func['url']})")
+                lines.append(f"- **File:** [{func['file']}]({func['github_url']}) ([raw]({func['url']}))")
 
             lines.append("")
 
@@ -587,8 +604,8 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
                 lines.append(f"**Tags:** {tags_str}")
 
             # Documentation link
-            if uc.get('documentation', {}).get('url'):
-                lines.append(f"📄 [Documentation]({uc['documentation']['url']})")
+            if uc.get('documentation', {}).get('github_url'):
+                lines.append(f"📄 [Documentation]({uc['documentation']['github_url']}) ([raw]({uc['documentation']['url']}))")
 
             lines.append("")
             lines.append("---")
