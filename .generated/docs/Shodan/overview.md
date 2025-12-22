@@ -1,5 +1,12 @@
 # Shodan
 
+![Shodan Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Shodan/assets/logo.png)
+
+Shodan is the search engine for internet-connected devices, providing reconnaissance data on exposed services, vulnerabilities, and infrastructure that helps identify attack surfaces, compromised systems, and threat actor infrastructure
+
+**Category:** Attack Surface Intelligence  
+**Homepage:** https://www.shodan.io  
+**Tags:** internet-scanning, infrastructure-intelligence, reconnaissance, exposed-services, threat-hunting, incident-response
 
 ## Analyzers (6)
 

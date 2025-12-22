@@ -3,12 +3,21 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: Onyphe
-name: Onyphe
-description: ''
-category: ''
-tags: []
-homepage: ''
-logo: {}
+name: ONYPHE
+description: ONYPHE is a cyber defense search engine that collects and analyzes internet-wide scan data, providing intelligence
+  on exposed assets, vulnerabilities, and threat actor infrastructure for proactive defense and incident investigation
+category: Attack Surface Intelligence
+tags:
+- internet-scanning
+- infrastructure-intelligence
+- vulnerability-detection
+- threat-hunting
+- incident-response
+homepage: https://www.onyphe.io
+logo:
+  file: integrations/vendors/Onyphe/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Onyphe/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Onyphe/assets/logo.png
 useCases: []
 registration_required: true
 subscription_required: true

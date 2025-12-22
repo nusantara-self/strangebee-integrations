@@ -4,7 +4,7 @@
 
 AbuseIPDB is a crowdsourced IP reputation database that helps identify and track malicious IPs involved in attacks, providing confidence scores and abuse reports for rapid threat assessment and blocking decisions
 
-**Category:** IP Intelligence  
+**Category:** Threat Intelligence  
 **Homepage:** https://www.abuseipdb.com  
 **Tags:** ip-reputation, threat-detection, abuse-tracking, blacklist, incident-response
 

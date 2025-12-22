@@ -3,12 +3,21 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: HIBP
-name: HIBP
-description: ''
-category: ''
-tags: []
-homepage: ''
-logo: {}
+name: Have I Been Pwned
+description: Have I Been Pwned tracks billions of compromised credentials from data breaches, allowing analysts to verify
+  if emails or passwords have been exposed in known breaches during security investigations and incident response
+category: Breach Intelligence
+tags:
+- data-breach
+- credential-exposure
+- breach-intelligence
+- identity-compromise
+- incident-response
+homepage: https://haveibeenpwned.com
+logo:
+  file: integrations/vendors/HIBP/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/HIBP/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/HIBP/assets/logo.png
 useCases: []
 integrations:
   analyzers:

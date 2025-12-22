@@ -1,5 +1,12 @@
 # Elasticsearch
 
+![Elasticsearch Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Elasticsearch/assets/logo.png)
+
+Elasticsearch is a distributed search and analytics engine that powers SIEM solutions and log analysis platforms, enabling analysts to query and correlate security events, logs, and threat data across enterprise infrastructure during incident investigations
+
+**Category:** SIEM & Analytics  
+**Homepage:** https://www.elastic.co  
+**Tags:** siem, log-analysis, search-analytics, event-correlation, threat-hunting, incident-response
 
 ## Analyzers (1)
 

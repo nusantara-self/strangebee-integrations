@@ -1,11 +1,23 @@
 {
   "id": "GoogleThreatIntelligence",
-  "name": "GoogleThreatIntelligence",
-  "description": "",
-  "category": "",
-  "tags": [],
-  "homepage": "",
-  "logo": {},
+  "name": "Google Threat Intelligence",
+  "description": "Google Threat Intelligence (formerly VirusTotal) provides comprehensive malware analysis, threat intelligence, and file/URL/domain reputation data from 70+ security engines, enabling rapid threat assessment and IOC validation during investigations",
+  "category": "Threat Intelligence",
+  "tags": [
+    "threat-intelligence",
+    "malware-analysis",
+    "file-analysis",
+    "url-analysis",
+    "multi-scanner",
+    "ioc-validation",
+    "incident-response"
+  ],
+  "homepage": "https://threatlabs.google.com",
+  "logo": {
+    "file": "integrations/vendors/GoogleThreatIntelligence/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.png"
+  },
   "useCases": [],
   "registration_required": true,
   "subscription_required": [

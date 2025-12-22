@@ -1,11 +1,22 @@
 {
   "id": "Elasticsearch",
   "name": "Elasticsearch",
-  "description": "",
-  "category": "",
-  "tags": [],
-  "homepage": "",
-  "logo": {},
+  "description": "Elasticsearch is a distributed search and analytics engine that powers SIEM solutions and log analysis platforms, enabling analysts to query and correlate security events, logs, and threat data across enterprise infrastructure during incident investigations",
+  "category": "SIEM & Analytics",
+  "tags": [
+    "siem",
+    "log-analysis",
+    "search-analytics",
+    "event-correlation",
+    "threat-hunting",
+    "incident-response"
+  ],
+  "homepage": "https://www.elastic.co",
+  "logo": {
+    "file": "integrations/vendors/Elasticsearch/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Elasticsearch/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Elasticsearch/assets/logo.png"
+  },
   "useCases": [],
   "integrations": {
     "analyzers": [

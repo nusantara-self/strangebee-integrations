@@ -194,7 +194,7 @@
     "id": "AbuseIPDB",
     "name": "AbuseIPDB",
     "description": "AbuseIPDB is a crowdsourced IP reputation database that helps identify and track malicious IPs involved in attacks, providing confidence scores and abuse reports for rapid threat assessment and blocking decisions",
-    "category": "IP Intelligence",
+    "category": "Threat Intelligence",
     "tags": [
       "ip-reputation",
       "threat-detection",
@@ -2415,11 +2415,22 @@
   "Elasticsearch": {
     "id": "Elasticsearch",
     "name": "Elasticsearch",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "description": "Elasticsearch is a distributed search and analytics engine that powers SIEM solutions and log analysis platforms, enabling analysts to query and correlate security events, logs, and threat data across enterprise infrastructure during incident investigations",
+    "category": "SIEM & Analytics",
+    "tags": [
+      "siem",
+      "log-analysis",
+      "search-analytics",
+      "event-correlation",
+      "threat-hunting",
+      "incident-response"
+    ],
+    "homepage": "https://www.elastic.co",
+    "logo": {
+      "file": "integrations/vendors/Elasticsearch/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Elasticsearch/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Elasticsearch/assets/logo.png"
+    },
     "useCases": [],
     "integrations": {
       "analyzers": [
@@ -3124,12 +3135,24 @@
   },
   "GoogleThreatIntelligence": {
     "id": "GoogleThreatIntelligence",
-    "name": "GoogleThreatIntelligence",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "name": "Google Threat Intelligence",
+    "description": "Google Threat Intelligence (formerly VirusTotal) provides comprehensive malware analysis, threat intelligence, and file/URL/domain reputation data from 70+ security engines, enabling rapid threat assessment and IOC validation during investigations",
+    "category": "Threat Intelligence",
+    "tags": [
+      "threat-intelligence",
+      "malware-analysis",
+      "file-analysis",
+      "url-analysis",
+      "multi-scanner",
+      "ioc-validation",
+      "incident-response"
+    ],
+    "homepage": "https://threatlabs.google.com",
+    "logo": {
+      "file": "integrations/vendors/GoogleThreatIntelligence/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.png"
+    },
     "useCases": [],
     "registration_required": true,
     "subscription_required": [
@@ -3281,12 +3304,22 @@
   },
   "HIBP": {
     "id": "HIBP",
-    "name": "HIBP",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "name": "Have I Been Pwned",
+    "description": "Have I Been Pwned tracks billions of compromised credentials from data breaches, allowing analysts to verify if emails or passwords have been exposed in known breaches during security investigations and incident response",
+    "category": "Breach Intelligence",
+    "tags": [
+      "data-breach",
+      "credential-exposure",
+      "breach-intelligence",
+      "identity-compromise",
+      "incident-response"
+    ],
+    "homepage": "https://haveibeenpwned.com",
+    "logo": {
+      "file": "integrations/vendors/HIBP/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/HIBP/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/HIBP/assets/logo.png"
+    },
     "useCases": [],
     "integrations": {
       "analyzers": [
@@ -5036,11 +5069,21 @@
   "MalwareBazaar": {
     "id": "MalwareBazaar",
     "name": "MalwareBazaar",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "description": "MalwareBazaar by Abuse.ch is a community-driven malware sample repository that enables analysts to query, download, and share malware samples with hash-based lookups for rapid threat identification and malware family correlation",
+    "category": "Threat Intelligence",
+    "tags": [
+      "malware-repository",
+      "malware-samples",
+      "threat-intelligence",
+      "hash-lookup",
+      "incident-response"
+    ],
+    "homepage": "https://bazaar.abuse.ch",
+    "logo": {
+      "file": "integrations/vendors/MalwareBazaar/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MalwareBazaar/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MalwareBazaar/assets/logo.png"
+    },
     "useCases": [],
     "registration_required": true,
     "subscription_required": true,
@@ -5563,12 +5606,22 @@
   },
   "OTXQuery": {
     "id": "OTXQuery",
-    "name": "OTXQuery",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "name": "AlienVault OTX",
+    "description": "AlienVault Open Threat Exchange (OTX) is a collaborative threat intelligence platform where security researchers share IOCs, attack patterns, and threat data, enabling community-driven defense and rapid threat validation",
+    "category": "Threat Intelligence",
+    "tags": [
+      "threat-intelligence",
+      "community-intelligence",
+      "ioc-sharing",
+      "collaborative-defense",
+      "incident-response"
+    ],
+    "homepage": "https://otx.alienvault.com",
+    "logo": {
+      "file": "integrations/vendors/OTXQuery/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/OTXQuery/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/OTXQuery/assets/logo.png"
+    },
     "useCases": [],
     "registration_required": true,
     "subscription_required": true,
@@ -5639,12 +5692,22 @@
   },
   "Onyphe": {
     "id": "Onyphe",
-    "name": "Onyphe",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "name": "ONYPHE",
+    "description": "ONYPHE is a cyber defense search engine that collects and analyzes internet-wide scan data, providing intelligence on exposed assets, vulnerabilities, and threat actor infrastructure for proactive defense and incident investigation",
+    "category": "Attack Surface Intelligence",
+    "tags": [
+      "internet-scanning",
+      "infrastructure-intelligence",
+      "vulnerability-detection",
+      "threat-hunting",
+      "incident-response"
+    ],
+    "homepage": "https://www.onyphe.io",
+    "logo": {
+      "file": "integrations/vendors/Onyphe/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Onyphe/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Onyphe/assets/logo.png"
+    },
     "useCases": [],
     "registration_required": true,
     "subscription_required": true,
@@ -6746,12 +6809,22 @@
   },
   "RecordedFuture": {
     "id": "RecordedFuture",
-    "name": "RecordedFuture",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "name": "Recorded Future",
+    "description": "Recorded Future is a real-time threat intelligence platform that analyzes data from the open web, dark web, and technical sources to provide predictive insights, risk scores, and actionable intelligence for proactive threat detection",
+    "category": "Threat Intelligence",
+    "tags": [
+      "threat-intelligence",
+      "risk-scoring",
+      "predictive-intelligence",
+      "dark-web",
+      "incident-response"
+    ],
+    "homepage": "https://www.recordedfuture.com",
+    "logo": {
+      "file": "integrations/vendors/RecordedFuture/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/RecordedFuture/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/RecordedFuture/assets/logo.png"
+    },
     "useCases": [],
     "registration_required": true,
     "subscription_required": true,
@@ -7310,11 +7383,22 @@
   "Shodan": {
     "id": "Shodan",
     "name": "Shodan",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
+    "description": "Shodan is the search engine for internet-connected devices, providing reconnaissance data on exposed services, vulnerabilities, and infrastructure that helps identify attack surfaces, compromised systems, and threat actor infrastructure",
+    "category": "Attack Surface Intelligence",
+    "tags": [
+      "internet-scanning",
+      "infrastructure-intelligence",
+      "reconnaissance",
+      "exposed-services",
+      "threat-hunting",
+      "incident-response"
+    ],
+    "homepage": "https://www.shodan.io",
+    "logo": {
+      "file": "integrations/vendors/Shodan/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Shodan/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Shodan/assets/logo.png"
+    },
     "useCases": [],
     "integrations": {
       "analyzers": [

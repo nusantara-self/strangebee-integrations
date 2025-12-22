@@ -3,12 +3,21 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: RecordedFuture
-name: RecordedFuture
-description: ''
-category: ''
-tags: []
-homepage: ''
-logo: {}
+name: Recorded Future
+description: Recorded Future is a real-time threat intelligence platform that analyzes data from the open web, dark web, and
+  technical sources to provide predictive insights, risk scores, and actionable intelligence for proactive threat detection
+category: Threat Intelligence
+tags:
+- threat-intelligence
+- risk-scoring
+- predictive-intelligence
+- dark-web
+- incident-response
+homepage: https://www.recordedfuture.com
+logo:
+  file: integrations/vendors/RecordedFuture/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/RecordedFuture/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/RecordedFuture/assets/logo.png
 useCases: []
 registration_required: true
 subscription_required: true

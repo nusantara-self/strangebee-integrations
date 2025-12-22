@@ -1,5 +1,12 @@
-# HIBP
+# Have I Been Pwned
 
+![Have I Been Pwned Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/HIBP/assets/logo.png)
+
+Have I Been Pwned tracks billions of compromised credentials from data breaches, allowing analysts to verify if emails or passwords have been exposed in known breaches during security investigations and incident response
+
+**Category:** Breach Intelligence  
+**Homepage:** https://haveibeenpwned.com  
+**Tags:** data-breach, credential-exposure, breach-intelligence, identity-compromise, incident-response
 
 ## Analyzers (1)
 
