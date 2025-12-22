@@ -1,11 +1,21 @@
 {
   "id": "URLhaus",
   "name": "URLhaus",
-  "description": "",
-  "category": "",
-  "tags": [],
-  "homepage": "",
-  "logo": {},
+  "description": "URLhaus is a community-driven platform by Abuse.ch for tracking and sharing malware distribution URLs, providing real-time intelligence on malicious domains and payload delivery infrastructure used in active campaigns",
+  "category": "Threat Intelligence",
+  "tags": [
+    "malware-urls",
+    "threat-intelligence",
+    "url-tracking",
+    "malware-distribution",
+    "incident-response"
+  ],
+  "homepage": "https://urlhaus.abuse.ch",
+  "logo": {
+    "file": "integrations/vendors/URLhaus/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/URLhaus/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/URLhaus/assets/logo.png"
+  },
   "useCases": [],
   "registration_required": true,
   "subscription_required": false,

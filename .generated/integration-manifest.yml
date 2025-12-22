@@ -153,11 +153,20 @@ AWX:
 AbuseIPDB:
   id: AbuseIPDB
   name: AbuseIPDB
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
+  description: AbuseIPDB is a crowdsourced IP reputation database that helps identify and track malicious IPs involved in
+    attacks, providing confidence scores and abuse reports for rapid threat assessment and blocking decisions
+  category: IP Intelligence
+  tags:
+  - ip-reputation
+  - threat-detection
+  - abuse-tracking
+  - blacklist
+  - incident-response
+  homepage: https://www.abuseipdb.com
+  logo:
+    file: integrations/vendors/AbuseIPDB/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/AbuseIPDB/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/AbuseIPDB/assets/logo.png
   useCases: []
   registration_required: true
   subscription_required: true
@@ -3562,11 +3571,20 @@ LupovisProwl:
 MISP:
   id: MISP
   name: MISP
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
+  description: MISP is an open-source threat intelligence platform for sharing, storing and correlating Indicators of Compromise
+    (IOCs) and threat intelligence data, enabling collaborative defense and rapid incident response
+  category: Threat Intelligence
+  tags:
+  - threat-intelligence
+  - ioc-sharing
+  - incident-response
+  - threat-sharing
+  - collaborative-defense
+  homepage: https://www.misp-project.org
+  logo:
+    file: integrations/vendors/MISP/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MISP/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MISP/assets/logo.png
   useCases: []
   registration_required: false
   subscription_required: false
@@ -3758,12 +3776,24 @@ MSDefenderOffice365:
     total: 2
 MSEntraID:
   id: MSEntraID
-  name: MSEntraID
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
+  name: Microsoft Entra ID
+  description: Microsoft Entra ID (formerly Azure Active Directory) is an enterprise identity and access management platform
+    that provides user authentication data, sign-in logs, and security insights to investigate account compromises, suspicious
+    access patterns, and identity-based attacks
+  category: Identity & Access Management
+  tags:
+  - identity-management
+  - authentication
+  - access-control
+  - user-activity
+  - sign-in-logs
+  - account-security
+  - incident-response
+  homepage: https://www.microsoft.com/security/business/identity-access/microsoft-entra-id
+  logo:
+    file: integrations/vendors/MSEntraID/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSEntraID/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSEntraID/assets/logo.png
   useCases: []
   registration_required: true
   subscription_required: true
@@ -6705,11 +6735,20 @@ Triage:
 URLhaus:
   id: URLhaus
   name: URLhaus
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
+  description: URLhaus is a community-driven platform by Abuse.ch for tracking and sharing malware distribution URLs, providing
+    real-time intelligence on malicious domains and payload delivery infrastructure used in active campaigns
+  category: Threat Intelligence
+  tags:
+  - malware-urls
+  - threat-intelligence
+  - url-tracking
+  - malware-distribution
+  - incident-response
+  homepage: https://urlhaus.abuse.ch
+  logo:
+    file: integrations/vendors/URLhaus/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/URLhaus/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/URLhaus/assets/logo.png
   useCases: []
   registration_required: true
   subscription_required: false

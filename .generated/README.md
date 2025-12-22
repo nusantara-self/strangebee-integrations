@@ -30,13 +30,34 @@ Auto-generated catalog of TheHive and Cortex integrations.
   Proofpoint is an enterprise email security and threat protection platform that provides advanced ...
 
 
+### IP Intelligence
+
+**[AbuseIPDB](docs/AbuseIPDB/overview.md)** (1 integrations)
+  AbuseIPDB is a crowdsourced IP reputation database that helps identify and track malicious IPs in...
+
+
+### Identity & Access Management
+
+**[Microsoft Entra ID](docs/MSEntraID/overview.md)** (9 integrations)
+  Microsoft Entra ID (formerly Azure Active Directory) is an enterprise identity and access managem...
+
+
+### Threat Intelligence
+
+**[MISP](docs/MISP/overview.md)** (1 integrations)
+  MISP is an open-source threat intelligence platform for sharing, storing and correlating Indicato...
+
+**[URLhaus](docs/URLhaus/overview.md)** (1 integrations)
+  URLhaus is a community-driven platform by Abuse.ch for tracking and sharing malware distribution ...
+
+
 ## 🔤 All Vendors (A-Z)
 
 - **[AILOnionLookup](docs/AILOnionLookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[AMPforEndpoints](docs/AMPforEndpoints/overview.md)** - *Uncategorized* - 5 responders
 - **[AWSLambda](docs/AWSLambda/overview.md)** - *Uncategorized* - 1 responders
 - **[AWX](docs/AWX/overview.md)** - *Uncategorized* - 1 responders
-- **[AbuseIPDB](docs/AbuseIPDB/overview.md)** - *Uncategorized* - 1 analyzers
+- **[AbuseIPDB](docs/AbuseIPDB/overview.md)** - *IP Intelligence* - 1 analyzers
 - **[Abuse_Finder](docs/Abuse_Finder/overview.md)** - *Uncategorized* - 1 analyzers
 - **[AnyRun](docs/AnyRun/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Autofocus](docs/Autofocus/overview.md)** - *Uncategorized* - 3 analyzers
@@ -127,11 +148,10 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[LdapQuery](docs/LdapQuery/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Lookyloo](docs/Lookyloo/overview.md)** - *Uncategorized* - 1 analyzers
 - **[LupovisProwl](docs/LupovisProwl/overview.md)** - *Uncategorized* - 1 analyzers
-- **[MISP](docs/MISP/overview.md)** - *Uncategorized* - 1 analyzers
+- **[MISP](docs/MISP/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[MISPWarningLists](docs/MISPWarningLists/overview.md)** - *Uncategorized* - 1 analyzers
 - **[MSDefenderEndpoints](docs/MSDefenderEndpoints/overview.md)** - *Uncategorized* - 8 responders
 - **[MSDefenderOffice365](docs/MSDefenderOffice365/overview.md)** - *Uncategorized* - 2 responders
-- **[MSEntraID](docs/MSEntraID/overview.md)** - *Uncategorized* - 4 analyzers, 5 responders
 - **[MailIncidentStatus](docs/MailIncidentStatus/overview.md)** - *Uncategorized* - 1 responders
 - **[Mailer](docs/Mailer/overview.md)** - *Uncategorized* - 1 responders
 - **[Malpedia](docs/Malpedia/overview.md)** - *Uncategorized* - 1 analyzers
@@ -141,6 +161,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[Malwares](docs/Malwares/overview.md)** - *Uncategorized* - 2 analyzers
 - **[MaxMind](docs/MaxMind/overview.md)** - *Uncategorized* - 1 analyzers
 - **[MetaDefender](docs/MetaDefender/overview.md)** - *Uncategorized* - 5 analyzers
+- **[Microsoft Entra ID](docs/MSEntraID/overview.md)** - *Identity & Access Management* - 4 analyzers, 5 responders
 - **[Minemeld](docs/Minemeld/overview.md)** - *Uncategorized* - 1 responders
 - **[MnemonicPDNS](docs/MnemonicPDNS/overview.md)** - *Uncategorized* - 2 analyzers
 - **[MsgParser](docs/MsgParser/overview.md)** - *Uncategorized* - 1 analyzers
@@ -200,7 +221,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[TorBlutmagie](docs/TorBlutmagie/overview.md)** - *Uncategorized* - 1 analyzers
 - **[TorProject](docs/TorProject/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Triage](docs/Triage/overview.md)** - *Uncategorized* - 1 analyzers
-- **[URLhaus](docs/URLhaus/overview.md)** - *Uncategorized* - 1 analyzers
+- **[URLhaus](docs/URLhaus/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Umbrella](docs/Umbrella/overview.md)** - *Uncategorized* - 1 analyzers
 - **[UmbrellaBlacklister](docs/UmbrellaBlacklister/overview.md)** - *Uncategorized* - 1 responders
 - **[UnshortenLink](docs/UnshortenLink/overview.md)** - *Uncategorized* - 1 analyzers

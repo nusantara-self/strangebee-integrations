@@ -1,11 +1,21 @@
 {
   "id": "AbuseIPDB",
   "name": "AbuseIPDB",
-  "description": "",
-  "category": "",
-  "tags": [],
-  "homepage": "",
-  "logo": {},
+  "description": "AbuseIPDB is a crowdsourced IP reputation database that helps identify and track malicious IPs involved in attacks, providing confidence scores and abuse reports for rapid threat assessment and blocking decisions",
+  "category": "IP Intelligence",
+  "tags": [
+    "ip-reputation",
+    "threat-detection",
+    "abuse-tracking",
+    "blacklist",
+    "incident-response"
+  ],
+  "homepage": "https://www.abuseipdb.com",
+  "logo": {
+    "file": "integrations/vendors/AbuseIPDB/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/AbuseIPDB/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/AbuseIPDB/assets/logo.png"
+  },
   "useCases": [],
   "registration_required": true,
   "subscription_required": true,

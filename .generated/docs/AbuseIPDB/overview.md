@@ -1,5 +1,12 @@
 # AbuseIPDB
 
+![AbuseIPDB Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/AbuseIPDB/assets/logo.png)
+
+AbuseIPDB is a crowdsourced IP reputation database that helps identify and track malicious IPs involved in attacks, providing confidence scores and abuse reports for rapid threat assessment and blocking decisions
+
+**Category:** IP Intelligence  
+**Homepage:** https://www.abuseipdb.com  
+**Tags:** ip-reputation, threat-detection, abuse-tracking, blacklist, incident-response
 
 ## Subscription Information
 

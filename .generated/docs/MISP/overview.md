@@ -1,5 +1,12 @@
 # MISP
 
+![MISP Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MISP/assets/logo.png)
+
+MISP is an open-source threat intelligence platform for sharing, storing and correlating Indicators of Compromise (IOCs) and threat intelligence data, enabling collaborative defense and rapid incident response
+
+**Category:** Threat Intelligence  
+**Homepage:** https://www.misp-project.org  
+**Tags:** threat-intelligence, ioc-sharing, incident-response, threat-sharing, collaborative-defense
 
 ## Subscription Information
 
