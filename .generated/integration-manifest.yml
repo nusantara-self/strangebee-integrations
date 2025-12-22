@@ -971,6 +971,17 @@ CrowdstrikeFalcon:
     - crowdstrike
     - thehive
     - automation
+  - name: Ingest CrowdStrike Falcon Detections and Incidents into TheHive Using an External Script
+    description: TO DO LATER
+    documentation:
+      file: integrations/vendors/CrowdstrikeFalcon/ingest-crowdstrike-falcon-alerts-external-script.md
+      url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/ingest-crowdstrike-falcon-alerts-external-script.md
+      github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/CrowdstrikeFalcon/ingest-crowdstrike-falcon-alerts-external-script.md
+    tags:
+    - alert-ingestion
+    - crowdstrike
+    - thehive
+    - automation
   registration_required: true
   subscription_required: true
   free_subscription: false
