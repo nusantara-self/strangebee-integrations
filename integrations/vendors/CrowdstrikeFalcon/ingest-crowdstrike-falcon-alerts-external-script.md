@@ -1,3 +1,12 @@
+---
+title: Ingest CrowdStrike Falcon Detections and Incidents into TheHive Using an External Script
+description: TO DO LATER
+tags: 
+  - alert-ingestion
+  - crowdstrike
+  - thehive
+  - automation
+---
 # Tutorial: Ingest CrowdStrike Falcon Detections and Incidents into TheHive Using an External Script
 
 <!-- md:integration External --> <!-- md:version 5.0 -->
