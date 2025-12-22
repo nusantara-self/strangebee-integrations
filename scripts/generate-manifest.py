@@ -28,8 +28,11 @@ BASE_URL = f"https://raw.githubusercontent.com/nusantara-self/strangebee-integra
 
 def build_url(relative_path: str) -> str:
     """Build full URL from relative path."""
-    # Remove leading ./ if present
-    path = relative_path.lstrip('./')
+    # Remove leading ./ if present (but keep other dots like .upstream)
+    if relative_path.startswith('./'):
+        path = relative_path[2:]
+    else:
+        path = relative_path
     return f"{BASE_URL}/{path}"
 
 def parse_markdown_frontmatter(file_path: str) -> Optional[Dict]:
@@ -505,7 +508,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
                 lines.append(f"- **Data Types:** {data_types}")
 
             if analyzer.get('file'):
-                lines.append(f"- **Configuration:** [{analyzer['file']}]({analyzer['file']})")
+                lines.append(f"- **Configuration:** [{analyzer['file']}]({analyzer['url']})")
 
             lines.append("")
 
@@ -532,7 +535,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
                 lines.append(f"- **Data Types:** {data_types}")
 
             if responder.get('file'):
-                lines.append(f"- **Configuration:** [{responder['file']}]({responder['file']})")
+                lines.append(f"- **Configuration:** [{responder['file']}]({responder['url']})")
 
             lines.append("")
 
@@ -559,7 +562,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
             if func.get('mode'):
                 lines.append(f"- **Mode:** {func['mode']}")
             if func.get('file'):
-                lines.append(f"- **File:** [{func['file']}]({func['file']})")
+                lines.append(f"- **File:** [{func['file']}]({func['url']})")
 
             lines.append("")
 
