@@ -1,0 +1,15 @@
+id: Splunk
+name: "Splunk"
+description: "Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine data from across the enterprise, enabling real-time threat detection, security analytics, and incident investigation through powerful search and correlation capabilities"
+category: SIEM & Analytics
+tags:
+  - siem
+  - log-analysis
+  - security-analytics
+  - threat-detection
+  - correlation
+  - incident-response
+homepage: "https://www.splunk.com"
+
+logo:
+  light: "assets/logo.png"
