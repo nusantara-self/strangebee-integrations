@@ -1443,14 +1443,24 @@
           "file": "integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js",
           "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js",
           "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js"
+        },
+        {
+          "name": "CRWDTest",
+          "version": "1.0.0",
+          "description": "Ingests CrowdstrikeFalcon Alerts, also processes observables & TTPs.",
+          "kind": "function",
+          "mode": "Disabled",
+          "file": "integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwdtest.js",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwdtest.js",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwdtest.js"
         }
       ]
     },
     "stats": {
       "totalAnalyzers": 10,
       "totalResponders": 9,
-      "totalFunctions": 1,
-      "total": 20
+      "totalFunctions": 2,
+      "total": 21
     }
   },
   "Crtsh": {

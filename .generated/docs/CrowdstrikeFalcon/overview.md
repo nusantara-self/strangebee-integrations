@@ -136,7 +136,7 @@ remove IOC from IoC Management on Crowdstrike
 
 ---
 
-## Functions (1)
+## Functions (2)
 
 ### CRWDAlertIngestion `v1.0.0`
 Ingests CrowdstrikeFalcon Alerts, also processes observables & TTPs.
@@ -144,6 +144,13 @@ Ingests CrowdstrikeFalcon Alerts, also processes observables & TTPs.
 - **Kind:** function
 - **Mode:** Enabled
 - **File:** [integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js))
+
+### CRWDTest `v1.0.0`
+Ingests CrowdstrikeFalcon Alerts, also processes observables & TTPs.
+
+- **Kind:** function
+- **Mode:** Disabled
+- **File:** [integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwdtest.js](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwdtest.js) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwdtest.js))
 
 ---
 
@@ -169,8 +176,8 @@ TO DO LATER
 
 - **Total Analyzers:** 10
 - **Total Responders:** 9
-- **Total Functions:** 1
-- **Total Integrations:** 20
+- **Total Functions:** 2
+- **Total Integrations:** 21
 
 ---
 

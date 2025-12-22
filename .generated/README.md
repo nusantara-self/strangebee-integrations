@@ -7,8 +7,8 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **Total Vendors:** 191
 - **Total Analyzers:** 253
 - **Total Responders:** 131
-- **Total Functions:** 3
-- **Total Integrations:** 387
+- **Total Functions:** 4
+- **Total Integrations:** 388
 
 ## 📂 Vendors by Category
 
@@ -38,7 +38,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 ### EDR
 
-**[CrowdStrike Falcon](docs/CrowdstrikeFalcon/overview.md)** (20 integrations)
+**[CrowdStrike Falcon](docs/CrowdstrikeFalcon/overview.md)** (21 integrations)
   CrowdStrike Falcon is a cloud-native endpoint protection platform that provides real-time threat ...
 
 **[Microsoft Defender for Endpoint](docs/MSDefenderEndpoints/overview.md)** (8 integrations)
@@ -147,7 +147,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[Cloudflare_IP_Blocker](docs/Cloudflare_IP_Blocker/overview.md)** - *Uncategorized* - 1 responders
 - **[Cluster25](docs/Cluster25/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ClusterHawk](docs/ClusterHawk/overview.md)** - *Uncategorized* - 1 analyzers
-- **[CrowdStrike Falcon](docs/CrowdstrikeFalcon/overview.md)** - *EDR* - 10 analyzers, 9 responders, 1 functions
+- **[CrowdStrike Falcon](docs/CrowdstrikeFalcon/overview.md)** - *EDR* - 10 analyzers, 9 responders, 2 functions
 - **[Crowdsec](docs/Crowdsec/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Crtsh](docs/Crtsh/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CuckooSandbox](docs/CuckooSandbox/overview.md)** - *Uncategorized* - 2 analyzers
