@@ -273,65 +273,35 @@ def discover_use_cases_from_markdown(vendor: str) -> List[Dict]:
 
     return use_cases
 
-def process_logo(vendor: str, logo_data: Union[str, Dict]) -> Dict:
-    """Process logo data - supports both simple string and light/dark mode."""
-    if not logo_data:
+def auto_detect_logo(vendor: str) -> Dict:
+    """Auto-detect logo file from vendor assets directory.
+
+    Priority: SVG > PNG > JPG > JPEG > ICO
+    Looks for: logo.*, icon.*, or vendor-name.*
+    """
+    vendor_dir = Path('integrations') / 'vendors' / vendor
+    assets_dir = vendor_dir / 'assets'
+
+    if not assets_dir.exists():
         return {}
-    
-    # If it's a string, treat as simple logo path
-    if isinstance(logo_data, str):
-        logo_path = logo_data
-        # Check if it starts with integrations/ or .upstream/
-        if logo_path.startswith(('integrations/', '.upstream/')):
-            relative_logo = logo_path
-        else:
-            # Assume it's relative to vendor directory
-            relative_logo = f"integrations/vendors/{vendor}/{logo_path}"
 
-        return {
-            'file': relative_logo,
-            'url': build_url(relative_logo),
-            'github_url': build_github_url(relative_logo)
-        }
-    
-    # If it's a dict, handle light/dark modes
-    if isinstance(logo_data, dict):
-        result = {}
-        
-        # Handle light mode
-        if 'light' in logo_data:
-            light_path = logo_data['light']
-            if light_path.startswith(('integrations/', '.upstream/')):
-                relative_light = light_path
-            else:
-                relative_light = f"integrations/vendors/{vendor}/{light_path}"
+    # Priority order for file extensions
+    extensions = ['.svg', '.png', '.jpg', '.jpeg', '.ico']
 
-            result['light'] = {
-                'file': relative_light,
-                'url': build_url(relative_light),
-                'github_url': build_github_url(relative_light)
-            }
+    # Priority order for filenames
+    filename_patterns = ['logo', 'icon', vendor.lower()]
 
-        # Handle dark mode
-        if 'dark' in logo_data:
-            dark_path = logo_data['dark']
-            if dark_path.startswith(('integrations/', '.upstream/')):
-                relative_dark = dark_path
-            else:
-                relative_dark = f"integrations/vendors/{vendor}/{dark_path}"
+    for pattern in filename_patterns:
+        for ext in extensions:
+            logo_file = assets_dir / f"{pattern}{ext}"
+            if logo_file.exists():
+                relative_path = f"integrations/vendors/{vendor}/assets/{pattern}{ext}"
+                return {
+                    'file': relative_path,
+                    'url': build_url(relative_path),
+                    'github_url': build_github_url(relative_path)
+                }
 
-            result['dark'] = {
-                'file': relative_dark,
-                'url': build_url(relative_dark),
-                'github_url': build_github_url(relative_dark)
-            }
-        
-        # If only one mode provided, return simple format
-        if 'light' in result and 'dark' not in result:
-            return result['light']
-        
-        return result
-    
     return {}
 
 def read_vendor_metadata(vendor: str) -> Dict:
@@ -363,8 +333,8 @@ def read_vendor_metadata(vendor: str) -> Dict:
         # Auto-discover use cases from markdown files
         use_cases = discover_use_cases_from_markdown(vendor)
 
-        # Handle logo path (supports both simple string and light/dark modes)
-        logo_data = process_logo(vendor, data.get('logo'))
+        # Auto-detect logo from assets directory
+        logo_data = auto_detect_logo(vendor)
 
         # Handle tags
         tags = data.get('tags', [])
