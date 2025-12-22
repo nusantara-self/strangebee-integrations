@@ -1,7 +1,7 @@
 id: AbuseIPDB
 name: "AbuseIPDB"
 description: "AbuseIPDB is a crowdsourced IP reputation database that helps identify and track malicious IPs involved in attacks, providing confidence scores and abuse reports for rapid threat assessment and blocking decisions"
-category: IP Intelligence
+category: Threat Intelligence
 tags:
   - ip-reputation
   - threat-detection

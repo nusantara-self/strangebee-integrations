@@ -1,0 +1,14 @@
+id: OTXQuery
+name: "AlienVault OTX"
+description: "AlienVault Open Threat Exchange (OTX) is a collaborative threat intelligence platform where security researchers share IOCs, attack patterns, and threat data, enabling community-driven defense and rapid threat validation"
+category: Threat Intelligence
+tags:
+  - threat-intelligence
+  - community-intelligence
+  - ioc-sharing
+  - collaborative-defense
+  - incident-response
+homepage: "https://otx.alienvault.com"
+
+logo:
+  light: "assets/logo.png"
