@@ -12,19 +12,19 @@
 Joe Sandbox file analysis with Internet access.
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json](.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json)
+- **Configuration:** [.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json)
 
 ### JoeSandbox_Url_Analysis `v2.0`
 Joe Sandbox URL analysis.
 
 - **Data Types:** `url`
-- **Configuration:** [.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json](.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json)
+- **Configuration:** [.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json)
 
 ### JoeSandbox_File_Analysis_Noinet `v3.0`
 Joe Sandbox file analysis without Internet access.
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json](.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json)
+- **Configuration:** [.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json)
 
 ---
 

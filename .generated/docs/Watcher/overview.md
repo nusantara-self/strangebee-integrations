@@ -7,7 +7,7 @@
 Checks if a domain is monitored in Watcher.
 
 - **Data Types:** `domain`
-- **Configuration:** [.upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json](.upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json)
+- **Configuration:** [.upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json)
 
 ---
 
@@ -17,13 +17,13 @@ Checks if a domain is monitored in Watcher.
 Add a domain to monitoring in the Website Monitoring module on Watcher.
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/Watcher/Watcher_AddDomain.json](.upstream/cortex/responders/Watcher/Watcher_AddDomain.json)
+- **Configuration:** [.upstream/cortex/responders/Watcher/Watcher_AddDomain.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Watcher/Watcher_AddDomain.json)
 
 ### Watcher_RemoveDomain `v1.2`
 Removes a domain from monitoring in the Website Monitoring module on Watcher.
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json](.upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json)
+- **Configuration:** [.upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json)
 
 ---
 

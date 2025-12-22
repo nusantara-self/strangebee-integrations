@@ -7,13 +7,13 @@
 PayloadSecurity Sandbox File Analysis
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json](.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json)
+- **Configuration:** [.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json)
 
 ### PayloadSecurity_Url_Analysis `v1.0`
 PayloadSecurity Sandbox Url Analysis
 
 - **Data Types:** `url`
-- **Configuration:** [.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json](.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json)
+- **Configuration:** [.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json)
 
 ---
 

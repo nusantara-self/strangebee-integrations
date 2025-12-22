@@ -19,7 +19,7 @@ integrations:
     - url
     - domain
     file: .upstream/cortex/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json
   responders: []
   functions: []
 stats:

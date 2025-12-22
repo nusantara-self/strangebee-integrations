@@ -13,7 +13,7 @@
 Analyze a possible malicious file with Intezer Analyzer
 
 - **Data Types:** `file`, `hash`
-- **Configuration:** [.upstream/cortex/analyzers/IntezerCommunity/IntezerCommunity.json](.upstream/cortex/analyzers/IntezerCommunity/IntezerCommunity.json)
+- **Configuration:** [.upstream/cortex/analyzers/IntezerCommunity/IntezerCommunity.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IntezerCommunity/IntezerCommunity.json)
 
 ---
 

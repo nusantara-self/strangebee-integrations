@@ -7,7 +7,7 @@
 Analyze e-mail address via Verifalia
 
 - **Data Types:** `mail`
-- **Configuration:** [.upstream/cortex/analyzers/Verifalia/Verifalia.json](.upstream/cortex/analyzers/Verifalia/Verifalia.json)
+- **Configuration:** [.upstream/cortex/analyzers/Verifalia/Verifalia.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Verifalia/Verifalia.json)
 
 ---
 

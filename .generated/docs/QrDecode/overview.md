@@ -7,7 +7,7 @@
 Extracts data from one or more QR codes.
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/QrDecode/QrDecode.json](.upstream/cortex/analyzers/QrDecode/QrDecode.json)
+- **Configuration:** [.upstream/cortex/analyzers/QrDecode/QrDecode.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/QrDecode/QrDecode.json)
 
 ---
 

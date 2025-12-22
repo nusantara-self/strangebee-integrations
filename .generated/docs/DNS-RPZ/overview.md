@@ -7,7 +7,7 @@
 Add a dynamic DNS entry to a Response Policy Zone, blackholing or redirecting a FQDN.
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/DNS-RPZ/DNS-RPZ.json](.upstream/cortex/responders/DNS-RPZ/DNS-RPZ.json)
+- **Configuration:** [.upstream/cortex/responders/DNS-RPZ/DNS-RPZ.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/DNS-RPZ/DNS-RPZ.json)
 
 ---
 

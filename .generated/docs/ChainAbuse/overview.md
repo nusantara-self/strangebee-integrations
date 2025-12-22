@@ -12,7 +12,7 @@
 Check crypto address against reported abuse cases on ChainAbuse
 
 - **Data Types:** `crypto_address`, `btc_address`
-- **Configuration:** [.upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json](.upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json)
+- **Configuration:** [.upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json)
 
 ---
 

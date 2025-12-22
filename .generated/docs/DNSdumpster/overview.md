@@ -13,7 +13,7 @@
 Query domain information from DNSdumpster.com.
 
 - **Data Types:** `domain`
-- **Configuration:** [.upstream/cortex/analyzers/DNSdumpster/DNSdumpster.json](.upstream/cortex/analyzers/DNSdumpster/DNSdumpster.json)
+- **Configuration:** [.upstream/cortex/analyzers/DNSdumpster/DNSdumpster.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSdumpster/DNSdumpster.json)
 
 ---
 

@@ -13,7 +13,7 @@
 Query EclecticIQ Intelligence Center for a specific observable.
 
 - **Data Types:** `domain`, `ip`, `url`, `fqdn`, `uri_path`, `user-agent`, `hash`, `mail`, `mail_subject`, `registry`, `regexp`, `other`, `filename`
-- **Configuration:** [.upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json](.upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json)
+- **Configuration:** [.upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json)
 
 ---
 

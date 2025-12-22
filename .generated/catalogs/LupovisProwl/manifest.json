@@ -19,7 +19,7 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/LupovisProwl/LupovisProwl_GetIPReputation.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/LupovisProwl/LupovisProwl_GetIPReputation.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/LupovisProwl/LupovisProwl_GetIPReputation.json"
       }
     ],
     "responders": [],

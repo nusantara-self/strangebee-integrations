@@ -17,7 +17,7 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json"
       },
       {
         "name": "SecurityTrails_Whois",
@@ -27,7 +27,7 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Whois.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Whois.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Whois.json"
       }
     ],
     "responders": [],

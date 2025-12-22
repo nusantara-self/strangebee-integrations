@@ -17,7 +17,7 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json"
       },
       {
         "name": "MetaDefenderCloud_GetReport",
@@ -27,7 +27,7 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json"
       },
       {
         "name": "MetaDefenderCloud_Scan",
@@ -37,7 +37,7 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json"
       },
       {
         "name": "MetaDefenderCloud_Reputation",
@@ -49,7 +49,7 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json"
       },
       {
         "name": "MetaDefenderCore_Scan",
@@ -59,7 +59,7 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json"
       }
     ],
     "responders": [],

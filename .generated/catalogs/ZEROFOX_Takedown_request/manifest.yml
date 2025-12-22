@@ -19,7 +19,7 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/ZEROFOX_Takedown_request/ZEROFOX_Takedown_request.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/ZEROFOX_Takedown_request/ZEROFOX_Takedown_request.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/ZEROFOX_Takedown_request/ZEROFOX_Takedown_request.json
   functions: []
 stats:
   totalAnalyzers: 0

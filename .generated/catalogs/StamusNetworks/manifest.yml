@@ -18,7 +18,7 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/StamusNetworks/StamusNetworks_IPInfo.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/StamusNetworks/StamusNetworks_IPInfo.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/StamusNetworks/StamusNetworks_IPInfo.json
   responders: []
   functions: []
 stats:

@@ -19,7 +19,7 @@ integrations:
     - username
     - mail
     file: .upstream/cortex/analyzers/LdapQuery/LdapQuery.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/LdapQuery/LdapQuery.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/LdapQuery/LdapQuery.json
   responders: []
   functions: []
 stats:

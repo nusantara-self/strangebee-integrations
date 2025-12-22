@@ -13,13 +13,13 @@
 Use Phishing Initiative to scan a URL.
 
 - **Data Types:** `url`
-- **Configuration:** [.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json](.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json)
+- **Configuration:** [.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json)
 
 ### PhishingInitiative_Lookup `v2.0`
 Use Phishing Initiative to check if a URL is a verified phishing site.
 
 - **Data Types:** `url`
-- **Configuration:** [.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json](.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json)
+- **Configuration:** [.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json)
 
 ---
 

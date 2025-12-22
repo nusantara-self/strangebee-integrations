@@ -13,7 +13,7 @@
 Query the SANS ISC Global DNS Lookingglass API to check a domain name for resolved IP addresses.
 
 - **Data Types:** `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/DNSLookingglass/DNSLookingglass.json](.upstream/cortex/analyzers/DNSLookingglass/DNSLookingglass.json)
+- **Configuration:** [.upstream/cortex/analyzers/DNSLookingglass/DNSLookingglass.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSLookingglass/DNSLookingglass.json)
 
 ---
 

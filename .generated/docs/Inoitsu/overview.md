@@ -13,7 +13,7 @@
 Query Inoitsu for a compromised email address.
 
 - **Data Types:** `mail`
-- **Configuration:** [.upstream/cortex/analyzers/Inoitsu/Inoitsu.json](.upstream/cortex/analyzers/Inoitsu/Inoitsu.json)
+- **Configuration:** [.upstream/cortex/analyzers/Inoitsu/Inoitsu.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Inoitsu/Inoitsu.json)
 
 ---
 

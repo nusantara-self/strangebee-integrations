@@ -13,7 +13,7 @@
 Check CIRCL's Passive SSL for a given IP address or a X509 certificate hash.
 
 - **Data Types:** `ip`, `certificate_hash`, `hash`
-- **Configuration:** [.upstream/cortex/analyzers/CIRCLPassiveSSL/CIRCLPassiveSSL.json](.upstream/cortex/analyzers/CIRCLPassiveSSL/CIRCLPassiveSSL.json)
+- **Configuration:** [.upstream/cortex/analyzers/CIRCLPassiveSSL/CIRCLPassiveSSL.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CIRCLPassiveSSL/CIRCLPassiveSSL.json)
 
 ---
 

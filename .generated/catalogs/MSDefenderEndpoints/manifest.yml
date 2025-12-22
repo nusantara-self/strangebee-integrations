@@ -22,56 +22,56 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json
   - name: MSDefender-UnRestrictAppExecution
     version: '1.0'
     description: Enable execution of any application on the device
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json
   - name: MSDefender-RestrictAppExecution
     version: '1.0'
     description: Restrict execution of all applications on the device except a predefined set
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_RestrictAppExecution.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_RestrictAppExecution.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_RestrictAppExecution.json
   - name: MSDefender-AutoInvestigation
     version: '1.0'
     description: Start an automated investigation on a device
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json
   - name: MSDefender-PushIOC-Alert
     version: '2.0'
     description: Push IOC to Defender client. Alert mode
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json
   - name: MSDefender-IsolateMachine
     version: '1.0'
     description: Isolate machine with Microsoft Defender for Endpoints
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json
   - name: MSDefender-PushIOC-Block
     version: '2.0'
     description: Push IOC to Defender client. Blocking mode
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlock.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlock.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlock.json
   - name: MSDefender-UnisolateMachine
     version: '1.0'
     description: Unisolate machine with Microsoft Defender for Endpoints
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Unisolate.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Unisolate.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Unisolate.json
   functions: []
 stats:
   totalAnalyzers: 0

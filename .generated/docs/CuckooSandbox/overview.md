@@ -13,13 +13,13 @@
 Cuckoo Sandbox URL analysis.
 
 - **Data Types:** `url`
-- **Configuration:** [.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json](.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json)
+- **Configuration:** [.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json)
 
 ### CuckooSandbox_File_Analysis_Inet `v1.2`
 Cuckoo Sandbox file analysis with Internet access.
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json](.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json)
+- **Configuration:** [.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json)
 
 ---
 

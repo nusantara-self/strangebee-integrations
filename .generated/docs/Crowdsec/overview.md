@@ -13,7 +13,7 @@
 Query Crowdsec API
 
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json](.upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json)
+- **Configuration:** [.upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json)
 
 ---
 

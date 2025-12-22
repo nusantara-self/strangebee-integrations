@@ -56,7 +56,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/Slack/Slack_SyncChannel.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/Slack/Slack_SyncChannel.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Slack/Slack_SyncChannel.json"
       },
       {
         "name": "Slack_CreateChannel",
@@ -66,7 +66,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/Slack/Slack_CreateChannel.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/Slack/Slack_CreateChannel.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Slack/Slack_CreateChannel.json"
       }
     ],
     "functions": []

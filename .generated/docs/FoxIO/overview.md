@@ -13,7 +13,7 @@
 JA4 Fingerprint analysis with FoxIO Database
 
 - **Data Types:** `user-agent`, `ja4-fingerprint`
-- **Configuration:** [.upstream/cortex/analyzers/FoxIO/JA4_FoxIO.json](.upstream/cortex/analyzers/FoxIO/JA4_FoxIO.json)
+- **Configuration:** [.upstream/cortex/analyzers/FoxIO/JA4_FoxIO.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/FoxIO/JA4_FoxIO.json)
 
 ---
 

@@ -13,7 +13,7 @@
 Search for a specific hash, if there is a match, coresponding client information
 
 - **Data Types:** `hash`
-- **Configuration:** [.upstream/cortex/analyzers/Cylance/Cylance.json](.upstream/cortex/analyzers/Cylance/Cylance.json)
+- **Configuration:** [.upstream/cortex/analyzers/Cylance/Cylance.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Cylance/Cylance.json)
 
 ---
 

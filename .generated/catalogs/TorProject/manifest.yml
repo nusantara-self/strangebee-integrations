@@ -18,7 +18,7 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/TorProject/TorProject.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/TorProject/TorProject.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/TorProject/TorProject.json
   responders: []
   functions: []
 stats:

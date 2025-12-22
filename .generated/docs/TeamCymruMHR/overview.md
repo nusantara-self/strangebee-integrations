@@ -13,7 +13,7 @@
 Submit hash to Team Cymru's Malware Hash Registry
 
 - **Data Types:** `hash`
-- **Configuration:** [.upstream/cortex/analyzers/TeamCymruMHR/TeamCymruMHR.json](.upstream/cortex/analyzers/TeamCymruMHR/TeamCymruMHR.json)
+- **Configuration:** [.upstream/cortex/analyzers/TeamCymruMHR/TeamCymruMHR.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/TeamCymruMHR/TeamCymruMHR.json)
 
 ---
 

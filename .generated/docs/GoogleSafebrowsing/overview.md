@@ -7,7 +7,7 @@
 Use Google Safebrowing to check URLs and domain names.
 
 - **Data Types:** `url`, `domain`
-- **Configuration:** [.upstream/cortex/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json](.upstream/cortex/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json)
+- **Configuration:** [.upstream/cortex/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleSafebrowsing/GoogleSafebrowsing.json)
 
 ---
 

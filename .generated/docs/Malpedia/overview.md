@@ -7,7 +7,7 @@
 Check files against Malpedia YARA rules.
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/Malpedia/Malpedia.json](.upstream/cortex/analyzers/Malpedia/Malpedia.json)
+- **Configuration:** [.upstream/cortex/analyzers/Malpedia/Malpedia.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Malpedia/Malpedia.json)
 
 ---
 

@@ -7,7 +7,7 @@
 Fetch details from an IVRE instance.
 
 - **Data Types:** `autonomous-system`, `certificate_hash`, `domain`, `fqdn`, `ip`, `network`, `port`, `user-agent`
-- **Configuration:** [.upstream/cortex/analyzers/IVRE/IVRE.json](.upstream/cortex/analyzers/IVRE/IVRE.json)
+- **Configuration:** [.upstream/cortex/analyzers/IVRE/IVRE.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IVRE/IVRE.json)
 
 ---
 

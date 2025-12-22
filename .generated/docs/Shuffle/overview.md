@@ -7,7 +7,7 @@
 Execute a workflow in Shuffle
 
 - **Data Types:** `thehive:case`, `thehive:alert`, `thehive:case_artifact`, `thehive:case_task`, `thehive:case_task_log`
-- **Configuration:** [.upstream/cortex/responders/Shuffle/shuffle.json](.upstream/cortex/responders/Shuffle/shuffle.json)
+- **Configuration:** [.upstream/cortex/responders/Shuffle/shuffle.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Shuffle/shuffle.json)
 
 ---
 

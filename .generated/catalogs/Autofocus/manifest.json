@@ -17,7 +17,7 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json"
       },
       {
         "name": "Autofocus_SearchJSON",
@@ -27,7 +27,7 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json"
       },
       {
         "name": "Autofocus_SearchIOC",
@@ -44,7 +44,7 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json"
       }
     ],
     "responders": [],

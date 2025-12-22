@@ -13,7 +13,7 @@
 Find abuse contacts associated with domain names, URLs, IPs and email addresses.
 
 - **Data Types:** `ip`, `domain`, `fqdn`, `url`, `mail`
-- **Configuration:** [.upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json](.upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json)
+- **Configuration:** [.upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json)
 
 ---
 

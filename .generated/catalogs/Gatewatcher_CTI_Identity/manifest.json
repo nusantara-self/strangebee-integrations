@@ -18,7 +18,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/Gatewatcher_CTI_Identity/Gatewatcher_CTI_Identity.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/Gatewatcher_CTI_Identity/Gatewatcher_CTI_Identity.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Gatewatcher_CTI_Identity/Gatewatcher_CTI_Identity.json"
       }
     ],
     "functions": []

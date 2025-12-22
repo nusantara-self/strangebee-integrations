@@ -7,7 +7,7 @@
 Checks CERT.at Passive DNS for a given domain.
 
 - **Data Types:** `domain`, `fqdn`, `ip`
-- **Configuration:** [.upstream/cortex/analyzers/CERTatPassiveDNS/CERTatPassiveDNS.json](.upstream/cortex/analyzers/CERTatPassiveDNS/CERTatPassiveDNS.json)
+- **Configuration:** [.upstream/cortex/analyzers/CERTatPassiveDNS/CERTatPassiveDNS.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CERTatPassiveDNS/CERTatPassiveDNS.json)
 
 ---
 

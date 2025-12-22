@@ -7,7 +7,7 @@
 Fetch observable details from an Anomali STAXX instance.
 
 - **Data Types:** `domain`, `fqdn`, `ip`, `url`, `hash`, `mail`
-- **Configuration:** [.upstream/cortex/analyzers/StaxxSearch/StaxxSearch.json](.upstream/cortex/analyzers/StaxxSearch/StaxxSearch.json)
+- **Configuration:** [.upstream/cortex/analyzers/StaxxSearch/StaxxSearch.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/StaxxSearch/StaxxSearch.json)
 
 ---
 

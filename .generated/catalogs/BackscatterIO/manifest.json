@@ -20,7 +20,7 @@
           "port"
         ],
         "file": ".upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json"
       },
       {
         "name": "BackscatterIO_GetObservations",
@@ -32,7 +32,7 @@
           "autonomous-system"
         ],
         "file": ".upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json"
       }
     ],
     "responders": [],

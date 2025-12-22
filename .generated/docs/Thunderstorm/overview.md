@@ -13,7 +13,7 @@
 Submits sample to an on-premise THOR Thunderstorm web service and processes the scan result
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json](.upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json)
+- **Configuration:** [.upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json)
 
 ---
 

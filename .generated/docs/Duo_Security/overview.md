@@ -7,19 +7,19 @@
 Unlock User Account in Duo Security via AdminAPI (The user must complete secondary authentication)
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json](.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json)
+- **Configuration:** [.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json)
 
 ### DuoBypassUserAccount `v1.0`
 Put User Account into Bypass mode in Duo Security via AdminAPI (The user will not be prompted when logging in.)
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json](.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json)
+- **Configuration:** [.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json)
 
 ### DuoLockUserAccount `v1.0`
 Lock User Account in Duo Security via AdminAPI (The user will not be able to log in)
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json](.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json)
+- **Configuration:** [.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json)
 
 ---
 

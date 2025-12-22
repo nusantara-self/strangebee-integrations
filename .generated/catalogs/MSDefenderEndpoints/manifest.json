@@ -21,7 +21,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json"
       },
       {
         "name": "MSDefender-UnRestrictAppExecution",
@@ -31,7 +31,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json"
       },
       {
         "name": "MSDefender-RestrictAppExecution",
@@ -41,7 +41,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_RestrictAppExecution.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_RestrictAppExecution.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_RestrictAppExecution.json"
       },
       {
         "name": "MSDefender-AutoInvestigation",
@@ -51,7 +51,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json"
       },
       {
         "name": "MSDefender-PushIOC-Alert",
@@ -61,7 +61,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAlert.json"
       },
       {
         "name": "MSDefender-IsolateMachine",
@@ -71,7 +71,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json"
       },
       {
         "name": "MSDefender-PushIOC-Block",
@@ -81,7 +81,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlock.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlock.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlock.json"
       },
       {
         "name": "MSDefender-UnisolateMachine",
@@ -91,7 +91,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Unisolate.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Unisolate.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Unisolate.json"
       }
     ],
     "functions": []

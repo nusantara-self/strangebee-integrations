@@ -17,7 +17,7 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Watcher/Watcher_CheckDomain.json"
       }
     ],
     "responders": [
@@ -29,7 +29,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Watcher/Watcher_AddDomain.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/Watcher/Watcher_AddDomain.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Watcher/Watcher_AddDomain.json"
       },
       {
         "name": "Watcher_RemoveDomain",
@@ -39,7 +39,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Watcher/Watcher_RemoveDomain.json"
       }
     ],
     "functions": []

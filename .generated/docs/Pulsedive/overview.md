@@ -7,7 +7,7 @@
 Search Pulsedive.com for a giver domain name, hash, ip or url
 
 - **Data Types:** `url`, `domain`, `ip`, `hash`
-- **Configuration:** [.upstream/cortex/analyzers/Pulsedive/Pulsedive_GetIndicator.json](.upstream/cortex/analyzers/Pulsedive/Pulsedive_GetIndicator.json)
+- **Configuration:** [.upstream/cortex/analyzers/Pulsedive/Pulsedive_GetIndicator.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Pulsedive/Pulsedive_GetIndicator.json)
 
 ---
 

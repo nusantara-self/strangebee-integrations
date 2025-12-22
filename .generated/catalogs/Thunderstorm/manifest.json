@@ -20,7 +20,7 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json"
       }
     ],
     "responders": [],

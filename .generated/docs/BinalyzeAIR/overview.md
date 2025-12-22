@@ -13,13 +13,13 @@
 Start an acquisition with Binalyze AIR.
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json](.upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json)
+- **Configuration:** [.upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json)
 
 ### Binalyze_AIR_Isolation `v1.0`
 Isolate your endpoints with Binalyze AIR.
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json](.upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json)
+- **Configuration:** [.upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json)
 
 ---
 

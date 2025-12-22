@@ -7,13 +7,13 @@
 SecurityTrails Passive DNS Lookup.
 
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json](.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json)
+- **Configuration:** [.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json)
 
 ### SecurityTrails_Whois `v1.0`
 SecurityTrails Whois Lookup.
 
 - **Data Types:** `domain`
-- **Configuration:** [.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Whois.json](.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Whois.json)
+- **Configuration:** [.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Whois.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Whois.json)
 
 ---
 

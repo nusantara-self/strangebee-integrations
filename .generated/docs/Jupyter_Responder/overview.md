@@ -7,7 +7,7 @@
 Execute a parameterized notebook in Jupyter
 
 - **Data Types:** `thehive:case`, `thehive:case_artifact`, `thehive:alert`, `thehive:case_task`, `thehive:case_task_log`
-- **Configuration:** [.upstream/cortex/responders/Jupyter_Responder/Jupyter_Run_Notebook_Responder.json](.upstream/cortex/responders/Jupyter_Responder/Jupyter_Run_Notebook_Responder.json)
+- **Configuration:** [.upstream/cortex/responders/Jupyter_Responder/Jupyter_Run_Notebook_Responder.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Jupyter_Responder/Jupyter_Run_Notebook_Responder.json)
 
 ---
 

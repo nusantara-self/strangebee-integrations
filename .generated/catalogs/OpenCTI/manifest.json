@@ -33,7 +33,7 @@
           "mail-subject"
         ],
         "file": ".upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json"
       },
       {
         "name": "OpenCTI_SearchObservables",
@@ -56,7 +56,7 @@
           "mail-subject"
         ],
         "file": ".upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json"
       }
     ],
     "responders": [],

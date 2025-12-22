@@ -7,7 +7,7 @@
 VMRay Sandbox file and URL analysis.
 
 - **Data Types:** `hash`, `file`, `url`
-- **Configuration:** [.upstream/cortex/analyzers/VMRay/VMRay.json](.upstream/cortex/analyzers/VMRay/VMRay.json)
+- **Configuration:** [.upstream/cortex/analyzers/VMRay/VMRay.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VMRay/VMRay.json)
 
 ---
 

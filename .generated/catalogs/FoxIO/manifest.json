@@ -21,7 +21,7 @@
           "ja4-fingerprint"
         ],
         "file": ".upstream/cortex/analyzers/FoxIO/JA4_FoxIO.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/FoxIO/JA4_FoxIO.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/FoxIO/JA4_FoxIO.json"
       }
     ],
     "responders": [],

@@ -20,7 +20,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json"
       },
       {
         "name": "PaloAltoNGFW_unblock_port_for_external_communication",
@@ -32,7 +32,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json"
       },
       {
         "name": "PaloAltoNGFW_unblock_internal_user",
@@ -44,7 +44,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json"
       },
       {
         "name": "PaloAltoNGFW_block_external_IP_address",
@@ -56,7 +56,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json"
       },
       {
         "name": "PaloAltoNGFW_unblock_external_user",
@@ -68,7 +68,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json"
       },
       {
         "name": "PaloAltoNGFW_block_port_for_external_communication",
@@ -80,7 +80,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json"
       },
       {
         "name": "PaloAltoNGFW_unblock_external_IP_address",
@@ -92,7 +92,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json"
       },
       {
         "name": "PaloAltoNGFW_block_internal_user",
@@ -104,7 +104,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json"
       },
       {
         "name": "PaloAltoNGFW_unblock_port_for_internal_communication",
@@ -116,7 +116,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json"
       },
       {
         "name": "PaloAltoNGFW_unblock_internal_domain",
@@ -128,7 +128,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json"
       },
       {
         "name": "PaloAltoNGFW_block_internal_domain",
@@ -140,7 +140,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json"
       },
       {
         "name": "PaloAltoNGFW_block_internal_IP_address",
@@ -152,7 +152,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json"
       },
       {
         "name": "PaloAltoNGFW_block_external_user",
@@ -164,7 +164,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json"
       },
       {
         "name": "PaloAltoNGFW_block_external_domain",
@@ -176,7 +176,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json"
       },
       {
         "name": "PaloAltoNGFW_block_port_for_internal_communication",
@@ -188,7 +188,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json"
       },
       {
         "name": "PaloAltoNGFW_unblock_internal_IP_address",
@@ -200,7 +200,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json"
       }
     ],
     "functions": []

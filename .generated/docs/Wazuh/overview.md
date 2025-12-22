@@ -7,7 +7,7 @@
 Block an IP on a host via Wazuh agent
 
 - **Data Types:** `thehive:case`, `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/Wazuh/wazuh.json](.upstream/cortex/responders/Wazuh/wazuh.json)
+- **Configuration:** [.upstream/cortex/responders/Wazuh/wazuh.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Wazuh/wazuh.json)
 
 ---
 

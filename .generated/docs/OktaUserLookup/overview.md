@@ -13,7 +13,7 @@
 Okta User Lookup is an analyzer for TheHive to enrich mail observables from data through the Okta users API
 
 - **Data Types:** `mail`
-- **Configuration:** [.upstream/cortex/analyzers/OktaUserLookup/OktaUserLookup.json](.upstream/cortex/analyzers/OktaUserLookup/OktaUserLookup.json)
+- **Configuration:** [.upstream/cortex/analyzers/OktaUserLookup/OktaUserLookup.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/OktaUserLookup/OktaUserLookup.json)
 
 ---
 

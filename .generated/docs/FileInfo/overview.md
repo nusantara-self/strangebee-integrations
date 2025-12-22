@@ -7,7 +7,7 @@
 Parse files in several formats such as OLE and OpenXML to detect VBA macros, extract their source code, generate useful information on PE, PDF files...
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/FileInfo/FileInfo.json](.upstream/cortex/analyzers/FileInfo/FileInfo.json)
+- **Configuration:** [.upstream/cortex/analyzers/FileInfo/FileInfo.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/FileInfo/FileInfo.json)
 
 ---
 

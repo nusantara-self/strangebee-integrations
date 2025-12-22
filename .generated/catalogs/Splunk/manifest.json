@@ -20,7 +20,7 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Splunk/Splunk_Search_other.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json"
       },
       {
         "name": "Splunk_Search_Registry",
@@ -30,7 +30,7 @@
           "registry"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json"
       },
       {
         "name": "Splunk_Search_Mail_Subject",
@@ -41,7 +41,7 @@
           "mail-subject"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json"
       },
       {
         "name": "Splunk_Search_File_Filename",
@@ -52,7 +52,7 @@
           "filename"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json"
       },
       {
         "name": "Splunk_Search_User_Agent",
@@ -62,7 +62,7 @@
           "user-agent"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json"
       },
       {
         "name": "Splunk_Search_Mail_Email",
@@ -73,7 +73,7 @@
           "email"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json"
       },
       {
         "name": "Splunk_Search_IP",
@@ -83,7 +83,7 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json"
       },
       {
         "name": "Splunk_Search_Hash",
@@ -93,7 +93,7 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json"
       },
       {
         "name": "Splunk_Search_Domain_FQDN",
@@ -104,7 +104,7 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json"
       },
       {
         "name": "Splunk_Search_User",
@@ -114,7 +114,7 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_user.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Splunk/Splunk_Search_user.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json"
       },
       {
         "name": "Splunk_Search_URL_URI_Path",
@@ -125,7 +125,7 @@
           "uri_path"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json"
       }
     ],
     "responders": [],

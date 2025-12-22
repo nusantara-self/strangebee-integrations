@@ -13,13 +13,13 @@
 Get information from the RST Threat Feed, which integrated with Vulners, for a domain, url or an IP address.
 
 - **Data Types:** `url`, `domain`, `ip`
-- **Configuration:** [.upstream/cortex/analyzers/Vulners/Vulners_IOC.json](.upstream/cortex/analyzers/Vulners/Vulners_IOC.json)
+- **Configuration:** [.upstream/cortex/analyzers/Vulners/Vulners_IOC.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Vulners/Vulners_IOC.json)
 
 ### Vulners_CVE `v1.0`
 Get information about CVE from powerful Vulners database.
 
 - **Data Types:** `cve`
-- **Configuration:** [.upstream/cortex/analyzers/Vulners/Vulners_CVE.json](.upstream/cortex/analyzers/Vulners/Vulners_CVE.json)
+- **Configuration:** [.upstream/cortex/analyzers/Vulners/Vulners_CVE.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Vulners/Vulners_CVE.json)
 
 ---
 

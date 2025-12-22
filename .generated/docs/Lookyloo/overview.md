@@ -13,7 +13,7 @@
 Take a screenshot of an url, domain, FQDN or IP and report all HTTP redirections
 
 - **Data Types:** `url`, `domain`, `fqdn`, `ip`
-- **Configuration:** [.upstream/cortex/analyzers/Lookyloo/Lookyloo.json](.upstream/cortex/analyzers/Lookyloo/Lookyloo.json)
+- **Configuration:** [.upstream/cortex/analyzers/Lookyloo/Lookyloo.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Lookyloo/Lookyloo.json)
 
 ---
 

@@ -7,7 +7,7 @@
 Add domain to Umbrella blacklist via Enforcement API.
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/UmbrellaBlacklister/UmbrellaBlacklister.json](.upstream/cortex/responders/UmbrellaBlacklister/UmbrellaBlacklister.json)
+- **Configuration:** [.upstream/cortex/responders/UmbrellaBlacklister/UmbrellaBlacklister.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/UmbrellaBlacklister/UmbrellaBlacklister.json)
 
 ---
 

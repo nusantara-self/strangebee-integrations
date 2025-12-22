@@ -14,7 +14,7 @@ Proofpoint is an enterprise email security and threat protection platform that p
 Check URL, file, SHA256 against Proofpoint forensics
 
 - **Data Types:** `url`, `file`, `hash`
-- **Configuration:** [.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json](.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json)
+- **Configuration:** [.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json)
 
 ---
 
@@ -25,14 +25,14 @@ Ingests ProofPoint messageDelivered alerts in TheHive
 
 - **Kind:** function
 - **Mode:** Enabled
-- **File:** [integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered](integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered)
+- **File:** [integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered)
 
 ### alertFeeder_ProofPoint_clicksPermitted `v1.0.0`
 Ingests ProofPoint clicksPermitted alerts in TheHive
 
 - **Kind:** function
 - **Mode:** Enabled
-- **File:** [integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted](integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted)
+- **File:** [integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted)
 
 ---
 

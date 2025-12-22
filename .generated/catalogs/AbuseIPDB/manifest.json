@@ -20,7 +20,7 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json"
       }
     ],
     "responders": [],

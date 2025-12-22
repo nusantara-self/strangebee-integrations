@@ -13,7 +13,7 @@
 Checks the existence of Tor hidden services and retrieving their associated metadata. Onion-lookup relies on an AIL instance to obtain the metadata.
 
 - **Data Types:** `domain`, `url`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/AILOnionLookup/AIL_OnionLookup.json](.upstream/cortex/analyzers/AILOnionLookup/AIL_OnionLookup.json)
+- **Configuration:** [.upstream/cortex/analyzers/AILOnionLookup/AIL_OnionLookup.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/AILOnionLookup/AIL_OnionLookup.json)
 
 ---
 

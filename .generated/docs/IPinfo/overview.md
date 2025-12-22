@@ -7,13 +7,13 @@
 IPinfo details lookup.
 
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json](.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json)
+- **Configuration:** [.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json)
 
 ### IPinfo_Hosted_Domains `v1.0`
 IPinfo hosted domains lookup.
 
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json](.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json)
+- **Configuration:** [.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json)
 
 ---
 

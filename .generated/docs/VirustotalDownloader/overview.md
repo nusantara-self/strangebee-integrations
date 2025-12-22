@@ -13,7 +13,7 @@
 Download a file from Virustotal by its hash
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/VirustotalDownloader/VirustotalDownloader.json](.upstream/cortex/responders/VirustotalDownloader/VirustotalDownloader.json)
+- **Configuration:** [.upstream/cortex/responders/VirustotalDownloader/VirustotalDownloader.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/VirustotalDownloader/VirustotalDownloader.json)
 
 ---
 

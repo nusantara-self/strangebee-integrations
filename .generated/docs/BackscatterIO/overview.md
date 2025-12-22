@@ -7,13 +7,13 @@
 Enrich values using Backscatter.io data.
 
 - **Data Types:** `ip`, `network`, `autonomous-system`, `port`
-- **Configuration:** [.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json](.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json)
+- **Configuration:** [.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json)
 
 ### BackscatterIO_GetObservations `v1.0`
 Determine whether a value has known scanning activity using Backscatter.io data.
 
 - **Data Types:** `ip`, `network`, `autonomous-system`
-- **Configuration:** [.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json](.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json)
+- **Configuration:** [.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json)
 
 ---
 

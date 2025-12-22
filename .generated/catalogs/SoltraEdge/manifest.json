@@ -30,7 +30,7 @@
           "mail-subject"
         ],
         "file": ".upstream/cortex/analyzers/SoltraEdge/Soltra_search.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/SoltraEdge/Soltra_search.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SoltraEdge/Soltra_search.json"
       }
     ],
     "responders": [],

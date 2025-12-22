@@ -13,7 +13,7 @@
 Search IPs, domains, hashes or URLs on axur.com
 
 - **Data Types:** `domain`, `fqdn`, `ip`, `url`, `hash`
-- **Configuration:** [.upstream/cortex/analyzers/Axur/axur_analyzer.json](.upstream/cortex/analyzers/Axur/axur_analyzer.json)
+- **Configuration:** [.upstream/cortex/analyzers/Axur/axur_analyzer.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Axur/axur_analyzer.json)
 
 ---
 

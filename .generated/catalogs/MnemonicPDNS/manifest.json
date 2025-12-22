@@ -18,7 +18,7 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json"
       },
       {
         "name": "Mnemonic_pDNS_Public",
@@ -29,7 +29,7 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json"
       }
     ],
     "responders": [],

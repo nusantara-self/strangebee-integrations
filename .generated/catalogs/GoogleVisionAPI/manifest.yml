@@ -19,7 +19,7 @@ integrations:
     - file
     - url
     file: .upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json
   responders: []
   functions: []
 stats:

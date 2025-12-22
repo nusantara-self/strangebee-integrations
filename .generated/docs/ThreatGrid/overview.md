@@ -7,7 +7,7 @@
 Threat Grid Sandbox
 
 - **Data Types:** `file`, `url`, `hash`
-- **Configuration:** [.upstream/cortex/analyzers/ThreatGrid/ThreatGrid.json](.upstream/cortex/analyzers/ThreatGrid/ThreatGrid.json)
+- **Configuration:** [.upstream/cortex/analyzers/ThreatGrid/ThreatGrid.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ThreatGrid/ThreatGrid.json)
 
 ---
 

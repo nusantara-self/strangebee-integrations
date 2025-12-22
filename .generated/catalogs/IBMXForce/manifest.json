@@ -20,7 +20,7 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/IBMXForce/IBMXForce_Lookup.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/IBMXForce/IBMXForce_Lookup.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IBMXForce/IBMXForce_Lookup.json"
       }
     ],
     "responders": [],

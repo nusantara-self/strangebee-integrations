@@ -13,7 +13,7 @@
 Analyze files with Capa
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/Capa/Capa.json](.upstream/cortex/analyzers/Capa/Capa.json)
+- **Configuration:** [.upstream/cortex/analyzers/Capa/Capa.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Capa/Capa.json)
 
 ---
 

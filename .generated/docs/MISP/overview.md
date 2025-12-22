@@ -13,7 +13,7 @@
 Query multiple MISP instances for events containing an observable.
 
 - **Data Types:** `domain`, `ip`, `url`, `fqdn`, `uri_path`, `user-agent`, `hash`, `mail`, `mail_subject`, `registry`, `regexp`, `other`, `filename`, `mail-subject`
-- **Configuration:** [.upstream/cortex/analyzers/MISP/MISP.json](.upstream/cortex/analyzers/MISP/MISP.json)
+- **Configuration:** [.upstream/cortex/analyzers/MISP/MISP.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MISP/MISP.json)
 
 ---
 

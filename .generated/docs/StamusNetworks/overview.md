@@ -7,7 +7,7 @@
 Get information from your Scirius Security Platform for an IP address.
 
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/StamusNetworks/StamusNetworks_IPInfo.json](.upstream/cortex/analyzers/StamusNetworks/StamusNetworks_IPInfo.json)
+- **Configuration:** [.upstream/cortex/analyzers/StamusNetworks/StamusNetworks_IPInfo.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/StamusNetworks/StamusNetworks_IPInfo.json)
 
 ---
 

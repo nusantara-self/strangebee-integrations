@@ -7,13 +7,13 @@
 Search IPs, domains, hashes or URLs on urlscan.io
 
 - **Data Types:** `ip`, `domain`, `hash`, `fqdn`, `url`
-- **Configuration:** [.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json](.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json)
+- **Configuration:** [.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json)
 
 ### Urlscan.io_Scan `v0.1.0`
 Scan URLs on urlscan.io
 
 - **Data Types:** `url`, `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json](.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json)
+- **Configuration:** [.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json)
 
 ---
 

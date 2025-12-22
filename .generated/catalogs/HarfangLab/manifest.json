@@ -20,7 +20,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactUSN.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactUSN.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactUSN.json"
       },
       {
         "name": "HarfangLab-IsolateHost",
@@ -31,7 +31,7 @@
           "thehive:alert"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_Isolate.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_Isolate.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_Isolate.json"
       },
       {
         "name": "HarfangLab-KillProcess",
@@ -42,7 +42,7 @@
           "thehive:alert"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_KillProcess.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_KillProcess.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_KillProcess.json"
       },
       {
         "name": "HarfangLab-GetScheduledTasks",
@@ -52,7 +52,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetScheduledTasks.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetScheduledTasks.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetScheduledTasks.json"
       },
       {
         "name": "HarfangLab-GetArtifactMFT",
@@ -62,7 +62,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactMFT.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactMFT.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactMFT.json"
       },
       {
         "name": "HarfangLab-GetArtifactEvtx",
@@ -72,7 +72,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactEvtx.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactEvtx.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactEvtx.json"
       },
       {
         "name": "HarfangLab-DumpProcess",
@@ -82,7 +82,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_DumpProcess.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_DumpProcess.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_DumpProcess.json"
       },
       {
         "name": "HarfangLab-GetSessions",
@@ -92,7 +92,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetSessions.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetSessions.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetSessions.json"
       },
       {
         "name": "HarfangLab-GetDrivers",
@@ -102,7 +102,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetDrivers.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetDrivers.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetDrivers.json"
       },
       {
         "name": "HarfangLab-GetRunKeys",
@@ -112,7 +112,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetRunKeys.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetRunKeys.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetRunKeys.json"
       },
       {
         "name": "HarfangLab-GetNetworkShares",
@@ -122,7 +122,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetNetworkShares.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetNetworkShares.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetNetworkShares.json"
       },
       {
         "name": "HarfangLab-GetArtifactLogs",
@@ -132,7 +132,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactLogs.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactLogs.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactLogs.json"
       },
       {
         "name": "HarfangLab-SearchDestinationIP",
@@ -142,7 +142,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_SearchDestinationIP.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_SearchDestinationIP.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDestinationIP.json"
       },
       {
         "name": "HarfangLab_SearchDriverByHash",
@@ -152,7 +152,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByHash.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByHash.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByHash.json"
       },
       {
         "name": "HarfangLab-GetPipes",
@@ -162,7 +162,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetPipes.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetPipes.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPipes.json"
       },
       {
         "name": "HarfangLab_SearchDriverByFileName",
@@ -172,7 +172,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json"
       },
       {
         "name": "HarfangLab-SearchSourceIP",
@@ -182,7 +182,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_SearchSourceIP.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_SearchSourceIP.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchSourceIP.json"
       },
       {
         "name": "HarfangLab-GetBinary",
@@ -192,7 +192,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetBinary.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetBinary.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetBinary.json"
       },
       {
         "name": "HarfangLab-GetProcesses",
@@ -202,7 +202,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetProcesses.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetProcesses.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetProcesses.json"
       },
       {
         "name": "HarfangLab-GetWMI",
@@ -212,7 +212,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetWMI.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetWMI.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetWMI.json"
       },
       {
         "name": "HarfangLab-GetPrefetches",
@@ -222,7 +222,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetPrefetches.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetPrefetches.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPrefetches.json"
       },
       {
         "name": "HarfangLab-GetPersistence",
@@ -232,7 +232,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetPersistence.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetPersistence.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPersistence.json"
       },
       {
         "name": "HarfangLab-GetArtifactRamdump",
@@ -242,7 +242,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactRamdump.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactRamdump.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactRamdump.json"
       },
       {
         "name": "HarfangLab-GetArtifactAll",
@@ -252,7 +252,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactAll.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactAll.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactAll.json"
       },
       {
         "name": "HarfangLab-UnisolateHost",
@@ -263,7 +263,7 @@
           "thehive:alert"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_Unisolate.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_Unisolate.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_Unisolate.json"
       },
       {
         "name": "HarfangLab-GetArtifactPrefetch",
@@ -273,7 +273,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactPrefetch.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactPrefetch.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactPrefetch.json"
       },
       {
         "name": "HarfangLab-GetArtifactFilesystem",
@@ -283,7 +283,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactFilesystem.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactFilesystem.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactFilesystem.json"
       },
       {
         "name": "HarfangLab-GetArtifactHives",
@@ -293,7 +293,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactHives.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactHives.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactHives.json"
       },
       {
         "name": "HarfangLab-GetStartupFiles",
@@ -303,7 +303,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetStartupFiles.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetStartupFiles.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetStartupFiles.json"
       },
       {
         "name": "HarfangLab-GetServices",
@@ -313,7 +313,7 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_GetServices.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_GetServices.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetServices.json"
       },
       {
         "name": "HarfangLab-SearchHash",
@@ -323,7 +323,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/HarfangLab/HarfangLab_SearchHash.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/HarfangLab/HarfangLab_SearchHash.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchHash.json"
       }
     ],
     "functions": []

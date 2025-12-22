@@ -13,13 +13,13 @@
 Remove IOC on JAMF Protect - removes associated custom prevent list(s) containing the hash
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json](.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json)
+- **Configuration:** [.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json)
 
 ### JAMFProtect_addHashtoPreventList `v1.0`
 Add IOC to JAMF Protect - creates a custom prevent list for a hash
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json](.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json)
+- **Configuration:** [.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json)
 
 ---
 

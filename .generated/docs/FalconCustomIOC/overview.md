@@ -7,13 +7,13 @@
 Submit observables to the Crowdstrike Falcon Custom IOC api
 
 - **Data Types:** `thehive:alert`, `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json](.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json)
+- **Configuration:** [.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json)
 
 ### Crowdstrike_Falcon_Custom_IOC `v2.0`
 Submit observables to the Crowdstrike Falcon Custom IOC API
 
 - **Data Types:** `thehive:alert`, `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json](.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json)
+- **Configuration:** [.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json)
 
 ---
 

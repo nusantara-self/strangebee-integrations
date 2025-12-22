@@ -7,7 +7,7 @@
 Use Web of Trust to check a domain's reputation.
 
 - **Data Types:** `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/WOT/WOT_lookup.json](.upstream/cortex/analyzers/WOT/WOT_lookup.json)
+- **Configuration:** [.upstream/cortex/analyzers/WOT/WOT_lookup.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/WOT/WOT_lookup.json)
 
 ---
 

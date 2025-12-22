@@ -13,7 +13,7 @@
 Any.Run Sandbox file analysis
 
 - **Data Types:** `file`, `url`
-- **Configuration:** [.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_Analysis.json](.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_Analysis.json)
+- **Configuration:** [.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_Analysis.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_Analysis.json)
 
 ---
 

@@ -19,7 +19,7 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
   - name: SophosIntelix_Submit_Static
     version: '0.1'
     description: Use SophosLabs machine learning to understand the characteristics of your suspicious file allowing you to
@@ -28,7 +28,7 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json
   - name: SophosIntelix_GetReport
     version: '0.3'
     description: Fast and easy way to find out if the file is known Good, PUA (Potentially Unwanted Application), or, Malware.
@@ -39,7 +39,7 @@ integrations:
     - fqdn
     - url
     file: .upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json
   responders: []
   functions: []
 stats:

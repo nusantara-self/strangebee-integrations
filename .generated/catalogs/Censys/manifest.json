@@ -22,7 +22,7 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/Censys/Censys.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Censys/Censys.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Censys/Censys.json"
       }
     ],
     "responders": [],

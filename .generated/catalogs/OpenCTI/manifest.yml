@@ -34,7 +34,7 @@ integrations:
     - filename
     - mail-subject
     file: .upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json
   - name: OpenCTI_SearchObservables
     version: '2.0'
     description: Query multiple OpenCTI instances for a list of observables matching a pattern.
@@ -54,7 +54,7 @@ integrations:
     - filename
     - mail-subject
     file: .upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json
   responders: []
   functions: []
 stats:

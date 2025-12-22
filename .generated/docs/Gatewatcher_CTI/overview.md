@@ -13,7 +13,7 @@
 Get Gatewatcher CTI Report
 
 - **Data Types:** `hash`, `domain`, `fqdn`, `url`, `ip`, `mail`
-- **Configuration:** [.upstream/cortex/analyzers/Gatewatcher_CTI/Gatewatcher_CTI.json](.upstream/cortex/analyzers/Gatewatcher_CTI/Gatewatcher_CTI.json)
+- **Configuration:** [.upstream/cortex/analyzers/Gatewatcher_CTI/Gatewatcher_CTI.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Gatewatcher_CTI/Gatewatcher_CTI.json)
 
 ---
 

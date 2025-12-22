@@ -29,7 +29,7 @@ integrations:
     - uri_path
     - user-agent
     file: .upstream/cortex/analyzers/ValidateObservable/ValidateObservable.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/ValidateObservable/ValidateObservable.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ValidateObservable/ValidateObservable.json
   responders: []
   functions: []
 stats:

@@ -12,7 +12,7 @@
 Parse and visualise EML email message. Submit a .eml formatted file and extract some useful information.
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/EmlParser/EmlParser.json](.upstream/cortex/analyzers/EmlParser/EmlParser.json)
+- **Configuration:** [.upstream/cortex/analyzers/EmlParser/EmlParser.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmlParser/EmlParser.json)
 
 ---
 

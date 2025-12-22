@@ -7,7 +7,7 @@
 Gatewatcher_CTI_Identity responder
 
 - **Data Types:** `thehive:case`
-- **Configuration:** [.upstream/cortex/responders/Gatewatcher_CTI_Identity/Gatewatcher_CTI_Identity.json](.upstream/cortex/responders/Gatewatcher_CTI_Identity/Gatewatcher_CTI_Identity.json)
+- **Configuration:** [.upstream/cortex/responders/Gatewatcher_CTI_Identity/Gatewatcher_CTI_Identity.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Gatewatcher_CTI_Identity/Gatewatcher_CTI_Identity.json)
 
 ---
 

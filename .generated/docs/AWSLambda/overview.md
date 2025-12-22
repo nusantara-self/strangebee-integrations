@@ -13,7 +13,7 @@
 Invokes the specified AWS Lambda function with the given input from TheHive.
 
 - **Data Types:** `thehive:case`, `thehive:alert`, `thehive:case_artifact`, `thehive:case_task`, `thehive:case_task_log`
-- **Configuration:** [.upstream/cortex/responders/AWSLambda/AWSInvokeLambda.json](.upstream/cortex/responders/AWSLambda/AWSInvokeLambda.json)
+- **Configuration:** [.upstream/cortex/responders/AWSLambda/AWSInvokeLambda.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AWSLambda/AWSInvokeLambda.json)
 
 ---
 

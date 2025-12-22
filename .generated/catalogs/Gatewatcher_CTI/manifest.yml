@@ -26,7 +26,7 @@ integrations:
     - ip
     - mail
     file: .upstream/cortex/analyzers/Gatewatcher_CTI/Gatewatcher_CTI.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Gatewatcher_CTI/Gatewatcher_CTI.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Gatewatcher_CTI/Gatewatcher_CTI.json
   responders: []
   functions: []
 stats:

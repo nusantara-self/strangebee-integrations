@@ -13,7 +13,7 @@
 Use PhishTank to check if a URL is a verified phishing site.
 
 - **Data Types:** `url`
-- **Configuration:** [.upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json](.upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json)
+- **Configuration:** [.upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json)
 
 ---
 

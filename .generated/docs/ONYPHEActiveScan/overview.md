@@ -13,7 +13,7 @@
 Perform active scan of an asset using a Scanyphe Entreprise On-Demand scanner
 
 - **Data Types:** `ip`, `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/ONYPHEActiveScan/ONYPHE_OnDemandScan.json](.upstream/cortex/analyzers/ONYPHEActiveScan/ONYPHE_OnDemandScan.json)
+- **Configuration:** [.upstream/cortex/analyzers/ONYPHEActiveScan/ONYPHE_OnDemandScan.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ONYPHEActiveScan/ONYPHE_OnDemandScan.json)
 
 ---
 

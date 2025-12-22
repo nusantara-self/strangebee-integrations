@@ -12,31 +12,31 @@
 Get the latest Google Threat Intelligence report for a URL that was submitted to Google Threat Intelligence for scanning
 
 - **Data Types:** `url`
-- **Configuration:** [.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json](.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json)
+- **Configuration:** [.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json)
 
 ### GTI_ScanPrivateFile `v1.0`
 Get the latest Google Threat Intelligence report for a file that was privately submitted to Google Threat Intelligence for scanning
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json](.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json)
+- **Configuration:** [.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json)
 
 ### GTI_ScanFile `v1.0`
 Get the latest Google Threat Intelligence report for a file that was submitted to Google Threat Intelligence for scanning
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json](.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json)
+- **Configuration:** [.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json)
 
 ### GTI_GetIOCReport `v1.0`
 Get the latest Google Threat Intelligence report for a file, hash, url, domain or an IP address.
 
 - **Data Types:** `file`, `hash`, `domain`, `fqdn`, `ip`, `url`
-- **Configuration:** [.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json](.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json)
+- **Configuration:** [.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json)
 
 ### GTI_ScanPrivateURL `v1.0`
 Get the latest Google Threat Intelligence report for a URL that was privately submitted to Google Threat Intelligence for scanning
 
 - **Data Types:** `url`
-- **Configuration:** [.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json](.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json)
+- **Configuration:** [.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json)
 
 ---
 

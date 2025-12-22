@@ -7,7 +7,7 @@
 Create a redmine issue from a case
 
 - **Data Types:** `thehive:case`, `thehive:case_task`
-- **Configuration:** [.upstream/cortex/responders/Redmine/Redmine_Issue.json](.upstream/cortex/responders/Redmine/Redmine_Issue.json)
+- **Configuration:** [.upstream/cortex/responders/Redmine/Redmine_Issue.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Redmine/Redmine_Issue.json)
 
 ---
 

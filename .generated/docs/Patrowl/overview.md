@@ -13,7 +13,7 @@
 Get the current Patrowl report for a fdqn, a domain or an IP address.
 
 - **Data Types:** `fqdn`, `domain`, `ip`
-- **Configuration:** [.upstream/cortex/analyzers/Patrowl/Patrowl_GetReport.json](.upstream/cortex/analyzers/Patrowl/Patrowl_GetReport.json)
+- **Configuration:** [.upstream/cortex/analyzers/Patrowl/Patrowl_GetReport.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Patrowl/Patrowl_GetReport.json)
 
 ---
 

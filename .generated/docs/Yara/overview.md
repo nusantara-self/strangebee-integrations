@@ -7,7 +7,7 @@
 Check files against YARA rules, either from local filesystem or from one or multiple GitHub repositories. NOTE: Performance & execution time may be much longer according to the number of rules checked.
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/Yara/Yara.json](.upstream/cortex/analyzers/Yara/Yara.json)
+- **Configuration:** [.upstream/cortex/analyzers/Yara/Yara.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Yara/Yara.json)
 
 ---
 

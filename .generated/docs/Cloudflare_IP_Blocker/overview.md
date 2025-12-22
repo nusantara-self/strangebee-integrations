@@ -13,7 +13,7 @@
 Block IP Address on Account level in Cloudflare
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/Cloudflare_IP_Blocker/CloudflareIPBlocker.json](.upstream/cortex/responders/Cloudflare_IP_Blocker/CloudflareIPBlocker.json)
+- **Configuration:** [.upstream/cortex/responders/Cloudflare_IP_Blocker/CloudflareIPBlocker.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Cloudflare_IP_Blocker/CloudflareIPBlocker.json)
 
 ---
 

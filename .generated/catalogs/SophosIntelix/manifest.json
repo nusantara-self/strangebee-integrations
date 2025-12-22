@@ -17,7 +17,7 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json"
       },
       {
         "name": "SophosIntelix_Submit_Static",
@@ -27,7 +27,7 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json"
       },
       {
         "name": "SophosIntelix_GetReport",
@@ -40,7 +40,7 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json"
       }
     ],
     "responders": [],

@@ -13,7 +13,7 @@
 Get Reputation score and other basic information from Network Entity Reputation Database (NERD)
 
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/NERD/nerd.json](.upstream/cortex/analyzers/NERD/nerd.json)
+- **Configuration:** [.upstream/cortex/analyzers/NERD/nerd.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/NERD/nerd.json)
 
 ---
 

@@ -13,7 +13,7 @@
 Query domains, IPs, hashes and URLs on FireEye's iSIGHT threat intelligence service.
 
 - **Data Types:** `domain`, `ip`, `hash`, `url`
-- **Configuration:** [.upstream/cortex/analyzers/FireEyeiSight/FireEyeiSight.json](.upstream/cortex/analyzers/FireEyeiSight/FireEyeiSight.json)
+- **Configuration:** [.upstream/cortex/analyzers/FireEyeiSight/FireEyeiSight.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/FireEyeiSight/FireEyeiSight.json)
 
 ---
 

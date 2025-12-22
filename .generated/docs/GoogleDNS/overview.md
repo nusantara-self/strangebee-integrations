@@ -7,7 +7,7 @@
 Request Google DNS over HTTPS service
 
 - **Data Types:** `domain`, `ip`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/GoogleDNS/GoogleDNS_resolve.json](.upstream/cortex/analyzers/GoogleDNS/GoogleDNS_resolve.json)
+- **Configuration:** [.upstream/cortex/analyzers/GoogleDNS/GoogleDNS_resolve.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleDNS/GoogleDNS_resolve.json)
 
 ---
 

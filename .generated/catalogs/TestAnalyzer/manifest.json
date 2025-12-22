@@ -30,7 +30,7 @@
           "mail-subject"
         ],
         "file": ".upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json"
       },
       {
         "name": "TestAnalyzer",
@@ -49,7 +49,7 @@
           "mail-subject"
         ],
         "file": ".upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json"
       }
     ],
     "responders": [],

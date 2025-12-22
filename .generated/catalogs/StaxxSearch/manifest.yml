@@ -23,7 +23,7 @@ integrations:
     - hash
     - mail
     file: .upstream/cortex/analyzers/StaxxSearch/StaxxSearch.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/StaxxSearch/StaxxSearch.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/StaxxSearch/StaxxSearch.json
   responders: []
   functions: []
 stats:

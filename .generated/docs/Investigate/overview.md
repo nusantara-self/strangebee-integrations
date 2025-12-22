@@ -7,13 +7,13 @@
 Retrieve Investigate categorization and security features for a domain.
 
 - **Data Types:** `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/Investigate/Investigate_Categorization.json](.upstream/cortex/analyzers/Investigate/Investigate_Categorization.json)
+- **Configuration:** [.upstream/cortex/analyzers/Investigate/Investigate_Categorization.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Investigate/Investigate_Categorization.json)
 
 ### Investigate_Sample `v1.0`
 Retrieve sample data from Investigate for a hash. (Sample data provided by ThreatGrid)
 
 - **Data Types:** `hash`
-- **Configuration:** [.upstream/cortex/analyzers/Investigate/Investigate_Sample.json](.upstream/cortex/analyzers/Investigate/Investigate_Sample.json)
+- **Configuration:** [.upstream/cortex/analyzers/Investigate/Investigate_Sample.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Investigate/Investigate_Sample.json)
 
 ---
 

@@ -13,7 +13,7 @@
 Execute a parameterized notebook in Jupyter
 
 - **Data Types:** `domain`, `hostname`, `ip`, `url`, `fqdn`, `uri_path`, `user-agent`, `hash`, `mail`, `mail_subject`, `registry`, `regexp`, `other`, `filename`, `mail-subject`
-- **Configuration:** [.upstream/cortex/analyzers/Jupyter_Analyzer/Jupyter_Run_Notebook_Analyzer.json](.upstream/cortex/analyzers/Jupyter_Analyzer/Jupyter_Run_Notebook_Analyzer.json)
+- **Configuration:** [.upstream/cortex/analyzers/Jupyter_Analyzer/Jupyter_Run_Notebook_Analyzer.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Jupyter_Analyzer/Jupyter_Run_Notebook_Analyzer.json)
 
 ---
 

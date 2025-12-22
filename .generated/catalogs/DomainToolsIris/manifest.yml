@@ -23,14 +23,14 @@ integrations:
     - ip
     - mail
     file: .upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json
   - name: DomainToolsIris_Investigate
     version: '1.0'
     description: Use DomainTools Iris API to investigate a domain.
     dataTypes:
     - domain
     file: .upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json
   responders: []
   functions: []
 stats:

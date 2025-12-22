@@ -13,7 +13,7 @@
 hunter.io is a service to find email addresses from a domain.
 
 - **Data Types:** `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json](.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json)
+- **Configuration:** [.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json)
 
 ---
 

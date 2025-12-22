@@ -7,7 +7,7 @@
 Check if a  domain is sinkholed via DNS Sinkhole server
 
 - **Data Types:** `domain`
-- **Configuration:** [.upstream/cortex/analyzers/DNSSinkhole/DNSSinkhole.json](.upstream/cortex/analyzers/DNSSinkhole/DNSSinkhole.json)
+- **Configuration:** [.upstream/cortex/analyzers/DNSSinkhole/DNSSinkhole.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSSinkhole/DNSSinkhole.json)
 
 ---
 

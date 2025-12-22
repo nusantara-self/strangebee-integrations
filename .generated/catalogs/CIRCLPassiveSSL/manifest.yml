@@ -23,7 +23,7 @@ integrations:
     - certificate_hash
     - hash
     file: .upstream/cortex/analyzers/CIRCLPassiveSSL/CIRCLPassiveSSL.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/CIRCLPassiveSSL/CIRCLPassiveSSL.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CIRCLPassiveSSL/CIRCLPassiveSSL.json
   responders: []
   functions: []
 stats:

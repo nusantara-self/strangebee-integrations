@@ -19,7 +19,7 @@ integrations:
     - domain
     - fqdn
     file: .upstream/cortex/analyzers/SpamhausDBL/SpamhausDBL.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/SpamhausDBL/SpamhausDBL.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SpamhausDBL/SpamhausDBL.json
   responders: []
   functions: []
 stats:

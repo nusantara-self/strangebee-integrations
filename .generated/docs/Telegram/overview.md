@@ -13,7 +13,7 @@
 Send a message to Telegram with information from TheHive case
 
 - **Data Types:** `thehive:case`
-- **Configuration:** [.upstream/cortex/responders/Telegram/Telegram.json](.upstream/cortex/responders/Telegram/Telegram.json)
+- **Configuration:** [.upstream/cortex/responders/Telegram/Telegram.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Telegram/Telegram.json)
 
 ---
 

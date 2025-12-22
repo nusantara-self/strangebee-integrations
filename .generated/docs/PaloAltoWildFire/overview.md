@@ -13,7 +13,7 @@
 Run Palo Alto WildFire analysis on a file, hash, or URL
 
 - **Data Types:** `file`, `url`, `hash`
-- **Configuration:** [.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json](.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json)
+- **Configuration:** [.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json)
 
 ---
 
@@ -23,7 +23,7 @@ Run Palo Alto WildFire analysis on a file, hash, or URL
 Submit URL to PaloAlto WildFire service.
 
 - **Data Types:** `url`, `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json](.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json)
+- **Configuration:** [.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json)
 
 ---
 

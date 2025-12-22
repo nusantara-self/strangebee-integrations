@@ -21,7 +21,7 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/Capa/Capa.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Capa/Capa.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Capa/Capa.json
   responders: []
   functions: []
 stats:

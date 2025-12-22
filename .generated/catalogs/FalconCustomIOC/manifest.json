@@ -19,7 +19,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json"
       },
       {
         "name": "Crowdstrike_Falcon_Custom_IOC",
@@ -30,7 +30,7 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json"
       }
     ],
     "functions": []

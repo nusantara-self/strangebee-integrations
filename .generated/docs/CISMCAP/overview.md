@@ -13,7 +13,7 @@
 Malicious Code Analysis Platform (MCAP) by the Center for Internet Security (CIS). Submit files for analysis or check feeds for known indicators of compromise for other data types.
 
 - **Data Types:** `ip`, `hash`, `url`, `domain`, `fqdn`, `file`
-- **Configuration:** [.upstream/cortex/analyzers/CISMCAP/CISMCAP.json](.upstream/cortex/analyzers/CISMCAP/CISMCAP.json)
+- **Configuration:** [.upstream/cortex/analyzers/CISMCAP/CISMCAP.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CISMCAP/CISMCAP.json)
 
 ---
 

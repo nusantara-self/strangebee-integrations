@@ -13,7 +13,7 @@
 Start a job on AWX
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/AWX/awx.json](.upstream/cortex/responders/AWX/awx.json)
+- **Configuration:** [.upstream/cortex/responders/AWX/awx.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/AWX/awx.json)
 
 ---
 

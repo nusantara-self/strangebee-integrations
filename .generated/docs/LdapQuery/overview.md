@@ -7,7 +7,7 @@
 Query your LDAP server to harvest informations about an user of your organization
 
 - **Data Types:** `username`, `mail`
-- **Configuration:** [.upstream/cortex/analyzers/LdapQuery/LdapQuery.json](.upstream/cortex/analyzers/LdapQuery/LdapQuery.json)
+- **Configuration:** [.upstream/cortex/analyzers/LdapQuery/LdapQuery.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/LdapQuery/LdapQuery.json)
 
 ---
 

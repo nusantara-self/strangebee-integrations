@@ -7,7 +7,7 @@
 Submit indicators to the EclecticIQ Intelligence Center api
 
 - **Data Types:** `thehive:case_artifact`, `thehive:case`
-- **Configuration:** [.upstream/cortex/responders/EclecticIQIndicator/EclecticIQIndicator.json](.upstream/cortex/responders/EclecticIQIndicator/EclecticIQIndicator.json)
+- **Configuration:** [.upstream/cortex/responders/EclecticIQIndicator/EclecticIQIndicator.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/EclecticIQIndicator/EclecticIQIndicator.json)
 
 ---
 

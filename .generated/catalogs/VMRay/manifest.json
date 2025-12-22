@@ -19,7 +19,7 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/VMRay/VMRay.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/VMRay/VMRay.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VMRay/VMRay.json"
       }
     ],
     "responders": [],

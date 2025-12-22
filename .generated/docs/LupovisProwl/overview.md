@@ -12,7 +12,7 @@
 Analyzer for IP reputation using Lupovis Prowl API
 
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/LupovisProwl/LupovisProwl_GetIPReputation.json](.upstream/cortex/analyzers/LupovisProwl/LupovisProwl_GetIPReputation.json)
+- **Configuration:** [.upstream/cortex/analyzers/LupovisProwl/LupovisProwl_GetIPReputation.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/LupovisProwl/LupovisProwl_GetIPReputation.json)
 
 ---
 

@@ -13,7 +13,7 @@
 Search domains, IPs, URLs or hashes on URLhaus.
 
 - **Data Types:** `domain`, `fqdn`, `url`, `hash`, `ip`
-- **Configuration:** [.upstream/cortex/analyzers/URLhaus/URLhaus.json](.upstream/cortex/analyzers/URLhaus/URLhaus.json)
+- **Configuration:** [.upstream/cortex/analyzers/URLhaus/URLhaus.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/URLhaus/URLhaus.json)
 
 ---
 

@@ -13,7 +13,7 @@
 Check CIRCL's Passive DNS for a given domain or URL.
 
 - **Data Types:** `domain`, `url`, `ip`
-- **Configuration:** [.upstream/cortex/analyzers/CIRCLPassiveDNS/CIRCLPassiveDNS.json](.upstream/cortex/analyzers/CIRCLPassiveDNS/CIRCLPassiveDNS.json)
+- **Configuration:** [.upstream/cortex/analyzers/CIRCLPassiveDNS/CIRCLPassiveDNS.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CIRCLPassiveDNS/CIRCLPassiveDNS.json)
 
 ---
 

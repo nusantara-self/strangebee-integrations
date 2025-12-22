@@ -7,7 +7,7 @@
 Threat Response
 
 - **Data Types:** `domain`, `filename`, `fqdn`, `hash`, `ip`, `url`
-- **Configuration:** [.upstream/cortex/analyzers/ThreatResponse/ThreatResponse.json](.upstream/cortex/analyzers/ThreatResponse/ThreatResponse.json)
+- **Configuration:** [.upstream/cortex/analyzers/ThreatResponse/ThreatResponse.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ThreatResponse/ThreatResponse.json)
 
 ---
 

@@ -13,19 +13,19 @@
 Unisolate endpoints identified by hostname or IP list
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json](.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json)
+- **Configuration:** [.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json)
 
 ### PaloAltoCortexXDR_scan `v1.0`
 Scan endpoints identified by hostname or IP list
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json](.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json)
+- **Configuration:** [.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json)
 
 ### PaloAltoCortexXDR_isolate `v1.0`
 Isolate endpoints identified by hostname or IP list
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json](.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json)
+- **Configuration:** [.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json)
 
 ---
 

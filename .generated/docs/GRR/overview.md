@@ -7,7 +7,7 @@
 Search GRR for the host agent.
 
 - **Data Types:** `ip`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/GRR/GRR.json](.upstream/cortex/analyzers/GRR/GRR.json)
+- **Configuration:** [.upstream/cortex/analyzers/GRR/GRR.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GRR/GRR.json)
 
 ---
 

@@ -24,7 +24,7 @@ integrations:
     - ip
     - url
     file: .upstream/cortex/analyzers/Maltiverse/Maltiverse_Report.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Maltiverse/Maltiverse_Report.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Maltiverse/Maltiverse_Report.json
   responders: []
   functions: []
 stats:

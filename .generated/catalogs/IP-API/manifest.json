@@ -20,7 +20,7 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/IP-API/IP-API.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/IP-API/IP-API.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IP-API/IP-API.json"
       }
     ],
     "responders": [],

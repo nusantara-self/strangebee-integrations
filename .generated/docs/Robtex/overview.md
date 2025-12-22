@@ -7,19 +7,19 @@
 Check IPs using the Robtex reverse passive DNS API.
 
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json](.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json)
+- **Configuration:** [.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json)
 
 ### Robtex_Forward_PDNS_Query `v1.0`
 Check domains and FQDNs using the Robtex passive DNS API.
 
 - **Data Types:** `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json](.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json)
+- **Configuration:** [.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json)
 
 ### Robtex_IP_Query `v1.0`
 Check IPs using the Robtex IP API.
 
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json](.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json)
+- **Configuration:** [.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json)
 
 ---
 

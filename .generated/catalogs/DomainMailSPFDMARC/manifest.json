@@ -21,7 +21,7 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json"
       }
     ],
     "responders": [],

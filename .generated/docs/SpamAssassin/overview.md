@@ -13,7 +13,7 @@
 Get spam score from local SpamAssassin instance
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/SpamAssassin/SpamAssassin.json](.upstream/cortex/analyzers/SpamAssassin/SpamAssassin.json)
+- **Configuration:** [.upstream/cortex/analyzers/SpamAssassin/SpamAssassin.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SpamAssassin/SpamAssassin.json)
 
 ---
 

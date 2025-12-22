@@ -21,7 +21,7 @@ integrations:
     dataTypes:
     - domain
     file: .upstream/cortex/analyzers/Crtsh/Crtsh.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Crtsh/Crtsh.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Crtsh/Crtsh.json
   responders: []
   functions: []
 stats:

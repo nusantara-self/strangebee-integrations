@@ -19,7 +19,7 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json"
       },
       {
         "name": "JoeSandbox_Url_Analysis",
@@ -29,7 +29,7 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json"
       },
       {
         "name": "JoeSandbox_File_Analysis_Noinet",
@@ -39,7 +39,7 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json"
       }
     ],
     "responders": [],

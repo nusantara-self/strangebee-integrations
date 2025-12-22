@@ -13,7 +13,7 @@
 Use regexes and libraries to indicate if observable is valid
 
 - **Data Types:** `ip`, `domain`, `url`, `fqdn`, `mail`, `hash`, `filename`, `uri_path`, `user-agent`
-- **Configuration:** [.upstream/cortex/analyzers/ValidateObservable/ValidateObservable.json](.upstream/cortex/analyzers/ValidateObservable/ValidateObservable.json)
+- **Configuration:** [.upstream/cortex/analyzers/ValidateObservable/ValidateObservable.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ValidateObservable/ValidateObservable.json)
 
 ---
 

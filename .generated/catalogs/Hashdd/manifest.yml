@@ -21,14 +21,14 @@ integrations:
     dataTypes:
     - hash
     file: .upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json
   - name: Hashdd_Status
     version: '2.0'
     description: Determine whether a hash is good or bad.
     dataTypes:
     - hash
     file: .upstream/cortex/analyzers/Hashdd/Hashdd_Status.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Hashdd/Hashdd_Status.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Hashdd/Hashdd_Status.json
   responders: []
   functions: []
 stats:

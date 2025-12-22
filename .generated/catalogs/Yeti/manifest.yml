@@ -22,7 +22,7 @@ integrations:
     - url
     - hash
     file: .upstream/cortex/analyzers/Yeti/Yeti.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Yeti/Yeti.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Yeti/Yeti.json
   responders: []
   functions: []
 stats:

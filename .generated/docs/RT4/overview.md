@@ -7,7 +7,7 @@
 Cortex Responder to create a ticket in RT4 from TheHive observables or alerts
 
 - **Data Types:** `thehive:case_artifact`, `thehive:alert`, `thehive:case`
-- **Configuration:** [.upstream/cortex/responders/RT4/rt4.json](.upstream/cortex/responders/RT4/rt4.json)
+- **Configuration:** [.upstream/cortex/responders/RT4/rt4.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/RT4/rt4.json)
 
 ---
 

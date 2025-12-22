@@ -25,7 +25,7 @@ integrations:
     - url
     - user-agent
     file: .upstream/cortex/analyzers/Cyberprotect/Cyberprotect_ThreatScore.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Cyberprotect/Cyberprotect_ThreatScore.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Cyberprotect/Cyberprotect_ThreatScore.json
   responders: []
   functions: []
 stats:

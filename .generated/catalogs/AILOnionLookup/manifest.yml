@@ -24,7 +24,7 @@ integrations:
     - url
     - fqdn
     file: .upstream/cortex/analyzers/AILOnionLookup/AIL_OnionLookup.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/AILOnionLookup/AIL_OnionLookup.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/AILOnionLookup/AIL_OnionLookup.json
   responders: []
   functions: []
 stats:

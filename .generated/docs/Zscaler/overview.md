@@ -13,7 +13,7 @@
 Check Zscaler category for a domain, fqdn, IP address or FQDN. This analyzer requires a paid subscription to Zscaler ZIA
 
 - **Data Types:** `ip`, `domain`, `url`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/Zscaler/Zscaler.json](.upstream/cortex/analyzers/Zscaler/Zscaler.json)
+- **Configuration:** [.upstream/cortex/analyzers/Zscaler/Zscaler.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Zscaler/Zscaler.json)
 
 ---
 

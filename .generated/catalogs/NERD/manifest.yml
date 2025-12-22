@@ -21,7 +21,7 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/NERD/nerd.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/NERD/nerd.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/NERD/nerd.json
   responders: []
   functions: []
 stats:

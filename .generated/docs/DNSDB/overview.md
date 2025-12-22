@@ -7,19 +7,19 @@
 Use DNSDB to fetch historical records for a domain.
 
 - **Data Types:** `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json](.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json)
+- **Configuration:** [.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json)
 
 ### DNSDB_IPHistory `v2.0`
 Use DNSDB to fetch historical records for an IP address.
 
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json](.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json)
+- **Configuration:** [.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json)
 
 ### DNSDB_NameHistory `v2.0`
 Use DNSDB to fetch historical records for a fully-qualified domain name.
 
 - **Data Types:** `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json](.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json)
+- **Configuration:** [.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json)
 
 ---
 

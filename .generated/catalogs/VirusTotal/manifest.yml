@@ -22,7 +22,7 @@ integrations:
     dataTypes:
     - hash
     file: .upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json
   - name: VirusTotal_GetReport
     version: '3.1'
     description: Get the latest VirusTotal report for a file, hash, domain or an IP address.
@@ -34,7 +34,7 @@ integrations:
     - ip
     - url
     file: .upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json
   - name: VirusTotal_Scan
     version: '3.1'
     description: Use VirusTotal to scan a file or URL.
@@ -42,14 +42,14 @@ integrations:
     - file
     - url
     file: .upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json
   - name: VirusTotal_Rescan
     version: '3.1'
     description: Use VirusTotal to run new analysis on hash.
     dataTypes:
     - hash
     file: .upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json
   responders: []
   functions: []
 stats:

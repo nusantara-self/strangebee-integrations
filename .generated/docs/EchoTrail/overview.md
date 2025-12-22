@@ -13,7 +13,7 @@
 EchoTrail Insights takes a Windows filename or hash and provides several unique pieces of analytical context including prevalence & rank scores, process ancestry, behavioral analysis, and security analysis.
 
 - **Data Types:** `hash`, `filename`
-- **Configuration:** [.upstream/cortex/analyzers/EchoTrail/EchoTrail.json](.upstream/cortex/analyzers/EchoTrail/EchoTrail.json)
+- **Configuration:** [.upstream/cortex/analyzers/EchoTrail/EchoTrail.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EchoTrail/EchoTrail.json)
 
 ---
 

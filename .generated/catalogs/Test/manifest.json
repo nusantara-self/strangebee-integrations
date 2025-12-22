@@ -22,7 +22,7 @@
           "thehive:case_task_log"
         ],
         "file": ".upstream/cortex/responders/Test/test.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/Test/test.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Test/test.json"
       },
       {
         "name": "DevTools_Echo_Responder",
@@ -36,7 +36,7 @@
           "thehive:case_task_log"
         ],
         "file": ".upstream/cortex/responders/Test/DevTools_Echo.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/Test/DevTools_Echo.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Test/DevTools_Echo.json"
       }
     ],
     "functions": []

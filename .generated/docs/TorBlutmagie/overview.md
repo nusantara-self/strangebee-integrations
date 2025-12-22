@@ -13,7 +13,7 @@
 Query https://torstatus.rueckgr.at/query_export.php/Tor_query_EXPORT.csv (formerly TorBlutmagie) for TOR exit nodes IP addresses or names.
 
 - **Data Types:** `ip`, `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/TorBlutmagie/TorBlutmagie.json](.upstream/cortex/analyzers/TorBlutmagie/TorBlutmagie.json)
+- **Configuration:** [.upstream/cortex/analyzers/TorBlutmagie/TorBlutmagie.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/TorBlutmagie/TorBlutmagie.json)
 
 ---
 

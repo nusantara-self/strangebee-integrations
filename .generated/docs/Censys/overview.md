@@ -13,7 +13,7 @@
 Check IPs, certificate hashes or domains against censys.io.
 
 - **Data Types:** `ip`, `hash`, `domain`
-- **Configuration:** [.upstream/cortex/analyzers/Censys/Censys.json](.upstream/cortex/analyzers/Censys/Censys.json)
+- **Configuration:** [.upstream/cortex/analyzers/Censys/Censys.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Censys/Censys.json)
 
 ---
 

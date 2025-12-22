@@ -13,19 +13,19 @@
 Convert Char Code with CyberChef Server
 
 - **Data Types:** `other`
-- **Configuration:** [.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json](.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json)
+- **Configuration:** [.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json)
 
 ### CyberChef_FromBase64 `v1.0`
 Convert Base64 with CyberChef Server
 
 - **Data Types:** `other`
-- **Configuration:** [.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json](.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json)
+- **Configuration:** [.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json)
 
 ### CyberChef_FromHex `v1.0`
 Convert Hex with CyberChef Server
 
 - **Data Types:** `other`
-- **Configuration:** [.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json](.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json)
+- **Configuration:** [.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json)
 
 ---
 

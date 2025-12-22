@@ -21,7 +21,7 @@ integrations:
     dataTypes:
     - hash
     file: .upstream/cortex/analyzers/Cylance/Cylance.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Cylance/Cylance.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Cylance/Cylance.json
   responders: []
   functions: []
 stats:

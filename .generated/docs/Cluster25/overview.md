@@ -13,7 +13,7 @@
 Use Cluster25's CTI API to investigate an observable.
 
 - **Data Types:** `domain`, `file`, `hash`, `ip`, `mail`, `url`
-- **Configuration:** [.upstream/cortex/analyzers/Cluster25/C25CortexAnalyzer_investigate.json](.upstream/cortex/analyzers/Cluster25/C25CortexAnalyzer_investigate.json)
+- **Configuration:** [.upstream/cortex/analyzers/Cluster25/C25CortexAnalyzer_investigate.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Cluster25/C25CortexAnalyzer_investigate.json)
 
 ---
 

@@ -33,7 +33,7 @@ integrations:
     - other
     - filename
     file: .upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json
   responders: []
   functions: []
 stats:

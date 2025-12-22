@@ -13,13 +13,13 @@
 Determine whether a hash is good or bad; if good then list what it is.
 
 - **Data Types:** `hash`
-- **Configuration:** [.upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json](.upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json)
+- **Configuration:** [.upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json)
 
 ### Hashdd_Status `v2.0`
 Determine whether a hash is good or bad.
 
 - **Data Types:** `hash`
-- **Configuration:** [.upstream/cortex/analyzers/Hashdd/Hashdd_Status.json](.upstream/cortex/analyzers/Hashdd/Hashdd_Status.json)
+- **Configuration:** [.upstream/cortex/analyzers/Hashdd/Hashdd_Status.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Hashdd/Hashdd_Status.json)
 
 ---
 

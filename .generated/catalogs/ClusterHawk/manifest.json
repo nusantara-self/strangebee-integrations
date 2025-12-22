@@ -20,7 +20,7 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json"
       }
     ],
     "responders": [],

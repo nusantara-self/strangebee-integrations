@@ -7,7 +7,7 @@
 Use MaxMind to geolocate an IP address.
 
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json](.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json)
+- **Configuration:** [.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json)
 
 ---
 

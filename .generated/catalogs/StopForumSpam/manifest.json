@@ -18,7 +18,7 @@
           "mail"
         ],
         "file": ".upstream/cortex/analyzers/StopForumSpam/StopForumSpam.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/StopForumSpam/StopForumSpam.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/StopForumSpam/StopForumSpam.json"
       }
     ],
     "responders": [],

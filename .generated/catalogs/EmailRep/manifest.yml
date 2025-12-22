@@ -21,7 +21,7 @@ integrations:
     dataTypes:
     - mail
     file: .upstream/cortex/analyzers/EmailRep/EmailRep.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/EmailRep/EmailRep.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmailRep/EmailRep.json
   responders: []
   functions: []
 stats:

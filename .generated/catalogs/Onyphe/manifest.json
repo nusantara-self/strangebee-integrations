@@ -23,7 +23,7 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json"
       },
       {
         "name": "ONYPHE_Search",
@@ -36,7 +36,7 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json"
       },
       {
         "name": "ONYPHE_Summary_API",
@@ -48,7 +48,7 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json"
       },
       {
         "name": "ONYPHE_Vulnscan",
@@ -61,7 +61,7 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json"
       },
       {
         "name": "ONYPHE_Ctiscan",
@@ -76,7 +76,7 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json"
       }
     ],
     "responders": [],

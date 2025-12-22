@@ -24,7 +24,7 @@
           "user-agent"
         ],
         "file": ".upstream/cortex/analyzers/IVRE/IVRE.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/IVRE/IVRE.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IVRE/IVRE.json"
       }
     ],
     "responders": [],

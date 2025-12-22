@@ -24,7 +24,7 @@ integrations:
     - url
     - file
     file: .upstream/cortex/analyzers/Triage/Triage.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Triage/Triage.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Triage/Triage.json
   responders: []
   functions: []
 stats:

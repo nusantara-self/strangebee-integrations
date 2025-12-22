@@ -7,7 +7,7 @@
 Query Sentinel One Deep Visibility API v2.1 for hosts that have requested DNS lookups for a domain/URL/FQDN.
 
 - **Data Types:** `url`, `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json](.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json)
+- **Configuration:** [.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json)
 
 ---
 
@@ -17,7 +17,7 @@ Query Sentinel One Deep Visibility API v2.1 for hosts that have requested DNS lo
 Add SHA1 hash to SentinelOne Blacklist via API v2.1.
 
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json](.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json)
+- **Configuration:** [.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json)
 
 ---
 

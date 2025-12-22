@@ -24,7 +24,7 @@ integrations:
     - fqdn
     - ip
     file: .upstream/cortex/analyzers/Lookyloo/Lookyloo.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Lookyloo/Lookyloo.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Lookyloo/Lookyloo.json
   responders: []
   functions: []
 stats:

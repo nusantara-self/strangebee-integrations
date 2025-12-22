@@ -22,7 +22,7 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json"
       }
     ],
     "responders": [
@@ -36,7 +36,7 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json"
       }
     ],
     "functions": []

@@ -13,7 +13,7 @@
 Checks an IP against AbuseIPDB for abuse score, categories, and recent reports.
 
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json](.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json)
+- **Configuration:** [.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json)
 
 ---
 

@@ -22,7 +22,7 @@ integrations:
     - file
     - hash
     file: .upstream/cortex/analyzers/IntezerCommunity/IntezerCommunity.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/IntezerCommunity/IntezerCommunity.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IntezerCommunity/IntezerCommunity.json
   responders: []
   functions: []
 stats:

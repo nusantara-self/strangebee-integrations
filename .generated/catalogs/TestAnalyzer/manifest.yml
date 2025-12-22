@@ -31,7 +31,7 @@ integrations:
     - user-agent
     - mail-subject
     file: .upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
   - name: TestAnalyzer
     version: '1.0'
     description: Just a simple test analyzer! No real-world use-case covered by this one, for testing, reference, dev and
@@ -48,7 +48,7 @@ integrations:
     - user-agent
     - mail-subject
     file: .upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
   responders: []
   functions: []
 stats:

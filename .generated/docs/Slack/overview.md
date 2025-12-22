@@ -20,13 +20,13 @@ Slack is a is a team collaboration platform that provides channels, direct messa
 Syncs Slack channel conversations to TheHive task logs. Imports messages chronologically with file attachments for traceability.
 
 - **Data Types:** `thehive:case`
-- **Configuration:** [.upstream/cortex/responders/Slack/Slack_SyncChannel.json](.upstream/cortex/responders/Slack/Slack_SyncChannel.json)
+- **Configuration:** [.upstream/cortex/responders/Slack/Slack_SyncChannel.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Slack/Slack_SyncChannel.json)
 
 ### Slack_CreateChannel `v1.0`
 Creates a Slack channel for a TheHive case, invites participants, and optionally posts a case summary and description.
 
 - **Data Types:** `thehive:case`
-- **Configuration:** [.upstream/cortex/responders/Slack/Slack_CreateChannel.json](.upstream/cortex/responders/Slack/Slack_CreateChannel.json)
+- **Configuration:** [.upstream/cortex/responders/Slack/Slack_CreateChannel.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Slack/Slack_CreateChannel.json)
 
 ---
 

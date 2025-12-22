@@ -20,7 +20,7 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     file: .upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json
   - name: Crowdstrike_Falcon_Custom_IOC
     version: '2.0'
     description: Submit observables to the Crowdstrike Falcon Custom IOC API
@@ -28,7 +28,7 @@ integrations:
     - thehive:alert
     - thehive:case_artifact
     file: .upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json
   functions: []
 stats:
   totalAnalyzers: 0

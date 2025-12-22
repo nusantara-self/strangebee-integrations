@@ -7,19 +7,19 @@
 Detonate your suspicious file in SophosLabs Sandbox and find what behaviours the file has. For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json](.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json)
+- **Configuration:** [.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json)
 
 ### SophosIntelix_Submit_Static `v0.1`
 Use SophosLabs machine learning to understand the characteristics of your suspicious file allowing you to see if the file is similar to known malware. For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json](.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json)
+- **Configuration:** [.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json)
 
 ### SophosIntelix_GetReport `v0.3`
 Fast and easy way to find out if the file is known Good, PUA (Potentially Unwanted Application), or, Malware. For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
 
 - **Data Types:** `hash`, `domain`, `fqdn`, `url`
-- **Configuration:** [.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json](.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json)
+- **Configuration:** [.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json)
 
 ---
 

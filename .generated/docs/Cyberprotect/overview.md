@@ -13,7 +13,7 @@
 ThreatScore is a cyber threat scoring system provided by Cyberprotect
 
 - **Data Types:** `domain`, `hash`, `ip`, `url`, `user-agent`
-- **Configuration:** [.upstream/cortex/analyzers/Cyberprotect/Cyberprotect_ThreatScore.json](.upstream/cortex/analyzers/Cyberprotect/Cyberprotect_ThreatScore.json)
+- **Configuration:** [.upstream/cortex/analyzers/Cyberprotect/Cyberprotect_ThreatScore.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Cyberprotect/Cyberprotect_ThreatScore.json)
 
 ---
 

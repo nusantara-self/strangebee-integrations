@@ -12,7 +12,7 @@
 Enrich IP, Domain, FQDN, URL, or Hash with Recorded Future context:  Risk Score, Risk Details, AI Insights, Links, Threat Actor, Attack Vector, Malware Category / Family, and Related Entities (IPs, Domains, and Hashes)
 
 - **Data Types:** `ip`, `domain`, `fqdn`, `hash`, `url`
-- **Configuration:** [.upstream/cortex/analyzers/RecordedFuture/RecordedFuture.json](.upstream/cortex/analyzers/RecordedFuture/RecordedFuture.json)
+- **Configuration:** [.upstream/cortex/analyzers/RecordedFuture/RecordedFuture.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RecordedFuture/RecordedFuture.json)
 
 ---
 

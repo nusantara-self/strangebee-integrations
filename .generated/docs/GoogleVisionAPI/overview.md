@@ -7,7 +7,7 @@
 Find look alike image via Google Cloud Vision API using the Web_Detection service 
 
 - **Data Types:** `file`, `url`
-- **Configuration:** [.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json](.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json)
+- **Configuration:** [.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json)
 
 ---
 

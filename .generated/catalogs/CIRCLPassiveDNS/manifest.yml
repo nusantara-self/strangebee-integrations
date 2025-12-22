@@ -23,7 +23,7 @@ integrations:
     - url
     - ip
     file: .upstream/cortex/analyzers/CIRCLPassiveDNS/CIRCLPassiveDNS.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/CIRCLPassiveDNS/CIRCLPassiveDNS.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CIRCLPassiveDNS/CIRCLPassiveDNS.json
   responders: []
   functions: []
 stats:

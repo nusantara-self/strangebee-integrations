@@ -18,14 +18,14 @@ integrations:
     dataTypes:
     - string
     file: .upstream/cortex/analyzers/CheckPhish/CheckPhish.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/CheckPhish/CheckPhish.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CheckPhish/CheckPhish.json
   - name: CheckPhish_Submit
     version: '1.0'
     description: Submit url address to CheckPhish
     dataTypes:
     - url
     file: .upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json
   responders: []
   functions: []
 stats:

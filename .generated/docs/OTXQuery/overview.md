@@ -13,7 +13,7 @@
 Query AlienVault OTX for IPs, domains, URLs, or file hashes.
 
 - **Data Types:** `url`, `domain`, `file`, `hash`, `ip`
-- **Configuration:** [.upstream/cortex/analyzers/OTXQuery/OTXQuery.json](.upstream/cortex/analyzers/OTXQuery/OTXQuery.json)
+- **Configuration:** [.upstream/cortex/analyzers/OTXQuery/OTXQuery.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/OTXQuery/OTXQuery.json)
 
 ---
 

@@ -7,7 +7,7 @@
 Send an email with information from a TheHive case or alert
 
 - **Data Types:** `thehive:case`, `thehive:alert`, `thehive:case_task`
-- **Configuration:** [.upstream/cortex/responders/Mailer/Mailer.json](.upstream/cortex/responders/Mailer/Mailer.json)
+- **Configuration:** [.upstream/cortex/responders/Mailer/Mailer.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Mailer/Mailer.json)
 
 ---
 

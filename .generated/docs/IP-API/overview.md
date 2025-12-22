@@ -12,7 +12,7 @@
 Check IP address or domain using ip-api.com
 
 - **Data Types:** `ip`, `domain`
-- **Configuration:** [.upstream/cortex/analyzers/IP-API/IP-API.json](.upstream/cortex/analyzers/IP-API/IP-API.json)
+- **Configuration:** [.upstream/cortex/analyzers/IP-API/IP-API.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IP-API/IP-API.json)
 
 ---
 

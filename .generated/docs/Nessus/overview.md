@@ -7,7 +7,7 @@
 Use Nessus Professional to scan hosts.
 
 - **Data Types:** `ip`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/Nessus/Nessus.json](.upstream/cortex/analyzers/Nessus/Nessus.json)
+- **Configuration:** [.upstream/cortex/analyzers/Nessus/Nessus.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Nessus/Nessus.json)
 
 ---
 

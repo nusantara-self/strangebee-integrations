@@ -17,7 +17,7 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/DNSSinkhole/DNSSinkhole.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/DNSSinkhole/DNSSinkhole.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSSinkhole/DNSSinkhole.json"
       }
     ],
     "responders": [],

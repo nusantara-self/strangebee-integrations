@@ -7,7 +7,7 @@
 Query NSRL
 
 - **Data Types:** `hash`, `filename`
-- **Configuration:** [.upstream/cortex/analyzers/NSRL/NSRL.json](.upstream/cortex/analyzers/NSRL/NSRL.json)
+- **Configuration:** [.upstream/cortex/analyzers/NSRL/NSRL.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/NSRL/NSRL.json)
 
 ---
 

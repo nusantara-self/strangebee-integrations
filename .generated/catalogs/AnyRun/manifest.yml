@@ -22,7 +22,7 @@ integrations:
     - file
     - url
     file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_Analysis.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_Analysis.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_Analysis.json
   responders: []
   functions: []
 stats:

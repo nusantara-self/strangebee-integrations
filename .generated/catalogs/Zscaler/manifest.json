@@ -23,7 +23,7 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/Zscaler/Zscaler.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Zscaler/Zscaler.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Zscaler/Zscaler.json"
       }
     ],
     "responders": [],

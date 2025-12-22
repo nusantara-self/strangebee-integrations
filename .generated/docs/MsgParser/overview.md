@@ -7,7 +7,7 @@
 Parse Outlook MSG files and extract the main artifacts.
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/MsgParser/Msg_Parser.json](.upstream/cortex/analyzers/MsgParser/Msg_Parser.json)
+- **Configuration:** [.upstream/cortex/analyzers/MsgParser/Msg_Parser.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MsgParser/Msg_Parser.json)
 
 ---
 

@@ -20,7 +20,7 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/Valhalla/Valhalla_GetMatches.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/Valhalla/Valhalla_GetMatches.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Valhalla/Valhalla_GetMatches.json"
       }
     ],
     "responders": [],

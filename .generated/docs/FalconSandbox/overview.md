@@ -13,7 +13,7 @@
 Submit observables to the Crowdstrike FalconX Sandbox
 
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/FalconSandbox/FalconSandbox.json](.upstream/cortex/analyzers/FalconSandbox/FalconSandbox.json)
+- **Configuration:** [.upstream/cortex/analyzers/FalconSandbox/FalconSandbox.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/FalconSandbox/FalconSandbox.json)
 
 ---
 

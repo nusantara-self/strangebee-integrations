@@ -13,13 +13,13 @@
 Development utility that simply echoes the (available) input received by the analyzer.
 
 - **Data Types:** `ip`, `domain`, `url`, `fqdn`, `mail`, `file`, `hash`, `filename`, `uri_path`, `user-agent`, `mail-subject`
-- **Configuration:** [.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json](.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json)
+- **Configuration:** [.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json)
 
 ### TestAnalyzer `v1.0`
 Just a simple test analyzer! No real-world use-case covered by this one, for testing, reference, dev and any other purpose only!
 
 - **Data Types:** `ip`, `domain`, `url`, `fqdn`, `mail`, `hash`, `filename`, `uri_path`, `user-agent`, `mail-subject`
-- **Configuration:** [.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json](.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json)
+- **Configuration:** [.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json)
 
 ---
 

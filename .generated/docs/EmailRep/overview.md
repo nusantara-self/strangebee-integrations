@@ -13,7 +13,7 @@
 emailrep.io lookup.
 
 - **Data Types:** `mail`
-- **Configuration:** [.upstream/cortex/analyzers/EmailRep/EmailRep.json](.upstream/cortex/analyzers/EmailRep/EmailRep.json)
+- **Configuration:** [.upstream/cortex/analyzers/EmailRep/EmailRep.json](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmailRep/EmailRep.json)
 
 ---
 

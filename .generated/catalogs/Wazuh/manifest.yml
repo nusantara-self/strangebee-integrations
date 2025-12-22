@@ -20,7 +20,7 @@ integrations:
     - thehive:case
     - thehive:case_artifact
     file: .upstream/cortex/responders/Wazuh/wazuh.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/responders/Wazuh/wazuh.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Wazuh/wazuh.json
   functions: []
 stats:
   totalAnalyzers: 0

@@ -22,7 +22,7 @@
           "mail"
         ],
         "file": ".upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json"
       },
       {
         "name": "DomainToolsIris_Investigate",
@@ -32,7 +32,7 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json"
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json"
       }
     ],
     "responders": [],
