@@ -1989,10 +1989,16 @@ Elasticsearch:
 EmailRep:
   id: EmailRep
   name: EmailRep
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
+  description: EmailRep analyzes email addresses to detect disposable emails, spam sources, and malicious senders by providing
+    reputation scores and threat intelligence, helping analysts assess email-based threats during investigations
+  category: Threat Intelligence
+  tags:
+  - email-reputation
+  - threat-detection
+  - spam-detection
+  - email-analysis
+  - incident-response
+  homepage: https://emailrep.io
   logo: {}
   useCases: []
   registration_required: false
@@ -3022,11 +3028,17 @@ Hippocampe:
     total: 0
 Hunterio:
   id: Hunterio
-  name: Hunterio
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
+  name: Hunter.io
+  description: Hunter.io discovers and verifies email addresses associated with domains, enabling investigators to identify
+    organizational contacts, validate email authenticity, and map corporate infrastructure during threat intelligence gathering
+  category: OSINT & Enrichment
+  tags:
+  - email-discovery
+  - email-verification
+  - osint
+  - reconnaissance
+  - incident-response
+  homepage: https://hunter.io
   logo: {}
   useCases: []
   registration_required: true
@@ -3052,12 +3064,21 @@ Hunterio:
     total: 1
 HybridAnalysis:
   id: HybridAnalysis
-  name: HybridAnalysis
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
+  name: Hybrid Analysis
+  description: Hybrid Analysis (Falcon Sandbox) is a free malware analysis service powered by CrowdStrike that executes suspicious
+    files in sandbox environments, providing detailed behavioral analysis, IOCs, and threat intelligence for malware investigations
+  category: Malware Analysis
+  tags:
+  - malware-analysis
+  - sandbox
+  - behavioral-analysis
+  - threat-intelligence
+  - incident-response
+  homepage: https://www.hybrid-analysis.com
+  logo:
+    file: integrations/vendors/HybridAnalysis/assets/logo.ico
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/HybridAnalysis/assets/logo.ico
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/HybridAnalysis/assets/logo.ico
   useCases: []
   integrations:
     analyzers:
@@ -4050,10 +4071,16 @@ Malpedia:
 Maltiverse:
   id: Maltiverse
   name: Maltiverse
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
+  description: Maltiverse is a threat intelligence platform that aggregates and enriches IOCs from multiple sources, providing
+    contextualized intelligence on IPs, domains, URLs, and files to accelerate threat hunting and incident response
+  category: Threat Intelligence
+  tags:
+  - threat-intelligence
+  - ioc-enrichment
+  - threat-hunting
+  - contextualized-intelligence
+  - incident-response
+  homepage: https://www.maltiverse.com
   logo: {}
   useCases: []
   registration_required: false
@@ -4307,11 +4334,17 @@ Minemeld:
     total: 1
 MnemonicPDNS:
   id: MnemonicPDNS
-  name: MnemonicPDNS
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
+  name: Mnemonic Passive DNS
+  description: Mnemonic Passive DNS provides historical DNS resolution data that helps analysts track domain infrastructure
+    changes, identify malicious domain rotation patterns, and investigate threat actor infrastructure during incident investigations
+  category: OSINT & Enrichment
+  tags:
+  - passive-dns
+  - dns-intelligence
+  - infrastructure-tracking
+  - threat-hunting
+  - incident-response
+  homepage: https://www.mnemonic.no
   logo: {}
   useCases: []
   integrations:
@@ -6999,11 +7032,17 @@ UnshortenLink:
     total: 1
 Urlscan.io:
   id: Urlscan.io
-  name: Urlscan.io
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
+  name: URLScan.io
+  description: URLScan.io is an automated web scanner that analyzes URLs and websites in real-time, capturing screenshots,
+    network traffic, and behavioral indicators to identify phishing, malware distribution, and suspicious web content
+  category: URL Analysis
+  tags:
+  - url-scanning
+  - phishing-detection
+  - web-analysis
+  - threat-detection
+  - incident-response
+  homepage: https://urlscan.io
   logo: {}
   useCases: []
   integrations:
@@ -7134,10 +7173,18 @@ ValidateObservable:
 Velociraptor:
   id: Velociraptor
   name: Velociraptor
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
+  description: Velociraptor is an advanced digital forensics and incident response (DFIR) platform that enables endpoint visibility,
+    remote forensic collection, and threat hunting at scale across enterprise environments for rapid investigation and evidence
+    gathering
+  category: DFIR
+  tags:
+  - digital-forensics
+  - incident-response
+  - dfir
+  - threat-hunting
+  - endpoint-visibility
+  - forensic-collection
+  homepage: https://docs.velociraptor.app
   logo: {}
   useCases: []
   integrations:

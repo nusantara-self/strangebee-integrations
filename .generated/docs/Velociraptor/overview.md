@@ -1,5 +1,10 @@
 # Velociraptor
 
+Velociraptor is an advanced digital forensics and incident response (DFIR) platform that enables endpoint visibility, remote forensic collection, and threat hunting at scale across enterprise environments for rapid investigation and evidence gathering
+
+**Category:** DFIR  
+**Homepage:** https://docs.velociraptor.app  
+**Tags:** digital-forensics, incident-response, dfir, threat-hunting, endpoint-visibility, forensic-collection
 
 ## Responders (1)
 

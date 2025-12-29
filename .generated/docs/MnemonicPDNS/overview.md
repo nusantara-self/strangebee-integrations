@@ -1,5 +1,10 @@
-# MnemonicPDNS
+# Mnemonic Passive DNS
 
+Mnemonic Passive DNS provides historical DNS resolution data that helps analysts track domain infrastructure changes, identify malicious domain rotation patterns, and investigate threat actor infrastructure during incident investigations
+
+**Category:** OSINT & Enrichment  
+**Homepage:** https://www.mnemonic.no  
+**Tags:** passive-dns, dns-intelligence, infrastructure-tracking, threat-hunting, incident-response
 
 ## Analyzers (2)
 

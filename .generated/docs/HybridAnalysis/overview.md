@@ -1,5 +1,12 @@
-# HybridAnalysis
+# Hybrid Analysis
 
+![Hybrid Analysis Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/HybridAnalysis/assets/logo.ico)
+
+Hybrid Analysis (Falcon Sandbox) is a free malware analysis service powered by CrowdStrike that executes suspicious files in sandbox environments, providing detailed behavioral analysis, IOCs, and threat intelligence for malware investigations
+
+**Category:** Malware Analysis  
+**Homepage:** https://www.hybrid-analysis.com  
+**Tags:** malware-analysis, sandbox, behavioral-analysis, threat-intelligence, incident-response
 
 ## Analyzers (1)
 

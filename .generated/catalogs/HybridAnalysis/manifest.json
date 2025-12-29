@@ -1,11 +1,21 @@
 {
   "id": "HybridAnalysis",
-  "name": "HybridAnalysis",
-  "description": "",
-  "category": "",
-  "tags": [],
-  "homepage": "",
-  "logo": {},
+  "name": "Hybrid Analysis",
+  "description": "Hybrid Analysis (Falcon Sandbox) is a free malware analysis service powered by CrowdStrike that executes suspicious files in sandbox environments, providing detailed behavioral analysis, IOCs, and threat intelligence for malware investigations",
+  "category": "Malware Analysis",
+  "tags": [
+    "malware-analysis",
+    "sandbox",
+    "behavioral-analysis",
+    "threat-intelligence",
+    "incident-response"
+  ],
+  "homepage": "https://www.hybrid-analysis.com",
+  "logo": {
+    "file": "integrations/vendors/HybridAnalysis/assets/logo.ico",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/HybridAnalysis/assets/logo.ico",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/HybridAnalysis/assets/logo.ico"
+  },
   "useCases": [],
   "integrations": {
     "analyzers": [

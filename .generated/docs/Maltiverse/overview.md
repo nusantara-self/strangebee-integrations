@@ -1,5 +1,10 @@
 # Maltiverse
 
+Maltiverse is a threat intelligence platform that aggregates and enriches IOCs from multiple sources, providing contextualized intelligence on IPs, domains, URLs, and files to accelerate threat hunting and incident response
+
+**Category:** Threat Intelligence  
+**Homepage:** https://www.maltiverse.com  
+**Tags:** threat-intelligence, ioc-enrichment, threat-hunting, contextualized-intelligence, incident-response
 
 ## Subscription Information
 

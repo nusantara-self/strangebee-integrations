@@ -1,5 +1,10 @@
 # EmailRep
 
+EmailRep analyzes email addresses to detect disposable emails, spam sources, and malicious senders by providing reputation scores and threat intelligence, helping analysts assess email-based threats during investigations
+
+**Category:** Threat Intelligence  
+**Homepage:** https://emailrep.io  
+**Tags:** email-reputation, threat-detection, spam-detection, email-analysis, incident-response
 
 ## Subscription Information
 

@@ -3,11 +3,17 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: Hunterio
-name: Hunterio
-description: ''
-category: ''
-tags: []
-homepage: ''
+name: Hunter.io
+description: Hunter.io discovers and verifies email addresses associated with domains, enabling investigators to identify
+  organizational contacts, validate email authenticity, and map corporate infrastructure during threat intelligence gathering
+category: OSINT & Enrichment
+tags:
+- email-discovery
+- email-verification
+- osint
+- reconnaissance
+- incident-response
+homepage: https://hunter.io
 logo: {}
 useCases: []
 registration_required: true

@@ -1,10 +1,16 @@
 {
   "id": "Urlscan.io",
-  "name": "Urlscan.io",
-  "description": "",
-  "category": "",
-  "tags": [],
-  "homepage": "",
+  "name": "URLScan.io",
+  "description": "URLScan.io is an automated web scanner that analyzes URLs and websites in real-time, capturing screenshots, network traffic, and behavioral indicators to identify phishing, malware distribution, and suspicious web content",
+  "category": "URL Analysis",
+  "tags": [
+    "url-scanning",
+    "phishing-detection",
+    "web-analysis",
+    "threat-detection",
+    "incident-response"
+  ],
+  "homepage": "https://urlscan.io",
   "logo": {},
   "useCases": [],
   "integrations": {
