@@ -1145,7 +1145,11 @@
       "community-intelligence"
     ],
     "homepage": "https://www.crowdsec.net",
-    "logo": {},
+    "logo": {
+      "file": "integrations/vendors/Crowdsec/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Crowdsec/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Crowdsec/assets/logo.png"
+    },
     "useCases": [],
     "registration_required": true,
     "subscription_required": true,
@@ -4045,9 +4049,9 @@
     ],
     "homepage": "https://ipinfo.io",
     "logo": {
-      "file": "integrations/vendors/IPinfo/assets/logo.svg",
-      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/IPinfo/assets/logo.svg",
-      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/IPinfo/assets/logo.svg"
+      "file": "integrations/vendors/IPinfo/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/IPinfo/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/IPinfo/assets/logo.png"
     },
     "useCases": [],
     "integrations": {
@@ -5143,7 +5147,11 @@
       "incident-response"
     ],
     "homepage": "https://www.maltiverse.com",
-    "logo": {},
+    "logo": {
+      "file": "integrations/vendors/Maltiverse/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Maltiverse/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Maltiverse/assets/logo.png"
+    },
     "useCases": [],
     "registration_required": false,
     "subscription_required": false,
@@ -5188,7 +5196,11 @@
       "incident-response"
     ],
     "homepage": "https://bazaar.abuse.ch",
-    "logo": {},
+    "logo": {
+      "file": "integrations/vendors/MalwareBazaar/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MalwareBazaar/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MalwareBazaar/assets/logo.png"
+    },
     "useCases": [],
     "registration_required": true,
     "subscription_required": true,
@@ -5317,7 +5329,11 @@
       "incident-response"
     ],
     "homepage": "https://www.maxmind.com",
-    "logo": {},
+    "logo": {
+      "file": "integrations/vendors/MaxMind/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MaxMind/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MaxMind/assets/logo.png"
+    },
     "useCases": [],
     "integrations": {
       "analyzers": [
@@ -5471,7 +5487,11 @@
       "incident-response"
     ],
     "homepage": "https://www.mnemonic.no",
-    "logo": {},
+    "logo": {
+      "file": "integrations/vendors/MnemonicPDNS/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MnemonicPDNS/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MnemonicPDNS/assets/logo.png"
+    },
     "useCases": [],
     "integrations": {
       "analyzers": [
@@ -5734,7 +5754,11 @@
       "incident-response"
     ],
     "homepage": "https://otx.alienvault.com",
-    "logo": {},
+    "logo": {
+      "file": "integrations/vendors/OTXQuery/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/OTXQuery/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/OTXQuery/assets/logo.png"
+    },
     "useCases": [],
     "registration_required": true,
     "subscription_required": true,

@@ -11,7 +11,11 @@
     "community-intelligence"
   ],
   "homepage": "https://www.crowdsec.net",
-  "logo": {},
+  "logo": {
+    "file": "integrations/vendors/Crowdsec/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Crowdsec/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Crowdsec/assets/logo.png"
+  },
   "useCases": [],
   "registration_required": true,
   "subscription_required": true,

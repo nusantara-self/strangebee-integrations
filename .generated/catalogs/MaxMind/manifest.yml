@@ -14,7 +14,10 @@ tags:
 - threat-detection
 - incident-response
 homepage: https://www.maxmind.com
-logo: {}
+logo:
+  file: integrations/vendors/MaxMind/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MaxMind/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MaxMind/assets/logo.png
 useCases: []
 integrations:
   analyzers:

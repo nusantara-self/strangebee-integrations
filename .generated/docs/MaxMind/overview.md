@@ -1,5 +1,7 @@
 # MaxMind
 
+![MaxMind Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MaxMind/assets/logo.png)
+
 MaxMind provides geolocation and network intelligence data that maps IP addresses to geographic locations, ISPs, and network types, enabling analysts to identify attack origins and detect anomalous access patterns during investigations
 
 **Category:** OSINT & Enrichment  

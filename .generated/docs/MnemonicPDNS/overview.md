@@ -1,5 +1,7 @@
 # Mnemonic Passive DNS
 
+![Mnemonic Passive DNS Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MnemonicPDNS/assets/logo.png)
+
 Mnemonic Passive DNS provides historical DNS resolution data that helps analysts track domain infrastructure changes, identify malicious domain rotation patterns, and investigate threat actor infrastructure during incident investigations
 
 **Category:** OSINT & Enrichment  

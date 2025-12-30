@@ -11,7 +11,11 @@
     "incident-response"
   ],
   "homepage": "https://www.maltiverse.com",
-  "logo": {},
+  "logo": {
+    "file": "integrations/vendors/Maltiverse/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Maltiverse/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Maltiverse/assets/logo.png"
+  },
   "useCases": [],
   "registration_required": false,
   "subscription_required": false,

@@ -14,7 +14,10 @@ tags:
 - threat-hunting
 - incident-response
 homepage: https://www.mnemonic.no
-logo: {}
+logo:
+  file: integrations/vendors/MnemonicPDNS/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MnemonicPDNS/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MnemonicPDNS/assets/logo.png
 useCases: []
 integrations:
   analyzers:

@@ -11,7 +11,11 @@
     "incident-response"
   ],
   "homepage": "https://otx.alienvault.com",
-  "logo": {},
+  "logo": {
+    "file": "integrations/vendors/OTXQuery/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/OTXQuery/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/OTXQuery/assets/logo.png"
+  },
   "useCases": [],
   "registration_required": true,
   "subscription_required": true,

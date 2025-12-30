@@ -1,5 +1,7 @@
 # CrowdSec
 
+![CrowdSec Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Crowdsec/assets/logo.png)
+
 CrowdSec is a collaborative security platform that aggregates attack data from community-deployed sensors to identify malicious IPs and attack patterns, enabling real-time blocking decisions and threat intelligence sharing for collective defense
 
 **Category:** Threat Intelligence  
