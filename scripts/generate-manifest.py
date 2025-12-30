@@ -663,7 +663,7 @@ def generate_catalog_index(all_manifests: Dict) -> str:
                 if desc and len(desc) > 100:
                     desc = desc[:97] + "..."
 
-                lines.append(f"**[{name}](docs/{vendor_id}/overview.md)** ({total} integrations)")
+                lines.append(f"**[{name}](docs/vendors/{vendor_id}/overview.md)** ({total} integrations)")
                 if desc:
                     lines.append(f"  {desc}")
                 lines.append("")
@@ -691,7 +691,7 @@ def generate_catalog_index(all_manifests: Dict) -> str:
 
         breakdown_str = ", ".join(integration_breakdown) if integration_breakdown else "No integrations"
 
-        lines.append(f"- **[{name}](docs/{vendor_id}/overview.md)** - *{category}* - {breakdown_str}")
+        lines.append(f"- **[{name}](docs/vendors/{vendor_id}/overview.md)** - *{category}* - {breakdown_str}")
 
     lines.append("")
 
@@ -853,7 +853,7 @@ def main():
         print(f"  → {manifest_json_path}")
 
         # Generate human-readable markdown overview
-        vendor_docs_path = docs_path / vendor
+        vendor_docs_path = docs_path / 'vendors' / vendor
         vendor_docs_path.mkdir(parents=True, exist_ok=True)
 
         overview_content = generate_markdown_overview(vendor, manifest)
