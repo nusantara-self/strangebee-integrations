@@ -225,15 +225,17 @@ def scan_functions(vendor: str) -> List[Dict]:
     return functions
 
 def discover_use_cases_from_markdown(vendor: str) -> List[Dict]:
-    """Auto-discover use cases from markdown files in vendor root directory."""
+    """Auto-discover use cases from markdown files in vendor root and use-cases directory."""
     vendor_path = Path('integrations') / 'vendors' / vendor
     if not vendor_path.exists():
         return []
 
     use_cases = []
 
-    # Find all markdown files in vendor root, excluding special files
-    for md_file in vendor_path.glob('*.md'):
+    # Find all markdown files in vendor root and use-cases folder, excluding special files
+    md_files = list(vendor_path.glob('*.md')) + list(vendor_path.glob('use-cases/*.md'))
+
+    for md_file in md_files:
         # Skip any files that might be auto-generated or metadata files
         if md_file.name in ['manifest.md', 'vendor.md', 'README.md']:
             continue
@@ -250,8 +252,11 @@ def discover_use_cases_from_markdown(vendor: str) -> List[Dict]:
         if not title or not description:
             continue
 
-        # Build relative path and URL
-        relative_doc_path = f"integrations/vendors/{vendor}/{md_file.name}"
+        # Build relative path and URL (check if file is in use-cases subdirectory)
+        if md_file.parent.name == 'use-cases':
+            relative_doc_path = f"integrations/vendors/{vendor}/use-cases/{md_file.name}"
+        else:
+            relative_doc_path = f"integrations/vendors/{vendor}/{md_file.name}"
 
         use_case = {
             'name': title,
