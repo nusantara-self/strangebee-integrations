@@ -1,0 +1,12 @@
+id: Crowdsec
+name: "CrowdSec"
+description: "CrowdSec is a collaborative security platform that aggregates attack data from community-deployed sensors to identify malicious IPs and attack patterns, enabling real-time blocking decisions and threat intelligence sharing for collective defense"
+category: Threat Intelligence
+tags:
+  - threat-intelligence
+  - collaborative-defense
+  - ip-reputation
+  - attack-detection
+  - community-intelligence
+homepage: "https://www.crowdsec.net"
+
