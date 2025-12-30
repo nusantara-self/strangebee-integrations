@@ -10,12 +10,4 @@
 
 ## Changes
 
-### ✅ Added Vendors (3)
-
-- `Airtable`
-- `JAMF`
-- `JIRA`
-
-### 🔄 Updated Vendors (1)
-
-- **Splunk**: 11 → 12 (+1)
+No changes detected.
