@@ -10,6 +10,4 @@
 
 ## Changes
 
-### 🔄 Updated Vendors (1)
-
-- **CrowdStrike Falcon**: 21 → 20 (-1)
+No changes detected.
