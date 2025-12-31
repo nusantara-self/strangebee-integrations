@@ -18,7 +18,7 @@ tags:
 homepage: https://docs.velociraptor.app
 logo: {}
 useCases: []
-vendorIntegrations: []
+externalIntegrations: []
 integrations:
   analyzers: []
   responders:

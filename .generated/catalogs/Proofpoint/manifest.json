@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "vendorIntegrations": [],
+  "externalIntegrations": [],
   "integrations": {
     "analyzers": [
       {

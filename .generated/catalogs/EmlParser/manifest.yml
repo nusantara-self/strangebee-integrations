@@ -10,7 +10,7 @@ tags: []
 homepage: ''
 logo: {}
 useCases: []
-vendorIntegrations: []
+externalIntegrations: []
 registration_required: false
 subscription_required: false
 integrations:

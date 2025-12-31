@@ -10,7 +10,7 @@ tags: []
 homepage: ''
 logo: {}
 useCases: []
-vendorIntegrations: []
+externalIntegrations: []
 integrations:
   analyzers:
   - name: PassiveTotal_Osint

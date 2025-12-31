@@ -8,7 +8,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -59,7 +59,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/AbuseIPDB/assets/logo.svg"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -96,7 +96,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -135,7 +135,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -168,7 +168,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -246,7 +246,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -284,7 +284,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -347,7 +347,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -388,7 +388,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -425,7 +425,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -466,7 +466,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -516,7 +516,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -564,7 +564,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -611,7 +611,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Capa/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -648,7 +648,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -687,7 +687,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -723,7 +723,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": false,
     "integrations": {
@@ -760,7 +760,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -805,7 +805,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -850,7 +850,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -887,7 +887,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -926,7 +926,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -965,7 +965,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": true,
@@ -1009,7 +1009,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": false,
@@ -1051,7 +1051,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -1085,7 +1085,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -1122,7 +1122,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -1164,7 +1164,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -1211,7 +1211,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Crowdsec/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -1290,7 +1290,7 @@
         ]
       }
     ],
-    "vendorIntegrations": [
+    "externalIntegrations": [
       {
         "name": "falcon2thehive",
         "description": "Real-time connector that streams CrowdStrike Falcon detection events into TheHive, turning Falcon alerts into actionable TheHive Alerts. Supports DetectionSummaryEvent, IdentityProtectionEvent, and MobileDetectionSummaryEvent with automatic observable extraction and TTP mapping.",
@@ -1545,7 +1545,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -1582,7 +1582,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -1630,7 +1630,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -1689,7 +1689,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -1730,7 +1730,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -1771,7 +1771,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -1808,7 +1808,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -1830,7 +1830,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -1864,7 +1864,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -1922,7 +1922,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -1959,7 +1959,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -1997,7 +1997,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -2031,7 +2031,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -2069,7 +2069,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -2214,7 +2214,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -2264,7 +2264,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -2298,7 +2298,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -2332,7 +2332,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -2369,7 +2369,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -2425,7 +2425,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": true,
@@ -2463,7 +2463,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -2512,7 +2512,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -2557,7 +2557,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Elasticsearch/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [
+    "externalIntegrations": [
       {
         "name": "TheHive Connector for Kibana",
         "description": "Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive",
@@ -2613,7 +2613,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/EmailRep/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -2650,7 +2650,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -2711,7 +2711,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "integrations": {
@@ -2747,7 +2747,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -2794,7 +2794,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -2831,7 +2831,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -2865,7 +2865,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -2905,7 +2905,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -2942,7 +2942,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -2982,7 +2982,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -3004,7 +3004,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -3042,7 +3042,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -3084,7 +3084,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -3118,7 +3118,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -3196,7 +3196,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -3232,7 +3232,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -3279,7 +3279,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": [
       true,
@@ -3367,7 +3367,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -3402,7 +3402,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -3439,7 +3439,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -3474,7 +3474,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "subscription_required": true,
     "free_subscription": false,
     "integrations": {
@@ -3843,7 +3843,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -3901,7 +3901,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/HIBP/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -3935,7 +3935,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -3967,7 +3967,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Hunterio/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -4015,7 +4015,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/HybridAnalysis/assets/logo.ico"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -4053,7 +4053,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -4090,7 +4090,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -4127,7 +4127,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -4165,7 +4165,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -4211,7 +4211,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "integrations": {
@@ -4258,7 +4258,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/IPinfo/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -4303,7 +4303,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -4337,7 +4337,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -4376,7 +4376,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -4417,7 +4417,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -4450,7 +4450,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -4498,7 +4498,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -4531,7 +4531,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "integrations": {
@@ -4589,7 +4589,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -4640,7 +4640,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -4678,7 +4678,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -4714,7 +4714,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -4748,7 +4748,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -4783,7 +4783,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -4823,7 +4823,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "integrations": {
@@ -4859,7 +4859,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -4895,7 +4895,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -4929,7 +4929,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -4973,7 +4973,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Maltiverse/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -5023,7 +5023,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MalwareBazaar/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -5060,7 +5060,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -5098,7 +5098,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -5159,7 +5159,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MaxMind/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -5193,7 +5193,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -5273,7 +5273,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -5320,7 +5320,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MISP/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -5370,7 +5370,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -5421,7 +5421,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MnemonicPDNS/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -5479,7 +5479,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -5604,7 +5604,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": [
       true,
       false
@@ -5685,7 +5685,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSEntraID/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -5812,7 +5812,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -5846,7 +5846,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -5884,7 +5884,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": true,
@@ -5921,7 +5921,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -5956,7 +5956,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -5993,7 +5993,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -6028,7 +6028,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": false,
@@ -6075,7 +6075,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Onyphe/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -6172,7 +6172,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -6211,7 +6211,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": false,
@@ -6285,7 +6285,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -6333,7 +6333,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/OTXQuery/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -6374,7 +6374,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -6433,7 +6433,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -6664,7 +6664,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -6717,7 +6717,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -6881,7 +6881,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -6920,7 +6920,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -6965,7 +6965,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": [
@@ -7016,7 +7016,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -7090,7 +7090,7 @@
         ]
       }
     ],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -7147,7 +7147,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -7184,7 +7184,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -7218,7 +7218,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -7262,7 +7262,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/RecordedFuture/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "integrations": {
@@ -7302,7 +7302,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -7337,7 +7337,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -7577,7 +7577,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -7634,7 +7634,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -7670,7 +7670,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -7715,7 +7715,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -7786,7 +7786,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -7821,7 +7821,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -7880,7 +7880,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Shodan/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -7982,7 +7982,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Shuffle/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -8020,7 +8020,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -8095,7 +8095,7 @@
         ]
       }
     ],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": true,
@@ -8143,7 +8143,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -8190,7 +8190,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -8249,7 +8249,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -8286,7 +8286,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -8332,7 +8332,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -8495,7 +8495,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -8529,7 +8529,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -8568,7 +8568,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -8603,7 +8603,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -8625,7 +8625,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -8672,7 +8672,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Telegram/assets/logo.svg"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": true,
@@ -8709,7 +8709,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -8762,7 +8762,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -8829,7 +8829,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -8851,7 +8851,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -8887,7 +8887,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -8922,7 +8922,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -8961,7 +8961,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -8998,7 +8998,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -9037,7 +9037,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -9071,7 +9071,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -9110,7 +9110,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -9145,7 +9145,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -9179,7 +9179,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -9223,7 +9223,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/URLhaus/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": true,
@@ -9274,7 +9274,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Urlscan.io/assets/logo.ico"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -9325,7 +9325,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -9362,7 +9362,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -9414,7 +9414,7 @@
     "homepage": "https://docs.velociraptor.app",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -9448,7 +9448,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -9482,7 +9482,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -9531,7 +9531,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/VirusTotal/assets/logo.svg"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": [
       true,
@@ -9609,7 +9609,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -9646,7 +9646,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -9682,7 +9682,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -9732,7 +9732,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -9789,7 +9789,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -9824,7 +9824,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -9868,7 +9868,7 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Yara/assets/logo.png"
     },
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -9902,7 +9902,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [
         {
@@ -9940,7 +9940,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -9974,7 +9974,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -10008,7 +10008,7 @@
     "homepage": "",
     "logo": {},
     "useCases": [],
-    "vendorIntegrations": [],
+    "externalIntegrations": [],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,

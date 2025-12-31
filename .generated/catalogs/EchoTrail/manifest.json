@@ -7,7 +7,7 @@
   "homepage": "",
   "logo": {},
   "useCases": [],
-  "vendorIntegrations": [],
+  "externalIntegrations": [],
   "registration_required": true,
   "subscription_required": false,
   "free_subscription": true,

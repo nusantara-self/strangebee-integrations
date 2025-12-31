@@ -18,9 +18,9 @@ Search for IoCs in Elasticsearch
 
 ---
 
-## Vendor Integrations (1)
+## External Integrations (1)
 
-Integrations built by Elasticsearch that work with TheHive:
+External integrations that connect Elasticsearch with TheHive:
 
 ### TheHive Connector for Kibana
 Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive

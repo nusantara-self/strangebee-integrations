@@ -18,7 +18,7 @@ logo:
   url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Yara/assets/logo.png
   github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Yara/assets/logo.png
 useCases: []
-vendorIntegrations: []
+externalIntegrations: []
 integrations:
   analyzers:
   - name: Yara

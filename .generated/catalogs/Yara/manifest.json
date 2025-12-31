@@ -16,7 +16,7 @@
     "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Yara/assets/logo.png"
   },
   "useCases": [],
-  "vendorIntegrations": [],
+  "externalIntegrations": [],
   "integrations": {
     "analyzers": [
       {

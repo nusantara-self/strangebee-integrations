@@ -165,9 +165,9 @@ TO DO LATER
 
 ---
 
-## Vendor Integrations (1)
+## External Integrations (1)
 
-Integrations built by CrowdStrike Falcon that work with TheHive:
+External integrations that connect CrowdStrike Falcon with TheHive:
 
 ### falcon2thehive
 Real-time connector that streams CrowdStrike Falcon detection events into TheHive, turning Falcon alerts into actionable TheHive Alerts. Supports DetectionSummaryEvent, IdentityProtectionEvent, and MobileDetectionSummaryEvent with automatic observable extraction and TTP mapping.

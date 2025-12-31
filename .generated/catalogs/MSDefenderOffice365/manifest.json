@@ -18,7 +18,7 @@
     "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png"
   },
   "useCases": [],
-  "vendorIntegrations": [],
+  "externalIntegrations": [],
   "registration_required": [
     true,
     false

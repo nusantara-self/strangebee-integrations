@@ -7,7 +7,7 @@
   "homepage": "",
   "logo": {},
   "useCases": [],
-  "vendorIntegrations": [],
+  "externalIntegrations": [],
   "integrations": {
     "analyzers": [],
     "responders": [],

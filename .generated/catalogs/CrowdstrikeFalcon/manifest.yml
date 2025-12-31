@@ -43,7 +43,7 @@ useCases:
   - crowdstrike
   - thehive
   - automation
-vendorIntegrations:
+externalIntegrations:
 - name: falcon2thehive
   description: Real-time connector that streams CrowdStrike Falcon detection events into TheHive, turning Falcon alerts into
     actionable TheHive Alerts. Supports DetectionSummaryEvent, IdentityProtectionEvent, and MobileDetectionSummaryEvent with

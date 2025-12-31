@@ -17,7 +17,7 @@
     "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Elasticsearch/assets/logo.png"
   },
   "useCases": [],
-  "vendorIntegrations": [
+  "externalIntegrations": [
     {
       "name": "TheHive Connector for Kibana",
       "description": "Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive",
