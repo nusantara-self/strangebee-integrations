@@ -646,6 +646,7 @@ def generate_catalog_index(all_manifests: Dict) -> str:
     total_responders = sum(m['stats']['totalResponders'] for m in all_manifests.values())
     total_functions = sum(m['stats']['totalFunctions'] for m in all_manifests.values())
     total_integrations = sum(m['stats']['total'] for m in all_manifests.values())
+    total_external_integrations = sum(len(m.get('externalIntegrations', [])) for m in all_manifests.values())
 
     # Summary statistics
     lines.append("## 📊 Summary Statistics")
@@ -654,7 +655,8 @@ def generate_catalog_index(all_manifests: Dict) -> str:
     lines.append(f"- **Total Analyzers:** {total_analyzers}")
     lines.append(f"- **Total Responders:** {total_responders}")
     lines.append(f"- **Total Functions:** {total_functions}")
-    lines.append(f"- **Total Integrations:** {total_integrations}")
+    lines.append(f"- **Total External Integrations:** {total_external_integrations}")
+    lines.append(f"- **Total Integrations:** {total_integrations + total_external_integrations}")
     lines.append("")
 
     # Group vendors by category
@@ -733,12 +735,16 @@ def generate_catalog_index(all_manifests: Dict) -> str:
 
 def generate_github_summary(all_manifests: Dict, previous_manifests: Dict = None) -> Dict:
     """Generate GitHub Actions summary of changes."""
+    total_external = sum(len(m.get('externalIntegrations', [])) for m in all_manifests.values())
+    total_cortex = sum(m['stats']['total'] for m in all_manifests.values())
+
     summary = {
         'total_vendors': len(all_manifests),
         'total_analyzers': sum(m['stats']['totalAnalyzers'] for m in all_manifests.values()),
         'total_responders': sum(m['stats']['totalResponders'] for m in all_manifests.values()),
         'total_functions': sum(m['stats']['totalFunctions'] for m in all_manifests.values()),
-        'total_integrations': sum(m['stats']['total'] for m in all_manifests.values()),
+        'total_external_integrations': total_external,
+        'total_integrations': total_cortex + total_external,
         'added': [],
         'updated': [],
         'removed': []
@@ -782,6 +788,7 @@ def write_github_summary(summary: Dict, output_path: Path):
     lines.append(f"- **Total Analyzers:** {summary['total_analyzers']}")
     lines.append(f"- **Total Responders:** {summary['total_responders']}")
     lines.append(f"- **Total Functions:** {summary['total_functions']}")
+    lines.append(f"- **Total External Integrations:** {summary['total_external_integrations']}")
     lines.append(f"- **Total Integrations:** {summary['total_integrations']}")
     lines.append("")
 
@@ -931,13 +938,15 @@ def main():
     print(f"GitHub Actions summary: {github_summary_path}")
 
     # Print summary
+    total_external_integrations = sum(len(m.get('externalIntegrations', [])) for m in all_manifests.values())
     print('\n=== Summary ===')
+    print(f"\nTotal External Integrations: {total_external_integrations}")
     for vendor, data in all_manifests.items():
         print(f"\n{data['name']} ({vendor}):")
         print(f"  Category: {data['category'] or 'N/A'}")
         tags_str = ', '.join(data.get('tags', [])) if data.get('tags') else 'N/A'
         print(f"  Tags: {tags_str}")
-        
+
         # Show subscription info if available
         if data.get('registration_required') is not None:
             print(f"  Registration Required: {data['registration_required']}")
@@ -945,8 +954,9 @@ def main():
             print(f"  Subscription Required: {data['subscription_required']}")
         if data.get('free_subscription') is not None:
             print(f"  Free Subscription: {data['free_subscription']}")
-        
+
         print(f"  Use Cases: {len(data.get('useCases', []))}")
+        print(f"  External Integrations: {len(data.get('externalIntegrations', []))}")
         print(f"  Analyzers: {data['stats']['totalAnalyzers']}")
         print(f"  Responders: {data['stats']['totalResponders']}")
         print(f"  Functions: {data['stats']['totalFunctions']}")
