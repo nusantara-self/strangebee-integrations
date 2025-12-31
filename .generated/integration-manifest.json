@@ -1290,7 +1290,14 @@
         ]
       }
     ],
-    "vendorIntegrations": [],
+    "vendorIntegrations": [
+      {
+        "name": "falcon2thehive",
+        "description": "Real-time connector that streams CrowdStrike Falcon detection events into TheHive, turning Falcon alerts into actionable TheHive Alerts. Supports DetectionSummaryEvent, IdentityProtectionEvent, and MobileDetectionSummaryEvent with automatic observable extraction and TTP mapping.",
+        "type": "connector",
+        "documentation": "https://github.com/StrangeBeeCorp/falcon2thehive"
+      }
+    ],
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
