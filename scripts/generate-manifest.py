@@ -379,7 +379,7 @@ def find_vendors() -> List[str]:
     if vendors_path.exists():
         vendors.update([d.name for d in vendors_path.iterdir() if d.is_dir() and not d.name.startswith('.')])
     
-    return sorted(list(vendors))
+    return sorted(list(vendors), key=str.lower)
 
 def generate_vendor_manifest(vendor: str) -> Dict:
     """Generate complete manifest for a vendor from external files only."""
@@ -649,11 +649,11 @@ def generate_catalog_index(all_manifests: Dict) -> str:
         lines.append("## 📂 Vendors by Category")
         lines.append("")
 
-        for category in sorted(by_category.keys()):
+        for category in sorted(by_category.keys(), key=str.lower):
             lines.append(f"### {category}")
             lines.append("")
 
-            vendors = sorted(by_category[category], key=lambda x: x[1]['name'])
+            vendors = sorted(by_category[category], key=lambda x: x[1]['name'].lower())
             for vendor_id, manifest in vendors:
                 name = manifest['name']
                 total = manifest['stats']['total']
@@ -674,7 +674,7 @@ def generate_catalog_index(all_manifests: Dict) -> str:
     lines.append("## 🔤 All Vendors (A-Z)")
     lines.append("")
 
-    all_vendors = sorted(all_manifests.items(), key=lambda x: x[1]['name'])
+    all_vendors = sorted(all_manifests.items(), key=lambda x: x[1]['name'].lower())
 
     for vendor_id, manifest in all_vendors:
         name = manifest['name']
@@ -723,10 +723,10 @@ def generate_github_summary(all_manifests: Dict, previous_manifests: Dict = None
         previous_vendors = set(previous_manifests.keys())
 
         # Find added vendors
-        summary['added'] = sorted(current_vendors - previous_vendors)
+        summary['added'] = sorted(current_vendors - previous_vendors, key=str.lower)
 
         # Find removed vendors
-        summary['removed'] = sorted(previous_vendors - current_vendors)
+        summary['removed'] = sorted(previous_vendors - current_vendors, key=str.lower)
 
         # Find updated vendors (compare stats)
         for vendor in current_vendors & previous_vendors:
