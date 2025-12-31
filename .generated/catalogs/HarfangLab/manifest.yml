@@ -10,6 +10,7 @@ tags: []
 homepage: ''
 logo: {}
 useCases: []
+vendorIntegrations: []
 subscription_required: true
 free_subscription: false
 integrations:

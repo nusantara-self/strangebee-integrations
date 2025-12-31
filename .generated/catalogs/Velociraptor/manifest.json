@@ -14,6 +14,7 @@
   "homepage": "https://docs.velociraptor.app",
   "logo": {},
   "useCases": [],
+  "vendorIntegrations": [],
   "integrations": {
     "analyzers": [],
     "responders": [

@@ -43,6 +43,7 @@ useCases:
   - crowdstrike
   - thehive
   - automation
+vendorIntegrations: []
 registration_required: true
 subscription_required: true
 free_subscription: false

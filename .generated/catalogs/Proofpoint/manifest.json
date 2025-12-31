@@ -44,6 +44,7 @@
       ]
     }
   ],
+  "vendorIntegrations": [],
   "integrations": {
     "analyzers": [
       {

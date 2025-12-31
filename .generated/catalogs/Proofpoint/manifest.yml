@@ -39,6 +39,7 @@ useCases:
   - tap
   - messagesDelivered
   - alert-ingestion
+vendorIntegrations: []
 integrations:
   analyzers:
   - name: Proofpoint_Lookup

@@ -6,7 +6,7 @@ Elasticsearch is a distributed search and analytics engine that powers SIEM solu
 
 **Category:** SIEM & Analytics  
 **Homepage:** https://www.elastic.co  
-**Tags:** siem, log-analysis, search-analytics, event-correlation, threat-hunting, incident-response
+**Tags:** siem, log-analysis, search-analytics, event-correlation, threat-hunting
 
 ## Analyzers (1)
 
@@ -15,6 +15,18 @@ Search for IoCs in Elasticsearch
 
 - **Data Types:** `url`, `domain`, `ip`, `hash`, `filename`, `fqdn`
 - **Configuration:** [.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json))
+
+---
+
+## Vendor Integrations (1)
+
+Integrations built by Elasticsearch that work with TheHive:
+
+### TheHive Connector for Kibana
+Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive
+
+**Type:** connector
+**Documentation:** [https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type](https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type)
 
 ---
 

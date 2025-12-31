@@ -19,6 +19,7 @@
     "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSEntraID/assets/logo.png"
   },
   "useCases": [],
+  "vendorIntegrations": [],
   "registration_required": true,
   "subscription_required": true,
   "free_subscription": false,

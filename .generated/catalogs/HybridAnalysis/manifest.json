@@ -17,6 +17,7 @@
     "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/HybridAnalysis/assets/logo.ico"
   },
   "useCases": [],
+  "vendorIntegrations": [],
   "integrations": {
     "analyzers": [
       {

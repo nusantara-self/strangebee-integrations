@@ -8,8 +8,7 @@
     "log-analysis",
     "search-analytics",
     "event-correlation",
-    "threat-hunting",
-    "incident-response"
+    "threat-hunting"
   ],
   "homepage": "https://www.elastic.co",
   "logo": {
@@ -18,6 +17,14 @@
     "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Elasticsearch/assets/logo.png"
   },
   "useCases": [],
+  "vendorIntegrations": [
+    {
+      "name": "TheHive Connector for Kibana",
+      "description": "Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive",
+      "type": "connector",
+      "documentation": "https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type"
+    }
+  ],
   "integrations": {
     "analyzers": [
       {

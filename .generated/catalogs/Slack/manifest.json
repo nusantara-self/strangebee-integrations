@@ -45,6 +45,7 @@
       ]
     }
   ],
+  "vendorIntegrations": [],
   "registration_required": true,
   "subscription_required": false,
   "free_subscription": true,

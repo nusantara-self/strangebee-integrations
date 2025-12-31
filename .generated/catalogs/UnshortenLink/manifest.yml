@@ -10,6 +10,7 @@ tags: []
 homepage: ''
 logo: {}
 useCases: []
+vendorIntegrations: []
 integrations:
   analyzers:
   - name: UnshortenLink
