@@ -7972,7 +7972,6 @@
       "automation",
       "orchestration",
       "workflow",
-      "incident-response",
       "security-automation"
     ],
     "homepage": "https://shuffler.io",
@@ -7982,7 +7981,14 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Shuffle/assets/logo.png"
     },
     "useCases": [],
-    "externalIntegrations": [],
+    "externalIntegrations": [
+      {
+        "name": "TheHive 5 Integration",
+        "description": "Native Shuffle app integration that enables workflow automation with TheHive 5 for automated case management, alert handling, and incident response orchestration",
+        "type": "app",
+        "documentation": "https://shuffler.io/apps/thehive/integrations/TheHive_5"
+      }
+    ],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -8322,8 +8328,7 @@
       "log-analysis",
       "security-analytics",
       "threat-detection",
-      "correlation",
-      "incident-response"
+      "correlation"
     ],
     "homepage": "https://www.splunk.com",
     "logo": {
@@ -8332,7 +8337,20 @@
       "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/assets/logo.png"
     },
     "useCases": [],
-    "externalIntegrations": [],
+    "externalIntegrations": [
+      {
+        "name": "TheHive/Cortex Technical Add-on",
+        "description": "Bidirectional integration add-on that pulls case and alert events from TheHive, retrieves Cortex job information, and enables creating alerts/cases and executing functions in TheHive directly from Splunk searches and dashboards",
+        "type": "technical-addon",
+        "documentation": "https://splunkbase.splunk.com/app/5329"
+      },
+      {
+        "name": "TheHive SOAR Connector",
+        "description": "Official Splunk SOAR connector with 16 actions for case management, task operations, observable handling, and TTP tracking to automate incident response workflows between Splunk and TheHive",
+        "type": "soar-connector",
+        "documentation": "https://splunkbase.splunk.com/app/5939"
+      }
+    ],
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,

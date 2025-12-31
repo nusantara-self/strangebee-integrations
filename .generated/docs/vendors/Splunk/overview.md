@@ -6,7 +6,7 @@ Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine
 
 **Category:** SIEM & Analytics  
 **Homepage:** https://www.splunk.com  
-**Tags:** siem, log-analysis, security-analytics, threat-detection, correlation, incident-response
+**Tags:** siem, log-analysis, security-analytics, threat-detection, correlation
 
 ## Subscription Information
 
@@ -92,6 +92,26 @@ This function creates a TheHive Alert based on an input coming from Splunk, and 
 - **Kind:** function
 - **Mode:** Enabled
 - **File:** [integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk))
+
+---
+
+## External Integrations (2)
+
+External integrations that connect Splunk with TheHive:
+
+### TheHive/Cortex Technical Add-on
+Bidirectional integration add-on that pulls case and alert events from TheHive, retrieves Cortex job information, and enables creating alerts/cases and executing functions in TheHive directly from Splunk searches and dashboards
+
+**Type:** technical-addon
+**Documentation:** [https://splunkbase.splunk.com/app/5329](https://splunkbase.splunk.com/app/5329)
+
+---
+
+### TheHive SOAR Connector
+Official Splunk SOAR connector with 16 actions for case management, task operations, observable handling, and TTP tracking to automate incident response workflows between Splunk and TheHive
+
+**Type:** soar-connector
+**Documentation:** [https://splunkbase.splunk.com/app/5939](https://splunkbase.splunk.com/app/5939)
 
 ---
 
