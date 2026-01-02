@@ -2,15 +2,22 @@
 
 ## Statistics
 
-- **Total Vendors:** 199
+- **Total Vendors:** 198
 - **Total Analyzers:** 256
 - **Total Responders:** 131
 - **Total Functions:** 7
-- **Total External Integrations:** 9
-- **Total Integrations:** 403
+- **Total External Integrations:** 10
+- **Total Integrations:** 404
 
 ## Changes
 
-### ✅ Added Vendors (1)
+### ✅ Added Vendors (2)
 
-- `ThreatConnect`
+- `Cloudflare`
+- `Jupyter`
+
+### ❌ Removed Vendors (3)
+
+- `Cloudflare_IP_Blocker`
+- `Jupyter_Analyzer`
+- `Jupyter_Responder`

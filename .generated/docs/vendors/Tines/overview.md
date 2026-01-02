@@ -1,6 +1,6 @@
 # Tines
 
-**Category:** SOAR  
+**Category:** SOAR & Automation  
 **Homepage:** https://www.tines.com  
 **Tags:** automation, workflow-orchestration
 

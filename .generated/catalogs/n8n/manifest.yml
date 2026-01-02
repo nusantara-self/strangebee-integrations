@@ -4,13 +4,22 @@
 
 id: n8n
 name: n8n
-description: ''
-category: ''
-tags: []
-homepage: ''
+description: n8n is a low-code/no-code workflow automation platform that enables technical teams to build, deploy, and manage
+  complex automated workflows.
+category: SOAR & Automation
+tags:
+- automation
+- workflow-orchestration
+- open-source
+homepage: https://n8n.io
 logo: {}
 useCases: []
-externalIntegrations: []
+externalIntegrations:
+- name: Cortex and TheHive Nodes
+  description: Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders,
+    and TheHive cases/alerts/observables
+  type: workflow-nodes
+  documentation: https://n8n.io/integrations/thehive-5/
 integrations:
   analyzers: []
   responders:

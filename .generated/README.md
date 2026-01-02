@@ -4,12 +4,12 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 ## 📊 Summary Statistics
 
-- **Total Vendors:** 199
+- **Total Vendors:** 198
 - **Total Analyzers:** 256
 - **Total Responders:** 131
 - **Total Functions:** 7
-- **Total External Integrations:** 9
-- **Total Integrations:** 403
+- **Total External Integrations:** 10
+- **Total Integrations:** 404
 
 ## 📂 Vendors by Category
 
@@ -108,19 +108,22 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 ### SOAR
 
-**[Cortex XSOAR](docs/vendors/CortexXSOAR/overview.md)** (0 integrations)
-  Cortex XSOAR is Palo Alto Networks' SOAR platform that enables security teams to automate inciden...
-
 **[Rapid7 InsightConnect](docs/vendors/InsightConnect/overview.md)** (0 integrations)
   Rapid7 InsightConnect is a security orchestration and automation platform that enables security t...
-
-**[Tines](docs/vendors/Tines/overview.md)** (0 integrations)
 
 
 ### SOAR & Automation
 
+**[Cortex XSOAR](docs/vendors/CortexXSOAR/overview.md)** (0 integrations)
+  Cortex XSOAR is Palo Alto Networks' SOAR platform that enables security teams to automate inciden...
+
+**[n8n](docs/vendors/n8n/overview.md)** (1 integrations)
+  n8n is a low-code/no-code workflow automation platform that enables technical teams to build, dep...
+
 **[Shuffle](docs/vendors/Shuffle/overview.md)** (1 integrations)
   Shuffle is an open-source security orchestration, automation and response (SOAR) platform that au...
+
+**[Tines](docs/vendors/Tines/overview.md)** (0 integrations)
 
 
 ### Threat Intelligence
@@ -165,6 +168,11 @@ Auto-generated catalog of TheHive and Cortex integrations.
   URLScan.io is an automated web scanner that analyzes URLs and websites in real-time, capturing sc...
 
 
+### Web Application Firewall
+
+**[Cloudflare](docs/vendors/Cloudflare/overview.md)** (1 integrations)
+
+
 ## 🔤 All Vendors (A-Z)
 
 - **[Abuse_Finder](docs/vendors/Abuse_Finder/overview.md)** - *Uncategorized* - 1 analyzers
@@ -193,10 +201,10 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[CIRCLVulnerabilityLookup](docs/vendors/CIRCLVulnerabilityLookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CISMCAP](docs/vendors/CISMCAP/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ClamAV](docs/vendors/ClamAV/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Cloudflare_IP_Blocker](docs/vendors/Cloudflare_IP_Blocker/overview.md)** - *Uncategorized* - 1 responders
+- **[Cloudflare](docs/vendors/Cloudflare/overview.md)** - *Web Application Firewall* - 1 responders
 - **[Cluster25](docs/vendors/Cluster25/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ClusterHawk](docs/vendors/ClusterHawk/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Cortex XSOAR](docs/vendors/CortexXSOAR/overview.md)** - *SOAR* - No integrations
+- **[Cortex XSOAR](docs/vendors/CortexXSOAR/overview.md)** - *SOAR & Automation* - No integrations
 - **[CrowdSec](docs/vendors/Crowdsec/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[CrowdStrike Falcon](docs/vendors/CrowdstrikeFalcon/overview.md)** - *EDR* - 10 analyzers, 9 responders, 1 functions
 - **[Crtsh](docs/vendors/Crtsh/overview.md)** - *Uncategorized* - 1 analyzers
@@ -261,8 +269,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[JAMFProtect](docs/vendors/JAMFProtect/overview.md)** - *Uncategorized* - 2 responders
 - **[JIRA](docs/vendors/JIRA/overview.md)** - *Uncategorized* - 1 functions
 - **[JoeSandbox](docs/vendors/JoeSandbox/overview.md)** - *Uncategorized* - 3 analyzers
-- **[Jupyter_Analyzer](docs/vendors/Jupyter_Analyzer/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Jupyter_Responder](docs/vendors/Jupyter_Responder/overview.md)** - *Uncategorized* - 1 responders
+- **[Jupyter](docs/vendors/Jupyter/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[KasperskyTIP](docs/vendors/KasperskyTIP/overview.md)** - *Uncategorized* - 1 analyzers
 - **[KnowBe4](docs/vendors/KnowBe4/overview.md)** - *Uncategorized* - 1 responders
 - **[LdapQuery](docs/vendors/LdapQuery/overview.md)** - *Uncategorized* - 1 analyzers
@@ -285,7 +292,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[MISPWarningLists](docs/vendors/MISPWarningLists/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Mnemonic Passive DNS](docs/vendors/MnemonicPDNS/overview.md)** - *OSINT & Enrichment* - 2 analyzers
 - **[MsgParser](docs/vendors/MsgParser/overview.md)** - *Uncategorized* - 1 analyzers
-- **[n8n](docs/vendors/n8n/overview.md)** - *Uncategorized* - 1 responders
+- **[n8n](docs/vendors/n8n/overview.md)** - *SOAR & Automation* - 1 responders
 - **[NERD](docs/vendors/NERD/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Nessus](docs/vendors/Nessus/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Netcraft](docs/vendors/Netcraft/overview.md)** - *Uncategorized* - 1 responders
@@ -340,7 +347,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[ThreatMiner](docs/vendors/ThreatMiner/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ThreatResponse](docs/vendors/ThreatResponse/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Thunderstorm](docs/vendors/Thunderstorm/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Tines](docs/vendors/Tines/overview.md)** - *SOAR* - No integrations
+- **[Tines](docs/vendors/Tines/overview.md)** - *SOAR & Automation* - No integrations
 - **[TorBlutmagie](docs/vendors/TorBlutmagie/overview.md)** - *Uncategorized* - 1 analyzers
 - **[TorProject](docs/vendors/TorProject/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Triage](docs/vendors/Triage/overview.md)** - *Uncategorized* - 1 analyzers

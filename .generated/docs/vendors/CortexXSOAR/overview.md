@@ -2,7 +2,7 @@
 
 Cortex XSOAR is Palo Alto Networks' SOAR platform that enables security teams to automate incident response workflows, orchestrate security tools, and accelerate threat investigation and remediation
 
-**Category:** SOAR  
+**Category:** SOAR & Automation  
 **Homepage:** https://www.paloaltonetworks.com/cortex/cortex-xsoar  
 **Tags:** automation, workflow-orchestration
 

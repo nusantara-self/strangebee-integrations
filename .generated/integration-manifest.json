@@ -1076,14 +1076,18 @@
       "total": 1
     }
   },
-  "Cloudflare_IP_Blocker": {
-    "id": "Cloudflare_IP_Blocker",
-    "name": "Cloudflare_IP_Blocker",
+  "Cloudflare": {
+    "id": "Cloudflare",
+    "name": "Cloudflare",
     "description": "",
-    "category": "",
+    "category": "Web Application Firewall",
     "tags": [],
-    "homepage": "",
-    "logo": {},
+    "homepage": "https://www.cloudflare.com",
+    "logo": {
+      "file": "integrations/vendors/Cloudflare/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Cloudflare/assets/logo.png",
+      "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Cloudflare/assets/logo.png"
+    },
     "useCases": [],
     "externalIntegrations": [],
     "registration_required": true,
@@ -1099,9 +1103,9 @@
           "dataTypes": [
             "thehive:case_artifact"
           ],
-          "file": ".upstream/cortex/responders/Cloudflare_IP_Blocker/CloudflareIPBlocker.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Cloudflare_IP_Blocker/CloudflareIPBlocker.json",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Cloudflare_IP_Blocker/CloudflareIPBlocker.json"
+          "file": ".upstream/cortex/responders/Cloudflare/CloudflareIPBlocker.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Cloudflare/CloudflareIPBlocker.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Cloudflare/CloudflareIPBlocker.json"
         }
       ],
       "functions": []
@@ -1196,7 +1200,7 @@
     "id": "CortexXSOAR",
     "name": "Cortex XSOAR",
     "description": "Cortex XSOAR is Palo Alto Networks' SOAR platform that enables security teams to automate incident response workflows, orchestrate security tools, and accelerate threat investigation and remediation",
-    "category": "SOAR",
+    "category": "SOAR & Automation",
     "tags": [
       "automation",
       "workflow-orchestration"
@@ -4645,9 +4649,9 @@
       "total": 3
     }
   },
-  "Jupyter_Analyzer": {
-    "id": "Jupyter_Analyzer",
-    "name": "Jupyter_Analyzer",
+  "Jupyter": {
+    "id": "Jupyter",
+    "name": "Jupyter",
     "description": "",
     "category": "",
     "tags": [],
@@ -4681,33 +4685,11 @@
             "filename",
             "mail-subject"
           ],
-          "file": ".upstream/cortex/analyzers/Jupyter_Analyzer/Jupyter_Run_Notebook_Analyzer.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Jupyter_Analyzer/Jupyter_Run_Notebook_Analyzer.json",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Jupyter_Analyzer/Jupyter_Run_Notebook_Analyzer.json"
+          "file": ".upstream/cortex/analyzers/Jupyter/Jupyter_Run_Notebook_Analyzer.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Jupyter/Jupyter_Run_Notebook_Analyzer.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Jupyter/Jupyter_Run_Notebook_Analyzer.json"
         }
       ],
-      "responders": [],
-      "functions": []
-    },
-    "stats": {
-      "totalAnalyzers": 1,
-      "totalResponders": 0,
-      "totalFunctions": 0,
-      "total": 1
-    }
-  },
-  "Jupyter_Responder": {
-    "id": "Jupyter_Responder",
-    "name": "Jupyter_Responder",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
-    "logo": {},
-    "useCases": [],
-    "externalIntegrations": [],
-    "integrations": {
-      "analyzers": [],
       "responders": [
         {
           "name": "Jupyter_Run_Notebook_Responder",
@@ -4720,18 +4702,18 @@
             "thehive:case_task",
             "thehive:case_task_log"
           ],
-          "file": ".upstream/cortex/responders/Jupyter_Responder/Jupyter_Run_Notebook_Responder.json",
-          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Jupyter_Responder/Jupyter_Run_Notebook_Responder.json",
-          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Jupyter_Responder/Jupyter_Run_Notebook_Responder.json"
+          "file": ".upstream/cortex/responders/Jupyter/Jupyter_Run_Notebook_Responder.json",
+          "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Jupyter/Jupyter_Run_Notebook_Responder.json",
+          "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Jupyter/Jupyter_Run_Notebook_Responder.json"
         }
       ],
       "functions": []
     },
     "stats": {
-      "totalAnalyzers": 0,
+      "totalAnalyzers": 1,
       "totalResponders": 1,
       "totalFunctions": 0,
-      "total": 1
+      "total": 2
     }
   },
   "KasperskyTIP": {
@@ -5905,13 +5887,24 @@
   "n8n": {
     "id": "n8n",
     "name": "n8n",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "homepage": "",
+    "description": "n8n is a low-code/no-code workflow automation platform that enables technical teams to build, deploy, and manage complex automated workflows.",
+    "category": "SOAR & Automation",
+    "tags": [
+      "automation",
+      "workflow-orchestration",
+      "open-source"
+    ],
+    "homepage": "https://n8n.io",
     "logo": {},
     "useCases": [],
-    "externalIntegrations": [],
+    "externalIntegrations": [
+      {
+        "name": "Cortex and TheHive Nodes",
+        "description": "Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders, and TheHive cases/alerts/observables",
+        "type": "workflow-nodes",
+        "documentation": "https://n8n.io/integrations/thehive-5/"
+      }
+    ],
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -9108,7 +9101,7 @@
     "id": "Tines",
     "name": "Tines",
     "description": "",
-    "category": "SOAR",
+    "category": "SOAR & Automation",
     "tags": [
       "automation",
       "workflow-orchestration"
