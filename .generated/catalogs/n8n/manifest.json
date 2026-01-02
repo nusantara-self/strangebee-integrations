@@ -9,7 +9,11 @@
     "open-source"
   ],
   "homepage": "https://n8n.io",
-  "logo": {},
+  "logo": {
+    "file": "integrations/vendors/n8n/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/n8n/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/n8n/assets/logo.png"
+  },
   "useCases": [],
   "externalIntegrations": [
     {

@@ -106,12 +106,6 @@ Auto-generated catalog of TheHive and Cortex integrations.
   Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine data from across...
 
 
-### SOAR
-
-**[Rapid7 InsightConnect](docs/vendors/InsightConnect/overview.md)** (0 integrations)
-  Rapid7 InsightConnect is a security orchestration and automation platform that enables security t...
-
-
 ### SOAR & Automation
 
 **[Cortex XSOAR](docs/vendors/CortexXSOAR/overview.md)** (0 integrations)
@@ -119,6 +113,9 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 **[n8n](docs/vendors/n8n/overview.md)** (1 integrations)
   n8n is a low-code/no-code workflow automation platform that enables technical teams to build, dep...
+
+**[Rapid7 InsightConnect](docs/vendors/InsightConnect/overview.md)** (0 integrations)
+  Rapid7 InsightConnect is a security orchestration and automation platform that enables security t...
 
 **[Shuffle](docs/vendors/Shuffle/overview.md)** (1 integrations)
   Shuffle is an open-source security orchestration, automation and response (SOAR) platform that au...
@@ -314,7 +311,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[Pulsedive](docs/vendors/Pulsedive/overview.md)** - *Uncategorized* - 1 analyzers
 - **[QRadarAutoClose](docs/vendors/QRadarAutoClose/overview.md)** - *Uncategorized* - 1 responders
 - **[QrDecode](docs/vendors/QrDecode/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Rapid7 InsightConnect](docs/vendors/InsightConnect/overview.md)** - *SOAR* - No integrations
+- **[Rapid7 InsightConnect](docs/vendors/InsightConnect/overview.md)** - *SOAR & Automation* - No integrations
 - **[Recorded Future](docs/vendors/RecordedFuture/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Redmine](docs/vendors/Redmine/overview.md)** - *Uncategorized* - 1 responders
 - **[RiskIQ](docs/vendors/RiskIQ/overview.md)** - *Uncategorized* - 16 analyzers, 1 responders

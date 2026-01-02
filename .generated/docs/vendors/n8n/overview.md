@@ -1,5 +1,7 @@
 # n8n
 
+![n8n Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/n8n/assets/logo.png)
+
 n8n is a low-code/no-code workflow automation platform that enables technical teams to build, deploy, and manage complex automated workflows.
 
 **Category:** SOAR & Automation  

@@ -1,8 +1,10 @@
 # Rapid7 InsightConnect
 
+![Rapid7 InsightConnect Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/InsightConnect/assets/logo.png)
+
 Rapid7 InsightConnect is a security orchestration and automation platform that enables security teams to automate workflows, connect security tools, and accelerate incident response through pre-built integrations and custom automation
 
-**Category:** SOAR  
+**Category:** SOAR & Automation  
 **Homepage:** https://www.rapid7.com/products/insightconnect/  
 **Tags:** automation, workflow-orchestration, security-automation
 

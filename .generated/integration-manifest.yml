@@ -3328,13 +3328,16 @@ InsightConnect:
   name: Rapid7 InsightConnect
   description: Rapid7 InsightConnect is a security orchestration and automation platform that enables security teams to automate
     workflows, connect security tools, and accelerate incident response through pre-built integrations and custom automation
-  category: SOAR
+  category: SOAR & Automation
   tags:
   - automation
   - workflow-orchestration
   - security-automation
   homepage: https://www.rapid7.com/products/insightconnect/
-  logo: {}
+  logo:
+    file: integrations/vendors/InsightConnect/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/InsightConnect/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/InsightConnect/assets/logo.png
   useCases: []
   externalIntegrations:
   - name: TheHive Extension
@@ -4736,7 +4739,10 @@ n8n:
   - workflow-orchestration
   - open-source
   homepage: https://n8n.io
-  logo: {}
+  logo:
+    file: integrations/vendors/n8n/assets/logo.png
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/n8n/assets/logo.png
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/n8n/assets/logo.png
   useCases: []
   externalIntegrations:
   - name: Cortex and TheHive Nodes
