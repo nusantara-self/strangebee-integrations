@@ -4,12 +4,12 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 ## 📊 Summary Statistics
 
-- **Total Vendors:** 198
+- **Total Vendors:** 199
 - **Total Analyzers:** 256
 - **Total Responders:** 131
 - **Total Functions:** 7
-- **Total External Integrations:** 8
-- **Total Integrations:** 402
+- **Total External Integrations:** 9
+- **Total Integrations:** 403
 
 ## 📂 Vendors by Category
 
@@ -151,6 +151,9 @@ Auto-generated catalog of TheHive and Cortex integrations.
 
 **[Recorded Future](docs/vendors/RecordedFuture/overview.md)** (1 integrations)
   Recorded Future is a real-time threat intelligence platform that analyzes data from the open web,...
+
+**[ThreatConnect](docs/vendors/ThreatConnect/overview.md)** (0 integrations)
+  ThreatConnect is a threat intelligence platform that enables security teams to aggregate, analyze...
 
 **[URLhaus](docs/vendors/URLhaus/overview.md)** (1 integrations)
   URLhaus is a community-driven platform by Abuse.ch for tracking and sharing malware distribution ...
@@ -331,6 +334,7 @@ Auto-generated catalog of TheHive and Cortex integrations.
 - **[Telegram](docs/vendors/Telegram/overview.md)** - *Collaboration* - 1 responders
 - **[Test](docs/vendors/Test/overview.md)** - *Uncategorized* - 2 responders
 - **[TestAnalyzer](docs/vendors/TestAnalyzer/overview.md)** - *Uncategorized* - 2 analyzers
+- **[ThreatConnect](docs/vendors/ThreatConnect/overview.md)** - *Threat Intelligence* - No integrations
 - **[Threatcrowd](docs/vendors/Threatcrowd/overview.md)** - *Uncategorized* - No integrations
 - **[ThreatGrid](docs/vendors/ThreatGrid/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ThreatMiner](docs/vendors/ThreatMiner/overview.md)** - *Uncategorized* - 1 analyzers
