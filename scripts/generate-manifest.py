@@ -208,7 +208,8 @@ def scan_functions(vendor: str) -> List[Dict]:
         if not metadata:
             continue
 
-        file_name = metadata.get('definition', file_path.name)
+        # Use the actual file name to ensure .js extension is included
+        file_name = file_path.name
         relative_path = f"integrations/vendors/{vendor}/thehive/functions/{file_name}"
 
         functions.append({
@@ -733,6 +734,244 @@ def generate_catalog_index(all_manifests: Dict) -> str:
 
     return '\n'.join(lines)
 
+def generate_external_integrations_catalog(all_manifests: Dict) -> Dict:
+    """Generate catalog of all external integrations across vendors."""
+    external_integrations = []
+
+    for vendor_id, manifest in all_manifests.items():
+        vendor_external = manifest.get('externalIntegrations', [])
+        for integration in vendor_external:
+            external_integrations.append({
+                'name': integration.get('name'),
+                'vendor': manifest.get('name'),
+                'vendorId': vendor_id,
+                'type': integration.get('type'),
+                'description': integration.get('description'),
+                'documentation': integration.get('documentation'),
+                'category': manifest.get('category')
+            })
+
+    # Sort by vendor name, then integration name
+    external_integrations.sort(key=lambda x: (x['vendor'].lower(), x['name'].lower()))
+
+    return {
+        'totalIntegrations': len(external_integrations),
+        'integrations': external_integrations,
+        'byVendor': _group_by_vendor(external_integrations),
+        'byCategory': _group_by_category(external_integrations),
+        'byType': _group_by_type(external_integrations)
+    }
+
+def _group_by_vendor(integrations: list) -> Dict:
+    """Group integrations by vendor."""
+    by_vendor = {}
+    for integration in integrations:
+        vendor = integration['vendor']
+        if vendor not in by_vendor:
+            by_vendor[vendor] = []
+        by_vendor[vendor].append(integration)
+    return by_vendor
+
+def _group_by_category(integrations: list) -> Dict:
+    """Group integrations by vendor category."""
+    by_category = {}
+    for integration in integrations:
+        category = integration.get('category', 'Other')
+        if category not in by_category:
+            by_category[category] = []
+        by_category[category].append(integration)
+    return by_category
+
+def _group_by_type(integrations: list) -> Dict:
+    """Group integrations by type."""
+    by_type = {}
+    for integration in integrations:
+        int_type = integration.get('type', 'unknown')
+        if int_type not in by_type:
+            by_type[int_type] = []
+        by_type[int_type].append(integration)
+    return by_type
+
+def generate_external_integrations_markdown(catalog: Dict) -> str:
+    """Generate markdown documentation for external integrations catalog."""
+    lines = []
+
+    # Header
+    lines.append("# External Integrations Catalog")
+    lines.append("")
+    lines.append("Community and vendor-built integrations that connect various platforms with TheHive and Cortex.")
+    lines.append("")
+
+    # Summary
+    lines.append("## 📊 Overview")
+    lines.append("")
+    lines.append(f"**Total External Integrations:** {catalog['totalIntegrations']}")
+    lines.append("")
+
+    # Quick stats by type
+    lines.append("### By Type")
+    lines.append("")
+    for int_type, integrations in sorted(catalog['byType'].items()):
+        lines.append(f"- **{int_type}**: {len(integrations)} integration(s)")
+    lines.append("")
+
+    # Quick stats by category
+    lines.append("### By Vendor Category")
+    lines.append("")
+    for category, integrations in sorted(catalog['byCategory'].items()):
+        lines.append(f"- **{category}**: {len(integrations)} integration(s)")
+    lines.append("")
+
+    # All integrations grouped by vendor
+    lines.append("## 🔗 All External Integrations")
+    lines.append("")
+
+    for vendor, integrations in sorted(catalog['byVendor'].items()):
+        lines.append(f"### {vendor}")
+        lines.append("")
+
+        for integration in integrations:
+            lines.append(f"#### {integration['name']}")
+            lines.append("")
+            if integration.get('description'):
+                lines.append(integration['description'])
+                lines.append("")
+            if integration.get('type'):
+                lines.append(f"**Type:** `{integration['type']}`  ")
+            if integration.get('documentation'):
+                lines.append(f"**Documentation:** [{integration['documentation']}]({integration['documentation']})")
+            lines.append("")
+
+        lines.append("---")
+        lines.append("")
+
+    # Footer
+    lines.append("---")
+    lines.append("")
+    lines.append("*This catalog is auto-generated. Do not edit manually.*")
+    lines.append("")
+
+    return '\n'.join(lines)
+
+def generate_external_integrations_catalog(all_manifests: Dict) -> Dict:
+    """Generate catalog of all external integrations across vendors."""
+    external_integrations = []
+
+    for vendor_id, manifest in all_manifests.items():
+        vendor_external = manifest.get('externalIntegrations', [])
+        for integration in vendor_external:
+            external_integrations.append({
+                'name': integration.get('name'),
+                'vendor': manifest.get('name'),
+                'vendorId': vendor_id,
+                'type': integration.get('type'),
+                'description': integration.get('description'),
+                'documentation': integration.get('documentation'),
+                'category': manifest.get('category')
+            })
+
+    # Sort by vendor name, then integration name
+    external_integrations.sort(key=lambda x: (x['vendor'].lower(), x['name'].lower()))
+
+    return {
+        'totalIntegrations': len(external_integrations),
+        'integrations': external_integrations,
+        'byVendor': _group_by_vendor(external_integrations),
+        'byCategory': _group_by_category(external_integrations),
+        'byType': _group_by_type(external_integrations)
+    }
+
+def _group_by_vendor(integrations: list) -> Dict:
+    """Group integrations by vendor."""
+    by_vendor = {}
+    for integration in integrations:
+        vendor = integration['vendor']
+        if vendor not in by_vendor:
+            by_vendor[vendor] = []
+        by_vendor[vendor].append(integration)
+    return by_vendor
+
+def _group_by_category(integrations: list) -> Dict:
+    """Group integrations by vendor category."""
+    by_category = {}
+    for integration in integrations:
+        category = integration.get('category', 'Other')
+        if category not in by_category:
+            by_category[category] = []
+        by_category[category].append(integration)
+    return by_category
+
+def _group_by_type(integrations: list) -> Dict:
+    """Group integrations by type."""
+    by_type = {}
+    for integration in integrations:
+        int_type = integration.get('type', 'unknown')
+        if int_type not in by_type:
+            by_type[int_type] = []
+        by_type[int_type].append(integration)
+    return by_type
+
+def generate_external_integrations_markdown(catalog: Dict) -> str:
+    """Generate markdown documentation for external integrations catalog."""
+    lines = []
+
+    # Header
+    lines.append("# External Integrations Catalog")
+    lines.append("")
+    lines.append("Community and vendor-built integrations that connect various platforms with TheHive and Cortex.")
+    lines.append("")
+
+    # Summary
+    lines.append("## 📊 Overview")
+    lines.append("")
+    lines.append(f"**Total External Integrations:** {catalog['totalIntegrations']}")
+    lines.append("")
+
+    # Quick stats by type
+    lines.append("### By Type")
+    lines.append("")
+    for int_type, integrations in sorted(catalog['byType'].items()):
+        lines.append(f"- **{int_type}**: {len(integrations)} integration(s)")
+    lines.append("")
+
+    # Quick stats by category
+    lines.append("### By Vendor Category")
+    lines.append("")
+    for category, integrations in sorted(catalog['byCategory'].items()):
+        lines.append(f"- **{category}**: {len(integrations)} integration(s)")
+    lines.append("")
+
+    # All integrations grouped by vendor
+    lines.append("## 🔗 All External Integrations")
+    lines.append("")
+
+    for vendor, integrations in sorted(catalog['byVendor'].items()):
+        lines.append(f"### {vendor}")
+        lines.append("")
+
+        for integration in integrations:
+            lines.append(f"#### {integration['name']}")
+            lines.append("")
+            if integration.get('description'):
+                lines.append(integration['description'])
+                lines.append("")
+            if integration.get('type'):
+                lines.append(f"**Type:** `{integration['type']}`  ")
+            if integration.get('documentation'):
+                lines.append(f"**Documentation:** [{integration['documentation']}]({integration['documentation']})")
+            lines.append("")
+
+        lines.append("---")
+        lines.append("")
+
+    # Footer
+    lines.append("---")
+    lines.append("")
+    lines.append("*This catalog is auto-generated. Do not edit manually.*")
+    lines.append("")
+
+    return '\n'.join(lines)
+
 def generate_github_summary(all_manifests: Dict, previous_manifests: Dict = None) -> Dict:
     """Generate GitHub Actions summary of changes."""
     total_external = sum(len(m.get('externalIntegrations', [])) for m in all_manifests.values())
@@ -913,6 +1152,34 @@ def main():
         f.write(catalog_index)
     print(f"Catalog index generated: {index_path}")
 
+    # Generate external integrations catalog
+    external_integrations_catalog = generate_external_integrations_catalog(all_manifests)
+
+    # Create external-integrations directory
+    external_integrations_path = generated_path / 'external-integrations'
+    external_integrations_path.mkdir(exist_ok=True)
+
+    # Write catalog as JSON
+    ext_json_path = external_integrations_path / 'catalog.json'
+    with open(ext_json_path, 'w', encoding='utf-8') as f:
+        json.dump(external_integrations_catalog, f, indent=2, ensure_ascii=False)
+    print(f"External integrations catalog (JSON): {ext_json_path}")
+
+    # Write catalog as YAML
+    ext_yaml_path = external_integrations_path / 'catalog.yml'
+    with open(ext_yaml_path, 'w', encoding='utf-8') as f:
+        f.write("# AUTO-GENERATED - DO NOT EDIT\n")
+        f.write("# This file is generated by generate-manifest.py\n\n")
+        yaml.dump(external_integrations_catalog, f, default_flow_style=False, allow_unicode=True, sort_keys=False, width=120)
+    print(f"External integrations catalog (YAML): {ext_yaml_path}")
+
+    # Write catalog as Markdown
+    ext_md_content = generate_external_integrations_markdown(external_integrations_catalog)
+    ext_md_path = external_integrations_path / 'README.md'
+    with open(ext_md_path, 'w', encoding='utf-8') as f:
+        f.write(ext_md_content)
+    print(f"External integrations catalog (Markdown): {ext_md_path}")
+
     # Load previous manifests for change detection (if exists)
     previous_manifests = None
     previous_manifest_path = generated_path / 'integration-manifest.json'
@@ -938,9 +1205,8 @@ def main():
     print(f"GitHub Actions summary: {github_summary_path}")
 
     # Print summary
-    total_external_integrations = sum(len(m.get('externalIntegrations', [])) for m in all_manifests.values())
     print('\n=== Summary ===')
-    print(f"\nTotal External Integrations: {total_external_integrations}")
+    print(f"\nTotal External Integrations: {external_integrations_catalog['totalIntegrations']}")
     for vendor, data in all_manifests.items():
         print(f"\n{data['name']} ({vendor}):")
         print(f"  Category: {data['category'] or 'N/A'}")
