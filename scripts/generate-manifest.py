@@ -103,6 +103,8 @@ def scan_analyzers(vendor: str) -> tuple[List[Dict], Dict]:
             analyzers.append({
                 'name': content.get('name'),
                 'version': content.get('version'),
+                'author': content.get('author'),
+                'license': content.get('license'),
                 'description': content.get('description'),
                 'dataTypes': content.get('dataTypeList', []),
                 'file': relative_path,
@@ -146,6 +148,8 @@ def scan_responders(vendor: str) -> tuple[List[Dict], Dict]:
             responders.append({
                 'name': content.get('name'),
                 'version': content.get('version'),
+                'author': content.get('author'),
+                'license': content.get('license'),
                 'description': content.get('description'),
                 'dataTypes': content.get('dataTypeList', []),
                 'file': relative_path,
@@ -502,6 +506,10 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
                 lines.append(analyzer['description'])
                 lines.append("")
 
+            if analyzer.get('author'):
+                lines.append(f"- **Author:** {analyzer['author']}")
+            if analyzer.get('license'):
+                lines.append(f"- **License:** {analyzer['license']}")
             if analyzer.get('dataTypes'):
                 data_types = ', '.join(f"`{dt}`" for dt in analyzer['dataTypes'])
                 lines.append(f"- **Data Types:** {data_types}")
@@ -529,6 +537,10 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
                 lines.append(responder['description'])
                 lines.append("")
 
+            if responder.get('author'):
+                lines.append(f"- **Author:** {responder['author']}")
+            if responder.get('license'):
+                lines.append(f"- **License:** {responder['license']}")
             if responder.get('dataTypes'):
                 data_types = ', '.join(f"`{dt}`" for dt in responder['dataTypes'])
                 lines.append(f"- **Data Types:** {data_types}")
