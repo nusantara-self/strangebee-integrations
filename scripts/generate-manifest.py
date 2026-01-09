@@ -991,6 +991,248 @@ def generate_external_integrations_markdown(catalog: Dict) -> str:
 
     return '\n'.join(lines)
 
+def generate_functions_catalog(all_manifests: Dict) -> str:
+    """Generate markdown catalog of all functions (generic + vendor-specific)."""
+    lines = []
+    lines.append("# Functions Catalog")
+    lines.append("")
+    lines.append("Complete list of TheHive functions available for workflow automation.")
+    lines.append("")
+
+    # Collect generic functions from integrations/generic/functions/
+    generic_functions = []
+    generic_functions_path = Path('integrations/generic/functions')
+    if generic_functions_path.exists():
+        for func_file in generic_functions_path.glob('function_*.js'):
+            metadata = parse_function_metadata(str(func_file))
+            if metadata:
+                generic_functions.append({
+                    'name': metadata.get('name', func_file.stem),
+                    'version': metadata.get('version', 'N/A'),
+                    'description': metadata.get('description', 'No description available'),
+                    'type': metadata.get('type', 'function'),
+                    'kind': metadata.get('kind', 'function'),
+                    'mode': metadata.get('mode', 'N/A'),
+                    'file': str(func_file)
+                })
+
+    # Collect vendor-specific functions
+    vendor_functions = {}
+    total_functions = len(generic_functions)
+
+    for vendor_id, manifest in all_manifests.items():
+        functions = manifest.get('integrations', {}).get('functions', [])
+        if functions:
+            vendor_name = manifest.get('name', vendor_id)
+            vendor_functions[vendor_name] = {
+                'vendor_id': vendor_id,
+                'functions': functions
+            }
+            total_functions += len(functions)
+
+    # Summary
+    lines.append(f"## 📊 Summary")
+    lines.append("")
+    lines.append(f"- **Total Functions:** {total_functions}")
+    lines.append(f"- **Generic Functions:** {len(generic_functions)}")
+    lines.append(f"- **Vendor-Specific Functions:** {total_functions - len(generic_functions)}")
+    lines.append(f"- **Vendors with Functions:** {len(vendor_functions)}")
+    lines.append("")
+
+    # Generic Functions Section
+    if generic_functions:
+        lines.append("## 🔧 Generic Functions")
+        lines.append("")
+        lines.append("These functions are vendor-agnostic and can be used across all TheHive installations:")
+        lines.append("")
+
+        for func in sorted(generic_functions, key=lambda x: x.get('name', '').lower()):
+            name = func.get('name', 'Unknown')
+            version = func.get('version', 'N/A')
+            description = func.get('description', 'No description available')
+            func_type = func.get('type', 'N/A')
+            mode = func.get('mode', 'N/A')
+
+            lines.append(f"### {name} `v{version}`")
+            lines.append("")
+            if func_type and func_type != 'N/A':
+                lines.append(f"**Type:** {func_type}")
+            if mode and mode != 'N/A':
+                lines.append(f"**Mode:** {mode}")
+            lines.append("")
+            lines.append(description)
+            lines.append("")
+            lines.append("---")
+            lines.append("")
+
+    # Vendor-Specific Functions Section
+    if vendor_functions:
+        lines.append("## 🏢 Vendor-Specific Functions")
+        lines.append("")
+
+        for vendor_name in sorted(vendor_functions.keys()):
+            vendor_data = vendor_functions[vendor_name]
+            vendor_id = vendor_data['vendor_id']
+            functions = vendor_data['functions']
+
+            lines.append(f"### {vendor_name}")
+            lines.append("")
+            lines.append(f"**Vendor:** [{vendor_name}](/vendors/{vendor_id}/overview)")
+            lines.append("")
+
+            for func in sorted(functions, key=lambda x: x.get('name', '').lower()):
+                name = func.get('name', 'Unknown')
+                version = func.get('version', 'N/A')
+                description = func.get('description', 'No description available')
+                kind = func.get('kind', 'function')
+
+                lines.append(f"#### {name} `v{version}`")
+                if kind:
+                    lines.append(f"**Kind:** `{kind}`")
+                lines.append("")
+                lines.append(description)
+                lines.append("")
+
+            lines.append("---")
+            lines.append("")
+
+    # Footer
+    lines.append("---")
+    lines.append("")
+    lines.append("*This catalog is auto-generated. Do not edit manually.*")
+    lines.append("")
+
+    return '\n'.join(lines)
+
+def generate_free_local_integrations(all_manifests: Dict) -> str:
+    """Generate markdown catalog of free or local integrations."""
+    lines = []
+    lines.append("# Free & Local Integrations")
+    lines.append("")
+    lines.append("Integrations that are either free to use or run locally without external dependencies.")
+    lines.append("")
+
+    # Collect free/local integrations
+    free_local_integrations = {
+        'analyzers': [],
+        'responders': []
+    }
+
+    for vendor_id, manifest in all_manifests.items():
+        vendor_name = manifest.get('name', vendor_id)
+        free_subscription = manifest.get('free_subscription', False)
+
+        # Check analyzers
+        for analyzer in manifest.get('integrations', {}).get('analyzers', []):
+            integration_type = analyzer.get('integration_type', '')
+            if free_subscription or integration_type == 'local':
+                free_local_integrations['analyzers'].append({
+                    'vendor': vendor_name,
+                    'vendor_id': vendor_id,
+                    'free_subscription': free_subscription,
+                    'is_local': integration_type == 'local',
+                    **analyzer
+                })
+
+        # Check responders
+        for responder in manifest.get('integrations', {}).get('responders', []):
+            integration_type = responder.get('integration_type', '')
+            if free_subscription or integration_type == 'local':
+                free_local_integrations['responders'].append({
+                    'vendor': vendor_name,
+                    'vendor_id': vendor_id,
+                    'free_subscription': free_subscription,
+                    'is_local': integration_type == 'local',
+                    **responder
+                })
+
+    total_analyzers = len(free_local_integrations['analyzers'])
+    total_responders = len(free_local_integrations['responders'])
+
+    # Summary
+    lines.append("## 📊 Summary")
+    lines.append("")
+    lines.append(f"- **Total Free/Local Analyzers:** {total_analyzers}")
+    lines.append(f"- **Total Free/Local Responders:** {total_responders}")
+    lines.append(f"- **Total:** {total_analyzers + total_responders}")
+    lines.append("")
+    lines.append("**Legend:**")
+    lines.append("- 🆓 Free subscription available")
+    lines.append("- 🏠 Local integration (no external API required)")
+    lines.append("")
+
+    # Analyzers Section
+    if free_local_integrations['analyzers']:
+        lines.append("## 🔍 Analyzers")
+        lines.append("")
+
+        for analyzer in sorted(free_local_integrations['analyzers'], key=lambda x: (x['vendor'].lower(), x.get('name', '').lower())):
+            name = analyzer.get('name', 'Unknown')
+            version = analyzer.get('version', 'N/A')
+            description = analyzer.get('description', 'No description available')
+            vendor = analyzer['vendor']
+            vendor_id = analyzer['vendor_id']
+            data_types = analyzer.get('dataTypes', [])
+
+            # Badges
+            badges = []
+            if analyzer['free_subscription']:
+                badges.append("🆓")
+            if analyzer['is_local']:
+                badges.append("🏠")
+            badge_str = " ".join(badges)
+
+            lines.append(f"### {name} `v{version}` {badge_str}")
+            lines.append("")
+            lines.append(f"**Vendor:** [{vendor}](/vendors/{vendor_id}/overview)")
+            if data_types:
+                lines.append(f"**Data Types:** {', '.join(f'`{dt}`' for dt in data_types)}")
+            lines.append("")
+            lines.append(description)
+            lines.append("")
+            lines.append("---")
+            lines.append("")
+
+    # Responders Section
+    if free_local_integrations['responders']:
+        lines.append("## ⚡ Responders")
+        lines.append("")
+
+        for responder in sorted(free_local_integrations['responders'], key=lambda x: (x['vendor'].lower(), x.get('name', '').lower())):
+            name = responder.get('name', 'Unknown')
+            version = responder.get('version', 'N/A')
+            description = responder.get('description', 'No description available')
+            vendor = responder['vendor']
+            vendor_id = responder['vendor_id']
+            data_types = responder.get('dataTypes', [])
+
+            # Badges
+            badges = []
+            if responder['free_subscription']:
+                badges.append("🆓")
+            if responder['is_local']:
+                badges.append("🏠")
+            badge_str = " ".join(badges)
+
+            lines.append(f"### {name} `v{version}` {badge_str}")
+            lines.append("")
+            lines.append(f"**Vendor:** [{vendor}](/vendors/{vendor_id}/overview)")
+            if data_types:
+                lines.append(f"**Data Types:** {', '.join(f'`{dt}`' for dt in data_types)}")
+            lines.append("")
+            lines.append(description)
+            lines.append("")
+            lines.append("---")
+            lines.append("")
+
+    # Footer
+    lines.append("---")
+    lines.append("")
+    lines.append("*This catalog is auto-generated. Do not edit manually.*")
+    lines.append("")
+
+    return '\n'.join(lines)
+
 def generate_github_summary(all_manifests: Dict, previous_manifests: Dict = None) -> Dict:
     """Generate GitHub Actions summary of changes."""
     summary = {
@@ -1195,6 +1437,20 @@ def main():
     with open(ext_md_path, 'w', encoding='utf-8') as f:
         f.write(ext_md_content)
     print(f"External integrations catalog (Markdown): {ext_md_path}")
+
+    # Generate functions catalog
+    functions_catalog = generate_functions_catalog(all_manifests)
+    functions_catalog_path = docs_path / 'functions.md'
+    with open(functions_catalog_path, 'w', encoding='utf-8') as f:
+        f.write(functions_catalog)
+    print(f"Functions catalog: {functions_catalog_path}")
+
+    # Generate free/local integrations catalog
+    free_local_catalog = generate_free_local_integrations(all_manifests)
+    free_local_path = docs_path / 'free-local.md'
+    with open(free_local_path, 'w', encoding='utf-8') as f:
+        f.write(free_local_catalog)
+    print(f"Free/local integrations catalog: {free_local_path}")
 
     # Load previous manifests for change detection (if exists)
     previous_manifests = None
