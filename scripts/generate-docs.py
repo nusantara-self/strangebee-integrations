@@ -416,6 +416,81 @@ def generate_external_integrations_markdown(catalog: Dict) -> str:
     return '\n'.join(lines)
 
 
+def read_function_code(file_path: str) -> str:
+    """Read function code from file, excluding metadata frontmatter."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        # Remove the metadata frontmatter (/*---...---*/)
+        import re
+        cleaned = re.sub(r'/\*---\n.*?\n---\*/', '', content, flags=re.DOTALL)
+
+        # Remove leading/trailing whitespace
+        return cleaned.strip()
+    except Exception as e:
+        return f"// Error reading function code: {e}"
+
+
+def generate_individual_function_page(func: Dict, vendor_name: str = None) -> str:
+    """Generate individual function documentation page with full code."""
+    lines = []
+
+    name = func.get('name', 'Unknown')
+    version = func.get('version', 'N/A')
+    description = func.get('description', 'No description available')
+    func_type = func.get('type', 'N/A')
+    kind = func.get('kind', 'function')
+    mode = func.get('mode', 'N/A')
+    code = func.get('code', '')
+    file_path = func.get('file', '')
+
+    # Header
+    lines.append(f"# {name}")
+    lines.append("")
+
+    # Metadata
+    lines.append("## Metadata")
+    lines.append("")
+    lines.append(f"- **Version:** `{version}`")
+    if vendor_name:
+        lines.append(f"- **Vendor:** {vendor_name}")
+    else:
+        lines.append(f"- **Type:** Generic Function")
+    if func_type and func_type != 'N/A':
+        lines.append(f"- **Function Type:** `{func_type}`")
+    if kind:
+        lines.append(f"- **Kind:** `{kind}`")
+    if mode and mode != 'N/A':
+        lines.append(f"- **Mode:** `{mode}`")
+    if file_path:
+        lines.append(f"- **Source File:** `{file_path}`")
+    lines.append("")
+
+    # Description
+    lines.append("## Description")
+    lines.append("")
+    lines.append(description)
+    lines.append("")
+
+    # Code
+    if code:
+        lines.append("## Code")
+        lines.append("")
+        lines.append("```javascript")
+        lines.append(code)
+        lines.append("```")
+        lines.append("")
+
+    # Footer
+    lines.append("---")
+    lines.append("")
+    lines.append("*This documentation is auto-generated. Do not edit manually.*")
+    lines.append("")
+
+    return '\n'.join(lines)
+
+
 def generate_functions_catalog(all_manifests: Dict) -> str:
     """Generate markdown catalog of all functions (generic + vendor-specific)."""
     lines = []
@@ -438,7 +513,8 @@ def generate_functions_catalog(all_manifests: Dict) -> str:
                     'type': metadata.get('type', 'function'),
                     'kind': metadata.get('kind', 'function'),
                     'mode': metadata.get('mode', 'N/A'),
-                    'file': str(func_file)
+                    'file': str(func_file),
+                    'code': read_function_code(str(func_file))
                 })
 
     # Collect vendor-specific functions
@@ -478,7 +554,11 @@ def generate_functions_catalog(all_manifests: Dict) -> str:
             func_type = func.get('type', 'N/A')
             mode = func.get('mode', 'N/A')
 
-            lines.append(f"### {name} `v{version}`")
+            # Create a safe filename for the function
+            safe_name = name.replace(' ', '-').replace('/', '-').lower()
+            func_page = f"functions/{safe_name}.md"
+
+            lines.append(f"### [{name}]({func_page}) `v{version}`")
             lines.append("")
             if func_type and func_type != 'N/A':
                 lines.append(f"**Type:** {func_type}")
@@ -486,6 +566,8 @@ def generate_functions_catalog(all_manifests: Dict) -> str:
                 lines.append(f"**Mode:** {mode}")
             lines.append("")
             lines.append(description)
+            lines.append("")
+            lines.append(f"📄 [View full documentation]({func_page})")
             lines.append("")
             lines.append("---")
             lines.append("")
@@ -511,11 +593,17 @@ def generate_functions_catalog(all_manifests: Dict) -> str:
                 description = func.get('description', 'No description available')
                 kind = func.get('kind', 'function')
 
-                lines.append(f"#### {name} `v{version}`")
+                # Create a safe filename for the function
+                safe_name = f"{vendor_name.lower().replace(' ', '-')}-{name.replace(' ', '-').replace('/', '-').lower()}"
+                func_page = f"functions/{safe_name}.md"
+
+                lines.append(f"#### [{name}]({func_page}) `v{version}`")
                 if kind:
                     lines.append(f"**Kind:** `{kind}`")
                 lines.append("")
                 lines.append(description)
+                lines.append("")
+                lines.append(f"📄 [View full documentation]({func_page})")
                 lines.append("")
 
             lines.append("---")
@@ -743,7 +831,61 @@ def main():
     functions_catalog_path = docs_path / 'functions.md'
     with open(functions_catalog_path, 'w', encoding='utf-8') as f:
         f.write(functions_catalog)
-    print(f"✓ Functions docs: {functions_catalog_path}")
+    print(f"✓ Functions overview: {functions_catalog_path}")
+
+    # Generate individual function pages
+    print("Generating individual function pages...")
+    functions_dir = docs_path / 'functions'
+    functions_dir.mkdir(exist_ok=True)
+
+    # Collect generic functions
+    generic_functions_path = Path('integrations/generic/functions')
+    function_count = 0
+    if generic_functions_path.exists():
+        for func_file in generic_functions_path.glob('function_*.js'):
+            metadata = parse_function_metadata(str(func_file))
+            if metadata:
+                func_data = {
+                    'name': metadata.get('name', func_file.stem),
+                    'version': metadata.get('version', 'N/A'),
+                    'description': metadata.get('description', 'No description available'),
+                    'type': metadata.get('type', 'function'),
+                    'kind': metadata.get('kind', 'function'),
+                    'mode': metadata.get('mode', 'N/A'),
+                    'file': str(func_file),
+                    'code': read_function_code(str(func_file))
+                }
+
+                # Generate page
+                safe_name = func_data['name'].replace(' ', '-').replace('/', '-').lower()
+                func_page_content = generate_individual_function_page(func_data)
+                func_page_path = functions_dir / f"{safe_name}.md"
+                with open(func_page_path, 'w', encoding='utf-8') as f:
+                    f.write(func_page_content)
+                function_count += 1
+
+    # Collect vendor-specific functions
+    for vendor_id, manifest in all_manifests.items():
+        vendor_name = manifest.get('name', vendor_id)
+        functions = manifest.get('integrations', {}).get('functions', [])
+
+        for func in functions:
+            # Read the function code
+            func_file_path = func.get('file', '')
+            if func_file_path and Path(func_file_path).exists():
+                func['code'] = read_function_code(func_file_path)
+            else:
+                func['code'] = ''
+
+            # Generate page
+            safe_name = f"{vendor_name.lower().replace(' ', '-')}-{func['name'].replace(' ', '-').replace('/', '-').lower()}"
+            func_page_content = generate_individual_function_page(func, vendor_name)
+            func_page_path = functions_dir / f"{safe_name}.md"
+            with open(func_page_path, 'w', encoding='utf-8') as f:
+                f.write(func_page_content)
+            function_count += 1
+
+    print(f"✓ Generated {function_count} individual function pages")
 
     # Generate free/local integrations documentation
     print("\nGenerating free/local integrations documentation...")
