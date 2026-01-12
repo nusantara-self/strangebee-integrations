@@ -485,8 +485,11 @@ jobs:
             exit 1
           fi
 
-      - name: Generate manifests
-        run: python scripts/generate-manifest.py
+      - name: Generate catalogs
+        run: python scripts/generate-catalogs.py
+
+      - name: Generate documentation
+        run: python scripts/generate-docs.py
 
       - name: Check for changes
         id: git-check
@@ -509,18 +512,20 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .upstream/cortex/ .generated/ integrations/
-          git commit -m "Auto-sync Cortex configs and regenerate manifests [skip ci]
+          git commit -m "Auto-sync Cortex configs and regenerate catalogs/docs [skip ci]
 
           - Synced analyzer/responder configs from Cortex-Analyzers
           - Synced vendor logos
-          - Regenerated integration manifests"
+          - Regenerated integration catalogs
+          - Regenerated documentation"
 
           # Pull with rebase, automatically resolving conflicts by preferring our generated files
           git pull --rebase --strategy-option=ours origin ${{ github.ref_name }} || {
-            echo "Rebase failed, regenerating manifests after pulling..."
+            echo "Rebase failed, regenerating catalogs and docs after pulling..."
             git rebase --abort
             git pull --no-rebase --strategy=recursive --strategy-option=theirs origin ${{ github.ref_name }}
-            python scripts/generate-manifest.py
+            python scripts/generate-catalogs.py
+            python scripts/generate-docs.py
             git add .generated/
             git commit --amend --no-edit
           }
