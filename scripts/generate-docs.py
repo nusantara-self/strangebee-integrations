@@ -365,46 +365,89 @@ def generate_external_integrations_markdown(catalog: Dict) -> str:
     lines.append("")
 
     # Summary
-    lines.append("## 📊 Overview")
+    lines.append("## Overview")
     lines.append("")
     lines.append(f"**Total External Integrations:** {catalog['totalIntegrations']}")
     lines.append("")
+    lines.append("External integrations are developed and maintained by vendors, community members, or third parties.")
+    lines.append("They provide additional ways to connect TheHive with other security tools and platforms.")
+    lines.append("")
 
-    # Quick stats by type
-    lines.append("### By Type")
+    # Browse by Type (collapsible)
+    lines.append("## Browse by Type")
     lines.append("")
     for int_type, integrations in sorted(catalog['byType'].items()):
-        lines.append(f"- **{int_type}**: {len(integrations)} integration(s)")
-    lines.append("")
+        lines.append("<details>")
+        lines.append(f"<summary><strong>{int_type}</strong> ({len(integrations)} integration{'' if len(integrations) == 1 else 's'})</summary>")
+        lines.append("")
+        lines.append("")  # Extra line for proper markdown rendering
 
-    # Quick stats by category
-    lines.append("### By Vendor Category")
+        for integration in sorted(integrations, key=lambda x: x['name'].lower()):
+            lines.append(f"**{integration['name']}** - {integration['vendor']}")
+            if integration.get('description'):
+                lines.append(f"  {integration['description']}")
+            if integration.get('documentation'):
+                lines.append(f"  [Documentation]({integration['documentation']})")
+            lines.append("")
+
+        lines.append("</details>")
+        lines.append("")
+
+    # Browse by Vendor Category (collapsible)
+    lines.append("## Browse by Vendor Category")
     lines.append("")
     for category, integrations in sorted(catalog['byCategory'].items()):
-        lines.append(f"- **{category}**: {len(integrations)} integration(s)")
-    lines.append("")
+        lines.append("<details>")
+        lines.append(f"<summary><strong>{category}</strong> ({len(integrations)} integration{'' if len(integrations) == 1 else 's'})</summary>")
+        lines.append("")
+        lines.append("")  # Extra line for proper markdown rendering
 
-    # All integrations grouped by vendor
-    lines.append("## 🔗 All External Integrations")
+        for integration in sorted(integrations, key=lambda x: (x['vendor'].lower(), x['name'].lower())):
+            lines.append(f"**{integration['name']}** - {integration['vendor']}")
+            if integration.get('description'):
+                lines.append(f"  {integration['description']}")
+            if integration.get('type'):
+                lines.append(f"  Type: `{integration['type']}`")
+            if integration.get('documentation'):
+                lines.append(f"  [Documentation]({integration['documentation']})")
+            lines.append("")
+
+        lines.append("</details>")
+        lines.append("")
+
+    # All integrations by vendor
+    lines.append("## All External Integrations by Vendor")
     lines.append("")
 
     for vendor, integrations in sorted(catalog['byVendor'].items()):
-        lines.append(f"### {vendor}")
+        lines.append("<details>")
+        lines.append(f"<summary><strong>{vendor}</strong> ({len(integrations)} integration{'' if len(integrations) == 1 else 's'})</summary>")
         lines.append("")
+        lines.append("")  # Extra line for proper markdown rendering
 
-        for integration in integrations:
-            lines.append(f"#### {integration['name']}")
+        for integration in sorted(integrations, key=lambda x: x['name'].lower()):
+            lines.append(f"### {integration['name']}")
             lines.append("")
+
             if integration.get('description'):
                 lines.append(integration['description'])
                 lines.append("")
+
+            metadata = []
             if integration.get('type'):
-                lines.append(f"**Type:** `{integration['type']}`  ")
+                metadata.append(f"**Type:** `{integration['type']}`")
+            if integration.get('category'):
+                metadata.append(f"**Category:** {integration['category']}")
+
+            if metadata:
+                lines.append("  \n".join(metadata))
+                lines.append("")
+
             if integration.get('documentation'):
                 lines.append(f"**Documentation:** [{integration['documentation']}]({integration['documentation']})")
-            lines.append("")
+                lines.append("")
 
-        lines.append("---")
+        lines.append("</details>")
         lines.append("")
 
     # Footer
