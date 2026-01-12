@@ -11,18 +11,4 @@
 
 ## Changes
 
-### ✅ Added Vendors (2)
-
-- `urlDNA.io`
-- `ZEROFOX`
-
-### ❌ Removed Vendors (4)
-
-- `DomainToolsIris_AddRiskyDNSTag`
-- `DomainToolsIris_CheckMaliciousTags`
-- `ZEROFOX_Close_alert`
-- `ZEROFOX_Takedown_request`
-
-### 🔄 Updated Vendors (1)
-
-- **DomainToolsIris**: 2 → 4 (+2)
+No changes detected.
