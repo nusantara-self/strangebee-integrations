@@ -1,0 +1,42 @@
+{
+  "id": "DomainMailSPFDMARC",
+  "name": "DomainMailSPFDMARC",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "DomainMailSPFDMARC",
+        "version": "1.1",
+        "author": "torsolaso",
+        "license": "AGPL-V3",
+        "description": "DomainMailSPFDMARC",
+        "dataTypes": [
+          "domain",
+          "fqdn"
+        ],
+        "file": ".upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 1
+  }
+}

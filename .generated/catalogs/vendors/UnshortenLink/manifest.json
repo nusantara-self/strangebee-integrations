@@ -1,0 +1,38 @@
+{
+  "id": "UnshortenLink",
+  "name": "UnshortenLink",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "UnshortenLink",
+        "version": "1.2",
+        "author": "Remi Pointel, CERT-BDF",
+        "license": "AGPL-V3",
+        "description": "Use UnshortenLink to reveal the real URL.",
+        "dataTypes": [
+          "url"
+        ],
+        "file": ".upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "Wazuh",
+  "name": "Wazuh",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "integrations": {
+    "analyzers": [],
+    "responders": [
+      {
+        "name": "Wazuh",
+        "version": "1.0",
+        "author": "Wes Lambert",
+        "license": "AGPL-V3",
+        "description": "Block an IP on a host via Wazuh agent",
+        "dataTypes": [
+          "thehive:case",
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/Wazuh/wazuh.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Wazuh/wazuh.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Wazuh/wazuh.json",
+        "integration_type": null
+      }
+    ],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 1,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 1
+  }
+}

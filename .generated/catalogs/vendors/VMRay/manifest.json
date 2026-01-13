@@ -1,0 +1,40 @@
+{
+  "id": "VMRay",
+  "name": "VMRay",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "VMRay",
+        "version": "4.1",
+        "author": "Nils Kuhnert, CERT-Bund",
+        "license": "AGPL-V3",
+        "description": "VMRay Sandbox file and URL analysis.",
+        "dataTypes": [
+          "hash",
+          "file",
+          "url"
+        ],
+        "file": ".upstream/cortex/analyzers/VMRay/VMRay.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/VMRay/VMRay.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/VMRay/VMRay.json",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 1
+  }
+}

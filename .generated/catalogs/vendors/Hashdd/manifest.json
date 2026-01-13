@@ -1,0 +1,55 @@
+{
+  "id": "Hashdd",
+  "name": "Hashdd",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": true,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "Hashdd_Detail",
+        "version": "2.0",
+        "author": "iosonogio, dadokkio",
+        "license": "AGPLv3",
+        "description": "Determine whether a hash is good or bad; if good then list what it is.",
+        "dataTypes": [
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json",
+        "integration_type": null
+      },
+      {
+        "name": "Hashdd_Status",
+        "version": "2.0",
+        "author": "iosonogio, dadokkio",
+        "license": "AGPLv3",
+        "description": "Determine whether a hash is good or bad.",
+        "dataTypes": [
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/Hashdd/Hashdd_Status.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Hashdd/Hashdd_Status.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Hashdd/Hashdd_Status.json",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 2,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 2
+  }
+}

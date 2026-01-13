@@ -1,0 +1,59 @@
+{
+  "id": "Shuffle",
+  "name": "Shuffle",
+  "description": "Shuffle is an open-source security orchestration, automation and response (SOAR) platform that automates repetitive security tasks, orchestrates incident response workflows, and integrates security tools to accelerate threat detection and remediation",
+  "category": "SOAR & Automation",
+  "tags": [
+    "soar",
+    "automation",
+    "orchestration",
+    "workflow",
+    "security-automation"
+  ],
+  "homepage": "https://shuffler.io",
+  "logo": {
+    "file": "integrations/vendors/Shuffle/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Shuffle/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Shuffle/assets/logo.png"
+  },
+  "useCases": [],
+  "externalIntegrations": [
+    {
+      "name": "TheHive 5 Integration",
+      "description": "Native Shuffle app integration that enables workflow automation with TheHive 5 for automated case management, alert handling, and incident response orchestration",
+      "type": "app",
+      "documentation": "https://shuffler.io/apps/thehive/integrations/TheHive_5"
+    }
+  ],
+  "integrations": {
+    "analyzers": [],
+    "responders": [
+      {
+        "name": "Shuffle",
+        "version": "1.0",
+        "author": "@frikkylikeme",
+        "license": "AGPL-V3",
+        "description": "Execute a workflow in Shuffle",
+        "dataTypes": [
+          "thehive:case",
+          "thehive:alert",
+          "thehive:case_artifact",
+          "thehive:case_task",
+          "thehive:case_task_log"
+        ],
+        "file": ".upstream/cortex/responders/Shuffle/shuffle.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Shuffle/shuffle.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Shuffle/shuffle.json",
+        "integration_type": null
+      }
+    ],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 1,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 1,
+    "total": 2
+  }
+}

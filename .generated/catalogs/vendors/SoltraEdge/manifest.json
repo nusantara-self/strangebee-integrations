@@ -1,0 +1,51 @@
+{
+  "id": "SoltraEdge",
+  "name": "SoltraEdge",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "SoltraEdge",
+        "version": "1.0",
+        "author": "Michael Stensrud, Nordic Financial CERT",
+        "license": "AGPL-V3",
+        "description": "Query against Soltra Edge.",
+        "dataTypes": [
+          "domain",
+          "ip",
+          "url",
+          "fqdn",
+          "uri_path",
+          "user-agent",
+          "hash",
+          "mail",
+          "mail_subject",
+          "registry",
+          "regexp",
+          "other",
+          "filename",
+          "mail-subject"
+        ],
+        "file": ".upstream/cortex/analyzers/SoltraEdge/Soltra_search.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SoltraEdge/Soltra_search.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SoltraEdge/Soltra_search.json",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "PhishTank",
+  "name": "PhishTank",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "registration_required": true,
+  "subscription_required": true,
+  "free_subscription": true,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "PhishTank_CheckURL",
+        "version": "2.1",
+        "author": "Eric Capuano",
+        "license": "AGPL-V3",
+        "description": "Use PhishTank to check if a URL is a verified phishing site.",
+        "dataTypes": [
+          "url"
+        ],
+        "file": ".upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 1
+  }
+}

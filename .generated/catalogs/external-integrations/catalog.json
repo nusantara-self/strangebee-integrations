@@ -1,0 +1,411 @@
+{
+  "totalIntegrations": 10,
+  "integrations": [
+    {
+      "name": "TheHive Project Integration",
+      "vendor": "Cortex XSOAR",
+      "vendorId": "CortexXSOAR",
+      "type": "integration",
+      "description": "Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring",
+      "documentation": "https://xsoar.pan.dev/docs/reference/integrations/the-hive-project",
+      "category": "SOAR & Automation"
+    },
+    {
+      "name": "falcon2thehive",
+      "vendor": "CrowdStrike Falcon",
+      "vendorId": "CrowdstrikeFalcon",
+      "type": "connector",
+      "description": "Real-time connector that streams CrowdStrike Falcon detection events into TheHive, turning Falcon alerts into actionable TheHive Alerts. Supports DetectionSummaryEvent, IdentityProtectionEvent, and MobileDetectionSummaryEvent with automatic observable extraction and TTP mapping.",
+      "documentation": "https://github.com/StrangeBeeCorp/falcon2thehive",
+      "category": "EDR"
+    },
+    {
+      "name": "TheHive Connector for Kibana",
+      "vendor": "Elasticsearch",
+      "vendorId": "Elasticsearch",
+      "type": "connector",
+      "description": "Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive",
+      "documentation": "https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type",
+      "category": "SIEM & Analytics"
+    },
+    {
+      "name": "Cortex and TheHive Nodes",
+      "vendor": "n8n",
+      "vendorId": "n8n",
+      "type": "workflow-nodes",
+      "description": "Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders, and TheHive cases/alerts/observables",
+      "documentation": "https://n8n.io/integrations/thehive-5/",
+      "category": "SOAR & Automation"
+    },
+    {
+      "name": "TheHive Extension",
+      "vendor": "Rapid7 InsightConnect",
+      "vendorId": "InsightConnect",
+      "type": "extension",
+      "description": "Rapid7 InsightConnect extension that enables automated workflows with TheHive for case management, alert handling, and incident response orchestration",
+      "documentation": "https://extensions.rapid7.com/extension/thehive",
+      "category": "SOAR & Automation"
+    },
+    {
+      "name": "TheHive 5 Integration",
+      "vendor": "Shuffle",
+      "vendorId": "Shuffle",
+      "type": "app",
+      "description": "Native Shuffle app integration that enables workflow automation with TheHive 5 for automated case management, alert handling, and incident response orchestration",
+      "documentation": "https://shuffler.io/apps/thehive/integrations/TheHive_5",
+      "category": "SOAR & Automation"
+    },
+    {
+      "name": "TheHive SOAR Connector",
+      "vendor": "Splunk",
+      "vendorId": "Splunk",
+      "type": "soar-connector",
+      "description": "Official Splunk SOAR connector with 16 actions for case management, task operations, observable handling, and TTP tracking to automate incident response workflows between Splunk and TheHive",
+      "documentation": "https://splunkbase.splunk.com/app/5939",
+      "category": "SIEM & Analytics"
+    },
+    {
+      "name": "TheHive/Cortex Technical Add-on",
+      "vendor": "Splunk",
+      "vendorId": "Splunk",
+      "type": "technical-addon",
+      "description": "Bidirectional integration add-on that pulls case and alert events from TheHive, retrieves Cortex job information, and enables creating alerts/cases and executing functions in TheHive directly from Splunk searches and dashboards",
+      "documentation": "https://splunkbase.splunk.com/app/5329",
+      "category": "SIEM & Analytics"
+    },
+    {
+      "name": "TheHive Integration (via Polarity)",
+      "vendor": "ThreatConnect",
+      "vendorId": "ThreatConnect",
+      "type": "integration",
+      "description": "Polarity-TheHive integration that enables security analysts to search TheHive instances for indicators, create and manage cases, view case details including severity and status, and understand indicator context through summary tags for coordinated incident response",
+      "documentation": "https://threatconnect.com/marketplace/thehive/",
+      "category": "Threat Intelligence"
+    },
+    {
+      "name": "TheHive Project Connector",
+      "vendor": "Tines",
+      "vendorId": "Tines",
+      "type": "connector",
+      "description": "Native Tines credential connector that enables workflows to interact with TheHive for automated incident creation, updates, and case management",
+      "documentation": "https://www.tines.com/solutions/products/thehive-project/",
+      "category": "SOAR & Automation"
+    }
+  ],
+  "byVendor": {
+    "Cortex XSOAR": [
+      {
+        "name": "TheHive Project Integration",
+        "vendor": "Cortex XSOAR",
+        "vendorId": "CortexXSOAR",
+        "type": "integration",
+        "description": "Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring",
+        "documentation": "https://xsoar.pan.dev/docs/reference/integrations/the-hive-project",
+        "category": "SOAR & Automation"
+      }
+    ],
+    "CrowdStrike Falcon": [
+      {
+        "name": "falcon2thehive",
+        "vendor": "CrowdStrike Falcon",
+        "vendorId": "CrowdstrikeFalcon",
+        "type": "connector",
+        "description": "Real-time connector that streams CrowdStrike Falcon detection events into TheHive, turning Falcon alerts into actionable TheHive Alerts. Supports DetectionSummaryEvent, IdentityProtectionEvent, and MobileDetectionSummaryEvent with automatic observable extraction and TTP mapping.",
+        "documentation": "https://github.com/StrangeBeeCorp/falcon2thehive",
+        "category": "EDR"
+      }
+    ],
+    "Elasticsearch": [
+      {
+        "name": "TheHive Connector for Kibana",
+        "vendor": "Elasticsearch",
+        "vendorId": "Elasticsearch",
+        "type": "connector",
+        "description": "Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive",
+        "documentation": "https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type",
+        "category": "SIEM & Analytics"
+      }
+    ],
+    "n8n": [
+      {
+        "name": "Cortex and TheHive Nodes",
+        "vendor": "n8n",
+        "vendorId": "n8n",
+        "type": "workflow-nodes",
+        "description": "Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders, and TheHive cases/alerts/observables",
+        "documentation": "https://n8n.io/integrations/thehive-5/",
+        "category": "SOAR & Automation"
+      }
+    ],
+    "Rapid7 InsightConnect": [
+      {
+        "name": "TheHive Extension",
+        "vendor": "Rapid7 InsightConnect",
+        "vendorId": "InsightConnect",
+        "type": "extension",
+        "description": "Rapid7 InsightConnect extension that enables automated workflows with TheHive for case management, alert handling, and incident response orchestration",
+        "documentation": "https://extensions.rapid7.com/extension/thehive",
+        "category": "SOAR & Automation"
+      }
+    ],
+    "Shuffle": [
+      {
+        "name": "TheHive 5 Integration",
+        "vendor": "Shuffle",
+        "vendorId": "Shuffle",
+        "type": "app",
+        "description": "Native Shuffle app integration that enables workflow automation with TheHive 5 for automated case management, alert handling, and incident response orchestration",
+        "documentation": "https://shuffler.io/apps/thehive/integrations/TheHive_5",
+        "category": "SOAR & Automation"
+      }
+    ],
+    "Splunk": [
+      {
+        "name": "TheHive SOAR Connector",
+        "vendor": "Splunk",
+        "vendorId": "Splunk",
+        "type": "soar-connector",
+        "description": "Official Splunk SOAR connector with 16 actions for case management, task operations, observable handling, and TTP tracking to automate incident response workflows between Splunk and TheHive",
+        "documentation": "https://splunkbase.splunk.com/app/5939",
+        "category": "SIEM & Analytics"
+      },
+      {
+        "name": "TheHive/Cortex Technical Add-on",
+        "vendor": "Splunk",
+        "vendorId": "Splunk",
+        "type": "technical-addon",
+        "description": "Bidirectional integration add-on that pulls case and alert events from TheHive, retrieves Cortex job information, and enables creating alerts/cases and executing functions in TheHive directly from Splunk searches and dashboards",
+        "documentation": "https://splunkbase.splunk.com/app/5329",
+        "category": "SIEM & Analytics"
+      }
+    ],
+    "ThreatConnect": [
+      {
+        "name": "TheHive Integration (via Polarity)",
+        "vendor": "ThreatConnect",
+        "vendorId": "ThreatConnect",
+        "type": "integration",
+        "description": "Polarity-TheHive integration that enables security analysts to search TheHive instances for indicators, create and manage cases, view case details including severity and status, and understand indicator context through summary tags for coordinated incident response",
+        "documentation": "https://threatconnect.com/marketplace/thehive/",
+        "category": "Threat Intelligence"
+      }
+    ],
+    "Tines": [
+      {
+        "name": "TheHive Project Connector",
+        "vendor": "Tines",
+        "vendorId": "Tines",
+        "type": "connector",
+        "description": "Native Tines credential connector that enables workflows to interact with TheHive for automated incident creation, updates, and case management",
+        "documentation": "https://www.tines.com/solutions/products/thehive-project/",
+        "category": "SOAR & Automation"
+      }
+    ]
+  },
+  "byCategory": {
+    "SOAR & Automation": [
+      {
+        "name": "TheHive Project Integration",
+        "vendor": "Cortex XSOAR",
+        "vendorId": "CortexXSOAR",
+        "type": "integration",
+        "description": "Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring",
+        "documentation": "https://xsoar.pan.dev/docs/reference/integrations/the-hive-project",
+        "category": "SOAR & Automation"
+      },
+      {
+        "name": "Cortex and TheHive Nodes",
+        "vendor": "n8n",
+        "vendorId": "n8n",
+        "type": "workflow-nodes",
+        "description": "Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders, and TheHive cases/alerts/observables",
+        "documentation": "https://n8n.io/integrations/thehive-5/",
+        "category": "SOAR & Automation"
+      },
+      {
+        "name": "TheHive Extension",
+        "vendor": "Rapid7 InsightConnect",
+        "vendorId": "InsightConnect",
+        "type": "extension",
+        "description": "Rapid7 InsightConnect extension that enables automated workflows with TheHive for case management, alert handling, and incident response orchestration",
+        "documentation": "https://extensions.rapid7.com/extension/thehive",
+        "category": "SOAR & Automation"
+      },
+      {
+        "name": "TheHive 5 Integration",
+        "vendor": "Shuffle",
+        "vendorId": "Shuffle",
+        "type": "app",
+        "description": "Native Shuffle app integration that enables workflow automation with TheHive 5 for automated case management, alert handling, and incident response orchestration",
+        "documentation": "https://shuffler.io/apps/thehive/integrations/TheHive_5",
+        "category": "SOAR & Automation"
+      },
+      {
+        "name": "TheHive Project Connector",
+        "vendor": "Tines",
+        "vendorId": "Tines",
+        "type": "connector",
+        "description": "Native Tines credential connector that enables workflows to interact with TheHive for automated incident creation, updates, and case management",
+        "documentation": "https://www.tines.com/solutions/products/thehive-project/",
+        "category": "SOAR & Automation"
+      }
+    ],
+    "EDR": [
+      {
+        "name": "falcon2thehive",
+        "vendor": "CrowdStrike Falcon",
+        "vendorId": "CrowdstrikeFalcon",
+        "type": "connector",
+        "description": "Real-time connector that streams CrowdStrike Falcon detection events into TheHive, turning Falcon alerts into actionable TheHive Alerts. Supports DetectionSummaryEvent, IdentityProtectionEvent, and MobileDetectionSummaryEvent with automatic observable extraction and TTP mapping.",
+        "documentation": "https://github.com/StrangeBeeCorp/falcon2thehive",
+        "category": "EDR"
+      }
+    ],
+    "SIEM & Analytics": [
+      {
+        "name": "TheHive Connector for Kibana",
+        "vendor": "Elasticsearch",
+        "vendorId": "Elasticsearch",
+        "type": "connector",
+        "description": "Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive",
+        "documentation": "https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type",
+        "category": "SIEM & Analytics"
+      },
+      {
+        "name": "TheHive SOAR Connector",
+        "vendor": "Splunk",
+        "vendorId": "Splunk",
+        "type": "soar-connector",
+        "description": "Official Splunk SOAR connector with 16 actions for case management, task operations, observable handling, and TTP tracking to automate incident response workflows between Splunk and TheHive",
+        "documentation": "https://splunkbase.splunk.com/app/5939",
+        "category": "SIEM & Analytics"
+      },
+      {
+        "name": "TheHive/Cortex Technical Add-on",
+        "vendor": "Splunk",
+        "vendorId": "Splunk",
+        "type": "technical-addon",
+        "description": "Bidirectional integration add-on that pulls case and alert events from TheHive, retrieves Cortex job information, and enables creating alerts/cases and executing functions in TheHive directly from Splunk searches and dashboards",
+        "documentation": "https://splunkbase.splunk.com/app/5329",
+        "category": "SIEM & Analytics"
+      }
+    ],
+    "Threat Intelligence": [
+      {
+        "name": "TheHive Integration (via Polarity)",
+        "vendor": "ThreatConnect",
+        "vendorId": "ThreatConnect",
+        "type": "integration",
+        "description": "Polarity-TheHive integration that enables security analysts to search TheHive instances for indicators, create and manage cases, view case details including severity and status, and understand indicator context through summary tags for coordinated incident response",
+        "documentation": "https://threatconnect.com/marketplace/thehive/",
+        "category": "Threat Intelligence"
+      }
+    ]
+  },
+  "byType": {
+    "integration": [
+      {
+        "name": "TheHive Project Integration",
+        "vendor": "Cortex XSOAR",
+        "vendorId": "CortexXSOAR",
+        "type": "integration",
+        "description": "Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring",
+        "documentation": "https://xsoar.pan.dev/docs/reference/integrations/the-hive-project",
+        "category": "SOAR & Automation"
+      },
+      {
+        "name": "TheHive Integration (via Polarity)",
+        "vendor": "ThreatConnect",
+        "vendorId": "ThreatConnect",
+        "type": "integration",
+        "description": "Polarity-TheHive integration that enables security analysts to search TheHive instances for indicators, create and manage cases, view case details including severity and status, and understand indicator context through summary tags for coordinated incident response",
+        "documentation": "https://threatconnect.com/marketplace/thehive/",
+        "category": "Threat Intelligence"
+      }
+    ],
+    "connector": [
+      {
+        "name": "falcon2thehive",
+        "vendor": "CrowdStrike Falcon",
+        "vendorId": "CrowdstrikeFalcon",
+        "type": "connector",
+        "description": "Real-time connector that streams CrowdStrike Falcon detection events into TheHive, turning Falcon alerts into actionable TheHive Alerts. Supports DetectionSummaryEvent, IdentityProtectionEvent, and MobileDetectionSummaryEvent with automatic observable extraction and TTP mapping.",
+        "documentation": "https://github.com/StrangeBeeCorp/falcon2thehive",
+        "category": "EDR"
+      },
+      {
+        "name": "TheHive Connector for Kibana",
+        "vendor": "Elasticsearch",
+        "vendorId": "Elasticsearch",
+        "type": "connector",
+        "description": "Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive",
+        "documentation": "https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type",
+        "category": "SIEM & Analytics"
+      },
+      {
+        "name": "TheHive Project Connector",
+        "vendor": "Tines",
+        "vendorId": "Tines",
+        "type": "connector",
+        "description": "Native Tines credential connector that enables workflows to interact with TheHive for automated incident creation, updates, and case management",
+        "documentation": "https://www.tines.com/solutions/products/thehive-project/",
+        "category": "SOAR & Automation"
+      }
+    ],
+    "workflow-nodes": [
+      {
+        "name": "Cortex and TheHive Nodes",
+        "vendor": "n8n",
+        "vendorId": "n8n",
+        "type": "workflow-nodes",
+        "description": "Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders, and TheHive cases/alerts/observables",
+        "documentation": "https://n8n.io/integrations/thehive-5/",
+        "category": "SOAR & Automation"
+      }
+    ],
+    "extension": [
+      {
+        "name": "TheHive Extension",
+        "vendor": "Rapid7 InsightConnect",
+        "vendorId": "InsightConnect",
+        "type": "extension",
+        "description": "Rapid7 InsightConnect extension that enables automated workflows with TheHive for case management, alert handling, and incident response orchestration",
+        "documentation": "https://extensions.rapid7.com/extension/thehive",
+        "category": "SOAR & Automation"
+      }
+    ],
+    "app": [
+      {
+        "name": "TheHive 5 Integration",
+        "vendor": "Shuffle",
+        "vendorId": "Shuffle",
+        "type": "app",
+        "description": "Native Shuffle app integration that enables workflow automation with TheHive 5 for automated case management, alert handling, and incident response orchestration",
+        "documentation": "https://shuffler.io/apps/thehive/integrations/TheHive_5",
+        "category": "SOAR & Automation"
+      }
+    ],
+    "soar-connector": [
+      {
+        "name": "TheHive SOAR Connector",
+        "vendor": "Splunk",
+        "vendorId": "Splunk",
+        "type": "soar-connector",
+        "description": "Official Splunk SOAR connector with 16 actions for case management, task operations, observable handling, and TTP tracking to automate incident response workflows between Splunk and TheHive",
+        "documentation": "https://splunkbase.splunk.com/app/5939",
+        "category": "SIEM & Analytics"
+      }
+    ],
+    "technical-addon": [
+      {
+        "name": "TheHive/Cortex Technical Add-on",
+        "vendor": "Splunk",
+        "vendorId": "Splunk",
+        "type": "technical-addon",
+        "description": "Bidirectional integration add-on that pulls case and alert events from TheHive, retrieves Cortex job information, and enables creating alerts/cases and executing functions in TheHive directly from Splunk searches and dashboards",
+        "documentation": "https://splunkbase.splunk.com/app/5329",
+        "category": "SIEM & Analytics"
+      }
+    ]
+  }
+}
