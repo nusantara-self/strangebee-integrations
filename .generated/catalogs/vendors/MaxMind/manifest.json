@@ -1,0 +1,48 @@
+{
+  "id": "MaxMind",
+  "name": "MaxMind",
+  "description": "MaxMind provides geolocation and network intelligence data that maps IP addresses to geographic locations, ISPs, and network types, enabling analysts to identify attack origins and detect anomalous access patterns during investigations",
+  "category": "OSINT & Enrichment",
+  "tags": [
+    "geolocation",
+    "ip-intelligence",
+    "network-intelligence",
+    "threat-detection",
+    "incident-response"
+  ],
+  "homepage": "https://www.maxmind.com",
+  "logo": {
+    "file": "integrations/vendors/MaxMind/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MaxMind/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MaxMind/assets/logo.png"
+  },
+  "useCases": [],
+  "externalIntegrations": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "MaxMind_GeoIP",
+        "version": "4.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
+        "description": "Use MaxMind to geolocate an IP address.",
+        "dataTypes": [
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 1
+  }
+}

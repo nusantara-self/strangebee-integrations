@@ -1,0 +1,38 @@
+{
+  "id": "Verifalia",
+  "name": "Verifalia",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "Verifalia",
+        "version": "1.0",
+        "author": "Peter Juhas",
+        "license": "AGPL-V3",
+        "description": "Analyze e-mail address via Verifalia",
+        "dataTypes": [
+          "mail"
+        ],
+        "file": ".upstream/cortex/analyzers/Verifalia/Verifalia.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Verifalia/Verifalia.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Verifalia/Verifalia.json",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 1
+  }
+}

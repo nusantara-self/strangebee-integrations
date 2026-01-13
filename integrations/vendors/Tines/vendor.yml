@@ -1,0 +1,13 @@
+id: Tines
+name: "Tines"
+category: SOAR & Automation
+tags:
+  - automation
+  - workflow-orchestration
+homepage: "https://www.tines.com"
+externalIntegrations:
+- name: TheHive Project Connector
+  description: Native Tines credential connector that enables workflows to interact with TheHive for automated incident creation, updates, and case management
+  type: connector
+  documentation: https://www.tines.com/solutions/products/thehive-project/
+

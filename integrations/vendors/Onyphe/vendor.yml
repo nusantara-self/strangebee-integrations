@@ -1,0 +1,12 @@
+id: Onyphe
+name: "ONYPHE"
+description: "ONYPHE is a cyber defense search engine that collects and analyzes internet-wide scan data, providing intelligence on exposed assets, vulnerabilities, and threat actor infrastructure for proactive defense and incident investigation"
+category: Attack Surface Intelligence
+tags:
+  - internet-scanning
+  - infrastructure-intelligence
+  - vulnerability-detection
+  - threat-hunting
+  - incident-response
+homepage: "https://www.onyphe.io"
+

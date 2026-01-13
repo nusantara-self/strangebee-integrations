@@ -1,0 +1,8 @@
+id: Proofpoint
+name: "Proofpoint"
+description: "Proofpoint is an enterprise email security and threat protection platform that provides advanced threat detection, URL defense, and forensic analysis capabilities"
+category: Email Security
+tags:
+  - email-security
+homepage: "https://www.proofpoint.com"
+

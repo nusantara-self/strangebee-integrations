@@ -1,0 +1,38 @@
+{
+  "id": "Gatewatcher_CTI_Identity",
+  "name": "Gatewatcher_CTI_Identity",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "integrations": {
+    "analyzers": [],
+    "responders": [
+      {
+        "name": "Gatewatcher_CTI_Identity",
+        "version": "1.0",
+        "author": "Gatewatcher",
+        "license": "AGPL-3.0",
+        "description": "Gatewatcher_CTI_Identity responder",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/Gatewatcher_CTI_Identity/Gatewatcher_CTI_Identity.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Gatewatcher_CTI_Identity/Gatewatcher_CTI_Identity.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Gatewatcher_CTI_Identity/Gatewatcher_CTI_Identity.json",
+        "integration_type": null
+      }
+    ],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 1,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 1
+  }
+}

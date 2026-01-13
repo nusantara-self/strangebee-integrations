@@ -1,0 +1,13 @@
+id: MSDefenderOffice365
+name: "Microsoft Defender for Office 365"
+description: "Microsoft Defender for Office 365 provides advanced threat protection for email and collaboration tools, detecting phishing, malware, and business email compromise attempts with automated investigation and response capabilities"
+category: Email Security
+tags:
+  - email-security
+  - phishing-protection
+  - malware-detection
+  - threat-protection
+  - incident-response
+  - microsoft
+homepage: "https://www.microsoft.com/security/business/threat-protection/office-365-defender"
+

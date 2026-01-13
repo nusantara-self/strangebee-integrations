@@ -1,0 +1,14 @@
+id: InsightConnect
+name: "Rapid7 InsightConnect"
+description: "Rapid7 InsightConnect is a security orchestration and automation platform that enables security teams to automate workflows, connect security tools, and accelerate incident response through pre-built integrations and custom automation"
+category: SOAR & Automation
+tags:
+  - automation
+  - workflow-orchestration
+  - security-automation
+homepage: "https://www.rapid7.com/products/insightconnect/"
+externalIntegrations:
+- name: TheHive Extension
+  description: Rapid7 InsightConnect extension that enables automated workflows with TheHive for case management, alert handling, and incident response orchestration
+  type: extension
+  documentation: https://extensions.rapid7.com/extension/thehive

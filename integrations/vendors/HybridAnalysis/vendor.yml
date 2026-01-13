@@ -1,0 +1,12 @@
+id: HybridAnalysis
+name: "Hybrid Analysis"
+description: "Hybrid Analysis (Falcon Sandbox) is a free malware analysis service powered by CrowdStrike that executes suspicious files in sandbox environments, providing detailed behavioral analysis, IOCs, and threat intelligence for malware investigations"
+category: Malware Analysis
+tags:
+  - malware-analysis
+  - sandbox
+  - behavioral-analysis
+  - threat-intelligence
+  - incident-response
+homepage: "https://www.hybrid-analysis.com"
+

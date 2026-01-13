@@ -1,0 +1,41 @@
+{
+  "id": "Inoitsu",
+  "name": "Inoitsu",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": true,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "Inoitsu",
+        "version": "1.0",
+        "author": "Abdelkader Ben Ali",
+        "license": "MIT",
+        "description": "Query Inoitsu for a compromised email address.",
+        "dataTypes": [
+          "mail"
+        ],
+        "file": ".upstream/cortex/analyzers/Inoitsu/Inoitsu.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Inoitsu/Inoitsu.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Inoitsu/Inoitsu.json",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 1
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "TestAnalyzer",
+  "name": "TestAnalyzer",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "DevTools_Echo_Analyzer",
+        "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Development utility that simply echoes the (available) input received by the analyzer.",
+        "dataTypes": [
+          "ip",
+          "domain",
+          "url",
+          "fqdn",
+          "mail",
+          "file",
+          "hash",
+          "filename",
+          "uri_path",
+          "user-agent",
+          "mail-subject"
+        ],
+        "file": ".upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json",
+        "integration_type": null
+      },
+      {
+        "name": "TestAnalyzer",
+        "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Just a simple test analyzer! No real-world use-case covered by this one, for testing, reference, dev and any other purpose only!",
+        "dataTypes": [
+          "ip",
+          "domain",
+          "url",
+          "fqdn",
+          "mail",
+          "hash",
+          "filename",
+          "uri_path",
+          "user-agent",
+          "mail-subject"
+        ],
+        "file": ".upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 2,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 2
+  }
+}

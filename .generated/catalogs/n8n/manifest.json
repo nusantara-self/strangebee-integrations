@@ -1,0 +1,60 @@
+{
+  "id": "n8n",
+  "name": "n8n",
+  "description": "n8n is a low-code/no-code workflow automation platform that enables technical teams to build, deploy, and manage complex automated workflows.",
+  "category": "SOAR & Automation",
+  "tags": [
+    "automation",
+    "workflow-orchestration",
+    "open-source"
+  ],
+  "homepage": "https://n8n.io",
+  "logo": {
+    "file": "integrations/vendors/n8n/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/n8n/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/n8n/assets/logo.png"
+  },
+  "useCases": [],
+  "externalIntegrations": [
+    {
+      "name": "Cortex and TheHive Nodes",
+      "description": "Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders, and TheHive cases/alerts/observables",
+      "type": "workflow-nodes",
+      "documentation": "https://n8n.io/integrations/thehive-5/"
+    }
+  ],
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": true,
+  "integrations": {
+    "analyzers": [],
+    "responders": [
+      {
+        "name": "n8n",
+        "version": "1.0",
+        "author": "Anas SOUIRI",
+        "license": "AGPL-V3",
+        "description": "Send data to n8n via webhook",
+        "dataTypes": [
+          "thehive:case",
+          "thehive:alert",
+          "thehive:case_artifact",
+          "thehive:case_task",
+          "thehive:case_task_log"
+        ],
+        "file": ".upstream/cortex/responders/n8n/n8n.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/n8n/n8n.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/n8n/n8n.json",
+        "integration_type": null
+      }
+    ],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 1,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 1,
+    "total": 2
+  }
+}

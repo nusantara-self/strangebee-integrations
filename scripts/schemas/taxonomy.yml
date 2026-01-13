@@ -1,0 +1,257 @@
+# Centralized Taxonomy
+# Defines standard categories and tags for vendor classification
+
+# Valid vendor categories
+categories:
+  - name: Threat Intelligence
+    description: Threat feeds, IOC databases, and intelligence platforms
+    examples: [VirusTotal, MISP, AlienVault OTX]
+
+  - name: EDR
+    description: Endpoint Detection and Response platforms
+    examples: [CrowdStrike Falcon, Microsoft Defender, SentinelOne]
+
+  - name: SIEM
+    description: Security Information and Event Management systems
+    examples: [Splunk, Elastic Security, IBM QRadar]
+
+  - name: Communication
+    description: Messaging and collaboration platforms
+    examples: [Slack, Microsoft Teams, Mattermost]
+
+  - name: Ticketing
+    description: Issue tracking and ticket management systems
+    examples: [Jira, ServiceNow, TheHive]
+
+  - name: Email Security
+    description: Email security gateways and anti-phishing solutions
+    examples: [Proofpoint, Mimecast, Cofense]
+
+  - name: Cloud Security
+    description: Cloud security posture management and CSPM tools
+    examples: [AWS Security Hub, Azure Security Center, Prisma Cloud]
+
+  - name: Network Security
+    description: Firewalls, IDS/IPS, and network monitoring
+    examples: [Palo Alto, Fortinet, Cisco Firepower]
+
+  - name: SOAR
+    description: Security Orchestration, Automation and Response platforms
+    examples: [Cortex XSOAR, Splunk SOAR, IBM Resilient]
+
+  - name: Vulnerability Management
+    description: Vulnerability scanning and management platforms
+    examples: [Tenable, Qualys, Rapid7]
+
+  - name: Identity & Access
+    description: IAM, SSO, and identity management solutions
+    examples: [Okta, Auth0, Azure AD]
+
+  - name: Data Protection
+    description: DLP, encryption, and data security tools
+    examples: [Varonis, Digital Guardian, Symantec DLP]
+
+  - name: Other
+    description: Vendors that don't fit other categories
+
+# Standard tags for vendor classification
+tags:
+  # Use Case Tags
+  - name: alerts
+    category: use-case
+    description: Alert generation and management
+
+  - name: enrichment
+    category: use-case
+    description: Data enrichment and context gathering
+
+  - name: threat-hunting
+    category: use-case
+    description: Proactive threat hunting activities
+
+  - name: incident-response
+    category: use-case
+    description: Incident response and handling
+
+  - name: automation
+    category: use-case
+    description: Security automation and orchestration
+
+  - name: investigation
+    category: use-case
+    description: Security investigation and analysis
+
+  - name: remediation
+    category: use-case
+    description: Automated remediation actions
+
+  # Technology Tags
+  - name: api
+    category: technology
+    description: RESTful API integrations
+
+  - name: webhook
+    category: technology
+    description: Webhook-based integrations
+
+  - name: syslog
+    category: technology
+    description: Syslog-based integrations
+
+  # Data Type Tags
+  - name: ioc
+    category: data-type
+    description: Indicators of Compromise
+
+  - name: malware
+    category: data-type
+    description: Malware analysis and detection
+
+  - name: phishing
+    category: data-type
+    description: Phishing detection and response
+
+  - name: vulnerabilities
+    category: data-type
+    description: Vulnerability information
+
+  - name: logs
+    category: data-type
+    description: Log collection and analysis
+
+  - name: network-traffic
+    category: data-type
+    description: Network traffic analysis
+
+  - name: file-analysis
+    category: data-type
+    description: File analysis and sandboxing
+
+  # Feature Tags
+  - name: real-time
+    category: feature
+    description: Real-time monitoring and alerts
+
+  - name: historical
+    category: feature
+    description: Historical data and analysis
+
+  - name: reputation
+    category: feature
+    description: Reputation scoring and lookup
+
+  - name: sandbox
+    category: feature
+    description: Sandbox analysis capabilities
+
+  - name: threat-intel
+    category: feature
+    description: Threat intelligence feeds
+
+  # Communication Tags
+  - name: messaging
+    category: communication
+    description: Instant messaging platforms
+
+  - name: notifications
+    category: communication
+    description: Notification delivery
+
+  - name: collaboration
+    category: communication
+    description: Team collaboration features
+
+  - name: ticketing
+    category: communication
+    description: Ticket creation and management
+
+  # Platform Tags
+  - name: cloud
+    category: platform
+    description: Cloud-based platform
+
+  - name: on-premise
+    category: platform
+    description: On-premise deployment
+
+  - name: saas
+    category: platform
+    description: Software as a Service
+
+  # Pricing Tags
+  - name: free-tier
+    category: pricing
+    description: Free tier available
+
+  - name: open-source
+    category: pricing
+    description: Open source solution
+
+  - name: commercial
+    category: pricing
+    description: Commercial/paid solution
+
+# Pre-configured vendor classifications
+# Use this to ensure consistency across common vendors
+vendor_presets:
+  Slack:
+    category: Communication
+    suggested_tags:
+      - messaging
+      - notifications
+      - collaboration
+      - api
+
+  CrowdstrikeFalcon:
+    category: EDR
+    suggested_tags:
+      - endpoint-security
+      - malware
+      - threat-intel
+      - real-time
+      - alerts
+
+  Proofpoint:
+    category: Email Security
+    suggested_tags:
+      - phishing
+      - email
+      - threat-intel
+      - alerts
+      - api
+
+  VirusTotal:
+    category: Threat Intelligence
+    suggested_tags:
+      - malware
+      - file-analysis
+      - reputation
+      - ioc
+      - threat-intel
+      - api
+
+  MISP:
+    category: Threat Intelligence
+    suggested_tags:
+      - threat-intel
+      - ioc
+      - enrichment
+      - collaboration
+      - open-source
+
+  Jira:
+    category: Ticketing
+    suggested_tags:
+      - ticketing
+      - collaboration
+      - incident-response
+      - api
+
+  ServiceNow:
+    category: Ticketing
+    suggested_tags:
+      - ticketing
+      - automation
+      - incident-response
+      - api
+      - commercial

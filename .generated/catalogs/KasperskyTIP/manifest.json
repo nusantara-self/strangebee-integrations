@@ -1,0 +1,40 @@
+{
+  "id": "KasperskyTIP",
+  "name": "KasperskyTIP",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "KasperskyThreatIntelligencePortal",
+        "version": "1.0",
+        "author": "Peter Juhas",
+        "license": "AGPL-V3",
+        "description": "Analyze IP address, domain or hash via Kaspersky Threat Intelligence Portal",
+        "dataTypes": [
+          "ip",
+          "domain",
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/KasperskyTIP/KasperskyTIP.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/KasperskyTIP/KasperskyTIP.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/KasperskyTIP/KasperskyTIP.json",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 1
+  }
+}

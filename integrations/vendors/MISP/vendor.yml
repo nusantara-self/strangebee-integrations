@@ -1,0 +1,12 @@
+id: MISP
+name: "MISP"
+description: "MISP is an open-source threat intelligence platform for sharing, storing and correlating Indicators of Compromise (IOCs) and threat intelligence data, enabling collaborative defense and rapid incident response"
+category: Threat Intelligence
+tags:
+  - threat-intelligence
+  - ioc-sharing
+  - incident-response
+  - threat-sharing
+  - collaborative-defense
+homepage: "https://www.misp-project.org"
+

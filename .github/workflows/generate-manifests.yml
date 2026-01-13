@@ -1,0 +1,545 @@
+name: Sync and Generate Manifests
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - develop
+    paths:
+      - '.generated/**'
+      - '.upstream/cortex/**'
+      - 'integrations/**'
+      - 'scripts/**'
+      - '.github/workflows/generate-manifests.yml'
+  schedule:
+    - cron: '0 2 * * *'      # Daily at 2 AM UTC
+  workflow_dispatch:          # Allow manual trigger
+    inputs:
+      vendors:
+        description: 'Comma-separated vendor list to sync (leave empty to sync all vendors)'
+        required: false
+        type: string
+      exclude_vendors:
+        description: 'Comma-separated vendor list to exclude from sync'
+        required: false
+        type: string
+
+# Prevent concurrent runs to avoid conflicts
+concurrency:
+  group: sync-and-generate-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync-and-generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml jsonschema
+
+      - name: Validate vendor metadata
+        run: |
+          echo "### Vendor Metadata Validation" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          # Run validation and capture output
+          if python scripts/validate-vendor-metadata.py --strict 2>&1 | tee validation_output.txt; then
+            echo "✅ All vendor.yml files are valid" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ Validation failed - check details below" >> $GITHUB_STEP_SUMMARY
+            exit 1
+          fi
+
+          # Count missing vendor.yml files
+          missing_count=$(grep -c "⚠️" validation_output.txt || true)
+          if [ $missing_count -gt 0 ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "⚠️ **$missing_count vendor(s) missing vendor.yml** (will use empty defaults)" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          rm -f validation_output.txt
+          echo "" >> $GITHUB_STEP_SUMMARY
+        continue-on-error: false
+
+      - name: Checkout Cortex-Analyzers upstream
+        uses: actions/checkout@v4
+        with:
+          repository: TheHive-Project/Cortex-Analyzers
+          path: upstream-cortex-analyzers
+          fetch-depth: 1
+
+      - name: Sync Cortex analyzer and responder configs
+        run: |
+          set -o pipefail
+          shopt -s nullglob
+
+          # Global tracking variables
+          total_added=0
+          total_updated=0
+          total_deleted=0
+          total_invalid=0
+          total_conflicts=0
+          has_failures=false
+          vendors_with_changes=()
+
+          # ============================================================================
+          # FUNCTIONS
+          # ============================================================================
+
+          # Check if vendor should be synced based on inputs
+          should_sync_vendor() {
+            local vendor="$1"
+            local include_list="$2"
+            local exclude_list="$3"
+
+            # Check exclude list first
+            if [ -n "$exclude_list" ]; then
+              IFS=',' read -ra EXCLUDED <<< "$exclude_list"
+              for excluded in "${EXCLUDED[@]}"; do
+                excluded=$(echo "$excluded" | xargs)  # Trim whitespace
+                if [ "$vendor" = "$excluded" ]; then
+                  return 1
+                fi
+              done
+            fi
+
+            # Check include list if specified
+            if [ -n "$include_list" ]; then
+              IFS=',' read -ra INCLUDED <<< "$include_list"
+              for included in "${INCLUDED[@]}"; do
+                included=$(echo "$included" | xargs)  # Trim whitespace
+                if [ "$vendor" = "$included" ]; then
+                  return 0
+                fi
+              done
+              return 1
+            fi
+
+            return 0
+          }
+
+          # Sync vendor logo from upstream to integrations/vendors/[vendor]/
+          sync_vendor_logo() {
+            local vendor="$1"
+            local local_docs_dir="integrations/vendors/$vendor"
+            local formats=("svg" "png" "jpg" "jpeg")
+
+            # Create vendor docs directory if it doesn't exist
+            mkdir -p "$local_docs_dir" || return 0
+
+            # Try to find logo in upstream analyzers or responders directory
+            for type in analyzers responders; do
+              local upstream_vendor_dir="upstream-cortex-analyzers/$type/$vendor"
+
+              if [ ! -d "$upstream_vendor_dir" ]; then
+                continue
+              fi
+
+              # Check for logo files in various naming patterns
+              local logo_found=false
+
+              # Pattern 1: logo.*
+              for ext in "${formats[@]}"; do
+                if [ -f "$upstream_vendor_dir/logo.$ext" ]; then
+                  local upstream_logo="$upstream_vendor_dir/logo.$ext"
+                  local local_logo="$local_docs_dir/logo.$ext"
+
+                  if [ ! -f "$local_logo" ] || ! cmp -s "$upstream_logo" "$local_logo"; then
+                    if cp "$upstream_logo" "$local_logo"; then
+                      echo "  📷 **Logo synced:** \`logo.$ext\` (from $type)" >> $GITHUB_STEP_SUMMARY
+                      logo_found=true
+                      break 2
+                    fi
+                  fi
+                fi
+              done
+
+              # Pattern 2: icon.*
+              if ! $logo_found; then
+                for ext in "${formats[@]}"; do
+                  if [ -f "$upstream_vendor_dir/icon.$ext" ]; then
+                    local upstream_icon="$upstream_vendor_dir/icon.$ext"
+                    local local_logo="$local_docs_dir/icon.$ext"
+
+                    if [ ! -f "$local_logo" ] || ! cmp -s "$upstream_icon" "$local_logo"; then
+                      if cp "$upstream_icon" "$local_logo"; then
+                        echo "  📷 **Icon synced:** \`icon.$ext\` (from $type)" >> $GITHUB_STEP_SUMMARY
+                        logo_found=true
+                        break 2
+                      fi
+                    fi
+                  fi
+                done
+              fi
+
+              # Pattern 3: [vendorname].* (exact match)
+              if ! $logo_found; then
+                for ext in "${formats[@]}"; do
+                  if [ -f "$upstream_vendor_dir/$vendor.$ext" ]; then
+                    local upstream_vendor_logo="$upstream_vendor_dir/$vendor.$ext"
+                    local local_logo="$local_docs_dir/logo.$ext"
+
+                    if [ ! -f "$local_logo" ] || ! cmp -s "$upstream_vendor_logo" "$local_logo"; then
+                      if cp "$upstream_vendor_logo" "$local_logo"; then
+                        echo "  📷 **Logo synced:** \`$vendor.$ext\` → \`logo.$ext\` (from $type)" >> $GITHUB_STEP_SUMMARY
+                        logo_found=true
+                        break 2
+                      fi
+                    fi
+                  fi
+                done
+              fi
+
+              # Pattern 4: [vendorname-lowercase].*
+              if ! $logo_found; then
+                local vendor_lower=$(echo "$vendor" | tr '[:upper:]' '[:lower:]')
+                for ext in "${formats[@]}"; do
+                  if [ -f "$upstream_vendor_dir/$vendor_lower.$ext" ]; then
+                    local upstream_vendor_logo="$upstream_vendor_dir/$vendor_lower.$ext"
+                    local local_logo="$local_docs_dir/logo.$ext"
+
+                    if [ ! -f "$local_logo" ] || ! cmp -s "$upstream_vendor_logo" "$local_logo"; then
+                      if cp "$upstream_vendor_logo" "$local_logo"; then
+                        echo "  📷 **Logo synced:** \`$vendor_lower.$ext\` → \`logo.$ext\` (from $type)" >> $GITHUB_STEP_SUMMARY
+                        logo_found=true
+                        break 2
+                      fi
+                    fi
+                  fi
+                done
+              fi
+            done
+
+            return 0
+          }
+
+          # Sync files for a specific type (analyzers or responders)
+          sync_vendor_type() {
+            local vendor="$1"
+            local type="$2"  # "analyzers" or "responders"
+            local upstream_dir="upstream-cortex-analyzers/$type/$vendor"
+            local local_dir=".upstream/cortex/$type/$vendor"
+
+            local added=0
+            local updated=0
+            local deleted=0
+            local conflicts=0
+            local invalid=0
+            local changes_detail=""
+
+            # Skip if upstream directory doesn't exist
+            if [ ! -d "$upstream_dir" ]; then
+              return 0
+            fi
+
+            mkdir -p "$local_dir" || {
+              echo "❌ **Error:** Failed to create directory $local_dir" >> $GITHUB_STEP_SUMMARY
+              has_failures=true
+              return 1
+            }
+
+            # Delete local JSON files that don't exist upstream
+            for local_file in "$local_dir"/*.json; do
+              if [ -f "$local_file" ]; then
+                filename=$(basename "$local_file")
+                if [ ! -f "$upstream_dir/$filename" ]; then
+                  if rm "$local_file"; then
+                    changes_detail+="  - 🗑️ **Deleted:** \`$filename\`"$'\n'
+                    deleted=$((deleted + 1))
+                    total_deleted=$((total_deleted + 1))
+                  else
+                    echo "❌ **Error:** Failed to delete $type/$vendor/$filename" >> $GITHUB_STEP_SUMMARY
+                    has_failures=true
+                  fi
+                fi
+              fi
+            done
+
+            # Copy upstream files and track changes
+            for upstream_file in "$upstream_dir"/*.json; do
+              if [ -f "$upstream_file" ]; then
+                filename=$(basename "$upstream_file")
+                local_file="$local_dir/$filename"
+
+                local change_type=""
+                local had_conflict=false
+
+                if [ -f "$local_file" ]; then
+                  # Check for conflicts (file modified locally but also changed upstream)
+                  if git ls-files --error-unmatch "$local_file" >/dev/null 2>&1; then
+                    if [ -n "$(git diff HEAD "$local_file" 2>/dev/null)" ]; then
+                      # File has local modifications
+                      if ! cmp -s "$upstream_file" "$local_file"; then
+                        # Upstream also changed - this is a conflict
+                        changes_detail+="  - ⚠️ **Conflict (overwritten):** \`$filename\`"$'\n'
+                        conflicts=$((conflicts + 1))
+                        total_conflicts=$((total_conflicts + 1))
+                        had_conflict=true
+                      fi
+                    fi
+                  fi
+
+                  # File exists, check if it changed
+                  if ! $had_conflict && ! cmp -s "$upstream_file" "$local_file"; then
+                    changes_detail+="  - 🔄 **Updated:** \`$filename\`"$'\n'
+                    updated=$((updated + 1))
+                    total_updated=$((total_updated + 1))
+                  fi
+                else
+                  # New file
+                  changes_detail+="  - ✅ **Added:** \`$filename\`"$'\n'
+                  added=$((added + 1))
+                  total_added=$((total_added + 1))
+                fi
+
+                # Copy the file
+                if ! cp "$upstream_file" "$local_file"; then
+                  echo "❌ **Error:** Failed to copy $type/$vendor/$filename" >> $GITHUB_STEP_SUMMARY
+                  has_failures=true
+                  continue
+                fi
+
+                # Validate JSON
+                if ! python -c "import json; json.load(open('$local_file'))" 2>/dev/null; then
+                  changes_detail+="  - ❌ **Invalid JSON:** \`$filename\`"$'\n'
+                  invalid=$((invalid + 1))
+                  total_invalid=$((total_invalid + 1))
+                  has_failures=true
+                fi
+              fi
+            done
+
+            # Output summary for this type if there were changes
+            if [ $added -gt 0 ] || [ $updated -gt 0 ] || [ $deleted -gt 0 ] || [ $conflicts -gt 0 ]; then
+              local type_label
+              if [ "$type" = "analyzers" ]; then
+                type_label="Analyzers"
+              else
+                type_label="Responders"
+              fi
+
+              echo "**$type_label - $vendor:** +$added ~$updated -$deleted $([ $conflicts -gt 0 ] && echo "⚠️$conflicts")" >> $GITHUB_STEP_SUMMARY
+              echo "$changes_detail" >> $GITHUB_STEP_SUMMARY
+
+              # Track that this vendor had changes
+              if [[ ! " ${vendors_with_changes[@]} " =~ " ${vendor} " ]]; then
+                vendors_with_changes+=("$vendor")
+              fi
+            fi
+
+            return 0
+          }
+
+          # ============================================================================
+          # MAIN SCRIPT
+          # ============================================================================
+
+          # Get workflow inputs
+          INCLUDE_VENDORS="${{ inputs.vendors }}"
+          EXCLUDE_VENDORS="${{ inputs.exclude_vendors }}"
+
+          # Discover all vendors from upstream repository
+          VENDORS=()
+
+          # Collect vendors from analyzers directory
+          if [ -d "upstream-cortex-analyzers/analyzers" ]; then
+            for vendor_dir in upstream-cortex-analyzers/analyzers/*/; do
+              if [ -d "$vendor_dir" ]; then
+                vendor=$(basename "$vendor_dir")
+                if [[ ! " ${VENDORS[@]} " =~ " ${vendor} " ]]; then
+                  VENDORS+=("$vendor")
+                fi
+              fi
+            done
+          fi
+
+          # Collect vendors from responders directory
+          if [ -d "upstream-cortex-analyzers/responders" ]; then
+            for vendor_dir in upstream-cortex-analyzers/responders/*/; do
+              if [ -d "$vendor_dir" ]; then
+                vendor=$(basename "$vendor_dir")
+                if [[ ! " ${VENDORS[@]} " =~ " ${vendor} " ]]; then
+                  VENDORS+=("$vendor")
+                fi
+              fi
+            done
+          fi
+
+          # Filter vendors based on inputs
+          FILTERED_VENDORS=()
+          for vendor in "${VENDORS[@]}"; do
+            if should_sync_vendor "$vendor" "$INCLUDE_VENDORS" "$EXCLUDE_VENDORS"; then
+              FILTERED_VENDORS+=("$vendor")
+            fi
+          done
+
+          # Report sync configuration
+          echo "### Syncing from Cortex-Analyzers" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Discovered:** ${#VENDORS[@]} vendors" >> $GITHUB_STEP_SUMMARY
+          echo "**Syncing:** ${#FILTERED_VENDORS[@]} vendors" >> $GITHUB_STEP_SUMMARY
+          if [ -n "$INCLUDE_VENDORS" ]; then
+            echo "**Filter:** Only \`$INCLUDE_VENDORS\`" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ -n "$EXCLUDE_VENDORS" ]; then
+            echo "**Excluding:** \`$EXCLUDE_VENDORS\`" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          # Clean up local vendor directories deleted from upstream
+          for type in analyzers responders; do
+            if [ -d ".upstream/cortex/$type" ]; then
+              for local_vendor_dir in .upstream/cortex/$type/*/; do
+                if [ -d "$local_vendor_dir" ]; then
+                  vendor=$(basename "$local_vendor_dir")
+                  # Check if vendor still exists upstream
+                  if [ ! -d "upstream-cortex-analyzers/$type/$vendor" ]; then
+                    if rm -rf "$local_vendor_dir"; then
+                      echo "🗑️ **Removed vendor directory:** $type/$vendor (deleted from upstream)" >> $GITHUB_STEP_SUMMARY
+                    else
+                      echo "❌ **Error:** Failed to remove $type/$vendor" >> $GITHUB_STEP_SUMMARY
+                      has_failures=true
+                    fi
+                  fi
+                fi
+              done
+            fi
+          done
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          # Process each vendor
+          for vendor in "${FILTERED_VENDORS[@]}"; do
+            echo "Processing vendor: $vendor"
+
+            # Sync vendor logo first
+            sync_vendor_logo "$vendor"
+
+            # Sync both analyzers and responders
+            sync_vendor_type "$vendor" "analyzers"
+            sync_vendor_type "$vendor" "responders"
+          done
+
+          # Final summary
+          echo "" >> $GITHUB_STEP_SUMMARY
+          # Clean up vendor directories that no longer exist upstream
+          echo "### Cleanup" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          for type in "analyzers" "responders"; do
+            if [ -d ".upstream/cortex/$type" ]; then
+              for local_vendor_dir in .upstream/cortex/$type/*/; do
+                if [ -d "$local_vendor_dir" ]; then
+                  vendor_name=$(basename "$local_vendor_dir")
+                  upstream_vendor_dir="upstream-cortex-analyzers/$type/$vendor_name"
+
+                  # If vendor doesn't exist upstream, delete it locally
+                  if [ ! -d "$upstream_vendor_dir" ]; then
+                    echo "🗑️ Deleting obsolete vendor: $type/$vendor_name" >> $GITHUB_STEP_SUMMARY
+                    rm -rf "$local_vendor_dir"
+                  fi
+                fi
+              done
+            fi
+          done
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Vendors with changes:** ${#vendors_with_changes[@]}" >> $GITHUB_STEP_SUMMARY
+          echo "**Total changes:** $total_added added, $total_updated updated, $total_deleted deleted" >> $GITHUB_STEP_SUMMARY
+
+          if [ $total_conflicts -gt 0 ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "⚠️ **$total_conflicts conflicts detected** (local modifications overwritten by upstream)" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ $total_invalid -gt 0 ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "❌ **$total_invalid invalid JSON files detected**" >> $GITHUB_STEP_SUMMARY
+            has_failures=true
+          fi
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          # Exit with error if there were validation failures
+          if [ "$has_failures" = true ]; then
+            echo "::error::Sync completed with failures. Check the summary for details."
+            exit 1
+          fi
+
+      - name: Generate catalogs
+        run: python scripts/generate-catalogs.py
+
+      - name: Generate documentation
+        run: python scripts/generate-docs.py
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          if [ -n "$(git status --porcelain .upstream/cortex/ .generated/ integrations/)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "### Changes detected" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+            git status --short .upstream/cortex/ .generated/ integrations/ >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "### No changes detected" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .upstream/cortex/ .generated/ integrations/
+          git commit -m "Auto-sync Cortex configs and regenerate catalogs/docs [skip ci]
+
+          - Synced analyzer/responder configs from Cortex-Analyzers
+          - Synced vendor logos
+          - Regenerated integration catalogs
+          - Regenerated documentation"
+
+          # Pull with rebase, automatically resolving conflicts by preferring our generated files
+          git pull --rebase --strategy-option=ours origin ${{ github.ref_name }} || {
+            echo "Rebase failed, regenerating catalogs and docs after pulling..."
+            git rebase --abort
+            git pull --no-rebase --strategy=recursive --strategy-option=theirs origin ${{ github.ref_name }}
+            python scripts/generate-catalogs.py
+            python scripts/generate-docs.py
+            git add .generated/
+            git commit --amend --no-edit
+          }
+
+          git push
+
+      - name: Upload artifacts
+        if: steps.git-check.outputs.changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: integration-manifests-${{ github.run_number }}
+          path: |
+            .generated/catalogs/*/manifest.json
+            .generated/catalogs/*/manifest.yml
+            .generated/integration-manifest.json
+            .generated/integration-manifest.yml
+          retention-days: 30

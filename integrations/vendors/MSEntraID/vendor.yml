@@ -1,0 +1,14 @@
+id: MSEntraID
+name: "Microsoft Entra ID"
+description: "Microsoft Entra ID (formerly Azure Active Directory) is an enterprise identity and access management platform that provides user authentication data, sign-in logs, and security insights to investigate account compromises, suspicious access patterns, and identity-based attacks"
+category: Identity & Access Management
+tags:
+  - identity-management
+  - authentication
+  - access-control
+  - user-activity
+  - sign-in-logs
+  - account-security
+  - incident-response
+homepage: "https://www.microsoft.com/security/business/identity-access/microsoft-entra-id"
+

@@ -1,0 +1,71 @@
+{
+  "id": "EmergingThreats",
+  "name": "EmergingThreats",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "registration_required": true,
+  "subscription_required": true,
+  "free_subscription": false,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "EmergingThreats_DomainInfo",
+        "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
+        "description": "Retrieve ET reputation, related malware, and IDS requests for a given domain.",
+        "dataTypes": [
+          "domain",
+          "fqdn"
+        ],
+        "file": ".upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
+        "integration_type": null
+      },
+      {
+        "name": "EmergingThreats_MalwareInfo",
+        "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
+        "description": "Retrieve ET details and info related to a malware hash.",
+        "dataTypes": [
+          "file",
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json",
+        "integration_type": null
+      },
+      {
+        "name": "EmergingThreats_IPInfo",
+        "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
+        "description": "Retrieve ET reputation, related malware, and IDS requests for a given IP address.",
+        "dataTypes": [
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 3,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 3
+  }
+}

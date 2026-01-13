@@ -1,0 +1,104 @@
+# JSON Schema for vendor.yml files
+# This schema ensures all vendor metadata files follow the same structure
+
+$schema: http://json-schema.org/draft-07/schema#
+title: Vendor Metadata Schema
+description: Schema for vendor.yml files in integrations/vendors/[VendorName]/
+
+type: object
+
+required:
+  - id
+  - name
+  - description
+
+properties:
+  id:
+    type: string
+    description: "Unique vendor identifier (should match directory name)"
+    pattern: "^[A-Za-z0-9]+$"
+    minLength: 2
+    examples:
+      - "Slack"
+      - "CrowdstrikeFalcon"
+      - "Proofpoint"
+
+  name:
+    type: string
+    description: "Human-readable vendor display name"
+    minLength: 2
+    maxLength: 100
+    examples:
+      - "Slack"
+      - "CrowdStrike Falcon"
+      - "Proofpoint TAP"
+
+  description:
+    type: string
+    description: "Brief description of the vendor and their services"
+    minLength: 10
+    maxLength: 500
+
+  category:
+    type: string
+    description: "Primary vendor category (see taxonomy.yml for valid values)"
+    minLength: 1
+
+  tags:
+    type: array
+    description: "List of relevant tags for categorization and search"
+    items:
+      type: string
+      minLength: 2
+    uniqueItems: true
+    minItems: 1
+
+  homepage:
+    type: string
+    description: "Vendor's official homepage URL"
+    format: uri
+    pattern: "^https?://"
+    examples:
+      - "https://slack.com"
+      - "https://www.crowdstrike.com"
+
+  logo:
+    description: "Logo file path (relative to vendor directory) or light/dark mode variants"
+    oneOf:
+      - type: string
+        description: "Simple logo path"
+        examples:
+          - "logo.svg"
+          - "slack-logo.png"
+
+      - type: object
+        description: "Separate logos for light and dark modes"
+        properties:
+          light:
+            type: string
+            description: "Logo for light mode"
+          dark:
+            type: string
+            description: "Logo for dark mode"
+        anyOf:
+          - required: ["light"]
+          - required: ["dark"]
+
+  registration_required:
+    type: boolean
+    description: "Whether vendor registration is required to use integrations"
+
+  subscription_required:
+    type: boolean
+    description: "Whether a paid subscription is required"
+
+  free_subscription:
+    type: boolean
+    description: "Whether a free subscription tier is available"
+
+  documentation:
+    type: string
+    description: "URL to vendor's API or integration documentation"
+    format: uri
+
+additionalProperties: false

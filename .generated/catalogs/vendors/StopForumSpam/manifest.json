@@ -1,0 +1,39 @@
+{
+  "id": "StopForumSpam",
+  "name": "StopForumSpam",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "StopForumSpam",
+        "version": "1.0",
+        "author": "Marc-Andre Doll, STARC by EXAPROBE",
+        "license": "AGPL-V3",
+        "description": "Query http://www.stopforumspam.com to check if an IP or email address is a known spammer.",
+        "dataTypes": [
+          "ip",
+          "mail"
+        ],
+        "file": ".upstream/cortex/analyzers/StopForumSpam/StopForumSpam.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/StopForumSpam/StopForumSpam.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/StopForumSpam/StopForumSpam.json",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 1
+  }
+}

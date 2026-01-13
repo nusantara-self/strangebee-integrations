@@ -1,0 +1,17 @@
+# Mark generated files for GitHub
+.generated/** linguist-generated=true
+
+# Mark vendor logos as binary (prevent diff)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.svg binary
+
+# Normalize line endings
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.md text eol=lf

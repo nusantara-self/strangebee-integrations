@@ -1,0 +1,13 @@
+id: VirusTotal
+name: "VirusTotal"
+description: "VirusTotal is a comprehensive malware analysis platform aggregating results from 70+ antivirus engines and security tools, enabling rapid file, URL, domain, and IP reputation checks during incident investigations"
+category: Malware Analysis
+tags:
+  - malware-analysis
+  - threat-intelligence
+  - file-analysis
+  - url-analysis
+  - multi-scanner
+  - incident-response
+homepage: "https://www.virustotal.com"
+

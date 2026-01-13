@@ -1,0 +1,11 @@
+id: Yara
+name: "YARA"
+description: "YARA is a pattern matching engine for malware identification and classification that enables analysts to create rules describing malware families and threat patterns, facilitating rapid malware detection and threat hunting during investigations"
+category: Malware Analysis
+tags:
+  - malware-detection
+  - pattern-matching
+  - threat-hunting
+  - malware-classification
+homepage: "https://virustotal.github.io/yara/"
+

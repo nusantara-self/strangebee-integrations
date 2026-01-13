@@ -1,0 +1,38 @@
+{
+  "id": "InsightConnect",
+  "name": "Rapid7 InsightConnect",
+  "description": "Rapid7 InsightConnect is a security orchestration and automation platform that enables security teams to automate workflows, connect security tools, and accelerate incident response through pre-built integrations and custom automation",
+  "category": "SOAR & Automation",
+  "tags": [
+    "automation",
+    "workflow-orchestration",
+    "security-automation"
+  ],
+  "homepage": "https://www.rapid7.com/products/insightconnect/",
+  "logo": {
+    "file": "integrations/vendors/InsightConnect/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/InsightConnect/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/InsightConnect/assets/logo.png"
+  },
+  "useCases": [],
+  "externalIntegrations": [
+    {
+      "name": "TheHive Extension",
+      "description": "Rapid7 InsightConnect extension that enables automated workflows with TheHive for case management, alert handling, and incident response orchestration",
+      "type": "extension",
+      "documentation": "https://extensions.rapid7.com/extension/thehive"
+    }
+  ],
+  "integrations": {
+    "analyzers": [],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 1,
+    "total": 1
+  }
+}

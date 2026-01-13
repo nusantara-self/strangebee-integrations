@@ -1,0 +1,41 @@
+{
+  "id": "ChainAbuse",
+  "name": "ChainAbuse",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "registration_required": true,
+  "subscription_required": false,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "ChainAbuse",
+        "version": "1.1",
+        "author": "Peter Juhas; Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Check crypto address against reported abuse cases on ChainAbuse",
+        "dataTypes": [
+          "crypto_address",
+          "btc_address"
+        ],
+        "file": ".upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 1
+  }
+}

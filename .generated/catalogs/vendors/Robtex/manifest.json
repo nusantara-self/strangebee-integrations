@@ -1,0 +1,67 @@
+{
+  "id": "Robtex",
+  "name": "Robtex",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "Robtex_Reverse_PDNS_Query",
+        "version": "1.0",
+        "author": "Nils Kuhnert",
+        "license": "AGPL-V3",
+        "description": "Check IPs using the Robtex reverse passive DNS API.",
+        "dataTypes": [
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json",
+        "integration_type": null
+      },
+      {
+        "name": "Robtex_Forward_PDNS_Query",
+        "version": "1.0",
+        "author": "Nils Kuhnert",
+        "license": "AGPL-V3",
+        "description": "Check domains and FQDNs using the Robtex passive DNS API.",
+        "dataTypes": [
+          "domain",
+          "fqdn"
+        ],
+        "file": ".upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json",
+        "integration_type": null
+      },
+      {
+        "name": "Robtex_IP_Query",
+        "version": "1.0",
+        "author": "Nils Kuhnert",
+        "license": "AGPL-V3",
+        "description": "Check IPs using the Robtex IP API.",
+        "dataTypes": [
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 3,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 3
+  }
+}

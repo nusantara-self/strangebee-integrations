@@ -1,0 +1,40 @@
+{
+  "id": "GoogleDNS",
+  "name": "GoogleDNS",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "GoogleDNS_resolve",
+        "version": "1.0.0",
+        "author": "CERT-LaPoste",
+        "license": "AGPL-V3",
+        "description": "Request Google DNS over HTTPS service",
+        "dataTypes": [
+          "domain",
+          "ip",
+          "fqdn"
+        ],
+        "file": ".upstream/cortex/analyzers/GoogleDNS/GoogleDNS_resolve.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleDNS/GoogleDNS_resolve.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/GoogleDNS/GoogleDNS_resolve.json",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 1
+  }
+}

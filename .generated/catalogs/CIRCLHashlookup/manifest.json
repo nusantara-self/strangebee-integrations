@@ -1,0 +1,41 @@
+{
+  "id": "CIRCLHashlookup",
+  "name": "CIRCLHashlookup",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": true,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "CIRCLHashlookup",
+        "version": "1.1",
+        "author": "Mikael Keri",
+        "license": "AGPL-V3",
+        "description": "CIRCL hashlookup uses a public API to lookup hash values against databases of known good files",
+        "dataTypes": [
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 1
+  }
+}

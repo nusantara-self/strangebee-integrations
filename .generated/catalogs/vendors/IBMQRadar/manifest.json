@@ -1,0 +1,41 @@
+{
+  "id": "IBMQRadar",
+  "name": "IBMQRadar",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "externalIntegrations": [],
+  "registration_required": true,
+  "subscription_required": true,
+  "free_subscription": false,
+  "integrations": {
+    "analyzers": [],
+    "responders": [
+      {
+        "name": "QRadar_Auto_Closing_Offense",
+        "version": "1.0",
+        "author": "Florian Perret",
+        "license": "AGPL-V3",
+        "description": "Closing the QRadar Offense associated to your case in one clic !",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/IBMQRadar/QRadarAutoClose.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/IBMQRadar/QRadarAutoClose.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/IBMQRadar/QRadarAutoClose.json",
+        "integration_type": null
+      }
+    ],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 1,
+    "totalFunctions": 0,
+    "totalExternalIntegrations": 0,
+    "total": 1
+  }
+}
