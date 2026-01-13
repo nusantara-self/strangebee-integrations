@@ -19,8 +19,8 @@ tags:
 homepage: https://threatlabs.google.com
 logo:
   file: integrations/vendors/GoogleThreatIntelligence/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.png
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/GoogleThreatIntelligence/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/GoogleThreatIntelligence/assets/logo.png
 useCases: []
 externalIntegrations: []
 registration_required: true
@@ -38,8 +38,8 @@ integrations:
     dataTypes:
     - url
     file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
     integration_type: null
   - name: GTI_ScanPrivateFile
     version: '1.0'
@@ -50,8 +50,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
     integration_type: null
   - name: GTI_ScanFile
     version: '1.0'
@@ -62,8 +62,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
     integration_type: null
   - name: GTI_GetIOCReport
     version: '1.0'
@@ -78,8 +78,8 @@ integrations:
     - ip
     - url
     file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
     integration_type: null
   - name: GTI_ScanPrivateURL
     version: '1.0'
@@ -90,8 +90,8 @@ integrations:
     dataTypes:
     - url
     file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json
     integration_type: null
   responders: []
   functions: []

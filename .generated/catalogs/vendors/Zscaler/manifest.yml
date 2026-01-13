@@ -28,8 +28,8 @@ integrations:
     - url
     - fqdn
     file: .upstream/cortex/analyzers/Zscaler/Zscaler.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Zscaler/Zscaler.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Zscaler/Zscaler.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Zscaler/Zscaler.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Zscaler/Zscaler.json
     integration_type: null
   - name: ZscalerZIA_URLLookup
     version: '1.0'
@@ -43,8 +43,8 @@ integrations:
     - url
     - ip
     file: .upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
     integration_type: null
   responders: []
   functions: []

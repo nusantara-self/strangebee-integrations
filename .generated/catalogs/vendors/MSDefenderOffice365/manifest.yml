@@ -17,8 +17,8 @@ tags:
 homepage: https://www.microsoft.com/security/business/threat-protection/office-365-defender
 logo:
   file: integrations/vendors/MSDefenderOffice365/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/MSDefenderOffice365/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/MSDefenderOffice365/assets/logo.png
 useCases: []
 externalIntegrations: []
 registration_required:
@@ -41,8 +41,8 @@ integrations:
     dataTypes:
     - url
     file: .upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json
     integration_type: null
   responders:
   - name: MSDefenderOffice365_unblock
@@ -53,8 +53,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
     integration_type: null
   - name: MSDefenderOffice365_block
     version: '1.0'
@@ -64,8 +64,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
     integration_type: null
   functions: []
 stats:

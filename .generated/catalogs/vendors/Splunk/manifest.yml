@@ -17,8 +17,8 @@ tags:
 homepage: https://www.splunk.com
 logo:
   file: integrations/vendors/Splunk/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/assets/logo.png
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Splunk/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Splunk/assets/logo.png
 useCases: []
 externalIntegrations:
 - name: TheHive/Cortex Technical Add-on
@@ -44,8 +44,8 @@ integrations:
     dataTypes:
     - other
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
     integration_type: null
   - name: Splunk_Search_Registry
     version: '3.0'
@@ -55,8 +55,8 @@ integrations:
     dataTypes:
     - registry
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
     integration_type: null
   - name: Splunk_Search_Mail_Subject
     version: '3.0'
@@ -67,8 +67,8 @@ integrations:
     - mail_subject
     - mail-subject
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json
     integration_type: null
   - name: Splunk_Search_File_Filename
     version: '3.0'
@@ -79,8 +79,8 @@ integrations:
     - file
     - filename
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
     integration_type: null
   - name: Splunk_Search_User_Agent
     version: '3.0'
@@ -90,8 +90,8 @@ integrations:
     dataTypes:
     - user-agent
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
     integration_type: null
   - name: Splunk_Search_Mail_Email
     version: '3.0'
@@ -102,8 +102,8 @@ integrations:
     - mail
     - email
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
     integration_type: null
   - name: Splunk_Search_IP
     version: '3.0'
@@ -113,8 +113,8 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
     integration_type: null
   - name: Splunk_Search_Hash
     version: '3.0'
@@ -124,8 +124,8 @@ integrations:
     dataTypes:
     - hash
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json
     integration_type: null
   - name: Splunk_Search_Domain_FQDN
     version: '3.0'
@@ -136,8 +136,8 @@ integrations:
     - domain
     - fqdn
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
     integration_type: null
   - name: Splunk_Search_User
     version: '3.0'
@@ -147,8 +147,8 @@ integrations:
     dataTypes:
     - other
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
     integration_type: null
   - name: Splunk_Search_URL_URI_Path
     version: '3.0'
@@ -159,8 +159,8 @@ integrations:
     - url
     - uri_path
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json
     integration_type: null
   responders: []
   functions:
@@ -171,8 +171,8 @@ integrations:
     kind: function
     mode: Enabled
     file: integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
 stats:
   totalAnalyzers: 11
   totalResponders: 0

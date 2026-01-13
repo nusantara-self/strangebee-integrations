@@ -1,6 +1,6 @@
 # AbuseIPDB
 
-![AbuseIPDB Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/AbuseIPDB/assets/logo.svg)
+![AbuseIPDB Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/AbuseIPDB/assets/logo.svg)
 
 AbuseIPDB is a crowdsourced IP reputation database that helps identify and track malicious IPs involved in attacks, providing confidence scores and abuse reports for rapid threat assessment and blocking decisions
 
@@ -22,7 +22,7 @@ Checks an IP against AbuseIPDB for abuse score, categories, and recent reports.
 - **Author:** Matteo Lodi; Fabien Bloume, StrangeBee
 - **License:** AGPL-v3
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json))
+- **Configuration:** [.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json))
 
 ---
 

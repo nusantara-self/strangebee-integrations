@@ -16,8 +16,8 @@ tags:
 homepage: https://urlscan.io
 logo:
   file: integrations/vendors/Urlscan.io/assets/logo.ico
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Urlscan.io/assets/logo.ico
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Urlscan.io/assets/logo.ico
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Urlscan.io/assets/logo.ico
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Urlscan.io/assets/logo.ico
 useCases: []
 externalIntegrations: []
 registration_required:
@@ -39,8 +39,8 @@ integrations:
     - fqdn
     - url
     file: .upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
     integration_type: null
   - name: Urlscan.io_Scan
     version: 0.1.0
@@ -52,8 +52,8 @@ integrations:
     - domain
     - fqdn
     file: .upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
     integration_type: null
   responders: []
   functions: []

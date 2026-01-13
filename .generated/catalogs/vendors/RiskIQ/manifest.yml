@@ -23,8 +23,8 @@ integrations:
     - fqdn
     - ip
     file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json
     integration_type: null
   - name: RiskIQ_Trackers
     version: '1.0'
@@ -36,8 +36,8 @@ integrations:
     - fqdn
     - ip
     file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json
     integration_type: null
   - name: RiskIQ_Services
     version: '1.0'
@@ -47,8 +47,8 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json
     integration_type: null
   - name: RiskIQ_HostpairParents
     version: '1.0'
@@ -60,8 +60,8 @@ integrations:
     - fqdn
     - ip
     file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json
     integration_type: null
   - name: RiskIQ_Articles
     version: '1.0'
@@ -73,8 +73,8 @@ integrations:
     - fqdn
     - ip
     file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Articles.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Articles.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Articles.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Articles.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Articles.json
     integration_type: null
   - name: RiskIQ_Summary
     version: '1.0'
@@ -86,8 +86,8 @@ integrations:
     - fqdn
     - ip
     file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json
     integration_type: null
   - name: RiskIQ_Components
     version: '1.0'
@@ -99,8 +99,8 @@ integrations:
     - fqdn
     - ip
     file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json
     integration_type: null
   - name: RiskIQ_Subdomains
     version: '1.0'
@@ -111,8 +111,8 @@ integrations:
     - fqdn
     - domain
     file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json
     integration_type: null
   - name: RiskIQ_Whois
     version: '1.0'
@@ -124,8 +124,8 @@ integrations:
     - fqdn
     - ip
     file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json
     integration_type: null
   - name: RiskIQ_Projects
     version: '1.0'
@@ -137,8 +137,8 @@ integrations:
     - fqdn
     - ip
     file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json
     integration_type: null
   - name: RiskIQ_Malware
     version: '1.0'
@@ -150,8 +150,8 @@ integrations:
     - fqdn
     - ip
     file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json
     integration_type: null
   - name: RiskIQ_Artifacts
     version: '1.0'
@@ -163,8 +163,8 @@ integrations:
     - fqdn
     - ip
     file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Artifacts.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Artifacts.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Artifacts.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Artifacts.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Artifacts.json
     integration_type: null
   - name: RiskIQ_Reputation
     version: '1.0'
@@ -176,8 +176,8 @@ integrations:
     - fqdn
     - ip
     file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Reputation.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Reputation.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Reputation.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Reputation.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Reputation.json
     integration_type: null
   - name: RiskIQ_Cookies
     version: '1.0'
@@ -189,8 +189,8 @@ integrations:
     - fqdn
     - ip
     file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json
     integration_type: null
   - name: RiskIQ_Resolutions
     version: '1.0'
@@ -202,8 +202,8 @@ integrations:
     - fqdn
     - ip
     file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json
     integration_type: null
   - name: RiskIQ_HostpairChildren
     version: '1.0'
@@ -215,8 +215,8 @@ integrations:
     - fqdn
     - ip
     file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairChildren.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairChildren.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairChildren.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairChildren.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairChildren.json
     integration_type: null
   responders:
   - name: RiskIQ_PushArtifactToProject
@@ -227,8 +227,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/RiskIQ/RiskIQ_PushArtifactToProject.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/RiskIQ/RiskIQ_PushArtifactToProject.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/RiskIQ/RiskIQ_PushArtifactToProject.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/RiskIQ/RiskIQ_PushArtifactToProject.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/RiskIQ/RiskIQ_PushArtifactToProject.json
     integration_type: null
   functions: []
 stats:

@@ -24,8 +24,8 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/Virusshare/Virusshare.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Virusshare/Virusshare.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Virusshare/Virusshare.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Virusshare/Virusshare.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Virusshare/Virusshare.json",
         "integration_type": null
       }
     ],

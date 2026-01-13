@@ -24,8 +24,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Minemeld/minemeld.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Minemeld/minemeld.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Minemeld/minemeld.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Minemeld/minemeld.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Minemeld/minemeld.json",
         "integration_type": null
       }
     ],

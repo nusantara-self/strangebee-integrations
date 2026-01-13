@@ -9,7 +9,7 @@ Query domains, IPs, hashes and URLs against IBM X-Force threat intelligence shar
 - **Author:** Davide Arcuri and Andrea Garavaglia, LDO-CERT
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `ip`, `hash`, `url`
-- **Configuration:** [.upstream/cortex/analyzers/IBMXForce/IBMXForce_Lookup.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/IBMXForce/IBMXForce_Lookup.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IBMXForce/IBMXForce_Lookup.json))
+- **Configuration:** [.upstream/cortex/analyzers/IBMXForce/IBMXForce_Lookup.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/IBMXForce/IBMXForce_Lookup.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/IBMXForce/IBMXForce_Lookup.json))
 
 ---
 

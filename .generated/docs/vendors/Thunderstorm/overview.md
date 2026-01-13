@@ -15,7 +15,7 @@ Submits sample to an on-premise THOR Thunderstorm web service and processes the 
 - **Author:** Florian Roth
 - **License:** AGPL-V3
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json))
+- **Configuration:** [.upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json))
 
 ---
 

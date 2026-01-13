@@ -8,7 +8,7 @@ This function creates alerts from data coming from a Airtable database. It check
 
 - **Kind:** function
 - **Mode:** Enabled
-- **File:** [integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js))
+- **File:** [integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js))
 
 ---
 

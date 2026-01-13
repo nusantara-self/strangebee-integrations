@@ -17,8 +17,8 @@ tags:
 homepage: https://github.com/mandiant/capa
 logo:
   file: integrations/vendors/Capa/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Capa/assets/logo.png
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Capa/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Capa/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Capa/assets/logo.png
 useCases: []
 externalIntegrations: []
 registration_required: false
@@ -34,9 +34,9 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/Capa/Capa.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Capa/Capa.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Capa/Capa.json
-    integration_type: null
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Capa/Capa.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Capa/Capa.json
+    integration_type: local
   responders: []
   functions: []
 stats:

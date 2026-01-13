@@ -15,7 +15,7 @@ Submit artifacts to the Recorded Future Triage sandbox service. This analyzer re
 - **Author:** Mikael Keri
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `url`, `file`
-- **Configuration:** [.upstream/cortex/analyzers/Triage/Triage.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Triage/Triage.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Triage/Triage.json))
+- **Configuration:** [.upstream/cortex/analyzers/Triage/Triage.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Triage/Triage.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Triage/Triage.json))
 
 ---
 

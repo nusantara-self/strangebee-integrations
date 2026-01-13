@@ -1,6 +1,6 @@
 # Shuffle
 
-![Shuffle Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Shuffle/assets/logo.png)
+![Shuffle Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Shuffle/assets/logo.png)
 
 Shuffle is an open-source security orchestration, automation and response (SOAR) platform that automates repetitive security tasks, orchestrates incident response workflows, and integrates security tools to accelerate threat detection and remediation
 
@@ -16,7 +16,7 @@ Execute a workflow in Shuffle
 - **Author:** @frikkylikeme
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`, `thehive:alert`, `thehive:case_artifact`, `thehive:case_task`, `thehive:case_task_log`
-- **Configuration:** [.upstream/cortex/responders/Shuffle/shuffle.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Shuffle/shuffle.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Shuffle/shuffle.json))
+- **Configuration:** [.upstream/cortex/responders/Shuffle/shuffle.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Shuffle/shuffle.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Shuffle/shuffle.json))
 
 ---
 

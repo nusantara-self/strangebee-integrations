@@ -15,7 +15,7 @@ Cuckoo Sandbox URL analysis.
 - **Author:** Andrea Garavaglia, LDO-CERT
 - **License:** AGPL-V3
 - **Data Types:** `url`
-- **Configuration:** [.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json))
+- **Configuration:** [.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json))
 
 ### CuckooSandbox_File_Analysis_Inet `v1.2`
 Cuckoo Sandbox file analysis with Internet access.
@@ -23,7 +23,7 @@ Cuckoo Sandbox file analysis with Internet access.
 - **Author:** Andrea Garavaglia, LDO-CERT
 - **License:** AGPL-V3
 - **Data Types:** `file`
-- **Configuration:** [.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json))
+- **Configuration:** [.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json))
 
 ---
 

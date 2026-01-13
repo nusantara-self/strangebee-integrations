@@ -15,7 +15,7 @@ Okta User Lookup is an analyzer for TheHive to enrich mail observables from data
 - **Author:** Martin Jaan Leesment
 - **License:** AGPL-V3
 - **Data Types:** `mail`
-- **Configuration:** [.upstream/cortex/analyzers/Okta/OktaUserLookup.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Okta/OktaUserLookup.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Okta/OktaUserLookup.json))
+- **Configuration:** [.upstream/cortex/analyzers/Okta/OktaUserLookup.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Okta/OktaUserLookup.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Okta/OktaUserLookup.json))
 
 ---
 

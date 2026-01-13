@@ -24,8 +24,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json",
         "integration_type": null
       }
     ],
@@ -40,8 +40,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json",
         "integration_type": null
       }
     ],

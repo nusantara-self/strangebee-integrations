@@ -24,8 +24,8 @@ integrations:
     - thehive:alert
     - thehive:case
     file: .upstream/cortex/responders/RT4/rt4.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/RT4/rt4.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/RT4/rt4.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/RT4/rt4.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/RT4/rt4.json
     integration_type: null
   functions: []
 stats:

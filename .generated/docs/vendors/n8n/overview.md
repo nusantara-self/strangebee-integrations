@@ -1,6 +1,6 @@
 # n8n
 
-![n8n Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/n8n/assets/logo.png)
+![n8n Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/n8n/assets/logo.png)
 
 n8n is a low-code/no-code workflow automation platform that enables technical teams to build, deploy, and manage complex automated workflows.
 
@@ -22,7 +22,7 @@ Send data to n8n via webhook
 - **Author:** Anas SOUIRI
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`, `thehive:alert`, `thehive:case_artifact`, `thehive:case_task`, `thehive:case_task_log`
-- **Configuration:** [.upstream/cortex/responders/n8n/n8n.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/n8n/n8n.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/n8n/n8n.json))
+- **Configuration:** [.upstream/cortex/responders/n8n/n8n.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/n8n/n8n.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/n8n/n8n.json))
 
 ---
 

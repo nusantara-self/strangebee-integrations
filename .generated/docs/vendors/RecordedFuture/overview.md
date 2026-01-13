@@ -1,6 +1,6 @@
 # Recorded Future
 
-![Recorded Future Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/RecordedFuture/assets/logo.png)
+![Recorded Future Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/RecordedFuture/assets/logo.png)
 
 Recorded Future is a real-time threat intelligence platform that analyzes data from the open web, dark web, and technical sources to provide predictive insights, risk scores, and actionable intelligence for proactive threat detection
 
@@ -21,7 +21,7 @@ Enrich IP, Domain, FQDN, URL, or Hash with Recorded Future context:  Risk Score,
 - **Author:** Recorded Future
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`, `hash`, `url`
-- **Configuration:** [.upstream/cortex/analyzers/RecordedFuture/RecordedFuture.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/RecordedFuture/RecordedFuture.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/RecordedFuture/RecordedFuture.json))
+- **Configuration:** [.upstream/cortex/analyzers/RecordedFuture/RecordedFuture.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/RecordedFuture/RecordedFuture.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/RecordedFuture/RecordedFuture.json))
 
 ---
 

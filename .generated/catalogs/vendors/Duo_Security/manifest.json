@@ -21,8 +21,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json",
         "integration_type": null
       },
       {
@@ -35,8 +35,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json",
         "integration_type": null
       },
       {
@@ -49,8 +49,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json",
         "integration_type": null
       }
     ],

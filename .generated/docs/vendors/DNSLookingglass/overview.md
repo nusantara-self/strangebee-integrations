@@ -15,7 +15,7 @@ Query the SANS ISC Global DNS Lookingglass API to check a domain name for resolv
 - **Author:** Dennis Perto, Conscia
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/DNSLookingglass/DNSLookingglass.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DNSLookingglass/DNSLookingglass.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSLookingglass/DNSLookingglass.json))
+- **Configuration:** [.upstream/cortex/analyzers/DNSLookingglass/DNSLookingglass.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DNSLookingglass/DNSLookingglass.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DNSLookingglass/DNSLookingglass.json))
 
 ---
 

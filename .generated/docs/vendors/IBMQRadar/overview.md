@@ -15,7 +15,7 @@ Closing the QRadar Offense associated to your case in one clic !
 - **Author:** Florian Perret
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
-- **Configuration:** [.upstream/cortex/responders/IBMQRadar/QRadarAutoClose.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/IBMQRadar/QRadarAutoClose.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/IBMQRadar/QRadarAutoClose.json))
+- **Configuration:** [.upstream/cortex/responders/IBMQRadar/QRadarAutoClose.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/IBMQRadar/QRadarAutoClose.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/IBMQRadar/QRadarAutoClose.json))
 
 ---
 

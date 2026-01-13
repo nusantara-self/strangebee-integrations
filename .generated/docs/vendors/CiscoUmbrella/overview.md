@@ -15,7 +15,7 @@ Query the Cisco Umbrella Reporting API for recent DNS queries and their status.
 - **Author:** Kyle Parrish
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json))
+- **Configuration:** [.upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json))
 
 ---
 
@@ -27,7 +27,7 @@ Add domain to Cisco Umbrella blacklist via Enforcement API.
 - **Author:** Kyle Parrish
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json))
+- **Configuration:** [.upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json))
 
 ---
 

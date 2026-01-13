@@ -1,6 +1,6 @@
 # Slack
 
-![Slack Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Slack/assets/logo.png)
+![Slack Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Slack/assets/logo.png)
 
 Slack is a is a team collaboration platform that provides channels, direct messaging, file sharing, and an app ecosystem for workflows and incident response.
 
@@ -22,7 +22,7 @@ Syncs Slack channel conversations to TheHive task logs. Imports messages chronol
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
-- **Configuration:** [.upstream/cortex/responders/Slack/Slack_SyncChannel.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Slack/Slack_SyncChannel.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Slack/Slack_SyncChannel.json))
+- **Configuration:** [.upstream/cortex/responders/Slack/Slack_SyncChannel.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Slack/Slack_SyncChannel.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Slack/Slack_SyncChannel.json))
 
 ### Slack_CreateChannel `v1.0`
 Creates a Slack channel for a TheHive case, invites participants, and optionally posts a case summary and description.
@@ -30,7 +30,7 @@ Creates a Slack channel for a TheHive case, invites participants, and optionally
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
-- **Configuration:** [.upstream/cortex/responders/Slack/Slack_CreateChannel.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Slack/Slack_CreateChannel.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Slack/Slack_CreateChannel.json))
+- **Configuration:** [.upstream/cortex/responders/Slack/Slack_CreateChannel.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Slack/Slack_CreateChannel.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Slack/Slack_CreateChannel.json))
 
 ---
 
@@ -40,7 +40,7 @@ Creates a Slack channel for a TheHive case, invites participants, and optionally
 For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.
 
 **Tags:** slack, communication, notification
-📄 [Documentation](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Slack/use-cases/slack-notifier-alert-creation.md) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Slack/use-cases/slack-notifier-alert-creation.md))
+📄 [Documentation](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Slack/use-cases/slack-notifier-alert-creation.md) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Slack/use-cases/slack-notifier-alert-creation.md))
 
 ---
 
@@ -48,7 +48,7 @@ For each new alert in TheHive, create a Slack block message with a title, severi
 For each assignee change for a case in TheHive, create a Slack block message and link to the case. @here will inform only active users.
 
 **Tags:** slack, communication, notification
-📄 [Documentation](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Slack/use-cases/slack-case-assignee-change.md) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Slack/use-cases/slack-case-assignee-change.md))
+📄 [Documentation](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Slack/use-cases/slack-case-assignee-change.md) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Slack/use-cases/slack-case-assignee-change.md))
 
 ---
 

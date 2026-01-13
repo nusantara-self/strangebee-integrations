@@ -13,8 +13,8 @@
   "homepage": "https://www.mnemonic.no",
   "logo": {
     "file": "integrations/vendors/MnemonicPDNS/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MnemonicPDNS/assets/logo.png",
-    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MnemonicPDNS/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/MnemonicPDNS/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/MnemonicPDNS/assets/logo.png"
   },
   "useCases": [],
   "externalIntegrations": [],
@@ -31,8 +31,8 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json",
         "integration_type": null
       },
       {
@@ -46,8 +46,8 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json",
         "integration_type": null
       }
     ],

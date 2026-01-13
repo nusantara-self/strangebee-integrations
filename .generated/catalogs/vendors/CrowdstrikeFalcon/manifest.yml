@@ -16,16 +16,16 @@ tags:
 homepage: https://www.crowdstrike.com
 logo:
   file: integrations/vendors/CrowdstrikeFalcon/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/assets/logo.png
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/CrowdstrikeFalcon/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/CrowdstrikeFalcon/assets/logo.png
 useCases:
 - name: Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents
   description: Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync
     responder.
   documentation:
     file: integrations/vendors/CrowdstrikeFalcon/use-cases/synchronize-status-thehive-crowdstrike-falcon.md
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/use-cases/synchronize-status-thehive-crowdstrike-falcon.md
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/CrowdstrikeFalcon/use-cases/synchronize-status-thehive-crowdstrike-falcon.md
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/use-cases/synchronize-status-thehive-crowdstrike-falcon.md
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/CrowdstrikeFalcon/use-cases/synchronize-status-thehive-crowdstrike-falcon.md
   tags:
   - status
   - sync
@@ -36,8 +36,8 @@ useCases:
   description: TO DO LATER
   documentation:
     file: integrations/vendors/CrowdstrikeFalcon/use-cases/ingest-crowdstrike-falcon-alerts-external-script.md
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/use-cases/ingest-crowdstrike-falcon-alerts-external-script.md
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/CrowdstrikeFalcon/use-cases/ingest-crowdstrike-falcon-alerts-external-script.md
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/use-cases/ingest-crowdstrike-falcon-alerts-external-script.md
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/CrowdstrikeFalcon/use-cases/ingest-crowdstrike-falcon-alerts-external-script.md
   tags:
   - alert-ingestion
   - crowdstrike
@@ -63,8 +63,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7.json
     integration_type: null
   - name: CrowdstrikeFalcon_Sandbox_Win7_64
     version: '1.0'
@@ -74,8 +74,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7_64.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7_64.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7_64.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7_64.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win7_64.json
     integration_type: null
   - name: CrowdstrikeFalcon_getDeviceAlerts
     version: '1.0'
@@ -85,8 +85,8 @@ integrations:
     dataTypes:
     - hostname
     file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceAlerts.json
     integration_type: null
   - name: CrowdstrikeFalcon_Sandbox_Android
     version: '1.0'
@@ -96,8 +96,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Android.json
     integration_type: null
   - name: CrowdstrikeFalcon_Sandbox_MacOS
     version: '1.0'
@@ -107,8 +107,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_MacOS.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_MacOS.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_MacOS.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_MacOS.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_MacOS.json
     integration_type: null
   - name: CrowdstrikeFalcon_Sandbox_Win11
     version: '1.0'
@@ -118,8 +118,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win11.json
     integration_type: null
   - name: CrowdstrikeFalcon_GetDeviceVulnerabilities
     version: '1.0'
@@ -129,8 +129,8 @@ integrations:
     dataTypes:
     - hostname
     file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_GetDeviceVulnerabilities.json
     integration_type: null
   - name: CrowdstrikeFalcon_ThreatIntel
     version: '1.0'
@@ -143,8 +143,8 @@ integrations:
     - ip
     - url
     file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_ThreatIntel.json
     integration_type: null
   - name: CrowdstrikeFalcon_Sandbox_Win10
     version: '1.0'
@@ -154,8 +154,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win10.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win10.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win10.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win10.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Win10.json
     integration_type: null
   - name: CrowdstrikeFalcon_getDeviceDetails
     version: '1.0'
@@ -165,8 +165,8 @@ integrations:
     dataTypes:
     - hostname
     file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceDetails.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceDetails.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceDetails.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceDetails.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_getDeviceDetails.json
     integration_type: null
   - name: CrowdstrikeFalcon_Sandbox_Linux
     version: '1.0'
@@ -176,8 +176,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Linux.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Linux.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Linux.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Linux.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CrowdstrikeFalcon/CrowdstrikeFalcon_Sandbox_Linux.json
     integration_type: null
   responders:
   - name: CrowdStrikeFalcon_unhideHost
@@ -188,8 +188,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unhideHost.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unhideHost.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unhideHost.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unhideHost.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unhideHost.json
     integration_type: null
   - name: CrowdStrikeFalcon_suppressDetections
     version: '1.0'
@@ -199,8 +199,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_suppressDetections.json
     integration_type: null
   - name: CrowdStrikeFalcon_HostContainment
     version: '1.0'
@@ -211,8 +211,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_containHost.json
     integration_type: null
   - name: CrowdStrikeFalcon_hideHost
     version: '1.0'
@@ -223,8 +223,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_hideHost.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_hideHost.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_hideHost.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_hideHost.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_hideHost.json
     integration_type: null
   - name: CrowdStrikeFalcon_LiftContainmentHost
     version: '1.0'
@@ -234,8 +234,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_liftContainmentHost.json
     integration_type: null
   - name: CrowdStrikeFalcon_Sync
     version: '1.0'
@@ -246,8 +246,8 @@ integrations:
     - thehive:case
     - thehive:alert
     file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_Sync.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_Sync.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_Sync.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_Sync.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_Sync.json
     integration_type: null
   - name: CrowdStrikeFalcon_AddIOC
     version: '1.0'
@@ -257,8 +257,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_AddIOC.json
     integration_type: null
   - name: CrowdStrikeFalcon_unsuppressDetections
     version: '1.0'
@@ -268,8 +268,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdstrikeFalcon_unsuppressDetection.json
     integration_type: null
   - name: CrowdStrikeFalcon_RemoveIOC
     version: '1.0'
@@ -279,8 +279,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CrowdstrikeFalcon/CrowdStrikeFalcon_removeIOC.json
     integration_type: null
   functions:
   - name: CRWDAlertIngestion
@@ -289,8 +289,8 @@ integrations:
     kind: function
     mode: Enabled
     file: integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/CrowdstrikeFalcon/thehive/functions/crwd-alert-ingestion.js
 stats:
   totalAnalyzers: 11
   totalResponders: 9

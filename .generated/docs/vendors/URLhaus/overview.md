@@ -1,6 +1,6 @@
 # URLhaus
 
-![URLhaus Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/URLhaus/assets/logo.png)
+![URLhaus Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/URLhaus/assets/logo.png)
 
 URLhaus is a community-driven platform by Abuse.ch for tracking and sharing malware distribution URLs, providing real-time intelligence on malicious domains and payload delivery infrastructure used in active campaigns
 
@@ -22,7 +22,7 @@ Search domains, IPs, URLs or hashes on URLhaus.
 - **Author:** ninoseki, Nils Kuhnert
 - **License:** MIT
 - **Data Types:** `domain`, `fqdn`, `url`, `hash`, `ip`
-- **Configuration:** [.upstream/cortex/analyzers/URLhaus/URLhaus.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/URLhaus/URLhaus.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/URLhaus/URLhaus.json))
+- **Configuration:** [.upstream/cortex/analyzers/URLhaus/URLhaus.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/URLhaus/URLhaus.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/URLhaus/URLhaus.json))
 
 ---
 

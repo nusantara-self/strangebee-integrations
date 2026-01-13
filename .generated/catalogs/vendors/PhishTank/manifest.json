@@ -23,8 +23,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PhishTank/PhishTank_CheckURL.json",
         "integration_type": null
       }
     ],

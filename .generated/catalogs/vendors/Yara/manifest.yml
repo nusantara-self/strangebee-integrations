@@ -15,8 +15,8 @@ tags:
 homepage: https://virustotal.github.io/yara/
 logo:
   file: integrations/vendors/Yara/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Yara/assets/logo.png
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Yara/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Yara/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Yara/assets/logo.png
 useCases: []
 externalIntegrations: []
 registration_required: false
@@ -33,9 +33,9 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/Yara/Yara.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Yara/Yara.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Yara/Yara.json
-    integration_type: null
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Yara/Yara.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Yara/Yara.json
+    integration_type: local
   responders: []
   functions: []
 stats:

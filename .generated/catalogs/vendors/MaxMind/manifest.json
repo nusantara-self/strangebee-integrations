@@ -13,8 +13,8 @@
   "homepage": "https://www.maxmind.com",
   "logo": {
     "file": "integrations/vendors/MaxMind/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MaxMind/assets/logo.png",
-    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/MaxMind/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/MaxMind/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/MaxMind/assets/logo.png"
   },
   "useCases": [],
   "externalIntegrations": [],
@@ -30,8 +30,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json",
         "integration_type": null
       }
     ],

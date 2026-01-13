@@ -22,8 +22,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json
     integration_type: null
   - name: CheckPoint_Unlock
     version: '1.0'
@@ -33,8 +33,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_unlock.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_unlock.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_unlock.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_unlock.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_unlock.json
     integration_type: null
   functions: []
 stats:

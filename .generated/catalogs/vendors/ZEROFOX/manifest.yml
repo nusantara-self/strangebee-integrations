@@ -22,8 +22,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json
     integration_type: null
   - name: ZEROFOX_Close_alert
     version: '1.0'
@@ -33,8 +33,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json
     integration_type: null
   functions: []
 stats:

@@ -25,8 +25,8 @@ integrations:
     - domain
     - fqdn
     file: .upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json
     integration_type: null
   - name: EmergingThreats_MalwareInfo
     version: '1.0'
@@ -37,8 +37,8 @@ integrations:
     - file
     - hash
     file: .upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json
     integration_type: null
   - name: EmergingThreats_IPInfo
     version: '1.0'
@@ -48,8 +48,8 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json
     integration_type: null
   responders: []
   functions: []

@@ -1,6 +1,6 @@
 # Hunter.io
 
-![Hunter.io Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Hunterio/assets/logo.png)
+![Hunter.io Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Hunterio/assets/logo.png)
 
 Hunter.io discovers and verifies email addresses associated with domains, enabling investigators to identify organizational contacts, validate email authenticity, and map corporate infrastructure during threat intelligence gathering
 
@@ -22,7 +22,7 @@ hunter.io is a service to find email addresses from a domain.
 - **Author:** Rémi Allain, Cyberprotect
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json))
+- **Configuration:** [.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json))
 
 ---
 

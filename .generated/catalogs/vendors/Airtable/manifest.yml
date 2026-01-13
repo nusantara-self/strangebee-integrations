@@ -22,8 +22,8 @@ integrations:
     kind: function
     mode: Enabled
     file: integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js
 stats:
   totalAnalyzers: 0
   totalResponders: 0

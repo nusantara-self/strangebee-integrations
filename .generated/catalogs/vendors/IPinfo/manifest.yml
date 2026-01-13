@@ -16,8 +16,8 @@ tags:
 homepage: https://ipinfo.io
 logo:
   file: integrations/vendors/IPinfo/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/IPinfo/assets/logo.png
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/IPinfo/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/IPinfo/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/IPinfo/assets/logo.png
 useCases: []
 externalIntegrations: []
 integrations:
@@ -30,8 +30,8 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
     integration_type: null
   - name: IPinfo_Hosted_Domains
     version: '1.0'
@@ -41,8 +41,8 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
     integration_type: null
   responders: []
   functions: []

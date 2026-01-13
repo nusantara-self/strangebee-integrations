@@ -24,8 +24,8 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/Yeti/Yeti.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Yeti/Yeti.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Yeti/Yeti.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Yeti/Yeti.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Yeti/Yeti.json",
         "integration_type": null
       }
     ],

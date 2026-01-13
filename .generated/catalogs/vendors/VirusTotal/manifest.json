@@ -14,8 +14,8 @@
   "homepage": "https://www.virustotal.com",
   "logo": {
     "file": "integrations/vendors/VirusTotal/assets/logo.svg",
-    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/VirusTotal/assets/logo.svg",
-    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/VirusTotal/assets/logo.svg"
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/VirusTotal/assets/logo.svg",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/VirusTotal/assets/logo.svg"
   },
   "useCases": [],
   "externalIntegrations": [],
@@ -36,8 +36,8 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json",
         "integration_type": null
       },
       {
@@ -55,8 +55,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json",
         "integration_type": null
       },
       {
@@ -70,8 +70,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
         "integration_type": null
       },
       {
@@ -84,8 +84,8 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
         "integration_type": null
       }
     ],

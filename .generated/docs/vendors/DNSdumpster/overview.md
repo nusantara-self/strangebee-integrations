@@ -15,7 +15,7 @@ Query domain information from DNSdumpster.com.
 - **Author:** Keijo Korte - @korteke
 - **License:** AGPL-V3
 - **Data Types:** `domain`
-- **Configuration:** [.upstream/cortex/analyzers/DNSdumpster/DNSdumpster.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/DNSdumpster/DNSdumpster.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSdumpster/DNSdumpster.json))
+- **Configuration:** [.upstream/cortex/analyzers/DNSdumpster/DNSdumpster.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/DNSdumpster/DNSdumpster.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/DNSdumpster/DNSdumpster.json))
 
 ---
 

@@ -15,7 +15,7 @@ EchoTrail Insights takes a Windows filename or hash and provides several unique 
 - **Author:** Joe Lazaro
 - **License:** AGPL-V3
 - **Data Types:** `hash`, `filename`
-- **Configuration:** [.upstream/cortex/analyzers/EchoTrail/EchoTrail.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/EchoTrail/EchoTrail.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EchoTrail/EchoTrail.json))
+- **Configuration:** [.upstream/cortex/analyzers/EchoTrail/EchoTrail.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/EchoTrail/EchoTrail.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/EchoTrail/EchoTrail.json))
 
 ---
 

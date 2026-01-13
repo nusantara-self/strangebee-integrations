@@ -1,6 +1,6 @@
 # Microsoft Defender for Office 365
 
-![Microsoft Defender for Office 365 Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png)
+![Microsoft Defender for Office 365 Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/MSDefenderOffice365/assets/logo.png)
 
 Microsoft Defender for Office 365 provides advanced threat protection for email and collaboration tools, detecting phishing, malware, and business email compromise attempts with automated investigation and response capabilities
 
@@ -22,7 +22,7 @@ Decodes Office 365 ATP Safe Links to extract original URLs. Supports url observa
 - **Author:** Louis HUSSON
 - **License:** AGPL-V3
 - **Data Types:** `url`
-- **Configuration:** [.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json))
+- **Configuration:** [.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json))
 
 ---
 
@@ -34,7 +34,7 @@ Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 - **Author:** Joe Lazaro
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json))
+- **Configuration:** [.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json))
 
 ### MSDefenderOffice365_block `v1.0`
 Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
@@ -42,7 +42,7 @@ Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 - **Author:** Joe Lazaro
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json))
+- **Configuration:** [.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json))
 
 ---
 

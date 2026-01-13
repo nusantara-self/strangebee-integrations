@@ -25,8 +25,8 @@
           "thehive:case_task_log"
         ],
         "file": ".upstream/cortex/responders/Test/test.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Test/test.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Test/test.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Test/test.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Test/test.json",
         "integration_type": null
       },
       {
@@ -43,8 +43,8 @@
           "thehive:case_task_log"
         ],
         "file": ".upstream/cortex/responders/Test/DevTools_Echo.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Test/DevTools_Echo.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Test/DevTools_Echo.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Test/DevTools_Echo.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Test/DevTools_Echo.json",
         "integration_type": null
       }
     ],

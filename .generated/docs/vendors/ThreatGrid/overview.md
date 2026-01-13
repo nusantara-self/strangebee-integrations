@@ -9,7 +9,7 @@ Threat Grid Sandbox
 - **Author:** Cisco Security
 - **License:** MIT
 - **Data Types:** `file`, `url`, `hash`
-- **Configuration:** [.upstream/cortex/analyzers/ThreatGrid/ThreatGrid.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/ThreatGrid/ThreatGrid.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ThreatGrid/ThreatGrid.json))
+- **Configuration:** [.upstream/cortex/analyzers/ThreatGrid/ThreatGrid.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/ThreatGrid/ThreatGrid.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/ThreatGrid/ThreatGrid.json))
 
 ---
 

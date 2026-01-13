@@ -27,8 +27,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
         "integration_type": null
       },
       {
@@ -45,8 +45,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json",
         "integration_type": null
       },
       {
@@ -63,8 +63,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
         "integration_type": null
       }
     ],

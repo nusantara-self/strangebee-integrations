@@ -9,7 +9,7 @@ Submit observables to the Crowdstrike Falcon Custom IOC api
 - **Author:** Michael
 - **License:** MIT
 - **Data Types:** `thehive:alert`, `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json))
+- **Configuration:** [.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json))
 
 ### Crowdstrike_Falcon_Custom_IOC `v2.0`
 Submit observables to the Crowdstrike Falcon Custom IOC API
@@ -17,7 +17,7 @@ Submit observables to the Crowdstrike Falcon Custom IOC API
 - **Author:** Nicolas Criton
 - **License:** AGPL-v3
 - **Data Types:** `thehive:alert`, `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json))
+- **Configuration:** [.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json))
 
 ---
 

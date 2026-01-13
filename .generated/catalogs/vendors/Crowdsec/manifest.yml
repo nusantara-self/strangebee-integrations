@@ -17,8 +17,8 @@ tags:
 homepage: https://www.crowdsec.net
 logo:
   file: integrations/vendors/Crowdsec/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Crowdsec/assets/logo.png
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Crowdsec/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Crowdsec/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Crowdsec/assets/logo.png
 useCases: []
 externalIntegrations: []
 registration_required: true
@@ -34,8 +34,8 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json
     integration_type: null
   responders: []
   functions: []

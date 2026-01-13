@@ -37,8 +37,8 @@ integrations:
     - filename
     - mail-subject
     file: .upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json
     integration_type: null
   - name: OpenCTI_SearchObservables
     version: '2.0'
@@ -61,8 +61,8 @@ integrations:
     - filename
     - mail-subject
     file: .upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json
     integration_type: null
   responders: []
   functions: []

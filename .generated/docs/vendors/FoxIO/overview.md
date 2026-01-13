@@ -15,7 +15,7 @@ JA4 Fingerprint analysis with FoxIO Database
 - **Author:** Florian Perret @cyber_pescadito
 - **License:** AGPL-V3
 - **Data Types:** `user-agent`, `ja4-fingerprint`
-- **Configuration:** [.upstream/cortex/analyzers/FoxIO/JA4_FoxIO.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/FoxIO/JA4_FoxIO.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/FoxIO/JA4_FoxIO.json))
+- **Configuration:** [.upstream/cortex/analyzers/FoxIO/JA4_FoxIO.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/FoxIO/JA4_FoxIO.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/FoxIO/JA4_FoxIO.json))
 
 ---
 

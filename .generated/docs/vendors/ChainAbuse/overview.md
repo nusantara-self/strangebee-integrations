@@ -14,7 +14,7 @@ Check crypto address against reported abuse cases on ChainAbuse
 - **Author:** Peter Juhas; Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `crypto_address`, `btc_address`
-- **Configuration:** [.upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json))
+- **Configuration:** [.upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/ChainAbuse/ChainAbuse.json))
 
 ---
 

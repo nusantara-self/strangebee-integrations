@@ -1,6 +1,6 @@
 # Elasticsearch
 
-![Elasticsearch Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Elasticsearch/assets/logo.png)
+![Elasticsearch Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Elasticsearch/assets/logo.png)
 
 Elasticsearch is a distributed search and analytics engine that powers SIEM solutions and log analysis platforms, enabling analysts to query and correlate security events, logs, and threat data across enterprise infrastructure during incident investigations
 
@@ -22,7 +22,7 @@ Search for IoCs in Elasticsearch
 - **Author:** Nick Prokop
 - **License:** MIT
 - **Data Types:** `url`, `domain`, `ip`, `hash`, `filename`, `fqdn`
-- **Configuration:** [.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json))
+- **Configuration:** [.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json))
 
 ---
 

@@ -15,7 +15,7 @@ Search for MD5 hashes in Virusshare.com hash list
 - **Author:** Nils Kuhnert, CERT-Bund
 - **License:** AGPL-V3
 - **Data Types:** `hash`, `file`
-- **Configuration:** [.upstream/cortex/analyzers/Virusshare/Virusshare.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Virusshare/Virusshare.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Virusshare/Virusshare.json))
+- **Configuration:** [.upstream/cortex/analyzers/Virusshare/Virusshare.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Virusshare/Virusshare.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Virusshare/Virusshare.json))
 
 ---
 

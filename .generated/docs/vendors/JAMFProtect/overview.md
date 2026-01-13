@@ -15,7 +15,7 @@ Remove IOC on JAMF Protect - removes associated custom prevent list(s) containin
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json))
+- **Configuration:** [.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json))
 
 ### JAMFProtect_addHashtoPreventList `v1.0`
 Add IOC to JAMF Protect - creates a custom prevent list for a hash
@@ -23,7 +23,7 @@ Add IOC to JAMF Protect - creates a custom prevent list for a hash
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
-- **Configuration:** [.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json))
+- **Configuration:** [.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json))
 
 ---
 
@@ -34,7 +34,7 @@ Ingests alerts from JAMF Protect. Extracts analytic details, host and user infor
 
 - **Kind:** function
 - **Mode:** Enabled
-- **File:** [integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js))
+- **File:** [integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js))
 
 ---
 

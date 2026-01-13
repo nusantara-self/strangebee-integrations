@@ -15,7 +15,7 @@ Check IoCs/Observables against MISP Warninglists to filter false positives.
 - **Author:** Nils Kuhnert, CERT-Bund
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `hash`, `domain`, `fqdn`, `url`
-- **Configuration:** [.upstream/cortex/analyzers/MISPWarningLists/MISPWarningLists.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MISPWarningLists/MISPWarningLists.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MISPWarningLists/MISPWarningLists.json))
+- **Configuration:** [.upstream/cortex/analyzers/MISPWarningLists/MISPWarningLists.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MISPWarningLists/MISPWarningLists.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MISPWarningLists/MISPWarningLists.json))
 
 ---
 

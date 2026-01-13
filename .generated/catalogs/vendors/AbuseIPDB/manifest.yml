@@ -16,8 +16,8 @@ tags:
 homepage: https://www.abuseipdb.com
 logo:
   file: integrations/vendors/AbuseIPDB/assets/logo.svg
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/AbuseIPDB/assets/logo.svg
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/AbuseIPDB/assets/logo.svg
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/AbuseIPDB/assets/logo.svg
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/AbuseIPDB/assets/logo.svg
 useCases: []
 externalIntegrations: []
 registration_required: true
@@ -33,9 +33,9 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
-    integration_type: null
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
+    integration_type: external_api
   responders: []
   functions: []
 stats:

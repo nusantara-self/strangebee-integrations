@@ -23,8 +23,8 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json",
         "integration_type": null
       },
       {
@@ -37,8 +37,8 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json",
         "integration_type": null
       },
       {
@@ -51,8 +51,8 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json",
         "integration_type": null
       }
     ],

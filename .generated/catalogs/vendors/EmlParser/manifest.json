@@ -22,9 +22,9 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/EmlParser/EmlParser.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/EmlParser/EmlParser.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/EmlParser/EmlParser.json",
-        "integration_type": null
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/EmlParser/EmlParser.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/EmlParser/EmlParser.json",
+        "integration_type": "local"
       }
     ],
     "responders": [],

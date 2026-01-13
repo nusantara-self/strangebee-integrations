@@ -24,8 +24,8 @@ integrations:
     dataTypes:
     - hash
     file: .upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json
     integration_type: null
   - name: Hashdd_Status
     version: '2.0'
@@ -35,8 +35,8 @@ integrations:
     dataTypes:
     - hash
     file: .upstream/cortex/analyzers/Hashdd/Hashdd_Status.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Hashdd/Hashdd_Status.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Hashdd/Hashdd_Status.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Hashdd/Hashdd_Status.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Hashdd/Hashdd_Status.json
     integration_type: null
   responders: []
   functions: []

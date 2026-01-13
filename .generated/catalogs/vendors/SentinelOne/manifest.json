@@ -8,6 +8,9 @@
   "logo": {},
   "useCases": [],
   "externalIntegrations": [],
+  "registration_required": true,
+  "subscription_required": true,
+  "free_subscription": false,
   "integrations": {
     "analyzers": [
       {
@@ -22,8 +25,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json",
         "integration_type": null
       }
     ],
@@ -38,8 +41,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json",
         "integration_type": null
       }
     ],

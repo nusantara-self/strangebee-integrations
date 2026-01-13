@@ -4,13 +4,73 @@ Integrations that are either free to use or run locally without external depende
 
 ## Summary
 
-- **Total Analyzers:** 66 (1 local, 65 free)
+- **Total Analyzers:** 72 (8 local, 64 free)
 - **Total Responders:** 7 (0 local, 7 free)
-- **Total Integrations:** 73
+- **Total Integrations:** 79
 
 ## Analyzers
 
 ### Local Analyzers
+
+<details>
+<summary><strong>Capa</strong> <code>v1.0</code> [Local] - CAPA</summary>
+
+**Vendor:** [CAPA](vendors/Capa/overview)
+**Data Types:** `file`
+
+Analyze files with Capa
+
+</details>
+
+<details>
+<summary><strong>ClamAV_FileInfo</strong> <code>v1.1</code> [Local] - ClamAV</summary>
+
+**Vendor:** [ClamAV](vendors/ClamAV/overview)
+**Data Types:** `file`
+
+Use Clamscan with custom rules
+
+</details>
+
+<details>
+<summary><strong>EmlParser</strong> <code>v2.1</code> [Local] - EmlParser</summary>
+
+**Vendor:** [EmlParser](vendors/EmlParser/overview)
+**Data Types:** `file`
+
+Parse and visualise EML email message. Submit a .eml formatted file and extract some useful information.
+
+</details>
+
+<details>
+<summary><strong>FileInfo</strong> <code>v8.0</code> [Local] - FileInfo</summary>
+
+**Vendor:** [FileInfo](vendors/FileInfo/overview)
+**Data Types:** `file`
+
+Parse files in several formats such as OLE and OpenXML to detect VBA macros, extract their source code, generate useful information on PE, PDF files...
+
+</details>
+
+<details>
+<summary><strong>Msg_Parser</strong> <code>v3.0</code> [Local] - MsgParser</summary>
+
+**Vendor:** [MsgParser](vendors/MsgParser/overview)
+**Data Types:** `file`
+
+Parse Outlook MSG files and extract the main artifacts.
+
+</details>
+
+<details>
+<summary><strong>QrDecode</strong> <code>v1.0</code> [Local] - QrDecode</summary>
+
+**Vendor:** [QrDecode](vendors/QrDecode/overview)
+**Data Types:** `file`
+
+Extracts data from one or more QR codes.
+
+</details>
 
 <details>
 <summary><strong>ValidateObservable</strong> <code>v1.0</code> [Local] - ValidateObservable</summary>
@@ -19,6 +79,16 @@ Integrations that are either free to use or run locally without external depende
 **Data Types:** `ip`, `domain`, `url`, `fqdn`, `mail`, `hash`, `filename`, `uri_path`, `user-agent`
 
 Use regexes and libraries to indicate if observable is valid
+
+</details>
+
+<details>
+<summary><strong>Yara</strong> <code>v3.0</code> [Local] - YARA</summary>
+
+**Vendor:** [YARA](vendors/Yara/overview)
+**Data Types:** `file`
+
+Check files against YARA rules, either from local filesystem or from one or multiple GitHub repositories. NOTE: Performance & execution time may be much longer according to the number of rules checked.
 
 </details>
 
@@ -661,16 +731,6 @@ Get information about CVE from powerful Vulners database.
 **Data Types:** `url`, `domain`, `ip`
 
 Get information from the RST Threat Feed, which integrated with Vulners, for a domain, url or an IP address.
-
-</details>
-
-<details>
-<summary><strong>Yara</strong> <code>v3.0</code> [Free] - YARA</summary>
-
-**Vendor:** [YARA](vendors/Yara/overview)
-**Data Types:** `file`
-
-Check files against YARA rules, either from local filesystem or from one or multiple GitHub repositories. NOTE: Performance & execution time may be much longer according to the number of rules checked.
 
 </details>
 

@@ -1,6 +1,6 @@
 # MaxMind
 
-![MaxMind Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/MaxMind/assets/logo.png)
+![MaxMind Logo](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/MaxMind/assets/logo.png)
 
 MaxMind provides geolocation and network intelligence data that maps IP addresses to geographic locations, ISPs, and network types, enabling analysts to identify attack origins and detect anomalous access patterns during investigations
 
@@ -16,7 +16,7 @@ Use MaxMind to geolocate an IP address.
 - **Author:** CERT-BDF
 - **License:** AGPL-V3
 - **Data Types:** `ip`
-- **Configuration:** [.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json))
+- **Configuration:** [.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json))
 
 ---
 

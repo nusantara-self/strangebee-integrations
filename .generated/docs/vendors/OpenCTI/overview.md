@@ -15,7 +15,7 @@ Query multiple OpenCTI instances for a specific observable.
 - **Author:** ANSSI
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `ip`, `url`, `fqdn`, `uri_path`, `user-agent`, `hash`, `mail`, `mail_subject`, `registry`, `regexp`, `other`, `filename`, `mail-subject`
-- **Configuration:** [.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json))
+- **Configuration:** [.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json))
 
 ### OpenCTI_SearchObservables `v2.0`
 Query multiple OpenCTI instances for a list of observables matching a pattern.
@@ -23,7 +23,7 @@ Query multiple OpenCTI instances for a list of observables matching a pattern.
 - **Author:** ANSSI
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `ip`, `url`, `fqdn`, `uri_path`, `user-agent`, `hash`, `mail`, `mail_subject`, `registry`, `regexp`, `other`, `filename`, `mail-subject`
-- **Configuration:** [.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json](https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json))
+- **Configuration:** [.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json](https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json))
 
 ---
 

@@ -12,16 +12,16 @@ tags:
 homepage: https://www.proofpoint.com
 logo:
   file: integrations/vendors/Proofpoint/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/assets/logo.png
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Proofpoint/assets/logo.png
 useCases:
 - name: Ingest Proofpoint ClicksPermitted Events into TheHive Using an Alert Feeder
   description: Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and respond to users who clicked on
     malicious links that were not blocked by Proofpoint and may require investigation.
   documentation:
     file: integrations/vendors/Proofpoint/use-cases/alert-ingestion-clicksPermitted.md
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/use-cases/alert-ingestion-clicksPermitted.md
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/use-cases/alert-ingestion-clicksPermitted.md
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/use-cases/alert-ingestion-clicksPermitted.md
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Proofpoint/use-cases/alert-ingestion-clicksPermitted.md
   tags:
   - proofpoint
   - tap
@@ -32,8 +32,8 @@ useCases:
     reached user mailboxes and may require investigation.
   documentation:
     file: integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md
   tags:
   - proofpoint
   - tap
@@ -55,8 +55,8 @@ integrations:
     - file
     - hash
     file: .upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json
     integration_type: null
   responders: []
   functions:
@@ -66,16 +66,16 @@ integrations:
     kind: function
     mode: Enabled
     file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
   - name: alertFeeder_ProofPoint_clicksPermitted
     version: 1.0.0
     description: Ingests ProofPoint clicksPermitted alerts in TheHive
     kind: function
     mode: Enabled
     file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
 stats:
   totalAnalyzers: 1
   totalResponders: 0

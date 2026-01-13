@@ -16,8 +16,8 @@ tags:
 homepage: https://www.onyphe.io
 logo:
   file: integrations/vendors/Onyphe/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Onyphe/assets/logo.png
-  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Onyphe/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Onyphe/assets/logo.png
+  github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Onyphe/assets/logo.png
 useCases: []
 externalIntegrations: []
 registration_required: true
@@ -36,8 +36,8 @@ integrations:
     - fqdn
     - hash
     file: .upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
     integration_type: null
   - name: ONYPHE_Search
     version: '1.1'
@@ -51,8 +51,8 @@ integrations:
     - fqdn
     - hash
     file: .upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json
     integration_type: null
   - name: ONYPHE_Summary_API
     version: '1.2'
@@ -64,8 +64,8 @@ integrations:
     - domain
     - fqdn
     file: .upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json
     integration_type: null
   - name: ONYPHE_Vulnscan
     version: '1.1'
@@ -79,8 +79,8 @@ integrations:
     - fqdn
     - hash
     file: .upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json
     integration_type: null
   - name: ONYPHE_Ctiscan
     version: '1.0'
@@ -96,8 +96,8 @@ integrations:
     - autonomous-system
     - other
     file: .upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
-    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
-    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
+    url: https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
+    github_url: https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
     integration_type: null
   responders: []
   functions: []

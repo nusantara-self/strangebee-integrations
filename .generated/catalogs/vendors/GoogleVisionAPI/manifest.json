@@ -21,8 +21,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/GoogleVisionAPI/GoogleVisionAPI_WebDetection.json",
         "integration_type": null
       }
     ],

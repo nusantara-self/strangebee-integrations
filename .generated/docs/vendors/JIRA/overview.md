@@ -8,7 +8,7 @@ This function creates alerts from JIRA issues. It checks if the alert already ex
 
 - **Kind:** function
 - **Mode:** Enabled
-- **File:** [integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js))
+- **File:** [integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js](https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js))
 
 ---
 

@@ -25,8 +25,8 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json",
         "integration_type": null
       }
     ],
@@ -43,8 +43,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json",
         "integration_type": null
       }
     ],

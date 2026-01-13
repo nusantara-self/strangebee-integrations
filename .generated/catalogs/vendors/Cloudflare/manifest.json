@@ -7,8 +7,8 @@
   "homepage": "https://www.cloudflare.com",
   "logo": {
     "file": "integrations/vendors/Cloudflare/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Cloudflare/assets/logo.png",
-    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Cloudflare/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/integrations/vendors/Cloudflare/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/integrations/vendors/Cloudflare/assets/logo.png"
   },
   "useCases": [],
   "externalIntegrations": [],
@@ -28,8 +28,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Cloudflare/CloudflareIPBlocker.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/.upstream/cortex/responders/Cloudflare/CloudflareIPBlocker.json",
-        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/develop/.upstream/cortex/responders/Cloudflare/CloudflareIPBlocker.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/main/.upstream/cortex/responders/Cloudflare/CloudflareIPBlocker.json",
+        "github_url": "https://github.com/nusantara-self/strangebee-integrations/blob/main/.upstream/cortex/responders/Cloudflare/CloudflareIPBlocker.json",
         "integration_type": null
       }
     ],
