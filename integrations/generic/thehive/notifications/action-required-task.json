@@ -1,0 +1,26 @@
+{
+  "name": "Action Required on Task",
+  "description": "Triggers when a task has actionRequired set to true",
+  "type": "filteredEvent",
+  "status": "not_working",
+  "comment": "Can't make it work, whether we use _is, _eq, etc.",
+  "filter": {
+    "_and": [
+      {
+        "_is": {
+          "action": "update"
+        }
+      },
+      {
+        "_is": {
+          "objectType": "Task"
+        }
+      },
+      {
+        "_is": {
+          "details.actionRequired_MYORG": true
+        }
+      }
+    ]
+  }
+}

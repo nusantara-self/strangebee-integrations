@@ -1,0 +1,25 @@
+{
+  "name": "Task Manually Assigned",
+  "description": "Triggers when a task is manually assigned to a user. Does not trigger when a task is automatically assigned to the user who saves the first task log.",
+  "type": "filteredEvent",
+  "status": "tested",
+  "filter": {
+    "_and": [
+      {
+        "_is": {
+          "action": "update"
+        }
+      },
+      {
+        "_is": {
+          "objectType": "Task"
+        }
+      },
+      {
+        "_contains": {
+          "details.assignee": ""
+        }
+      }
+    ]
+  }
+}

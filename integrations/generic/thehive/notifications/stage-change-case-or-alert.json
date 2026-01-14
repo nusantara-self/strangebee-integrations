@@ -1,0 +1,34 @@
+{
+  "name": "Stage change on Case or Alert",
+  "description": "Triggers when the stage changes on a Case or Alert",
+  "type": "filteredEvent",
+  "status": "tested",
+  "filter": {
+    "_and": [
+      {
+        "_is": {
+          "action": "update"
+        }
+      },
+      {
+        "_or": [
+          {
+            "_is": {
+              "objectType": "Alert"
+            }
+          },
+          {
+            "_is": {
+              "objectType": "Case"
+            }
+          }
+        ]
+      },
+      {
+        "_contains": {
+          "details.stage": ""
+        }
+      }
+    ]
+  }
+}

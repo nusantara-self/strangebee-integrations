@@ -1,0 +1,25 @@
+{
+  "name": "Assignee change on Case",
+  "description": "Triggers when a case is updated with a new assignee value. Does not trigger on case creation or when an alert is imported as a case.",
+  "type": "filteredEvent",
+  "status": "tested",
+  "filter": {
+    "_and": [
+      {
+        "_is": {
+          "action": "update"
+        }
+      },
+      {
+        "_is": {
+          "objectType": "Case"
+        }
+      },
+      {
+        "_contains": {
+          "details.assignee": ""
+        }
+      }
+    ]
+  }
+}

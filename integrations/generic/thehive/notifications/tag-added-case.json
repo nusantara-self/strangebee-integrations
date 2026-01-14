@@ -1,0 +1,26 @@
+{
+  "name": "Tag added to Case",
+  "description": "Triggers when a specific tag is added to a case",
+  "type": "filteredEvent",
+  "status": "tested_with_issues",
+  "comment": "Whether we use tags or custom fields, all tags (or custom fields) are included in the payload at each update. As a result, any later update operation on tags or custom fields will trigger undesired notifications. For example: If we want to alert when a case is soon out-of-sla with 'out-of-sla' tag, then any later added tag will trigger the notification again.",
+  "filter": {
+    "_and": [
+      {
+        "_is": {
+          "action": "update"
+        }
+      },
+      {
+        "_is": {
+          "objectType": "Case"
+        }
+      },
+      {
+        "_contains": {
+          "details.tags": "out-of-sla"
+        }
+      }
+    ]
+  }
+}

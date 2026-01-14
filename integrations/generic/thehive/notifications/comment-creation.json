@@ -1,0 +1,20 @@
+{
+  "name": "Comment Creation",
+  "description": "Triggers when a comment is created",
+  "type": "filteredEvent",
+  "status": "tested",
+  "filter": {
+    "_and": [
+      {
+        "_is": {
+          "action": "create"
+        }
+      },
+      {
+        "_is": {
+          "objectType": "Comment"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Assignee change on Alert",
+  "description": "Triggers when an alert is updated with a new assignee value. Does not trigger on alert creation with an assignee provided.",
+  "type": "filteredEvent",
+  "status": "tested",
+  "filter": {
+    "_and": [
+      {
+        "_is": {
+          "action": "update"
+        }
+      },
+      {
+        "_is": {
+          "objectType": "Alert"
+        }
+      },
+      {
+        "_contains": {
+          "details.assignee": ""
+        }
+      }
+    ]
+  }
+}

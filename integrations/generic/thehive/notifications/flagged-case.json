@@ -1,0 +1,26 @@
+{
+  "name": "Flagged Case",
+  "description": "Triggers when a case is flagged",
+  "type": "filteredEvent",
+  "status": "tested",
+  "comment": "This is a way to get a single notification for an out-of-sla case (or soon out-of-sla), only if the flag is used only for this purpose.",
+  "filter": {
+    "_and": [
+      {
+        "_is": {
+          "action": "update"
+        }
+      },
+      {
+        "_is": {
+          "objectType": "Case"
+        }
+      },
+      {
+        "_is": {
+          "details.flag": true
+        }
+      }
+    ]
+  }
+}

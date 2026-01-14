@@ -1,0 +1,20 @@
+{
+  "name": "Case Update",
+  "description": "Triggers when a case is updated",
+  "type": "filteredEvent",
+  "status": "tested",
+  "filter": {
+    "_and": [
+      {
+        "_is": {
+          "action": "update"
+        }
+      },
+      {
+        "_is": {
+          "objectType": "Case"
+        }
+      }
+    ]
+  }
+}
