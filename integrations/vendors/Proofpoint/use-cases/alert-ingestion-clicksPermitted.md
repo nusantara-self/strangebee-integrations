@@ -4,7 +4,7 @@ description: Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to t
 tags: [proofpoint, tap, clicksPermitted, alert-ingestion]
 thehive_version_required : "5.5"
 license_required : "platinum"
-linked_to : ["integrations/vendors/Proofpoint/*.js"]
+linked_to : ["integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js"]
 ---
 # Tutorial: Ingest Proofpoint ClicksPermitted Events into TheHive Using an Alert Feeder
 
