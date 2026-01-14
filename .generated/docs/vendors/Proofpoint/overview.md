@@ -44,15 +44,7 @@ Ingests ProofPoint clicksPermitted alerts in TheHive
 
 ---
 
-## Use Cases (2)
-
-### Ingest Proofpoint ClicksPermitted Events into TheHive Using an Alert Feeder
-Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and respond to users who clicked on malicious links that were not blocked by Proofpoint and may require investigation.
-
-**Tags:** proofpoint, tap, clicksPermitted, alert-ingestion
-📄 [Documentation](https://github.com/nusantara-self/strangebee-integrations/blob/develop/integrations/vendors/Proofpoint/use-cases/alert-ingestion-clicksPermitted.md) ([raw](https://raw.githubusercontent.com/nusantara-self/strangebee-integrations/refs/heads/develop/integrations/vendors/Proofpoint/use-cases/alert-ingestion-clicksPermitted.md))
-
----
+## Use Cases (1)
 
 ### Ingest Proofpoint MessagesDelivered Events into TheHive Using an Alert Feeder
 Ingest Proofpoint TAP messagesDelivered events as TheHive alerts to track and respond to threats that have reached user mailboxes and may require investigation.
