@@ -7,6 +7,7 @@ thehive:
   vendor: ProofPoint
   kind: function
   version: 1.0.0
+  author: Fabien Bloume, StrangeBee
 ---*/
 function handle(input, context) {
   // const testInput = {
