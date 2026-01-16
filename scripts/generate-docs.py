@@ -765,6 +765,10 @@ def generate_notifications_documentation(notifications: Dict) -> str:
                 lines.append(description)
                 lines.append("")
 
+            if notif.get('contributor'):
+                lines.append(f"**Contributor:** {notif['contributor']}")
+                lines.append("")
+
             if comment:
                 if status == 'not_working':
                     lines.append(f"> **Issue:** {comment}")
@@ -813,6 +817,10 @@ def generate_notifications_documentation(notifications: Dict) -> str:
                 lines.append("")
                 lines.append(get_status_badge(status))
                 lines.append("")
+
+                if notif.get('contributor'):
+                    lines.append(f"**Contributor:** {notif['contributor']}")
+                    lines.append("")
 
                 if description:
                     lines.append(description)
