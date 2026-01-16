@@ -818,12 +818,12 @@ def generate_notifications_documentation(notifications: Dict) -> str:
                 lines.append(get_status_badge(status))
                 lines.append("")
 
-                if notif.get('contributor'):
-                    lines.append(f"**Contributor:** {notif['contributor']}")
-                    lines.append("")
-
                 if description:
                     lines.append(description)
+                    lines.append("")
+
+                if notif.get('contributor'):
+                    lines.append(f"**Contributor:** {notif['contributor']}")
                     lines.append("")
 
                 if comment:
@@ -1041,8 +1041,8 @@ def main():
     generated_path = Path('.generated')
     catalogs_path = generated_path / 'catalogs'
 
-    # Load the combined manifest from root (backwards compatible location)
-    manifest_path = generated_path / 'integration-manifest.json'
+    # Load the combined manifest from catalogs directory
+    manifest_path = catalogs_path / 'integration-manifest.json'
     if not manifest_path.exists():
         print("Error: integration-manifest.json not found!")
         print("Please run generate-catalogs.py first.")
