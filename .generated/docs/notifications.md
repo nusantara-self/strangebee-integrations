@@ -17,6 +17,8 @@ Ready-to-use notification filters for TheHive. These filters can be used to trig
 
 Triggers when an alert is updated
 
+**Contributor:** Fabien Bloume, StrangeBee
+
 ```json
 {
     "_and": [
@@ -41,6 +43,8 @@ Triggers when an alert is updated
 ![Tested](https://img.shields.io/badge/Status-Tested-brightgreen)
 
 Triggers when an alert is updated with a new assignee value. Does not trigger on alert creation with an assignee provided.
+
+**Contributor:** Fabien Bloume, StrangeBee
 
 ```json
 {
@@ -72,6 +76,8 @@ Triggers when an alert is updated with a new assignee value. Does not trigger on
 
 Triggers when a case is updated with a new assignee value. Does not trigger on case creation or when an alert is imported as a case.
 
+**Contributor:** Fabien Bloume, StrangeBee
+
 ```json
 {
     "_and": [
@@ -102,6 +108,8 @@ Triggers when a case is updated with a new assignee value. Does not trigger on c
 
 Triggers when a case is updated
 
+**Contributor:** Fabien Bloume, StrangeBee
+
 ```json
 {
     "_and": [
@@ -127,6 +135,8 @@ Triggers when a case is updated
 
 Triggers when a comment is created
 
+**Contributor:** Fabien Bloume, StrangeBee
+
 ```json
 {
     "_and": [
@@ -151,6 +161,8 @@ Triggers when a comment is created
 ![Tested](https://img.shields.io/badge/Status-Tested-brightgreen)
 
 Triggers when a case is flagged
+
+**Contributor:** Fabien Bloume, StrangeBee
 
 > **Note:** This is a way to get a single notification for an out-of-sla case (or soon out-of-sla), only if the flag is used only for this purpose.
 
@@ -183,6 +195,8 @@ Triggers when a case is flagged
 ![Tested](https://img.shields.io/badge/Status-Tested-brightgreen)
 
 Triggers when the stage changes on a Case or Alert
+
+**Contributor:** Fabien Bloume, StrangeBee
 
 ```json
 {
@@ -222,6 +236,8 @@ Triggers when the stage changes on a Case or Alert
 ![Tested](https://img.shields.io/badge/Status-Tested-brightgreen)
 
 Triggers when the stage changes on a Case or Alert and the priority custom field is not empty
+
+**Contributor:** Fabien Bloume, StrangeBee
 
 ```json
 {
@@ -267,6 +283,8 @@ Triggers when the stage changes on a Case or Alert and the priority custom field
 
 Triggers when a task is manually assigned to a user. Does not trigger when a task is automatically assigned to the user who saves the first task log.
 
+**Contributor:** Fabien Bloume, StrangeBee
+
 ```json
 {
     "_and": [
@@ -296,6 +314,8 @@ Triggers when a task is manually assigned to a user. Does not trigger when a tas
 ![Tested with Issues](https://img.shields.io/badge/Status-Tested%20with%20Issues-blue)
 
 Triggers when a specific tag is added to a case
+
+**Contributor:** Fabien Bloume, StrangeBee
 
 > **Warning:** Whether we use tags or custom fields, all tags (or custom fields) are included in the payload at each update. As a result, any later update operation on tags or custom fields will trigger undesired notifications. For example: If we want to alert when a case is soon out-of-sla with 'out-of-sla' tag, then any later added tag will trigger the notification again.
 
@@ -328,6 +348,8 @@ Triggers when a specific tag is added to a case
 ![Not Working](https://img.shields.io/badge/Status-Not_Working-red)
 
 Triggers when a task has actionRequired set to true
+
+**Contributor:** Fabien Bloume, StrangeBee
 
 > **Issue:** Can't make it work, whether we use _is, _eq, etc.
 
