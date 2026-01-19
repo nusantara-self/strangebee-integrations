@@ -2,6 +2,19 @@
 
 Auto-generated catalog of TheHive and Cortex integrations.
 
+## About This Catalog
+
+This catalog contains integrations built by StrangeBee and the community to help you integrate TheHive with your existing tools. Use them directly or as inspiration for your own.
+
+**Don't see what you need?** You can build your own:
+
+- **Analyzers** – enrich observables with external data
+- **Responders** – automate actions on external systems
+- **Functions** – custom workflow logic
+- **Custom tools** – whatever your setup requires
+
+Built something useful? Contributions are welcome!
+
 ## 📊 Summary Statistics
 
 - **Total Vendors:** 194
