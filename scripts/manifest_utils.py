@@ -347,7 +347,9 @@ def read_vendor_metadata(vendor: str) -> Dict:
         'homepage': '',
         'logo': {},
         'useCases': [],
-        'externalIntegrations': []
+        'externalIntegrations': [],
+        'displayOnWebsite': True,
+        'visibility': 'low'
     }
 
     if not vendor_yml_path.exists():
@@ -381,7 +383,9 @@ def read_vendor_metadata(vendor: str) -> Dict:
             'homepage': data.get('homepage', ''),
             'logo': logo_data,
             'useCases': use_cases,
-            'externalIntegrations': data.get('externalIntegrations', [])
+            'externalIntegrations': data.get('externalIntegrations', []),
+            'displayOnWebsite': data.get('displayOnWebsite', True),
+            'visibility': data.get('visibility', 'low')
         }
     except Exception as e:
         print(f"  Error reading vendor.yml for {vendor}: {e}")
