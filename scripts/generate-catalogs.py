@@ -42,18 +42,20 @@ def generate_visibility_sorted_catalog(all_manifests: Dict) -> Dict:
         if visibility not in ['high', 'medium', 'low']:
             visibility = 'low'
 
-        # Create a summary entry for the vendor
-        vendor_entry = {
-            'id': vendor_id,
-            'name': manifest.get('name', vendor_id),
-            'description': manifest.get('description', ''),
-            'category': manifest.get('category', ''),
-            'homepage': manifest.get('homepage', ''),
-            'displayOnWebsite': manifest.get('displayOnWebsite', True),
-            'stats': manifest.get('stats', {})
-        }
+        # Include the full vendor manifest
+        visibility_catalog[visibility].append(manifest)
 
-        visibility_catalog[visibility].append(vendor_entry)
+        # Summary entry (commented for reference):
+        # vendor_entry = {
+        #     'id': vendor_id,
+        #     'name': manifest.get('name', vendor_id),
+        #     'description': manifest.get('description', ''),
+        #     'category': manifest.get('category', ''),
+        #     'homepage': manifest.get('homepage', ''),
+        #     'displayOnWebsite': manifest.get('displayOnWebsite', True),
+        #     'stats': manifest.get('stats', {})
+        # }
+        # visibility_catalog[visibility].append(vendor_entry)
 
     # Sort each tier alphabetically by name
     for tier in visibility_catalog:
