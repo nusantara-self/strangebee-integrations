@@ -9,4 +9,5 @@ tags:
   - malware-distribution
   - incident-response
 homepage: "https://urlhaus.abuse.ch"
+visibility: high
 
